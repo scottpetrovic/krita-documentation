@@ -5783,7 +5783,7 @@ article ol li ul li {
 .wy-breadcrumbs {
     *zoom: 1;
     background: #f3f3f3;
-    padding: 1em;
+    padding: 0.2em 1em;
     margin-bottom: 1em;
 }
 
@@ -5964,8 +5964,8 @@ article ol li ul li {
     display: block;
     float: left;
     margin-left: -1.2em;
-    font-size: .8em;
-    line-height: 1.6em;
+    font-size: 1.1em;
+    line-height: 1em;
     color: #4d4d4d
 }
 
@@ -5992,8 +5992,8 @@ article ol li ul li {
 .wy-menu-vertical li.on a span.toctree-expand,
 .wy-menu-vertical li.current>a span.toctree-expand {
     display: block;
-    font-size: .8em;
-    line-height: 1.6em;
+    font-size: 1.1em;
+    line-height: 1em;
     color: #333
 }
 
