@@ -5627,7 +5627,7 @@ h6,
 legend {
     margin-top: 0;
     font-weight: 700;
-    font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif
+    font-family: "Quattrocento Sans", "ff-tisa-web-pro", "Georgia", Arial, sans-serif
 }
 
 p {
@@ -5638,7 +5638,7 @@ p {
 }
 
 h1 {
-    font-size: 175%
+    font-size: 200%
 }
 
 h2,
@@ -5914,7 +5914,6 @@ article ol li ul li {
     padding: 0 1.618em;
     margin-bottom: 0;
     display: block;
-    font-weight: bold;
     text-transform: uppercase;
     font-size: 80%;
     color: #6f6f6f;
@@ -5974,7 +5973,6 @@ article ol li ul li {
 .wy-menu-vertical li.current>a {
     color: #404040;
     padding: .4045em 1.618em;
-    font-weight: bold;
     position: relative;
     background: #fcfcfc;
     border: none;
@@ -6156,7 +6154,6 @@ select#language-selector-container option {
 .wy-side-nav-search .wy-dropdown>a {
     color: #525252;
     font-size: 100%;
-    font-weight: bold;
     display: inline-block;
     padding: 4px 6px;
     margin-bottom: .809em
@@ -6886,7 +6883,7 @@ footer span.commit .rst-content tt,
 
 .rst-content .sidebar .sidebar-title {
     display: block;
-    font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
+    font-family: "Quattrocento Sans", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
     font-weight: bold;
     background: #e1e4e5;
     padding: 6px 12px;
@@ -7187,20 +7184,6 @@ span[id*='MathJax-Span'] {
 }
 
 @font-face {
-    font-family: "Inconsolata";
-    font-style: normal;
-    font-weight: 400;
-    src: local("Inconsolata"), local("Inconsolata-Regular"), url(../fonts/Inconsolata-Regular.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: "Inconsolata";
-    font-style: normal;
-    font-weight: 700;
-    src: local("Inconsolata Bold"), local("Inconsolata-Bold"), url(../fonts/Inconsolata-Bold.ttf) format("truetype")
-}
-
-@font-face {
     font-family: "Lato";
     font-style: normal;
     font-weight: 400;
@@ -7228,16 +7211,10 @@ span[id*='MathJax-Span'] {
     src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url(../fonts/Lato-BoldItalic.ttf) format("truetype")
 }
 
-@font-face {
-    font-family: "Roboto Slab";
-    font-style: normal;
-    font-weight: 400;
-    src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"), url(../fonts/RobotoSlab-Regular.ttf) format("truetype")
-}
 
 @font-face {
-    font-family: "Roboto Slab";
+    font-family: "Quattrocento Sans";
     font-style: normal;
     font-weight: 700;
-    src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"), url(../fonts/RobotoSlab-Bold.ttf) format("truetype")
+    src: local("Quattrocento Sans Regular"), local("QuattrocentoSans-Regular"), url(../fonts/QuattrocentoSans-Regular.ttf) format("truetype")
 }
