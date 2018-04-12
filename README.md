@@ -104,3 +104,20 @@ It can be tedious making tweaks and having to run a bunch of steps over and over
 Once you have set up the languages you can just run this command: `rebuild-all.bat`
 
 After a few seconds all the languages should be updated in the dist folder for you to test. 
+
+
+# Optional: Exporting to PDF
+Sphinx cannot export out to PDF, but it can output an intermediate format called latex. This latex format can be used by other programs to generate the PDF files for the documentation. To export out the documentation in latex format run this command from your project root: `make latex`
+
+A new latex folder will be created in your _build directory that has the content in latex format.
+
+
+We need to download another program now to convert those files to PDF. On Windows 10 I used MikTex (200MB): https://miktex.org/
+
+When you install that it will add a command line function. Open a command prompt and type this: `pdflatex --version`
+
+Mine says MiKTeX-pdfTeX 2.9.6642 (1.40.19). If you don't see it you either didn't install it or you need to open a new command prompt window for Windows to see the newly installed tool.
+
+Still in your command prompt, go into your _build directory, then the latex folder. Run this command to generate the PDF: `pdflatex --outuput-directory=./output projectName.tex'
+
+The "projectName.tex" is the file in your latex folder. Depending on what options you chose for installation, there might be a number of warnings about 'packages' needing to be installed. Those are just extra tools to help with the PDF conversion and are ok to install. After you hit confirm a number of times you should see the PDF in the output folder.
