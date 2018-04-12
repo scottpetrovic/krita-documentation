@@ -5,6 +5,9 @@ rmdir dist /s /q
 rmdir _build\html /s /q
 
 
+REM creates MO files for any PO files we might have updated
+sphinx-intl build
+
 REM export out the German version and place it in the distribution folder
 Set currentLanguage=de
 Set SPHINXOPTS=-D language="%currentLanguage%"
