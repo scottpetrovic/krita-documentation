@@ -23,8 +23,10 @@ Running Sphinx
 Now in your command prompt change your location to where this readme.md file is at. This is your project root. All of the commands we will be using will be done in the command prompt.
 
 For a normal HTML build you can just type this in the command line: `make html`
-
 This will generate the HTML files from all the source files (located where we are now) and place everything in the _build directory.
+
+You can also export out the files in EPUB format: `make epub`
+This will generate the EPUB files in an epub folder in the _build directory.
 
 
 
@@ -97,22 +99,8 @@ The theme is a customized version of the rtd theme. You can change out the logo 
 
 
 # Re-building faster
-It can be tedious making tweaks and having to run a bunch of steps over and over. There is an included `rebuild-all.bat` script that you can run from your project root directory. It is pretty stupid right now, but it just clear out the build and dist directories, then rebuilds the different languages. You will probably have to modify this to output whatever languages you want.
+It can be tedious making tweaks and having to run a bunch of steps over and over. There is an included `rebuild-all.bat` script that you can run from your project root directory. It clears out the build and dist directories, then rebuilds the different languages. You will probably have to modify this to output whatever languages you want. It also generates EPUB versions for each language and puts it in each language.
 
 Once you have set up the languages you can just run this command: `rebuild-all.bat`
 
 After a few seconds all the languages should be updated in the dist folder for you to test. 
-
-
-
-
-Todo: how to add/manage images in page
-Todo: top branding to get back to normal site
-
-
-
-
-
-
-
-
