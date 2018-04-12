@@ -51,6 +51,8 @@ Send translation to editor
 You can use a free translation tool like https://localise.biz/free/poeditor to edit PO files.
 Watch out. This program might add a 'zxx' as the language to the outputted PO file. That will need to be corrected if that happens. Translators can send you back the PO files when they are done. We have a command that can turn them into MO files later, so translators don't have to worry about that.
 
+Images can be translated if a language wants to provide their own images. All the images are stored in the images folder on the project root. The images are separated out by language. For the finished PO file, the translator will need to provide an image file, and a translation for the image that references the correct location in the PO file. Many images won't need a translation, so images can be left untranslated or just the alternate text can be translated.
+
 
 
 Turning the PO files to MO Files
@@ -90,13 +92,11 @@ You will need to update the theme file to include all the languages you support.
 You will need to output all the languages again to see the updated langauge selector
 
 
-Theme notes
------------
+# Theme notes
 The theme is a customized version of the rtd theme. You can change out the logo image from the Theme > static > images folder. The custom language switcher logic is also custom. That is found in the Theme > static > js > theme.js file at the bottom.
 
 
-Re-building faster
-------------------
+# Re-building faster
 It can be tedious making tweaks and having to run a bunch of steps over and over. There is an included `rebuild-all.bat` script that you can run from your project root directory. It is pretty stupid right now, but it just clear out the build and dist directories, then rebuilds the different languages. You will probably have to modify this to output whatever languages you want.
 
 Once you have set up the languages you can just run this command: `rebuild-all.bat`

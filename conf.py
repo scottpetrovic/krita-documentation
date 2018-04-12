@@ -148,6 +148,8 @@ latex_documents = [
 
 locale_dirs = ['locale/']   # Where the PO files will be stored at
 gettext_compact = False     # optional.
+gettext_additional_targets = 'image' # allows images to be translatable
+
 
 
 # -- Options for manual page output ------------------------------------------
