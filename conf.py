@@ -148,7 +148,7 @@ latex_documents = [
 
 locale_dirs = ['locale/']   # Where the PO files will be stored at
 gettext_compact = False     # optional.
-gettext_additional_targets = 'image' # allows images to be translatable
+gettext_additional_targets = ['image'] # allows images to be translatable
 
 
 
@@ -181,6 +181,7 @@ epub_title = project
 epub_author = author
 epub_publisher = author
 epub_copyright = copyright
+version = '1.0'
 
 # The unique identifier of the text. This can be a ISBN number
 # or the project homepage.
