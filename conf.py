@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'documentationProjectName'
-copyright = '2018, Scott'
-author = 'Scott'
+copyright = '2018'
+author = 'Author Name'
 
 # The short X.Y version
 version = ''
