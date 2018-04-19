@@ -84,6 +84,10 @@ pygments_style = 'sphinx'
 html_theme = 'theme'
 html_theme_path = ['.'] # make sphinx search for themes in current dir
 
+# the favicon has a property to set it in the documentation, but we don't need to use this
+# sphinx appears to automatically search in the theme folder and find the file
+#html_favicon = './theme/static/images/favicon.ico'
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
