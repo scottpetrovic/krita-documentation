@@ -33,7 +33,7 @@ Many of the canvas navigation actions, like rotation, mirroring and zooming have
 Panning
  This can be done through {{MouseButton|middle}}, :kbd:`Space`+ {{MouseButton|left}} and :kbd:`the directional keys`.
 Zooming
- Discrete zooming can be done through :kbd:`+`, and :kbd:`-`. Using :kbd:`Ctrl + Space` or :kbd:`Ctrl`+{{MouseButton|middle}} can allow for direct zooming with the stylus.
+ Discrete zooming can be done through :kbd:`+`, and :kbd:`-`. Using :kbd:`Ctrl + Space` or :kbd:`Ctrl +` {{MouseButton|middle}} can allow for direct zooming with the stylus.
 Mirroring
  You can mirror the view can be quickly done via :kbd:`M`.   Mirroring is a great technique that seasoned digital artists use to quickly review the composition of their work to ensure that it "reads" well, even when flipped horizontally.
 Rotating
@@ -72,7 +72,7 @@ Pressing :kbd:`Shift` while dragging the slider changes the values at a smaller 
 
 Toolbars
 --------
-.. image:: /images/en/Krita_Toolbar.PNG
+.. image:: /images/en/Krita_Toolbar.png
 
 Toolbars are where some of the important actions and menu's are placed so that they are readily and quickly available for the artist while painting.  
 
