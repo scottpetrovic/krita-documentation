@@ -10,6 +10,12 @@ Welcome to the documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   user_manual
+   general_concepts
+   reference_manual
+   tutorials
+   KritaFAQ
+   contributors_manual
    changes
 
 

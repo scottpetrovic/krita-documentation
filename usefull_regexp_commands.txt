@@ -1,0 +1,40 @@
+Useful Regexp when converting:
+
+----------
+menuchoice
+----------
+
+
+<span class="menuchoice">([\w\s]+)<\/span>
+
+to
+
+:guilabel:`\1`
+
+<span class="menuchoice">([\w\s]+)<\/span>
+
+to
+
+:menuselection:`\1`
+
+(When using menu selections, replace &rarr; and -> to look like -->)
+
+---
+kbd
+---
+<kbd>([\w\s->]+)<\/kbd>
+
+to
+
+:kbd:`\1`
+
+
+--------------------------------
+inline references(internal links
+--------------------------------
+
+\[\[([\w\s->]+)\|[\w\s->]+\]\] 
+
+to
+
+:ref:`\1`

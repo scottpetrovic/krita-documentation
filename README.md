@@ -12,6 +12,8 @@ It should tell you the version and verify that Python is installed. Mine says 3.
 
 Next you will need to install Sphinx so you can use it in projects. Type this from the command line: `pip install -U sphinx`
 
+Note: On Kubuntu 17.10 you will need to install python3-pip, and then type `sudo pip3 install --prefix /usr/local sphinx` to get everything install to the proper location.
+
 After it is done you can make sure it is installed. Type this in the command line: `sphinx-build --version`
 
 You should get a message telling you what version you have installed. Mine is 1.7.2
@@ -96,6 +98,8 @@ You will need to output all the languages again to see the updated langauge sele
 
 # Theme notes
 The theme is a customized version of the rtd theme. You can change out the logo image from the Theme > static > images folder. The custom language switcher logic is also custom. That is found in the Theme > static > js > theme.js file at the bottom.
+
+Note: On Kubuntu, the `html_static_path` had to be set to `['theme/static']`
 
 
 # Re-building faster
