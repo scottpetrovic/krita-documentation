@@ -214,9 +214,8 @@ Per pixel, a computer then stores the value of each of these primaries, with the
 
 .. figure:: /images/en/Krita_basic_channel_rose.png 
    :figwidth: 300
-   :align: left
    
-    This is the red-channel of an image of a red rose. As you can see, the petals are white here, indicating that those areas contain full red. The leaves are much darker, indicating a lack of red, which is to be expected, as they are green.
+   This is the red-channel of an image of a red rose. As you can see, the petals are white here, indicating that those areas contain full red. The leaves are much darker, indicating a lack of red, which is to be expected, as they are green.
 
 Though by default computers use RGB, they can also convert to CMYK (the subtractive model), or a perceptual model like LAB. In all cases this is just a different way of indicating how the colors relate to each other, and each time it usually has 3 components. The exception here is grayscale, because the computer only needs to remember how white a color is. This is why grayscale is more efficient memory-wise.
 
@@ -315,15 +314,12 @@ Color to Alpha
 
 Krita has many more filters available: read about them :ref:`here <filters>`.
 
-Filter Brush Engine
-~~~~~~~~~~~~~~~~~~~
+:ref:`filter_brush_engine`
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-Because many of these operations are per pixel, Krita allows you to use the filter as part of the [[Filter_Brush|filter brush engine]].
-
+Because many of these operations are per pixel, Krita allows you to use the filter as part of the :ref:`filter_brush_engine`.
 
 In most image manipulation software, these are separate tools, but Krita has it as a brush engine, allowing much more customisation than usual.
-
 
 This means you can make a brush that desaturates pixels, or a brush that changes the hue of the pixels underneath.
 
@@ -401,7 +397,7 @@ With all this technical stuff, you might forget that Krita is a painting program
    Krita's vanishing point assistants in action
 
 
-:ref:`grids_and_guides`
+:ref:`grids_and_guides_docker`
  Very straightforward guiding tools which shows a grids or guiding lines that can be configured.
 :ref:`snapping`
  You can snap to all sorts of things. Grids, guides, extensions, orthogonals, image centers and bounding boxes.

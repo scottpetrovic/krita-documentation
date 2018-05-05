@@ -353,20 +353,19 @@ Example: Making an inking brush
    done correctly you should have a 5px wide brush that has pressure set
    to opacity.
 #. Let us turn off the opacity first. Click on the
-   :ref:`opacity <opacity_n_flow>`
+   :ref:`opacity <option_opacity_n_flow>`
    option in the right-hand list. The settings should now be changed to
    a big curve. This is the sensor curve.
 #. Untick the enable pen settings button.
 #. Test on the scratch pad... there still seems to be something
    affecting opacity. This is due the
-   :ref:`flow <opacity_n_flow>`
+   :ref:`flow <option_opacity_n_flow>`
    option.
 #. Select the Flow option from the list on the right hand. Flow is like
    Opacity, except that Flow is per dab, and opacity is per stroke.
 #. Turn off the enable pen settings button here as well. Test again.
 #. Now you should be getting somewhere towards an inking brush. It is
-   still too small however, and kinda grainy looking. Click :ref:`Brush
-   Tip <brush_tip>` in the
+   still too small however, and kinda grainy looking. Click :ref:`Brush Tip <option_brush_tip>` in the
    brush engine options.
 #. Here, diameter is the size of the brush-tip. You can touch the slider
    change the size, or right-click it and type in a value. Set it to 25
@@ -378,7 +377,7 @@ Example: Making an inking brush
    are together, the harder the line is. By default this is 0.1, which
    is a bit low. If you set it to 10 and test, you'll see what kind of
    effect spacing has. The
-   :ref:`Auto <parameter_spacing>`
+   :ref:`Auto <option_spacing>`
    tickbox changes the way the spacing is calculated, and Auto Spacing
    with a value of 0.8 is the best value for inking brushes. Don't
    forget that you can use right-click to type in a value.
@@ -406,7 +405,7 @@ Finally press “save”, and your brush should be done.
 You can further modify your inking brush by...
 
 Changing the amount of pressure you need to put on a brush to make it full size.
-    To do this, select the :ref:`size <parameter_size>`
+    To do this, select the :ref:`size <option_size>`
     option, and press the pressuresensor from the list next to the curve. The curve should look like a straight line. Now if you want a brush that gets big with little pressure, tick on the curve to make a point, and drag the point to the upper-left. The more the point is to the upper-left, the more extreme the effect. If you want instead a brush that you have to press really hard on to get to full size, drag the dot to the lower-right. Such a brush is useful for fine details. Don't forget to save the changes to your brush when done.
 Making the fine lines look even softer by using the flow option.
     To do this, select the flow option, and turn back on the enable pen settings check box. Now if you test this, it is indeed a bit softer, but maybe a bit too much. Click on the curve to make a dot, and drag that dot to the top-left, half-way the horizontal of the first square of the grid. Now, if you test, the thin lines are much softer, but the hard your press, the harder the brush becomes.

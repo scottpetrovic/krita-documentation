@@ -25,6 +25,8 @@ Types:
 There's several types in Krita. You can select a type of assistant via
 the tool options docker.
 
+.. _assistant_ellipse:
+
 Ellipse
 ~~~~~~~
 
@@ -41,6 +43,8 @@ If you press shift while holding the first two handles, they will snap
 to perfectly horizontal or vertical lines. Press Shift while holding the
 third handle, and it'll snap to a perfect circle.
 
+.. _assistant_perspective:
+
 Perspective
 ~~~~~~~~~~~
 
@@ -51,6 +55,8 @@ brushes.
 
 If you press shift while holding any of the corner handles, they'll snap
 to one of the other corner handles, in sets.
+
+.. _assistant_ruler:
 
 Ruler
 ~~~~~
@@ -69,6 +75,8 @@ Parallel Ruler
 If you press shift while holding the first two handles, they will snap
 to perfectly horizontal or vertical lines.
 
+.. _assistant_spline:
+
 Spline
 ~~~~~~
 
@@ -80,6 +88,8 @@ If you press shift while holding the first two handles, they will snap
 to perfectly horizontal or vertical lines. Press shift while holding the
 third or fourth handle, they will snap relative to the handle they are
 attached to.
+
+.. _assistant_vanishing_point:
 
 Vanishing Point
 ~~~~~~~~~~~~~~~
@@ -96,6 +106,8 @@ They are made and manipulated with the Ruler Assistant Tool.
 If you press shift while holding the center handle, they will snap to
 perfectly horizontal or vertical lines depending on the position of
 where it previously was.
+
+.. _assistant_fish_eye:
 
 Fish Eye Point
 ~~~~~~~~~~~~~~
@@ -132,8 +144,7 @@ Krita for technical drawing.
 This tutorial below should give you an idea of how to set up the
 assistants for specific types of technical views.
 
-If you want to instead do true projection, check out :ref:`the projection
-category <category_projection>`.
+If you want to instead do true projection, check out :ref:`the projection category <cat_projection>`.
 
 Orthographic
 ~~~~~~~~~~~~

@@ -7,8 +7,8 @@ Reference Manual
 A quick run-down of all of the tools that are available
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
    :glob:
 
-   referencemanual/*
+   reference_manual/*
