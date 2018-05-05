@@ -46,9 +46,9 @@ This section allows you to create a document from an image that is in your clipb
 Templates:
 ~~~~~~~~~~
 
-These are separate categories where we deliver special defaults. Templates are just *.kra files which are saved in a special location so they can be pulled up by Krita quickly.
+These are separate categories where we deliver special defaults. Templates are just .kra files which are saved in a special location so they can be pulled up by Krita quickly.
 
-You can make your own template file from any *.kra file, by using :menuselection:` File --> Create Template From Image` in the top menu. This will add your current document as a new template, including all its properties along with the layers and layer contents.
+You can make your own template file from any .kra file, by using :menuselection:` File --> Create Template From Image` in the top menu. This will add your current document as a new template, including all its properties along with the layers and layer contents.
 
 Once you have created a new document according to your preference, you should now have a white canvas in front of you (or whichever background color you chose in the dialog).
 

@@ -88,9 +88,61 @@ rst_epilog = """
 
 .. |mousescroll| image:: /images/icons/Krita_mouse_scroll.png
 
+.. |toolshapeselection| image:: /images/icons/shape_select_tool.svg
+
+.. |toolshapeedit| image:: /images/icons/shape_edit_tool.svg
+
+.. |tooltext| image:: /images/icons/text-tool.svg
+
+.. |toolcalligraphy| image:: /images/icons/calligraphy_tool.svg
+
+.. |toolgradientedit| image:: /images/icons/gradient_edit_tool.svg
+
+.. |toolpatternedit| image:: /images/icons/pattern_tool.svg
+
 .. |toolfreehandbrush| image:: /images/icons/freehand_brush_tool.svg
 
+.. |toolline| image:: /images/icons/line_tool.svg
+
+.. |toolrectangle| image:: /images/icons/rectangle_tool.svg
+
+.. |toolellipse| image:: /images/icons/ellipse_tool.svg
+
+.. |toolpolygon| image:: /images/icons/polygon_tool.svg
+
+.. |toolpolyline| image:: /images/icons/polyline_tool.svg
+
+.. |toolbeziercurve| image:: /images/icons/bezier_curve.svg
+
+.. |toolfreehandpath| image:: /images/icons/freehand_path_tool.svg
+
+.. |tooldyna| image:: /images/icons/dyna_tool.svg
+
+.. |toolmultibrush| image:: /images/icons/multibrush_tool.svg
+
 .. |toolassistant| image:: /images/icons/assistant_tool.svg
+
+.. |toolmove| image:: /images/icons/move_tool.svg
+
+.. |tooltransform| image:: /images/icons/transform_tool.svg
+
+.. |toolgrid| image:: /images/icons/grid_tool.svg
+
+.. |toolperspectivegrid| image:: /images/icons/perspectivegrid_tool.svg
+
+.. |toolmeasure| image:: /images/icons/measure_tool.svg
+
+.. |toolcolorpicker| image:: /images/icons/color_picker_tool.svg
+
+.. |toolfill| image:: /images/icons/fill_tool.svg
+
+.. |toolgradient| image:: /images/icons/gradient_drawing_tool.svg
+
+.. |toolcolorizemask| image:: /images/icons/colorizemask_tool.svg
+
+.. |toolsmartpatch| image:: /images/icons/smart_patch_tool.svg
+
+.. |toolcrop| image:: /images/icons/crop_tool.svg
 
 .. |toolselectrect| image:: /images/icons/rectangular_select_tool.svg
 
@@ -105,6 +157,10 @@ rst_epilog = """
 .. |toolselectcontiguous| image:: /images/icons/contiguous_select_tool.svg
 
 .. |toolselectsimilar| image:: /images/icons/similar_select_tool.svg
+
+.. |toolpan| image:: /images/icons/pan_tool.svg
+
+.. |toolzoom| image:: /images/icons/zoom_tool.svg
 
 """
 

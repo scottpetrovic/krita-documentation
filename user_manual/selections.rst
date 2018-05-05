@@ -19,7 +19,7 @@ go into a more detailed description with how to use it.
 
 .. csv-table::
 
-    :ref:`rectangular_selection_tool` , |toolselectrect|, Select the shape of a square.
+    :ref:`rectangle_selection_tool` , |toolselectrect|, Select the shape of a square.
     :ref:`ellipse_selection_tool` , |toolselectellipse|, Select the shape of a circle.                                                                                                                                                  
     :ref:`polygonal_selection_tool` , |toolselectpolygon|, Click where you want each point of the Polygon to be. Double click to end your polygon and finalize your selection area. Use Shift + Z to undo last point.
     :ref:`outline_selection_tool` , |toolselectoutline|, Outline/Lasso tool is used for a rough selection by drawing the outline.                                                                                                       

@@ -17,7 +17,7 @@ to
 
 :menuselection:`\1`
 
-(When using menu selections, replace &rarr; and -> to look like -->)
+(When using menu selections, replace --> and -> to look like -->)
 
 ---
 kbd
@@ -38,3 +38,11 @@ inline references(internal links
 to
 
 :ref:`\1`
+
+------------------------------------
+quickly change file links to figures:
+------------------------------------
+
+\[\[File:([\w\s\.]+)\|([\w\s\.]+)\]\]
+
+.. figure:: /images/en/\1 \n\n   \2
