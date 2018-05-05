@@ -26,9 +26,9 @@ copyright = '2018'
 author = 'Krita Foundation'
 
 # The short X.Y version
-version = ''
+version = '4.0'
 # The full version, including alpha/beta/rc tags
-release = ''
+release = '4.0.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -77,6 +77,36 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
+# A string of reStructuredText that will be included at the end of every source file that is read.
+# This is a possible place to add substitutions that should be available in every file (another being rst_prolog).
+rst_epilog = """
+.. |mouseleft| image:: /images/icons/Krita_mouse_left.png 
+
+.. |mouseright| image:: /images/icons/Krita_mouse_right.png 
+
+.. |mousemiddle| image:: /images/icons/Krita_mouse_middle.png 
+
+.. |mousescroll| image:: /images/icons/Krita_mouse_scroll.png
+
+.. |toolfreehandbrush| image:: /images/icons/freehand_brush_tool.svg
+
+.. |toolassistant| image:: /images/icons/assistant_tool.svg
+
+.. |toolselectrect| image:: /images/icons/rectangular_select_tool.svg
+
+.. |toolselectellipse| image:: /images/icons/elliptical_select_tool.svg
+
+.. |toolselectpolygon| image:: /images/icons/polygonal_select_tool.svg
+
+.. |toolselectpath| image:: /images/icons/path_select_tool.svg
+
+.. |toolselectoutline| image:: /images/icons/outline_select_tool.svg
+
+.. |toolselectcontiguous| image:: /images/icons/contiguous_select_tool.svg
+
+.. |toolselectsimilar| image:: /images/icons/similar_select_tool.svg
+
+"""
 
 # -- Options for HTML output -------------------------------------------------
 

@@ -44,7 +44,7 @@ Editing shapes
 
 Editing of vector shapes is done with the Select Shapes Tool and the Edit Shapes Tool.
 
-The select shapes tool can be used to select vector shapes, to group them(via {{MouseButton|right}}), ungroup them, to use booleans to combine or subtract shapes from one another(via {{MouseButton|right}}), to move them up and down, or to do quick transforms.
+The select shapes tool can be used to select vector shapes, to group them(via |mouseright|), ungroup them, to use booleans to combine or subtract shapes from one another(via |mouseright|), to move them up and down, or to do quick transforms.
 
 Fill
 ~~~~

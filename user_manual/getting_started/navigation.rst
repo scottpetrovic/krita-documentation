@@ -31,13 +31,13 @@ Navigation
 Many of the canvas navigation actions, like rotation, mirroring and zooming have default keys attached to them:
 
 Panning
- This can be done through {{MouseButton|middle}}, :kbd:`Space`+ {{MouseButton|left}} and :kbd:`the directional keys`.
+ This can be done through |mousemiddle|, :kbd:`Space +` |mouseleft| and :kbd:`the directional keys`.
 Zooming
- Discrete zooming can be done through :kbd:`+`, and :kbd:`-`. Using :kbd:`Ctrl + Space` or :kbd:`Ctrl +` {{MouseButton|middle}} can allow for direct zooming with the stylus.
+ Discrete zooming can be done through :kbd:`+`, and :kbd:`-`. Using :kbd:`Ctrl + Space` or :kbd:`Ctrl +` |mousemiddle| can allow for direct zooming with the stylus.
 Mirroring
  You can mirror the view can be quickly done via :kbd:`M`.   Mirroring is a great technique that seasoned digital artists use to quickly review the composition of their work to ensure that it "reads" well, even when flipped horizontally.
 Rotating
- You can rotate the canvas without transforming it can be done with :kbd:`Ctrl + [` or :kbd:`4` and the other way with :kbd:`Ctrl + ]` or :kbd:`6`. Quick mouse based rotation is :kbd:`Shift + Space` and :kbd:`Shift +`{{MouseButton|middle}}. To reset rotation use :kbd:`5`.
+ You can rotate the canvas without transforming it can be done with :kbd:`Ctrl + [` or :kbd:`4` and the other way with :kbd:`Ctrl + ]` or :kbd:`6`. Quick mouse based rotation is :kbd:`Shift + Space` and :kbd:`Shift +` |mousemiddle|. To reset rotation use :kbd:`5` .
 
 You can also find these under :menuselection:`View --> Canvas`
 
@@ -66,7 +66,7 @@ Krita uses these to control values like brush size, opacity, flow, Hue, Saturati
 
 The total range is represented from left to right and blue bar gives an indication of where in the possible range the current value is.  Clicking anywhere, left or right, of that slider will change the current number to something lower(to the left) or higher(to the right).
 
-To input a specific number, {{MouseButton|right}} the slider. A number can now be entered directly for even greater precision.
+To input a specific number, |mouseright| the slider. A number can now be entered directly for even greater precision.
 
 Pressing :kbd:`Shift` while dragging the slider changes the values at a smaller increment, and Pressing :kbd:`Ctrl` while dragging the slider changes the value in whole numbers or multiples or 5.
 
@@ -90,7 +90,7 @@ Pop-up Palette
 .. image:: /images/en/Krita-popuppalette.png
    :align: center
 
-Pop-up Palette is an unique feature in Krita designed to increase productivity of the artist, It is a circular menu for quickly choosing brushes, foreground and background colors, recent colors while painting. To access the palette you have to just {{MouseButton|right}} on the canvas. The palette will spawn at the place of the brush tip or cursor. 
+Pop-up Palette is an unique feature in Krita designed to increase productivity of the artist, It is a circular menu for quickly choosing brushes, foreground and background colors, recent colors while painting. To access the palette you have to just |mouseright| on the canvas. The palette will spawn at the place of the brush tip or cursor. 
 
 By tagging your brush presets you can add particular sets of brushes to this palette. for example If you add some inking brush presets to inking tag you can and change the tags to inking in the pop-up palette you'll get all the inking brushes in the palette. 
 

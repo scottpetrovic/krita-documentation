@@ -56,7 +56,7 @@ How to use brushes
 ~~~~~~~~~~~~~~~~~~
 
 Now, just press on the canvas part. If everything's correct, you should be able to draw on the canvas!
-The brush tool should be selected by default when you start Krita, but if for some reason it is not, you can click on this {{ToolIcon|freehand}} icon from the toolbar and activate the brush tool.
+The brush tool should be selected by default when you start Krita, but if for some reason it is not, you can click on this |toolfreehandbrush| icon from the toolbar and activate the brush tool.
 
 Of course, you'd want to use different brushes. On your right, there's a docker named Brush Presets (or on top, press :kbd:`f6` to find this one) with all these cute squares with pens and crayons.
 

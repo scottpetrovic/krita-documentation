@@ -17,35 +17,15 @@ The most common selection tools all exist at the bottom of the toolbox.
 Each tool selects things slightly differently. The links for each tool
 go into a more detailed description with how to use it.
 
-+-------------------------------------------------------------------+-------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `Rectangular Selection Tool <Rectangular_Selection_Tool>`__       | .. raw:: mediawiki                  | Select the shape of a square.                                                                                                                                              |
-|                                                                   |                                     |                                                                                                                                                                            |
-|                                                                   |    {{ToolIcon|rectangle-select}}    |                                                                                                                                                                            |
-+-------------------------------------------------------------------+-------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `Elliptical Selection Tool <Elliptical_Selection_Tool>`__         | .. raw:: mediawiki                  | Select the shape of a circle.                                                                                                                                              |
-|                                                                   |                                     |                                                                                                                                                                            |
-|                                                                   |    {{ToolIcon|ellipse-select}}      |                                                                                                                                                                            |
-+-------------------------------------------------------------------+-------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `Polygonal Selection Tool <Polygonal_Selection_Tool>`__           | .. raw:: mediawiki                  | Click where you want each point of the Polygon to be. Double click to end your polygon and finalize your selection area. Use Shift + Z to undo last point.                 |
-|                                                                   |                                     |                                                                                                                                                                            |
-|                                                                   |    {{ToolIcon|polygon-select}}      |                                                                                                                                                                            |
-+-------------------------------------------------------------------+-------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `Outline Selection Tool <Outline_Selection_Tool>`__               | .. raw:: mediawiki                  | Outline/Lasso tool is used for a rough selection by drawing the outline.                                                                                                   |
-|                                                                   |                                     |                                                                                                                                                                            |
-|                                                                   |    {{ToolIcon|outline-select}}      |                                                                                                                                                                            |
-+-------------------------------------------------------------------+-------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `Similar Color Selection Tool <Similar_Color_Selection_Tool>`__   | .. raw:: mediawiki                  | Similar Color Selection Tool                                                                                                                                               |
-|                                                                   |                                     |                                                                                                                                                                            |
-|                                                                   |    {{ToolIcon|similar-select}}      |                                                                                                                                                                            |
-+-------------------------------------------------------------------+-------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `Contiguous Selection Tool <Contiguous_Selection_Tool>`__         | .. raw:: mediawiki                  | Contiguous or “Magic Wand” selects a field of color, adjust the fuzziness to allow more changes in the field of color, by default limited to the current layer.            |
-|                                                                   |                                     |                                                                                                                                                                            |
-|                                                                   |    {{ToolIcon|contiguous-select}}   |                                                                                                                                                                            |
-+-------------------------------------------------------------------+-------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| `Bezier Curve Selection Tool <Bezier_Curve_Selection_Tool>`__     | .. raw:: mediawiki                  | Path select an area based on a vector path, click to get sharp corners or drag to get flowing lines and close the path with enter or connecting back to the first point.   |
-|                                                                   |                                     |                                                                                                                                                                            |
-|                                                                   |    {{ToolIcon|path-select}}         |                                                                                                                                                                            |
-+-------------------------------------------------------------------+-------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+.. csv-table::
+
+    :ref:`rectangular_selection_tool` , |toolselectrect|, Select the shape of a square.
+    :ref:`ellipse_selection_tool` , |toolselectellipse|, Select the shape of a circle.                                                                                                                                                  
+    :ref:`polygonal_selection_tool` , |toolselectpolygon|, Click where you want each point of the Polygon to be. Double click to end your polygon and finalize your selection area. Use Shift + Z to undo last point.
+    :ref:`outline_selection_tool` , |toolselectoutline|, Outline/Lasso tool is used for a rough selection by drawing the outline.                                                                                                       
+    :ref:`similar_selection_tool` , |toolselectsimilar|, Similar Color Selection Tool                                                                                                                                                   
+    :ref:`contiguous_selection_tool` , |toolselectcontiguous|, "Contiguous or “Magic Wand” selects a field of color, Adjust the fuzziness to allow more changes in the field of color, by default limited to the current layer."
+    :ref:`path_selection_tool` , |toolselectpath|, "Path select an area based on a vector path, click to get sharp corners or drag to get flowing lines and close the path with enter or connecting back to the first point."
 
 .. note::
     
@@ -60,9 +40,9 @@ your selection.
 +-------------+---------------+------------+
 | Action      | Modifier      | Shortcut   |
 +-------------+---------------+------------+
-| Replace     | Ctrl          | -          |
+| Replace     | Ctrl          | --         |
 +-------------+---------------+------------+
-| Intersect   | Shift + Alt   | -          |
+| Intersect   | Shift + Alt   | --         |
 +-------------+---------------+------------+
 | Add         | Shift         | A          |
 +-------------+---------------+------------+
