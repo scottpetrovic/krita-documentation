@@ -33,7 +33,8 @@ HSY'
 
 Then, under shape, you can select one of the shapes available within that colour model.
 
-.. noteL
+.. note::
+
     Triangle is in all colour models because to a certain extent, it is a wildcard shape: All colour models look the same in a equilateral triangle selector.
 
 Luma Coefficients
