@@ -8,7 +8,6 @@ The contents of the toolbox docker.
 
 .. toctree::
    :maxdepth: 1
-   :glob:
 
    tools/shape_selection
    tools/shape_edit

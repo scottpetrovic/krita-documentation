@@ -32,7 +32,7 @@ between(\ *tweening* in highly sophisticated animator's jargon).
 
 For this workflow, there are three important dockers:
 
-#. The :ref:`time_line_docker`. View and control all of
+#. The :ref:`timeline_docker`. View and control all of
    the frames in your animation. The timeline docker also contains
    functions to manage your layers. The layer that are created in the
    timeline docker also appear on the normal Layer docker.
