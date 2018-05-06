@@ -1,9 +1,9 @@
 
 .. _layers_and_masks:
 
-================
-Layers and Masks
-================
+================================
+Introduction to Layers and Masks
+================================
 
 Krita supports layers which help to better control parts and elements of
 your painting.
@@ -170,7 +170,7 @@ clicking on the Create Filter Mask button.
 All the filters and masks can also be applied over a group too, thus
 making it easy to non-destructively edit multiple layers at once. In the
 :ref:`category Layers and
-masks <layers_and_masks_category>` you can read
+masks <cat_layers_and_masks>` you can read
 more about the individual types of layers and masks.
 
 :ref:`Layer Docker <layer_docker>` has more information about

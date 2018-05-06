@@ -46,3 +46,21 @@ quickly change file links to figures:
 \[\[File:([\w\s\.]+)\|([\w\s\.]+)\]\]
 
 .. figure:: /images/en/\1 \n\n   \2
+
+------------------------------------
+quickly change file links to images:
+------------------------------------
+
+\[\[File:([\d-\w\.]+)\]\]
+
+.. image:: /images/en/\1
+
+-----
+Bold
+-----
+
+'''([\w\s]+)'''
+
+to
+
+**\1**
