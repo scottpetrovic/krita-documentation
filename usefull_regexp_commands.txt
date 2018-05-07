@@ -49,6 +49,15 @@ quickly change file links to figures:
 
 .. figure:: /images/en/\1 \n\n   \2
 
+For blending modes:
+
+\[\[File\:([\w\s->.]+)\|thumb\|305px\|center\|([\w\s\:\.\'\*]+)]]
+
+{\|[\w\s\d\-\;\:\=\#\"]+\n\|\[\[File\:([\w\s.-]+)\]\]\n\|\-\n\|([\w\s\:\.\*\']+)\|\}
+
+.. figure:: /images/blending_modes/\1\n   :align: center\n\n   \2
+
+
 ------------------------------------
 quickly change file links to images:
 ------------------------------------

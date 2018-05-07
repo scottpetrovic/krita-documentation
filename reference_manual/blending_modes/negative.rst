@@ -1,0 +1,67 @@
+.. _bm_cat_negative:
+
+Negative
+--------
+
+These are all blending modes which seem to make the image go negative.
+
+.. _bm_additive_subtractive:
+
+Additive Subtractive
+~~~~~~~~~~~~~~~~~~~~
+Subtract the square root of the lower layer from the upper layer.
+
+.. figure:: /images/blending_modes/Blending_modes_Additive_Subtractive_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Additive Subtractive**.
+
+.. _bm_arcus_tangent:
+
+Arcus Tangent
+~~~~~~~~~~~~~
+
+Divides the lower layer by the top. Then divides this by Pi.
+Then uses that in an Arc tangent function, and multiplies it by two.
+
+.. figure:: /images/blending_modes/Blending_modes_Arcus_Tangent_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Arcus Tangent**.
+
+.. _bm_difference:
+
+Difference
+~~~~~~~~~~
+
+Checks per pixel of which layer the pixel-value is highest/lowest, and then subtracts the lower value from the higher-value.
+
+.. figure:: /images/blending_modes/Blending_modes_Difference_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Difference**.
+
+.. _bm_equivalence:
+
+Equivalence
+~~~~~~~~~~~
+
+Subtracts the underlying layer from the upper-layer. Then inverts that. Seems to produce the same result as [[#Difference|Difference]].
+
+.. figure:: /images/blending_modes/Blending_modes_Equivalence_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Equivalence**.
+
+.. _bm_exclusion:
+
+Exclusion
+~~~~~~~~~
+
+This multiplies the two layers, adds the source, and then subtracts the multiple of two layers twice.
+
+.. figure:: /images/blending_modes/Blending_modes_Exclusion_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Exclusion**.
+
