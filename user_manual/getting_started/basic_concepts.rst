@@ -174,7 +174,7 @@ Brush engines, like mentioned before, take a path and tablet information and add
 Engine is a term programmers use to describe a complex interacting set of code that is the core for a certain functionality, and is highly configurable. In short, like the engine of your car drives your car, and the type of engine and its configuration affects how you use your car, the brush engine drives the look and feel of the brush, and different brush engines have different results.
 
 
-Krita has :ref:`a LOT of different brush engines <brush_engines>`, all with different effects.
+Krita has :ref:`a LOT of different brush engines <category_brush_engines>`, all with different effects.
 
 .. figure:: /images/en/Krita_example_differentbrushengines.png
    :figwidth: 800
@@ -326,7 +326,7 @@ This means you can make a brush that desaturates pixels, or a brush that changes
 Filter Layers, Filter Masks and Layerstyles 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Krita also allows you to let the Filters be part of the layer stack, via :ref:`filter_layers`and :ref:`filter_masks`. Filter Layers affect all the layers underneath it in the same hierarchy. Transparency and transparency masks on Filter Layers affect where the layer is applied.
+Krita also allows you to let the Filters be part of the layer stack, via :ref:`filter_layers` and :ref:`filter_masks`. Filter Layers affect all the layers underneath it in the same hierarchy. Transparency and transparency masks on Filter Layers affect where the layer is applied.
 
 
 Masks, on the other hand, can affect one single layer and are driven by a grayscale image. They will also affect all layers in a group, much like a transparency mask.
@@ -346,7 +346,7 @@ Transformations
 **Transformations** are kind of like filters, in that these are operations done on the pixels of an image.  We have regular image and layer wide transformations in the image and layer top menus, so that you may resize, flip and rotate the whole image.
 
 
-We also have the :ref:`crop_tool`, which only affects the canvas size, and the :ref:`move_tool`which only moves a given layer.
+We also have the :ref:`crop_tool`, which only affects the canvas size, and the :ref:`move_tool` which only moves a given layer.
 However, if you want more control, Krita offers a :ref:`transform_tool`.
 
 .. image:: /images/en/Krita_transforms_free.png 
