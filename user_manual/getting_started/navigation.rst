@@ -22,7 +22,7 @@ As we've said before, the Krita interface is very malleable and the way that you
 - **B** -- Toolbar - This is where you can choose your brushes, set parameters such as opacity and size and other settings.
 - **C** -- Sidebars for the Movable Panels/Dockers.  In some applications, these are known as Dockable areas. Krita also allows you to dock panels at the top and/or bottom as well.
 - **D** -- Status Bar - This space shows you prefered mode for showing selection i.e marching ants or mask mode, your selected brush preset, :ref:`Color Space <color_managed_workflow>`, image size and provides a convenient zoom control.
-- **E** -- Floating Panel/Docker - These can be "popped" in and out of their docks at any time in order to see a greater range of options.  A good example of this would be the :ref:`brush_presets_docker` or the :ref:`palette_docker`
+- **E** -- Floating Panel/Docker - These can be "popped" in and out of their docks at any time in order to see a greater range of options.  A good example of this would be the :ref:`brush_preset_docker` or the :ref:`palette_docker`
 
 Your canvas sits in the middle and unlike traditional paper or even most digital painting apps, Krita provides the artist with a scrolling canvas of infinite size (not that you'll need it of course!).  The standard navigation tools are as follows:
 
@@ -94,7 +94,7 @@ Pop-up Palette is an unique feature in Krita designed to increase productivity o
 
 By tagging your brush presets you can add particular sets of brushes to this palette. for example If you add some inking brush presets to inking tag you can and change the tags to inking in the pop-up palette you'll get all the inking brushes in the palette. 
 
-You can :ref:`tag_system` brush presets via the :ref:`brush_presets_docker`, check out the resource overview page to know more about tagging in general.
+You can :ref:`tag <tag_management>` brush presets via the :ref:`brush_preset_docker`, check out the resource overview page to know more about tagging in general.
 
 If you call up the pop-up palette again, you can click the wrench icon, and select the tag. In fact, you can make multiple tags and switch between them.
 When you need more than ten presets, go into :menuselection:`Settings --> configure Krita --> general --> favorite presets` and change the number of presets from 10 to something you feel comfortable.

@@ -6,6 +6,8 @@ Color
 
 Similar to the Adjust filters, the color filter are image wide color operations.
 
+.. _filter_color_to_alpha:
+
 Color to Alpha
 --------------
 
@@ -21,6 +23,8 @@ For example, with threshold set to 255, and the removed color set to white, a 50
 
 This filter is really useful in separating line-art from the white background.
 
+.. _filter_color_transfer:
+
 Color Transfer
 --------------
 
@@ -29,10 +33,14 @@ This is a quick way to change a color combination of an artwork to an already sa
 
 .. image:: /images/en/Color-transfer.png
 
+.. _filter_maximize_channel:
+
 Maximize Channel
 ----------------
 
 This filter checks for all the channels of a each single color and set all but the highest value to 0.
+
+.. _filter_minimize_channel:
 
 Minimize Channel
 ----------------

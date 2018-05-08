@@ -256,7 +256,7 @@ Normal
  The :menuselection:`Normal` blend mode just averages between colors depending on how transparent the topmost color is.
 
 
-Krita has 76 blending modes, each doing slightly different things. Head over to the :ref:`blending_modes`to learn more.
+Krita has 76 blending modes, each doing slightly different things. Head over to the :ref:`blending_modes` to learn more.
 
 
 Because we can see channels as grayscale images, we can convert grayscale images into channels. Like for example, we can use a grayscale image for the transparency. We call these **Masks**.
@@ -413,7 +413,7 @@ Customisation
 This leads to the final concept: Customisation.
 
 
-In addition to rearranging the dockers according to your preferences, Krita provides and saves your configurations as :ref:`workspaces`. This is the button at the top right.
+In addition to rearranging the dockers according to your preferences, Krita provides and saves your configurations as :ref:`resource_workspaces`. This is the button at the top right.
 
 
 You can also configure the toolbar via :menuselection:`settings --> configure Toolbars`, as well as the shortcuts under both :menuselection:`settings --> Configure Krita --> Configure Shortcuts` and :menuselection:`settings --> configure Krita --> Canvas Input Settings`.

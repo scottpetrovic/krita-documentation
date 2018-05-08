@@ -418,7 +418,7 @@ ways to share a brush preset.
 
 The recommended way to share brushes and presets is by using the
 resource bundle system. We have detailed instructions on how to use them
-on the :ref:`resource management page <resource_management`.
+on the :ref:`resource management page <resource_management>`.
 
 However, there's various old-fashioned ways of sharing brushes that can
 be useful when importing and loading very old packs:

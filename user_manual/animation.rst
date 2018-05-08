@@ -21,7 +21,7 @@ To create an animation curve (currently only for opacity) expand the
 Keyframe”. You can now edit the keyframed value for opacity directly in
 the “Layers” dock, adding more keyframes will by default fade from the
 last to the next upcoming keyframe in the timeline over the frames
-betweem them. See :ref:`animation curves <animation_curves>` for details
+betweem them. See :ref:`animation curves <animation_curves_docker>` for details
 
 Workflow:
 ---------

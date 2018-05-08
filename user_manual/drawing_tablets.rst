@@ -163,4 +163,4 @@ Supported Tablets
 -----------------
 
 Supported tablets are the ones of which Krita developers have a version
-themselves, so they can reliably fix bugs with them. :ref:`We maintain a list of those here <list_of_tablets_supported>`.
+themselves, so they can reliably fix bugs with them. :ref:`We maintain a list of those here <list_supported_tablets>`.

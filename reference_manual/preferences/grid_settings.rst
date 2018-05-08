@@ -6,7 +6,7 @@ Grid Settings
 
 .. warning::
 
-    Deprecated in 3.0, use the :ref:`grids_and_guides` instead.
+    Deprecated in 3.0, use the :ref:`grids_and_guides_docker` instead.
 
 Settings->configure Krita->Grid
 
