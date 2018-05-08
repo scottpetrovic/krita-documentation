@@ -1,3 +1,13 @@
+.. meta::
+   :description lang=en:
+        Krita's text tool reference.
+
+.. metadata-placeholder
+
+   :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Scott Petrovic
+   :license: GNU free documentation license 1.3 or later.
+   
 .. _text_tool:
 
 =========
@@ -56,6 +66,7 @@ File
         Save current edits to the text on canvas.
     Close :kbd:`Ctrl + W`
         Close the editor
+
 Edit
     Basic editing functions
 

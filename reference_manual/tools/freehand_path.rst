@@ -1,3 +1,12 @@
+.. meta::
+   :description lang=en:
+        Krita's freehand path tool reference.
+
+.. metadata-placeholder
+
+   :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+   :license: GNU free documentation license 1.3 or later.
+   
 .. _freehand_path_tool:
 
 ==================

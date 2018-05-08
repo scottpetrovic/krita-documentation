@@ -4,6 +4,17 @@
 Clone Brush Engine
 ==================
 
+.. meta::
+   :description lang=en:
+        The Clone Brush Engine manual page.
+
+.. metadata-placeholder
+
+   :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Raghavendra Kamath <raghavendr.raghu@gmail.com>
+             - Scott Petrovic
+   :license: GNU free documentation license 1.3 or later.
+
 .. image:: /images/icons/clonebrush.svg
 
 The clone brush is a brush engine that allows you to paint with a duplication of a section of a paint-layer. This is useful in manipulation of photos and textures. You have to select a source and then you can paint to copy or clone the source to a different area. Other applications normally have a separate tool for this, Krita has a brush engine for this.

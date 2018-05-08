@@ -1,3 +1,16 @@
+.. meta::
+   :description lang=en:
+        Guide on all the specifics of creating Krita python plugins.
+
+.. metadata-placeholder
+
+   :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - BrendanD
+             - Scott Petrovic
+             - Boudewijn Rempt <boud@valdyas.org>
+             - TPaulssen
+   :license: GNU free documentation license 1.3 or later.
+
 .. _krita_python_plugin_howto:
 
 =================================

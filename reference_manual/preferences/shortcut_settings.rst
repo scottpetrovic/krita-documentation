@@ -1,3 +1,13 @@
+.. meta::
+   :description lang=en:
+        Configuring shortcuts in Krita.
+
+.. metadata-placeholder
+
+   :authors: - Micheal Abrahams
+             - Scott Petrovic
+   :license: GNU free documentation license 1.3 or later.
+   
 .. _shortcut_settings:
 
 =================

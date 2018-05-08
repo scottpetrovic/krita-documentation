@@ -1,3 +1,14 @@
+.. meta::
+   :description lang=en:
+        How to use document templates in Krita.
+
+.. metadata-placeholder
+
+   :authors: - Scott Petrovic
+             - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - AndreyGolovkin
+   :license: GNU free documentation license 1.3 or later.
+
 .. _templates:
 
 =========

@@ -1,3 +1,15 @@
+.. meta::
+   :description lang=en:
+        Detailed guide on the animation workflow in Krita.
+
+.. metadata-placeholder
+
+   :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Raghavendra Kamath <raghavendr.raghu@gmail.com>
+             - Scott Petrovic
+             - Lundin
+   :license: GNU free documentation license 1.3 or later.
+
 .. _animation:
 
 ====================

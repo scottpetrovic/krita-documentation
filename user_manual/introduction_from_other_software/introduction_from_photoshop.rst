@@ -1,3 +1,17 @@
+.. meta::
+   :description lang=en:
+        This is a introduction to Krita for users coming from Photoshop.
+
+.. metadata-placeholder
+   :authors: - David Revoy, davidrevoy@gmail.com
+             - Inge Wallin, inge.wallin@kogmbh.com
+             - Wolthera van Hövell tot Westerflier, griffinvalley@gmail.com
+             - AnetK
+             - JakeD
+             - Radianart
+             - Raghavendra Kamath <raghavendr.raghu@gmail.com>
+   :license: GNU free documentation license 1.3 or later.
+
 .. _introduction_from_photoshop:
 
 ===========================================

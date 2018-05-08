@@ -1,3 +1,14 @@
+.. meta::
+   :description lang=en:
+        An introduction guide to how layers and masks work inside Krita.
+
+.. metadata-placeholder
+
+   :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Raghavendra Kamath <raghavendr.raghu@gmail.com>
+             - Scott Petrovic
+             - AnetK
+   :license: GNU free documentation license 1.3 or later.
 
 .. _layers_and_masks:
 

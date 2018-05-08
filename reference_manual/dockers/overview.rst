@@ -1,3 +1,12 @@
+.. meta::
+   :description lang=en:
+        Overview of the overview docker.
+
+.. metadata-placeholder
+
+   :authors: - Scott Petrovic
+   :license: GNU free documentation license 1.3 or later.
+
 .. _overview_docker:
 
 ========

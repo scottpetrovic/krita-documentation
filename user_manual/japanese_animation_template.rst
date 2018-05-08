@@ -1,3 +1,14 @@
+.. meta::
+   :description lang=en:
+        Detailed explaination on how to use the animation template.
+
+.. metadata-placeholder
+
+   :authors: - Saisho Kazuki
+             - Tokiedian
+             - Scott Petrovic
+   :license: GNU free documentation license 1.3 or later.
+
 .. _japanese_animation_template:
 
 ===========================

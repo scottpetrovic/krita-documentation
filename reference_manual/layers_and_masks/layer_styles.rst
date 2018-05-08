@@ -1,3 +1,14 @@
+.. meta::
+   :description lang=en:
+        How to use layer styles in Krita.
+
+.. metadata-placeholder
+
+   :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Scott Petrovic
+             - Raghavendra Kamath <raghavendr.raghu@gmail.com>
+   :license: GNU free documentation license 1.3 or later.
+
 .. _layer_style:
 
 ============

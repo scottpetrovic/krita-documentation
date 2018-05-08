@@ -1,3 +1,14 @@
+.. meta::
+   :description lang=en:
+        Page about the mix blending modes in Krita: Allanon, Alpha Darken, Behind, Erase, Geometric Mean, Grain Extract, Grain Merge, Greater, Hard Mix, Hard Overlay, Normal, Overlay and Parallel.
+
+.. metadata-placeholder
+
+   :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Maria Luisac
+   :license: GNU free documentation license 1.3 or later.
+
+
 .. _bm_cat_mix:
 
 Mix
@@ -92,6 +103,7 @@ Similar to addition, the colors of the upper layer are added to the colors, and 
 .. _bm_greater:
 
 Greater
+~~~~~~~
 
 A blending mode which checks whether the painted color is painted with a higher opacity than the existing colors. If so, it paints over them, if not, it doesn't paint at all.
 

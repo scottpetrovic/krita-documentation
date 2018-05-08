@@ -1,3 +1,16 @@
+.. meta::
+   :description lang=en:
+        How to get a backtrace in Krita using the dr. MinW debugger.
+
+.. metadata-placeholder
+
+   :authors: - Scott Petrovic
+             - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Raghavendra Kamath <raghavendr.raghu@gmail.com>
+             - Alvin Wong
+   :license: GNU free documentation license 1.3 or later.
+
+
 .. _dr_minw:
 
 =================

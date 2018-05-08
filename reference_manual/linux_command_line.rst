@@ -1,3 +1,13 @@
+.. meta::
+   :description lang=en:
+        Overview of Krita's command line options.
+
+.. metadata-placeholder
+
+   :authors: - Scott Petrovic
+             - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+   :license: GNU free documentation license 1.3 or later.
+
 .. _linux_cmd:
 
 ==================

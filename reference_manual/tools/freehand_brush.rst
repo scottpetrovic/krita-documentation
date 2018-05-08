@@ -1,3 +1,14 @@
+.. meta::
+   :description lang=en:
+        Krita's freehand brush tool reference, containing how to use the stablizer in krita.
+
+.. metadata-placeholder
+
+   :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Boudewijn Rempt <boud@valdyas.org>
+             - Nmaghrufusman
+   :license: GNU free documentation license 1.3 or later.
+   
 .. _freehand_brush_tool:
 
 ===================

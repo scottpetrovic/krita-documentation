@@ -1,3 +1,13 @@
+.. meta::
+   :description lang=en:
+        How to use selection masks in Krita.
+
+.. metadata-placeholder
+
+   :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Scott Petrovic
+   :license: GNU free documentation license 1.3 or later.
+   
 .. _selection_masks:
 
 Local Selection masks let you remember and recall edit a selection on a layer. They work in a similar way to extra channels in other image editing programs. One difference is :program:`Krita's` ability to assign them to specific layers and activate a selection with a single click on the layer. Just click the round icon with the dotted outline on the local selection layer in the Layers docker.

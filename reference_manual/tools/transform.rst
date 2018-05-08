@@ -1,3 +1,15 @@
+.. meta::
+   :description lang=en:
+        Krita's transform tool reference.
+
+.. metadata-placeholder
+
+   :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Scott Petrovic
+             - Micheal Abrahams
+             - Raghavendra Kamath
+   :license: GNU free documentation license 1.3 or later.
+   
 .. _transform_tool:
 
 ==============

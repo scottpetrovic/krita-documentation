@@ -1,3 +1,15 @@
+.. meta::
+   :description lang=en:
+        Overview of maths operations that can be used in Krita spinboxes and number inputs.
+
+.. metadata-placeholder
+
+   :authors: - Scott Petrovic
+             - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Jospin
+   :license: GNU free documentation license 1.3 or later.
+
+
 .. _maths_input:
 
 ===========

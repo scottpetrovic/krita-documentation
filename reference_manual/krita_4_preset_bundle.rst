@@ -1,3 +1,15 @@
+.. meta::
+   :description lang=en:
+        Overview of the Krita 4.0 preset bundle.
+
+.. metadata-placeholder
+
+   :authors: - David Revoy
+             - Scott Petrovic
+             - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+   :license: GNU free documentation license 1.3 or later.
+
+
 .. _krita_4_preset_bundle:
 
 ==============================

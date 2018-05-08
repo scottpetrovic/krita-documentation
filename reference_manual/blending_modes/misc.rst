@@ -1,3 +1,14 @@
+.. meta::
+   :description lang=en:
+        Page about the miscellaneous blending modes in Krita: Bumpmap, Combine Normal Map, Copy Red, Copy Green, Copy Blue, Copy and Dissolve.
+
+.. metadata-placeholder
+
+   :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Maria Luisac
+   :license: GNU free documentation license 1.3 or later.
+
+
 .. _bm_cat_misc:
 
 Misc

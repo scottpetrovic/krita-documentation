@@ -1,3 +1,16 @@
+.. meta::
+   :description lang=en:
+        A simple guide to the first basic steps of using Krita: creating and saving an image.
+
+.. metadata-placeholder
+
+   :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Raghavendra Kamath <raghavendr.raghu@gmail.com>
+             - Scott Petrovic
+             - DMarquant
+             - Vancemoss
+   :license: GNU free documentation license 1.3 or later.
+
 .. _starting_with_krita:
 
 Starting Krita

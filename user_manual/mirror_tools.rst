@@ -1,3 +1,13 @@
+.. meta::
+   :description lang=en:
+        How to use the canvas mirroring tools in Krita.
+
+.. metadata-placeholder
+
+   :authors: - Scott Petrovic
+             - Nmagfurusman
+   :license: GNU free documentation license 1.3 or later.
+
 .. _mirror_tools:
 
 ============

@@ -1,3 +1,15 @@
+.. meta::
+   :description lang=en:
+        How to use the render animation command in Krita.
+
+.. metadata-placeholder
+
+   :authors: - Scott Petrovic
+             - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Beelzy
+   :license: GNU free documentation license 1.3 or later.
+
+
 .. _render_animation:
 
 ================

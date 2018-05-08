@@ -1,3 +1,12 @@
+.. meta::
+   :description lang=en:
+        The Quick Brush Engine manual page.
+
+.. metadata-placeholder
+
+   :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+   :license: GNU free documentation license 1.3 or later.
+
 .. _quick_brush_engine:
 
 ==================

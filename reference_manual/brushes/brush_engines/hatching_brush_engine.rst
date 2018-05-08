@@ -1,3 +1,14 @@
+.. meta::
+   :description lang=en:
+        The Hatching Brush Engine manual page.
+
+.. metadata-placeholder
+
+   :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Scott Petrovic
+             - ValerieVK
+   :license: GNU free documentation license 1.3 or later.
+
 .. _hatching_brush_engine:
 
 =====================

@@ -1,3 +1,14 @@
+.. meta::
+   :description lang=en:
+        How selections work in Krita.
+
+.. metadata-placeholder
+
+   :authors: - Scott Petrovic
+             - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Hulmanen
+   :license: GNU free documentation license 1.3 or later.
+
 .. _selections_basics:
 
 ==========
