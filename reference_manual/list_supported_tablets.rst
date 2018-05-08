@@ -1,3 +1,24 @@
+.. meta::
+   :description lang=en:
+        Reference list of tablets that work and don't work with Krita.
+
+.. metadata-placeholder
+
+   :authors: - YMarnet
+             - Scott Petrovic
+             - Michael John
+             - PGeier
+             - Aster Wang
+             - Richard Brook
+             - Timothée Giet
+             - Alvin Wong
+             - Raghavendra Kamath
+             - Radianart
+             - Thorben Kruger
+             - Boudewijn Rempt
+             - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+   :license: GNU free documentation license 1.3 or later.
+   
 .. _list_supported_tablets:
 
 =============================
