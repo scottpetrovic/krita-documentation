@@ -57,22 +57,22 @@ This is specifically about support on Windows, not Linux or OSX.
      - ❓ Unknown
    * - Artisul 
      - (by UC-Logic)D13
-     - ‼️ Reported to not work
+     - ❌ Reported to not work
    * - Artisul 
      - (by UC-Logic)D10
-     - ‼️  Reported to not work
+     - ❌  Reported to not work
    * - Artisul 
      - (by UC-Logic)Pencil (S/M)
-     - ‼️  Reported to not work
+     - ❌  Reported to not work
    * - Bosto 
      - 22HDX 
-     - ‼️ Reported to be broken
+     - ❌ Reported to be broken
    * - Bosto 
      - 22UX 
-     - ‼️ Reported to be broken
+     - ❌ Reported to be broken
    * - Bosto 
      - 22HD Mini 
-     - ‼️ Reported to be broken
+     - ❌ Reported to be broken
    * - Bosto 
      - 22U Mini 
      - ❓ Unknown
@@ -150,7 +150,7 @@ This is specifically about support on Windows, not Linux or OSX.
      - ❓ Unknown
    * - Genius 
      - EasyPen M610
-     - ‼️ Reported to be broken
+     - ❌ Reported to be broken
    * - Genius 
      - EasyPen M610X
      - ❓ Unknown
@@ -216,7 +216,7 @@ This is specifically about support on Windows, not Linux or OSX.
      - ❓ Unknown
    * - Genius 
      - PenSketch M912
-     - ‼️ Reported to be broken
+     - ❌ Reported to be broken
    * - Genius 
      - PenSketch T609A
      - ❓ Unknown
@@ -246,7 +246,7 @@ This is specifically about support on Windows, not Linux or OSX.
      - ❓ Unknown
    * - Hanvon 
      - Sell Painting Master (0806)
-     - ‼️ Reported to be broken
+     - ❌ Reported to be broken
    * - Huion / Turcom 
      - H420
      - ✔️ Supposed to work
@@ -360,7 +360,7 @@ This is specifically about support on Windows, not Linux or OSX.
      - ❓ Unknown
    * - Parblo 
      - A610
-     - ‼️ Reported to be broken
+     - ❌ Reported to be broken
    * - Parblo 
      - Bay B960
      - ❓ Unknown
@@ -408,7 +408,7 @@ This is specifically about support on Windows, not Linux or OSX.
      - ❓ Unknown
    * - Trust 
      - Slimline Widescreen
-     - ‼️ Reported to be broken
+     - ❌ Reported to be broken
    * - Trust 
      - Slimline Sketch
      - ❓ Unknown
@@ -480,13 +480,13 @@ This is specifically about support on Windows, not Linux or OSX.
      - ❓ Unknown
    * - Ugee 
      - M708
-     - ‼️ Reported to be broken, connected strokes
+     - ❌ Reported to be broken, connected strokes
    * - Ugee 
      - M6370
      - ❓ Unknown
    * - Ugee 
      - M1000L
-     - ‼️ Reported to be broken
+     - ❌ Reported to be broken
    * - Ugee 
      - Chocolate
      - ❓ Unknown
