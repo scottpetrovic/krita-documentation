@@ -6,6 +6,10 @@
 
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Scott Petrovic
+             - Lundin
+             - Bugsbane
+             - Alan
+             - Boudewijn
    :license: GNU free documentation license 1.3 or later.
    
 .. _selection_masks:

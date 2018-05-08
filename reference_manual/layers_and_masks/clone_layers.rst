@@ -6,6 +6,10 @@
 
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Scott Petrovic
+             - Bugsbane
+             - Boudewijn Rempt
+             - Alan
+             - Raghavendra Kamath
    :license: GNU free documentation license 1.3 or later.
 
 .. _clone_layers:

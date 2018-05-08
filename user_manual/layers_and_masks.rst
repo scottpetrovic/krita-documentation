@@ -8,6 +8,9 @@
              - Raghavendra Kamath <raghavendr.raghu@gmail.com>
              - Scott Petrovic
              - AnetK
+             - Bugsbane
+             - Alan
+             - Lundin
    :license: GNU free documentation license 1.3 or later.
 
 .. _layers_and_masks:

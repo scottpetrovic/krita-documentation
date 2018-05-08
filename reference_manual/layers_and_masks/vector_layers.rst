@@ -7,6 +7,9 @@
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Scott Petrovic
              - ValerieVK
+             - Lifeling
+             - JohnS
+             - Leovilok
    :license: GNU free documentation license 1.3 or later.
    
 .. _vector_layers:

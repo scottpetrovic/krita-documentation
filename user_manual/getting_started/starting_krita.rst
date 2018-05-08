@@ -9,6 +9,10 @@
              - Scott Petrovic
              - DMarquant
              - Vancemoss
+             - Bugsbane
+             - Hamlet 1977
+             - Lifeling
+             - Yurchor
    :license: GNU free documentation license 1.3 or later.
 
 .. _starting_with_krita:
