@@ -9,7 +9,7 @@
    :license: GNU free documentation license 1.3 or later.
 
 .. _cat_colors:
-.. _general_concept_colors:
+.. _general_concept_color:
 
 ######
 Colors

@@ -141,6 +141,8 @@ Similarly, Krita, as a program intended to make images from scratch, doesn't rea
 
 Overal, it is kinda useful to keep things like viewing conditions in the back of your mind. Many professional artists use a mid-grey color as their default canvas background because they find they create much more dynamic images due to having improved their viewing conditions. It is also why a lot of graphics programs, including Krita, come with a dark theme nowadays. (Though, of course this might also be because dark themes can be considered cool, who knows.)
 
+.. _icc_profiles:
+
 Icc profiles
 ------------
 

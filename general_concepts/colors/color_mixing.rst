@@ -10,6 +10,7 @@
 
    
 .. _color_mixing:
+.. _mixing_colors:
 
 =============
 Mixing Colors
@@ -67,7 +68,7 @@ Smudging
    :align: center
 
 
-**Smudge mixing** is done with the :ref:`engine_color_smudge`, a special brush engine that allows you to mix your current brush color with the color(s) under the brush. It's a very powerful type of brush that gives a lovely painterly effect. *Performance wise, it's a bit more demanding and slower than the regular pixel brush.*
+**Smudge mixing** is done with the :ref:`color_smudge_brush_engine`, a special brush engine that allows you to mix your current brush color with the color(s) under the brush. It's a very powerful type of brush that gives a lovely painterly effect. *Performance wise, it's a bit more demanding and slower than the regular pixel brush.*
 
 If you *remove all paint from a smudge brush*, you get a simple-yet-powerful smudge effect:
 
@@ -119,7 +120,7 @@ You can use Color Picker Blending much like a physical paint brush in traditiona
 
 Not only does Krita's Color Picker Blending feel even more like mixing paints, it is also completely off-canvas and independent of opacity, flow, shape, and other brush settings. Furthermore, unlike most on-canvas mixing techniques, Color Picker Blending works regardless of the location of colors on your canvas - enabling your to mix with colors at any position, on any layer, or even in different documents! Quickly mix lighting colors with local colors, mix the ambient sky color into shadows, create atmospheric depth, mix from a preselected palette of colors in another layer/document, etc.
 
-To use Color Picker Blending, simply set the "blend" option in the **Tool Options Docker** while the Color Picker Tool is active; setting blend to 100% will cause your Color Picker to work in the traditional way (completely replacing your brush color with the picked color), setting to around 50% will give you a half-way mix between colors, and setting to a lower value will create more subtle shifts in colors each click. Of course, blending affects both your dedicated Color Picker Tool as well as the :kbd:`ctrl`+|mouseleft| shortcut.
+To use Color Picker Blending, simply set the "blend" option in the **Tool Options Docker** while the Color Picker Tool is active; setting blend to 100% will cause your Color Picker to work in the traditional way (completely replacing your brush color with the picked color), setting to around 50% will give you a half-way mix between colors, and setting to a lower value will create more subtle shifts in colors each click. Of course, blending affects both your dedicated Color Picker Tool as well as the :kbd:`ctrl +` |mouseleft| shortcut.
 
 .. note::
 

@@ -13,7 +13,7 @@
 .. _profiling_and_callibration:
 
 ===========================
-Profiling and Calligration:
+Profiling and Callibration:
 ===========================
 
 So to make it simple, a color profile is just a file defining a set of colors inside a pure XYZ color cube.
