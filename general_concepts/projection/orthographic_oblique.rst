@@ -87,7 +87,7 @@ If you want to do precision position moving in the tool options docker, just sel
 
 We fix the top view now. Much better.
 
-For faces, the multiple slices are actually pretty important. So important even, that I have decided we should have these slices on separate layers. Thankfully, I chose to colour them, so all we need to do is go to :menuselection:`layers &rarr; split layer`
+For faces, the multiple slices are actually pretty important. So important even, that I have decided we should have these slices on separate layers. Thankfully, I chose to colour them, so all we need to do is go to :menuselection:`layers --> split layer`
 .
 
 .. image:: /images/en/category_projection/projection_image_06.png 

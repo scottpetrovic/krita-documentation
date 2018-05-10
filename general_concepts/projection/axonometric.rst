@@ -52,9 +52,9 @@ On the vector layer, we select the straight line tool, start a line and then hol
 .. image:: /images/en/category_projection/projection_image_15.png
    :align: center
 
-We then import some of the frames from the animation via <span class="menuchoice">layers &rarr; import/export &rarr; import layer</span>.
+We then import some of the frames from the animation via <span class="menuchoice">layers --> import/export --> import layer</span>.
 
-Then crop it by setting the crop tool to 'layer', and use :menuselection:`filters &rarr; colors &rarr; color to alpha`
+Then crop it by setting the crop tool to 'layer', and use :menuselection:`filters --> colors --> color to alpha`
  to remove any background. I also set the layers to 50% opacity. We then align the vectors to them:
 
 .. image:: /images/en/category_projection/projection_image_16.png 
@@ -78,7 +78,7 @@ Then we align the other heads and transform them by using the transform tool opt
 
 (330° here is 360°-30°)
 
-Our rectangle we'll be working in slowly becomes visible. Now, this is a bit of a difficult angle to work at, so we go to :menuselection:`image &rarr; rotate &rarr; custom rotation`
+Our rectangle we'll be working in slowly becomes visible. Now, this is a bit of a difficult angle to work at, so we go to :menuselection:`image --> rotate --> custom rotation`
  and fill in 30° clockwise:
 
 .. image:: /images/en/category_projection/projection_image_19.png 
