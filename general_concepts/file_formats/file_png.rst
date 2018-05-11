@@ -8,6 +8,8 @@
              - Boudewijn Rempt
    :license: GNU free documentation license 1.3 or later.
 
+
+
 .. _file_png:
 
 ======
@@ -19,3 +21,5 @@
 png is a lossless fileformat, which means that it is able to maintain all the colors of your image perfectly. It does so at the cost of the file size being big, and therefore it is recommended to try :ref:`file_jpg` for images with a lot of gradients and different colors. Grayscale images will do better in png as well as images with a lot of text and sharp contrasts, like comics.
 
 Like :ref:`file_gif`, png can support indexed color. Unlike :ref:`file_gif`, png doesn't support animation. There have been two attempts at giving animation support to png, apng and mng, the former is unofficial and the latter too complicated, so neither have really taken off yet.
+
+.. index:: *.png, png, portable network graphics

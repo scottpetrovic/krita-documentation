@@ -27,15 +27,17 @@ This allows you to quickly convert files via the terminal:
 
 ``krita importfilename --export --export-filename exportfilename``
 
-krita
-    This tells the terminal to use the program Krita.
+.. program:: krita
+
 importfilename
     Replace this with the filename of the file you want to manipulate.
-\--export
+
+.. option:: --export
     This selects the export option.
-\--exportfilename
+
+.. option:: --exportfilename exportfilename
     This says that the following word is the filename it should be exported to.
-exportfilename
+
     Replace this with the name of the output file. Use a different extension to change the fileformat.
 
 Example:
@@ -62,11 +64,14 @@ Open with Custom Screen DPI
 
 Open Krita with specified Screen DPI.
 
-``krita --dpi <dpiX,dpiY>``
+.. program:: krita
 
-For example:
+.. option:: --dpi <dpiX,dpiY>
+    Open Krita with specified Screen DPI.
 
-``krita --dpi <72,72>``
+    For example:
+
+    ``krita --dpi <72,72>``
 
 Open template
 -------------
@@ -75,31 +80,40 @@ Open krita and automatically open the given template(s). This allows you to, for
 
 ``krita --template templatename.desktop``
 
-\--template
+.. program:: krita
+
+.. option:: --template templatename.desktop
     Selects the template option
-templatename.desktop
+
     All templates are saved with the .desktop extension. You can find templates in the .kde/share/apps/krita/template or in the install folder of Krita.
 
-``krita --template BD-EuroTemplate.desktop``
+    ``krita --template BD-EuroTemplate.desktop``
 
-This opens the European BD comic template with Krita.
+    This opens the European BD comic template with Krita.
 
-``krita --template BD-EuroTemplate.desktop BD-EuroTemplate.desktop``
+    ``krita --template BD-EuroTemplate.desktop BD-EuroTemplate.desktop``
 
-This opens the European BD template twice, in seperate documents.
+    This opens the European BD template twice, in seperate documents.
 
 Start up
 --------
 
 .. versionadded:: 3.3
 
-    ``krita --nosplash``
+    .. program:: krita
+    
+    .. option:: --nosplash
         Start krita without showing the splash screen.
-    ``krita --canvasonly``
+    
+    .. option:: --canvasonly
         Start krita in canvasonly mode.
-    ``krita --fullscreen``
+    
+    .. option:: --fullscreen
         Start krita in fullscreen mode.
-    ``krita --workspace Workspace``
+    
+    .. option:: --workspace Workspace
         Start krita with the given workspace. So for example...
-    ``krita --workspace Animation``
+    
+        `` krita --workspace Animation``
+        
         Starts Krita in the Animation workspace.
