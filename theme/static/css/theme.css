@@ -5641,13 +5641,18 @@ h1 {
     font-size: 200%
 }
 
+h2, h3 {
+    margin-top: 3em;
+}
+
 h2,
 .rst-content .toctree-wrapper p.caption {
     font-size: 150%
 }
 
 h3 {
-    font-size: 125%
+    font-size: 125%;
+    margin-bottom: 0;
 }
 
 h4 {
