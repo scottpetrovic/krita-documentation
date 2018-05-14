@@ -5641,13 +5641,18 @@ h1 {
     font-size: 200%
 }
 
+h2, h3 {
+    margin-top: 3em;
+}
+
 h2,
 .rst-content .toctree-wrapper p.caption {
     font-size: 150%
 }
 
 h3 {
-    font-size: 125%
+    font-size: 125%;
+    margin-bottom: 0;
 }
 
 h4 {
@@ -6113,6 +6118,7 @@ article ol li ul li {
     color: #fcfcfc;
     margin-bottom: 0;
     padding-bottom: 0;
+    padding-top: 0;
 }
 
 .wy-side-nav-language-selector {
@@ -6155,8 +6161,6 @@ select#language-selector-container option {
     color: #525252;
     font-size: 100%;
     display: inline-block;
-    padding: 4px 6px;
-    margin-bottom: .809em
 }
 
 .wy-side-nav-search>a img.logo,
@@ -6172,8 +6176,8 @@ select#language-selector-container option {
 
 .wy-side-nav-search>a.icon img.logo,
 .wy-side-nav-search .wy-dropdown>a.icon img.logo {
-    margin-top: .85em;
-    margin-bottom: 0.5em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .wy-side-nav-search>div.version {
