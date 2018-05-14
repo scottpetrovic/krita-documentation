@@ -1,0 +1,14 @@
+.ora
+====
+
+.ora, or the Open Raster format, is an interchange format. It was
+designed to replace :doc:`.psd` as an interchange format, as the
+latter isn't meant for that. Like :doc:`.kra` it is loosely based
+on the Open Document structure, thus a zip file with a bunch of xmls and
+pngs, but where Krita's internal fileformat can sometimes have fully
+binary chunks, \*.ora saves it's layers as :doc:`.png` making it
+fully open and easy to support.
+
+As an interchange format, it can be expected to be heavy and isn't meant
+for uploading to the internet.
+

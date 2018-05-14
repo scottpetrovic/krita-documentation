@@ -1,0 +1,13 @@
+.pbm
+====
+
+.pbm, :doc:`.pgm`, :doc:`.ppm` are a series of
+file-formats with a similar logic to them. They are designed to save
+images in a way that the result can be read as an ascii file, from back
+when email clients couldn't read images reliably.
+
+It's a very old file format, and not used outside of very experimental
+usecases.
+
+.pbm is one-bit and can only show strict black and white.
+
