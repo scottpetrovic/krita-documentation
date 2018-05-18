@@ -20,7 +20,7 @@ What brushes are best for fur textures?
 .. image:: /images/en/brush-tips/Krita-brushtips-fur_01.png
     :alt: Some example of furs and hair
 
-So typically, you see the same logic applied on fur as on regular `hair <https://docs.krita.org/Special:MyLanguage/Brush-tips:Hair>`_.
+So typically, you see the same logic applied on fur as on regular :ref:`hair`.
 
 `However, you can make a brush a little easier by using the Gradient, Mix and HSV options in the pixel and color smudge brushes <https://docs.krita.org/Pixel>`_. Basically, what we want to do is have a stroke start dark and then become lighter as we draw with it, to simulate how hair-tips catch more light and look lighter due to being thinner at the ends, while at the base they are frequently more dark.
 

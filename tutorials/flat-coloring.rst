@@ -153,7 +153,7 @@ Selections work using the selection tools.
 .. image:: /images/en/flat-coloring/Krita_filling_lineart15.png
     :alt: selecting with selection tools for filling color
 
-For example with the `Bezier Curve Selection Tool <https://docs.krita.org/Special:MyLanguage/Bezier_Curve_Selection_Tool>`_  you can easily select a curved area, and the with :kbd:`Shift` + |mouseleft| (not |mouseleft| + :kbd:`Shift`, there's a difference!) you can easily add to an existing selection.
+For example with the :ref:`bezier_curve_selection_tool` you can easily select a curved area, and the with :kbd:`Shift` + |mouseleft| (not |mouseleft| + :kbd:`Shift`, there's a difference!) you can easily add to an existing selection.
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart16.png
     :alt: selection mask in Krita
@@ -256,4 +256,3 @@ Conclusion
 ----------
 
 I hope this has given you a good idea of how to fill in flats using the various techniques, as well as getting a hand of different Krita features. Remember that a good flat filled lineart is better than a badly shaded one, so keep practising to get the best out of these techniques!
-

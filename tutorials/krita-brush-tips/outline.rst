@@ -22,7 +22,7 @@ Not really a brush, but what you can do is add a layer style to a layer, by |mou
 .. image:: /images/en/brush-tips/Krita-layerstyle_hack.png
     :alt: image demonstrating the layer style hack for this effect
 
-Then, set the main layer to multiply(or add a `color to alpha <https://docs.krita.org/Colors>`_ filter mask), and paint with white:
+Then, set the main layer to multiply(or add a :ref:`filter_color_to_alpha` filter mask), and paint with white:
 
 .. image:: /images/en/brush-tips/Krita-layerstyle_hack2.png
     :alt: image demonstrating the layer style hack for this effect
