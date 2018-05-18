@@ -54,10 +54,8 @@ This is our vision for the development of Krita:
 Krita starts with an empty canvas and nothing changes when you try to draw or Krita shows a black or blank screen or Krita crashes when creating a document or Krita's menubar is hidden on a Windows system with an Intel GPU
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-*Update to Krita 3.3 or later:* Go to Settings/Configure Krita/Display,
-change Renderer to ANGLE and restart Krita. If this doesn't work,
-disable Canvas Graphics Acceleration and please also make a bug report
-about it.
+* Update to Krita 3.3 or later:
+* Go to Settings/Configure Krita/Display, change Renderer to ANGLE and restart Krita. If this doesn't work, disable Canvas Graphics Acceleration and please also make a bug report about it.
 
 Krita freezes when saving to PNG or JPEG on OSX or macOS/ I cannot enable OpenGL on my mac
 ------------------------------------------------------------------------------------------
