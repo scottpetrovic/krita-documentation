@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        Overview of Krita navigation.
+        Frequently asked Krita Questions.
 
 .. metadata-placeholder
 
