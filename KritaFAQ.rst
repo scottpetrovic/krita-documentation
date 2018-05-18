@@ -1,10 +1,32 @@
+.. meta::
+   :description:
+        Overview of Krita navigation.
+
+.. metadata-placeholder
+
+   :authors: - Scott Petrovic
+             - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Raghavendra Kamath <raghavendr.raghu@gmail.com>
+             - Boudewijn Rempt <boud@valdyas.org>
+             - Alvin Wong
+             - Dmitry Kazakov
+             - Timothée Giet
+             - Tokiedian
+             - Nmaghfurusman
+   :license: GNU free documentation license 1.3 or later.
+
+.. index:: FAQ, Frequently Asked Questions
 .. _faq:
+.. _KritaFAQ:
+
 
 #########
 Krita FAQ
 #########
 
 This page contains common problems people have with Krita
+
+.. contents::
 
 General
 =======
@@ -25,7 +47,9 @@ This is our vision for the development of Krita:
 
     Developed together with users, Krita is an application that supports
     their actual needs and workflow. Krita supports open standards and
-    interoperates with other applicatio
+    interoperates with other applications
+    
+    
 
 Krita starts with an empty canvas and nothing changes when you try to draw or Krita shows a black or blank screen or Krita crashes when creating a document or Krita's menubar is hidden on a Windows system with an Intel GPU
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -62,8 +86,7 @@ Does Krita have layer clip or clipping mask?
 --------------------------------------------
 
 Krita has no clipping mask, but it has a clipping feature called
-**inherit alpha**. Let's see `**this
-page** <Clipping_Masks_and_Alpha_Inheritance>`__ and learn how to do
+inherit alpha. Let's see :ref:`this page <clipping_masks_and_alpha_inheritance>` and learn how to do
 clipping in Krita!
 
 OBS can't record the Krita openGL canvas
@@ -85,9 +108,12 @@ Where are the configuration files stored?
 These are stored at the following places for the following operating
 systems:
 
-.. raw:: mediawiki
-
-   {{ConfigPath}}
+Linux
+    :file:`$HOME/.config/kritarc`
+Windows
+    :file:`%APPDATA%\Local\kritarc`
+MacOS X
+    :file:`$HOME/Library/Preferences/kritarc`
 
 The kritarc file is the configuration file.
 
@@ -101,18 +127,18 @@ manager)
 Your old 2.9 brushes should be at
 
 Linux
-
-    ``home/.kde/share/krita``
-
+    :file:`home/.kde/share/krita`
 Windows
-
-    ``User\AppData\Roaming\krita\share\apps\krita\``
+    :file:`User\\AppData\\Roaming\\krita\\share\\apps\\krita\\`
 
 For 3.0, these should go to
 
-.. raw:: mediawiki
-
-   {{ResourcePath|}}
+Linux
+    :file:`$HOME/.local/share/krita/`
+Windows
+    :file:`user\\Appdata\\Roaming\\krita\\` or :file:`%APPDATA%\\Roaming\\krita\\`
+OSX
+    :file:`~/Library/Application Support/Krita/`
 
 Just copy the files over!
 
@@ -123,11 +149,12 @@ You can reset the Krita configuration in two ways:
 
 -  For Krita 3.0 and later: Delete/rename the kritarc file, found here:
 
--  
-
-   -  Linux: $HOME/.config/kritarc
-   -  Windows: %LOCALAPPDATA%\\kritarc
-   -  OSX $HOME/Library/Preferences/kritarc
+    Linux
+        :file:`$HOME/.config/kritarc`
+    Windows
+        :file:`%APPDATA%\\Local\\kritarc`
+    MacOS X
+        :file:`$HOME/Library/Preferences/kritarc`
 
 There can be two other files you might want to remove: kritaopenglrc and
 kritadisplayrc.
@@ -219,7 +246,7 @@ How do I export gifs with Krita?
 --------------------------------
 
 Currently, Krita 3.0 doesn't have gif, apng or spritesheet export yet.
-Krita 3.1 does have `Render Animation <Render_Animation>`__.
+Krita 3.1 does have :ref:`render_animation`.
 
 For big projects we recommend exporting your animation as a png
 sequence, and then inputtng that into a video editor.
@@ -227,7 +254,7 @@ sequence, and then inputtng that into a video editor.
 How can I produce a backtrace on Windows?
 -----------------------------------------
 
-*See also: `Dr. Mingw debugger <Dr._Mingw_debugger>`__*
+*See also: :ref:`Dr. Mingw debugger <dr_minw>` *
 
 If you experience a crash on Windows, and can reproduce the crash, the
 bug report will be much more valuable if you can create a backtrace. A
@@ -236,27 +263,22 @@ what set of instructions your computer was running when it was
 crashing(where the crash happened), making it very useful to figure out
 why the crash happened.
 
-For **Krita 3.1 or later**, the `Dr. Mingw
-debugger <Dr._Mingw_debugger>`__ is bundled with Krita. Please visit the
-page `Dr. Mingw debugger <Dr._Mingw_debugger>`__ for instructions on
-getting a backtrace with it.
+.. topic:: For **Krita 3.1 or later**
 
-For **Krita 3.0**, first you need to install DrMingw, which is a debugger application:
+    The :ref:`Dr. Mingw debugger <dr_minw>` is bundled with Krita. Please visit the page :ref:`Dr. Mingw debugger <dr_minw>` for instructions on getting a backtrace with it.
 
-https://github.com/jrfonseca/drmingw
+.. topic:: For **Krita 3.0**
 
-Then you need a special version of Krita, one with debugging
-information. The latest development builds with all the latest bug fixes
-are here:
+    first you need to install DrMingw, which is a debugger application:
 
--  http://files.kde.org/krita/3/windows/debugbuilds/krita3-x64-dbg-latest.zip
--  http://files.kde.org/krita/3/windows/debugbuilds/krita3-x86-dbg-latest.zip
+    https://github.com/jrfonseca/drmingw
 
-You can download the right file, unzip it and double-click on the krita
-link in the unzipped folder. If you now reproduce the crash, Windows
-will ask you whether you want to debug it; answer yes, and DrMingw will
-pop up and after some time show you a lot of text. You can paste that
-into your bug report.
+    Then you need a special version of Krita, one with debugging information. The latest development builds with all the latest bug fixed are here:
+
+    -  http://files.kde.org/krita/3/windows/debugbuilds/krita3-x64-dbg-latest.zip
+    -  http://files.kde.org/krita/3/windows/debugbuilds/krita3-x86-dbg-latest.zip
+
+    You can download the right file, unzip it and double-click on the krita link in the unzipped folder. If you now reproduce the crash, Windows will ask you whether you want to debug it; answer yes, and DrMingw will pop up and after some time show you a lot of text. You can paste that into your bug report.
 
 
 Where can I find older versions of Krita?
@@ -264,9 +286,9 @@ Where can I find older versions of Krita?
 
 All older versions of Krita that are still available can be found here:
 
--  `Krita 3.0.builds <http://files.kde.org/krita/3>`__
--  `Krita 2.x.builds <http://files.kde.org/krita/>`__
--  `Very old builds <http://download.kde.org/stable/krita>`__
+-  `Krita 3.0.builds <http://files.kde.org/krita/3>`_
+-  `Krita 2.x.builds <http://files.kde.org/krita/>`_
+-  `Very old builds <http://download.kde.org/stable/krita>`_
 
 On Windows, the Krita User Interface is too small on my HiDPI screen.
 ---------------------------------------------------------------------
@@ -274,9 +296,9 @@ On Windows, the Krita User Interface is too small on my HiDPI screen.
 If you're using Windows, you can set the display scaling to1 150% or
 200%, and enable the experimental HiDPI support in the config:
 
--  On the menu, select “Settings” -> “Configure Krita”
--  Switch to “Window”
--  Check “Enable Hi-DPI support”
+-  On the menu, select :menuselection:`Settings --> Configure Krita`
+-  Switch to :guilabel:`Window`
+-  Check :guilabel:`Enable Hi-DPI support`
 -  Restart Krita
 
 I'm using MacOS Sierra and Krita won't start
@@ -302,8 +324,7 @@ file manager installed. That comes with some qimageio plugins that are
 completely and utterly broken. Krita's reference images docker scans
 your Pictures folder on startup, and if your Pictures folder. It reads
 the images using Qt's QImageIO class, which loads that Deepin plugin.
-The issue is reported to Deepin
-(https://github.com/linuxdeepin/deepin-image-viewer/issues/2), but the
+`The issue is reported to Deepin <https://github.com/linuxdeepin/deepin-image-viewer/issues/2>`_, but the
 Deepin developers don't seem convinced that it makes sense to check
 whether there are any bytes to read, before reading the bytes.
 
@@ -319,11 +340,11 @@ uc-logic based tablets, on Windows and Linux (look below for more
 information on Huion Linux support). N-Trig tablets should work too, but
 some setting up might be needed. Genius tablets are know to have
 problems. You can find a community curated list of tablets supported by
-krita `here <List_of_Tablets_Supported>`__.
+krita :ref:`here <list_supported_tablets>`.
 
 If you're looking for information about tablets like the iPad or Android
 tablets, look
-`here <KritaFAQ#Can_I_get_Krita_for_iPad.3F_for_Android.3F>`__.
+:ref:`here <krita_android>`_.
 
 What if your tablet is not recognized by Krita?
 -----------------------------------------------
@@ -333,16 +354,16 @@ Linux
 
 We would like to see the full output of the following commands:
 
-#. lsmod
-#. xinput
-#. xinput list-props (id can be fetched from the item 2)
+#. ``lsmod``
+#. ``xinput``
+#. ``xinput list-props`` (id can be fetched from the item 2)
 #. Get the log of the tablet events (if applicable):
 
    #. Open a console application (e.g. Konsole on KDE)
-   #. Set the amount of scrollback to 'unlimited' (for Konsole: Settings
-      → Edit Current Profile → Scrolling → Unlimited Scrollback)
+   #. Set the amount of scrollback to 'unlimited' (for :program:`Konsole`: :menuselection:`Settings
+      --> Edit Current Profile --> Scrolling --> Unlimited Scrollback`)
    #. Start Krita by typing 'krita' and create any document :)
-   #. Press Ctrl+Shift+T, you will see a message box telling the logging
+   #. Press :kbd:`Ctrl + Shift + T`, you will see a message box telling the logging
       is started
    #. Try to reproduce your problem
    #. The console is now filled with the log. Attach it to a bug report
@@ -360,11 +381,11 @@ problems with Windows and your tablet, we cannot help you without a
 tablet log.
 
 #. Install
-   `DebugView <http://technet.microsoft.com/en-us/sysinternals/bb896647.aspx>`__
+   `DebugView <http://technet.microsoft.com/en-us/sysinternals/bb896647.aspx>`_
    from the official Microsoft site
-#. Start DebugView
-#. Start Krita
-#. Press Ctrl+Shift+T, you will see a message box telling the logging is
+#. Start :program:`DebugView`
+#. Start :program:`Krita`
+#. Press :kbd:`Ctrl + Shift + T`, you will see a message box telling the logging is
    started
 #. Try to reproduce your problem
 #. Go back to DebugView and save its output to a file. Attach this file
@@ -402,11 +423,10 @@ To fix it, use the “Wacom Tablet Preference File Utility” to clear all
 the preferences. This should allow Krita to detect the correct settings
 automatically.
 
-(WARNING, this will reset your tablets configuration so you will need to
-recalibrate/reconfigure it).
+.. warning::
+    this will reset your tablets configuration so you will need to recalibrate/reconfigure it.
 
-*For Krita 3.3 or later:* You can try to `enable “Windows 8+ Pointer
-Input” <Tablet_Settings>`__, but some features might not work with it.
+*For Krita 3.3 or later:* You can try to :ref:`enable “Windows 8+ Pointer Input” <tablet_settings>`, but some features might not work with it.
 
 Microsoft Surface Pro and NTrig
 -------------------------------
@@ -443,8 +463,7 @@ or, depending on your distribution:
 
 ``modprobe -r hid-huion``
 
-Then build and install the `correct kernel
-driver <https://github.com/DIGImend/huion-driver>`__.
+Then build and install the `correct kernel driver <https://github.com/DIGImend/huion-driver>`_.
 
 (note that you’ll have to redo those steps after each kernel update,
 until this driver is included in mainline kernel.)
@@ -531,12 +550,14 @@ Is there a way to restore a default brush that I have mistakenly overwritten wit
 
 Yes. First go to the resource folder, which is
 
-.. raw:: mediawiki
+Linux
+    :file:`$HOME/.local/share/krita/`
+Windows
+    :file:`user\\Appdata\\Roaming\\krita\\` or :file:`%APPDATA%\\Roaming\\krita\\`
+OSX
+    :file:`~/Library/Application Support/Krita/`
 
-   {{ResourcePath|}}
-
-You can easily do this by going into settings → manage resources → open
-resource folder.
+You can easily do this by going into :menuselection:`settings --> manage resources --> open resource folder`.
 
 Then go into the paintoppressets folder and remove the latest created
 file that you made of your preset.
@@ -653,10 +674,8 @@ Is there professional support available for Krita?
 --------------------------------------------------
 
 Yes, the Krita Foundation and Boudewijn Rempt Software offer support for
-Krita through the `development
-fund <https://krita.org/support-us/donations/>`__, sponsoring
-opportunities, consultancy and `dedicated development
-contracts <https://krita.org/support-us/commercial/>`__.
+Krita through the `development fund <https://krita.org/support-us/donations/>`_, sponsoring
+opportunities, consultancy and `dedicated development contracts <https://krita.org/support-us/commercial/>`_.
 
 Who and what is Kiki?
 ---------------------
@@ -668,7 +687,7 @@ word for Squirrel.
 Why is Krita Free?
 ------------------
 
-Krita is developed as `free software <http://www.gnu.org/>`__ within the
+Krita is developed as `free software <http://www.gnu.org/>`_ within the
 KDE community. We believe that good tools should be available for all
 artists. You can also buy Krita on the Windows Store if you want to
 support Krita's development or want to have automatic updates to newer
@@ -687,6 +706,9 @@ students in educational institutions.
 If you modify Krita itself, and distribute the result, you have to share
 your modifications with us. Krita’s GNU GPL license guarantees you this
 freedom. Nobody is ever permitted to take it away.
+
+.. _krita_android:
+.. _krita_ios:
 
 Can I get Krita for iPad? for Android?
 --------------------------------------
@@ -748,11 +770,10 @@ week.
 
 If you find signing up to KDE’s bugzilla too much of a bother, or aren’t
 sure you found a real bug, don’t hesitate, and drop by on the
-`forum <https://forum.kde.org/viewforum.php?f=136>`__ or on
-`IRC <https://krita.org/irc/>`__.
+`forum <https://forum.kde.org/viewforum.php?f=136>`_ or on
+`IRC <https://krita.org/irc/>`_.
 
-Starting with Krita 3.1, we will have the `Dr. Mingw
-debugger <Dr._Mingw_debugger>`__ built into Krita. Check out the
+Starting with Krita 3.1, we will have the :ref:`Dr. Mingw debugger <dr_minw>` built into Krita. Check out the
 instructions for debbugging with it.
 
 Can I join the fun?
@@ -762,8 +783,7 @@ Yes.The best thing you can do is use and enjoy Krita! Learn to use Krita
 and teach others. Create tutorials and sample files, create artwork to
 show off what Krita can do and spread the good word. And if you want to
 be more directly involved, well, I didn’t know any C++ when I started
-hacking on Krita and I managed. You can do it, too! Check the `Join
-Krita page <https://krita.org/get-involved/overview/>`__ for more
+hacking on Krita and I managed. You can do it, too! Check the `Join Krita page <https://krita.org/get-involved/overview/>`_ for more
 information.
 
 And if you don’t feel like hacking C++ — well, there’s the manual that
