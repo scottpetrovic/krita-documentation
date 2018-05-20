@@ -1,0 +1,456 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../user_manual/japanese_animation_template.rst:16
+msgid "Japanese Animation Template"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:19
+msgid ""
+"This template is used to make Japanese-style animation. It is designed on"
+" the assumption that it was used in co-production, so please customize "
+"its things like layer folders according to scale and details of your "
+"works."
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:25
+msgid "Basic structure of its layers"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:27
+msgid ""
+"Layers are organized so that your work will start from lower layers go to"
+" higher layers, except for coloring layers."
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:31
+msgid ".. image:: images/en/Layer_Organization.png"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:33
+msgid "Its layer contents"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:35
+msgid "from the bottom"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:37
+msgid ""
+"**Layout Paper**: These layers are a form of layout paper. Anime tap "
+"holes are prepared on separate layers in case you have to print it out "
+"and drawing undigitally."
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:40
+msgid ""
+"**Layout (Background)**: These layers will contain background scenaries "
+"or layouts which are scanned from undigital drawing. If you don't use "
+"them, you can remove them."
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:43
+msgid "**Key's drafts**: These layers are used to draw layouts digitally."
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:44
+msgid ""
+"**Keys**: Where you add some details to the layouts and arrange them to "
+"draw “keys” of animation."
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:46
+msgid ""
+"**Inbetweening**: Where you add inbetweenings to keys for the process of "
+"coloring, and remove unnecessary details to finalize keys (To be "
+"accurate, I finish finalization of keys before beginning to add "
+"inbetweenings)"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:50
+msgid ""
+"**Coloring**: (under Inbetweening): Where you fill areas with colors "
+"according to specification of inbetweenings."
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:52
+msgid ""
+"**Time Sheet and Composition sheet**: It contains a time sheet and "
+"composition sheet. Please rotate them before using."
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:54
+msgid ""
+"**Color set**: It contains colors used to draw main and auxiliary lineart"
+" and fill highlight or shadows. You can add them to palette."
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:58
+msgid "Basic steps to make animation"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:60
+msgid ""
+"Key's draft -> assign them into Time sheet (or adjust them on Timeline, "
+"then assign them into Time sheet) -> adjust them on Timeline -> add "
+"frames to draw drafts for inbetweening if you need them ->Start drawing "
+"Keys"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:66
+msgid ".. image:: images/en/Keys_drafts.png"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:67
+msgid "You can add layers and add them to timeline."
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:70
+msgid ".. image:: images/en/Add_Timeline_1.png"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:72
+msgid ".. image:: images/en/Add_Timeline_2.png"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:73
+msgid ""
+"This is difference between 24 drawing per second, which is used in Full "
+"Animation, and 12 drawing per second and 8 drawings per second, which are"
+" used in Limited Animation, on Timeline docker"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:79
+msgid ".. image:: images/en/24_12_and_8_drawing_per_sec.png"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:80
+msgid ""
+"This is correspondence between Timeline and Time sheet. “Black” layer is "
+"to draw main linearts which are used ordinary lineart, “Red” layer is to "
+"draw red auxiliary linearts which are used to specify highlights, “Blue” "
+"layer is to draw blue auxiliary linearts which are used to specify "
+"shadows, and “Shadow” layer is to draw light green auxiliary linearts "
+"which are used to specify darker shadows and other stuff. However, "
+"probably you have to increase or decrease these layers according to your "
+"work."
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:90
+msgid ".. image:: images/en/Time_sheet_1.png"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:91
+msgid ""
+"Finished keys, you will begin to draw inbetweening. If you feel krita is "
+"slightly laggy, I recommend you to marge key's drafts and keys and remove"
+" unnecessary layers"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:95
+msgid ""
+"After finalizing keys and cleaning up unnecessary stuff, add "
+"inbetweenings, using Time sheet and inbetweening drafts as reference."
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:98
+msgid "This is its correspondence with Time sheet"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:101
+msgid ".. image:: images/en/Inbetweening.png"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:102
+msgid ""
+"If vector function of krita become better, I recommend you to use vector "
+"to finalize inbetweening."
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:105
+msgid ""
+"If you do coloring in krita, please use Coloring group layer. If you do "
+"coloring in other software, I recommend to export frames as .TGA files."
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:109
+msgid "Resolution"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:111
+msgid ""
+"I make this template in 300 dpi because we have to print them to use them"
+" in undigital works which still fill an important roles in Japanese Anime"
+" Studio. However, if you stick to digital, 150-120 dpi is enough to make "
+"animation. So you can decrease its resolution according to your need."
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:117
+msgid ""
+"Originally written by Saisho Kazuki, Japanese professional animator, and "
+"translated by Tokiedian, KDE contributor."
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:122
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:124
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:126
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:128
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:130
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:132
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:134
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:136
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:138
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:140
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:142
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:144
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:146
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:148
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:150
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:152
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:154
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:156
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:158
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:160
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:162
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:164
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:166
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:168
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:170
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:172
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:174
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:176
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:178
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:180
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:182
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:184
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:186
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:188
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:190
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:192
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:194
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:196
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:198
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:200
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../user_manual/japanese_animation_template.rst:202
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

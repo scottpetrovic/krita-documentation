@@ -1,0 +1,544 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/tools/shape_selection.rst:16
+msgid "Shape Selection Tool"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:18
+msgid "|toolshapeselection|"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:120
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:20
+msgid ""
+"The shape selection tool used to be called the \"default\" tool. This had"
+" to do with Krita being part of an office suit once upon a time. But this"
+" is no longer the case, so we renamed it to its purpose in Krita: "
+"Selecting shapes! This tool only works on vector layers, so trying to use"
+" it on a paint layer will give a notification."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:22
+msgid ""
+"After you create vector shapes, you can use this tool to select, "
+"transform, and access the shape's options in the tool options docker. "
+"There are a lot of different properties and things you can do with each "
+"vector shape."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:25
+msgid "Selection"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:27
+msgid ""
+"Selecting shapes works as follows. You can click on a shape to select a "
+"single shape. You can select multiple shapes with click drag."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:29
+msgid ""
+"There's two types of drag action, a *blue* one and a *green* one. The "
+"blue one is created by dragging from left to right, and will only select "
+"shapes that are fully covered by it. The green selection is created from "
+"right to left and will select all shapes it touches."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:32
+msgid "Rotating, Moving, Scaling, Skewing"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:34
+msgid ""
+"Once an object is selected, a dashed box will appear around the object. "
+"There are handles that you can pull and stretch the box to scale it. If "
+"you move your cursor just outside the corner handles you can rotate the "
+"object."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:37
+msgid "Tool Options"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:40
+msgid ".. image:: images/en/Vector-tool-options.png"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:41
+msgid ""
+"The tool options of this menu are quite involved, and separated over 3 "
+"tabs."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:44
+msgid "Geometry"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:46
+msgid ""
+"Geometry is the first section. It allows you to precisely set the x, y, "
+"width and height."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:48
+msgid "Anchor Lock"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:49
+msgid "This is not implemented at the moment."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:50
+msgid "Uniform scaling"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:51
+msgid ""
+"When enabled, it will scale the stroke width with the shape, when not "
+"enabled, the stroke with will stay the same."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:52
+msgid "Global coordinates"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:53
+msgid ""
+"Determines whether the width and height bars use the width and height of "
+"the object, while taking transforms into account."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:55
+msgid "Opacity"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:55
+msgid "The general opacity, or transparency, of the object."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:58
+msgid "Stroke"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:60
+msgid "The stroke tab determines how stroke around the object should look."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:62
+msgid ""
+"The first set of buttons to choose is the fill of the stroke. This has "
+"the same features as the fill of the shape, so scroll down a bit for "
+"details on that."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:64
+msgid "Then, there's the settings for the stroke style."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:66
+msgid "Thickness"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:67
+msgid ""
+"The width of the stroke is determined by this entry. When creating a "
+"shape, Krita will use the current brush size to determine the width of "
+"the stroke."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:68
+msgid "Cap and corner style"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:69
+msgid ""
+"If you press the button after the thickness entry, you will be able to "
+"set the stroke cap and the stroke corner style."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:70
+msgid "Line-style"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:71
+msgid "Determines whether the stroke is solid or uses dashes and dots."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:73
+msgid "Markers"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:73
+msgid ""
+"Which markers can be added to the stroke. Markers are little figures that"
+" will appear at the start, end or all the nodes in between depending on "
+"your configuration."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:76
+msgid "Fill"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:78
+msgid ""
+"The fill of the shape. As this has the same features as the fill of the "
+"stroke, this is explained here as well."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:80
+msgid ""
+"A fill can be a flat color, a gradient or a pattern. Or it can be "
+"nothing(transparent)"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:82
+msgid "None"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:83
+msgid "No fill. It's transparent."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:84
+msgid "Color"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:85
+msgid "A flat color, you can select a new one by pressing the color button."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:97
+msgid "Gradient"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:87
+msgid "This one has a few more options."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:89
+msgid "Type"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:90
+msgid "A linear or radial gradient."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:91
+msgid "Repeat"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:92
+msgid "How the gradient repeats itself."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:94
+msgid "Preset"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:94
+msgid "A quick menu for choosing a base gradient to edit."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:96
+msgid ""
+"You can edit the gradient in two ways. The first one is the actual "
+"gradient in the docker that you can manipulate. Vectors always use stop-"
+"gradients. The other way to edit gradients is editing their position on "
+"canvas."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:100
+msgid "Patterns"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:100
+msgid "Patterns aren't implemented yet."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:103
+msgid "Rightclick menu"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:105
+msgid ""
+"The shape selection tool has a nice right click menu that gives you "
+"several features. If you have an object selected, you can perform various"
+" functions like cutting, copying, or moving the object to the front or "
+"back."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:108
+msgid ".. image:: images/en/Vector-right-click-menu.png"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:109
+msgid ""
+"If you have multiple objects selected you can perform \"Logical "
+"Operators\" on them, or boolean operations as they are commonly called. "
+"It will be the last item on the right-click menu. You can combine, "
+"subtract, intersect, or split the objects."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:112
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:114
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:116
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:118
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:122
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:124
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:126
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:128
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:130
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:132
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:134
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:136
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:138
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:140
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:142
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:144
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:146
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:148
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:150
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:152
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:154
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:156
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:158
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:160
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:162
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:164
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:166
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:168
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:170
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:172
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:174
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:176
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:178
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:180
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:182
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:184
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:186
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:188
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:190
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_selection.rst:192
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

@@ -1,0 +1,541 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:16
+msgid "Gamma and Linear"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:18
+msgid ""
+"Now, the situation we talk about when talking theory is what we would "
+"call 'linear'. Each step of brightness is the same value. Our eyes do not"
+" perceive linearly. Rather, we find it more easy to distinguish between "
+"darker greys than we do between lighter greys."
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:21
+msgid ""
+"As humans are the ones using computers, we have made it so that computers"
+" will give more room to darker values in the coordinate system of the "
+"image. We call this 'gamma-encoding', because it is applying a gamma "
+"function to the TRC or transfer function of an image. The TRC in this "
+"case being the Tone Response Curve or Tone Reproduction Curve or Transfer"
+" function(because color management specialists hate themselves), which "
+"tells your computer or printer how much color corresponds to a certain "
+"value."
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:27
+msgid ".. image:: images/en/color_category/Pepper_tonecurves.png"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:27
+msgid ""
+"One of the most common issues people have with Krita's color management "
+"is the assigning of the right colorspace to the encoded TRC. Above, the "
+"center Pepper is the right one, where the encoded and assigned TRC are "
+"the same. To the left we have a Pepper encoded in sRGB, but assigned a "
+"linear profile, and to the right we have a Pepper encoded with a linear "
+"TRC and assigned a sRGB TRC. Image from `Pepper & Carrot "
+"<http://www.peppercarrot.com/>`_"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:29
+msgid ""
+"The following table shows how there's a lot of space being used by "
+"lighter values in a linear space compared to the default sRGB trc of our "
+"modern computers and other TRCs available in our delivered profiles:"
+msgstr ""
+
+msgid ".. image:: images/en/color_category/trc_gray_gradients.svg"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:34
+msgid ""
+"If you look at linear of rec 709 TRCs, you can see there's quite a jump "
+"between the darker shades and the lighter shades, while if we look at the"
+" Lab L* TRC or the sRGB TRC, which seem more evenly spaced. This is due "
+"to our eyes' sensitivity to darker values. This also means that if you do"
+" not have enough bit depth, an image in a linear space will look as if it"
+" has ugly banding. Hence why, when we make images for viewing on a "
+"screen, we always use something like the LAB L\\*, sRGB or Gamma 2.2 TRCs"
+" to encode the image with."
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:37
+msgid ""
+"However, this modification to give more space to darker values does lead "
+"to wonky color maths when mixing the colors."
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:39
+msgid "We can see this with the following experiment:"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:45
+msgid ""
+".. image:: "
+"images/en/color_category/Krita_2_9_colormanagement_blending_1.png"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:45
+msgid ""
+"**Left:** Colored circles blurred in a regular sRGB space. **Right:** "
+"Colored circles blurred in a linear space."
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:47
+msgid ""
+"Colored circles, half blurred. In a gamma-corrected environment, this "
+"gives an odd black border. In a linear environment, this gives us a nice "
+"gradation."
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:49
+msgid "This also counts for Krita's colour smudge brush:"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:55
+msgid ""
+".. image:: "
+"images/en/color_category/Krita_2_9_colormanagement_blending_2.png"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:55
+msgid ""
+"That's right, the 'muddying' of colours as is a common complaint by "
+"digital painters everywhere, is in fact, a gamma-corrected colourspace "
+"mucking up your colours. If you had been working in LAB to avoid this, be"
+" sure to try out a linear rgb colour space."
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:58
+msgid "What is happening under the hood"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:61
+msgid "Imagine we want to mix red and green."
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:63
+msgid ""
+"First, we would need the color coordinates of red and green inside our "
+"colour space's color model. So, that'd be..."
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:66
+msgid "Color"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:66
+#: ../../general_concepts/colors/linear_and_gamma.rst:68
+#: ../../general_concepts/colors/linear_and_gamma.rst:75
+#: ../../general_concepts/colors/linear_and_gamma.rst:77
+msgid "Red"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:66
+#: ../../general_concepts/colors/linear_and_gamma.rst:69
+#: ../../general_concepts/colors/linear_and_gamma.rst:75
+#: ../../general_concepts/colors/linear_and_gamma.rst:79
+msgid "Green"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:66
+#: ../../general_concepts/colors/linear_and_gamma.rst:81
+msgid "Blue"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:68
+#: ../../general_concepts/colors/linear_and_gamma.rst:69
+#: ../../general_concepts/colors/linear_and_gamma.rst:77
+#: ../../general_concepts/colors/linear_and_gamma.rst:79
+msgid "1.0"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:68
+#: ../../general_concepts/colors/linear_and_gamma.rst:69
+#: ../../general_concepts/colors/linear_and_gamma.rst:77
+#: ../../general_concepts/colors/linear_and_gamma.rst:79
+#: ../../general_concepts/colors/linear_and_gamma.rst:81
+msgid "0.0"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:72
+msgid "We then avarage these coordinates over three mixes:"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:75
+msgid "Mix1"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:75
+msgid "Mix2"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:75
+msgid "Mix3"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:77
+#: ../../general_concepts/colors/linear_and_gamma.rst:79
+msgid "0.75"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:77
+#: ../../general_concepts/colors/linear_and_gamma.rst:79
+msgid "0.5"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:77
+#: ../../general_concepts/colors/linear_and_gamma.rst:79
+msgid "0.25"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:84
+msgid ""
+"But to figure out how these colours look on screen, we first put the "
+"indvidual values through the TRC of the color-space we're working with:"
+msgstr ""
+
+msgid ".. image:: images/en/color_category/Basicreading3trcsv2.svg"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:92
+msgid ""
+"Then we fill in the values into the correct spot. Compare these to the "
+"values of the mixture table above!"
+msgstr ""
+
+msgid ".. image:: images/en/color_category/red_green_mixes_trc.svg"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:98
+msgid ""
+"And this is why colour mixtures are lighter and softer in linear space. "
+"Linear space is more physically correct, but sRGB is more efficient in "
+"terms of space, so hence why many images have an sRGB TRC encoded into "
+"them. In case this still doesn't make sense: *sRGB gives largely* "
+"**darker** *values than linear space for the same coordinates.*"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:101
+msgid ""
+"So different TRCs give different mixes between colors, in the following "
+"example, every set of gradients is in order a mix using linear trc, a mix"
+" using srgb trc and a mix using lab L* trc."
+msgstr ""
+
+msgid ".. image:: images/en/color_category/3trcsresult.png"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:109
+msgid ""
+"So, you might be asking, how do I tick this option? Is it in the settings"
+" somewhere? The answer is that we have several icc profiles that can be "
+"used for this kind of work:"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:111
+msgid "scRGB (linear)"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:112
+msgid "All 'elle'-profiles ending in 'g10', such as *sRGB-elle-v2-g10.icc*."
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:114
+msgid ""
+"In fact, in all the 'elle'-profiles, the last number indicates the gamma."
+" 1.0 is linear, higher is gamma-corrected and 'srgbtrc' is a special "
+"gamma correction for the original sRGB profile."
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:116
+msgid ""
+"If you use the color space browser, you can tell the TRC from the "
+"'estimated gamma'(if it's 1.0, it's linear), or from the TRC widget in "
+"Krita 3.0, which looks exactly like the curve graphs above."
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:118
+msgid ""
+"Even if you do not paint much, but are for example making textures for a "
+"videogame or rendering, using a linear space is very beneficial and will "
+"speed up the renderer a little, for it won't have to convert images on "
+"it's own."
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:120
+msgid ""
+"The downside of linear space is of course that white seems very "
+"overpowered when mixing with black, because in a linear space, light "
+"greys get more room. In the end, while linear space is physically "
+"correct, and a boon to work in when you are dealing with physically "
+"correct renderers for videogames and raytracing, Krita is a tool and no-"
+"one will hunt you down for preferring the dark mixing of the sRGB trc."
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:124
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:126
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:128
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:130
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:132
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:134
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:136
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:138
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:140
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:142
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:144
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:146
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:148
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:150
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:152
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:154
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:156
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:158
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:160
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:162
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:164
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:166
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:168
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:170
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:172
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:174
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:176
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:178
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:180
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:182
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:184
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:186
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:188
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:190
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:192
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:194
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:196
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:198
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:200
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:202
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../general_concepts/colors/linear_and_gamma.rst:204
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

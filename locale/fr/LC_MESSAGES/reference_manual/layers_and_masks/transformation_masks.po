@@ -1,0 +1,328 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:15
+msgid "Transformation Masks"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:17
+msgid ""
+"Rather than working with a brush to affect the mask, transformation masks"
+" allow you to transform (move, rotate, shear, scale and perspective) a "
+"layer without applying the transform directly to the paint layer and "
+"making it permanent."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:19
+msgid ""
+"In the same way that Filter and Transparency Masks can be attached to a "
+"Paint layer and are non-destructive, so too can the Transformation Mask."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:22
+msgid "Adding a Transformation Mask"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:24
+msgid "First add a transform mask to an existing layer."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:25
+msgid "Select the transformation tool."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:26
+msgid ""
+"Select any of the transform modes in the Tools Options dock and, with the"
+" transform mask selected, apply them on the layer."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:27
+msgid "Hit apply."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:28
+msgid ""
+"Toggle the transform visibility to see the difference between the "
+"original and the transform applied."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:32
+msgid ""
+"Affine transforms, like Move, Rotate, Shear, Scale and Perspective get "
+"updated instantly once the original is updated. Other transforms like "
+"Warp, Cage and Liquefy take up much more processing power, and to not to "
+"waste that, Krita only updates those every three seconds."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:34
+msgid ""
+"To edit a transform, select the transform mask, and try to use the "
+"transform tool on the layer. The transform mode will be the same as the "
+"stored transform, regardless of what transform you had selected. If you "
+"switch transform modes, the transformation will be undone."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:37
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:39
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:41
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:43
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:45
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:47
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:49
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:51
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:53
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:55
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:57
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:59
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:61
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:63
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:65
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:67
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:69
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:71
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:73
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:75
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:77
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:79
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:81
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:83
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:85
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:87
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:89
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:91
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:93
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:95
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:97
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:99
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:101
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:103
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:105
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:107
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:109
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:111
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:113
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:115
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/transformation_masks.rst:117
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

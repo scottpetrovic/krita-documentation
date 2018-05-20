@@ -1,0 +1,647 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../general_concepts/colors/color_mixing.rst:17
+msgid "Mixing Colors"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:19
+msgid ""
+"Much like physical media, there are many ways to mix colors together in "
+"Krita. Traditional painters and illustrators often use techniques like "
+"**glazing**, **scumbling**, and **hatching** to mix colors directly on "
+"their canvas, on top of mixing colors together on a **palette** or even "
+"within the hairs of their **brush**. With a little bit of practice and "
+"know-how, and thanks to the variety of powerful tools in Krita, we can "
+"mimic all of these mixing techniques in digital painting."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:21
+msgid ""
+"In both traditional and digital painting, mixing techniques can be "
+"divided into *two major categories*: let's call them **\"on-canvas\"** "
+"and **\"off-canvas\"**."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:24
+msgid "On-Canvas Mixing"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:26
+msgid ""
+"On-canvas mixing techniques are ones where multiple colors are combined "
+"directly on the canvas as the artist paints. This takes a few forms, "
+"including **layering semi-transparent color** on top of another color, "
+"using **texture** to change how a color is perceived, or even in the "
+"interaction between two areas of wet paint in traditional media. Bottom "
+"line: on-canvas mixing happens right on the canvas and is a great tool "
+"for artistic exploration and \"happy accidents\"."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:29
+msgid "Glazing"
+msgstr ""
+
+msgid ".. image:: images/en/color_category/Color_gloss.gif"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:35
+msgid ""
+"In traditional painting, **glazing** is overlaying many different semi-"
+"transparent layers to create on-canvas color mixtures. Likewise, in "
+"digital painting we can also use glazing to mix colors directly on our "
+"canvas. This is one of the most fundamental and commonly used mixing "
+"techniques in digital painting."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:37
+msgid ""
+"We first lay down a semi-transparent layer on top of another color that "
+"we intend to mix with. Then, we pick the **resultant color** with "
+":kbd:`ctrl` + |mouseleft| (this can be configured in the canvas input "
+"settings), and paint with that. Depending on our brush's **opacity "
+"setting**, each time we glaze one color over another we will get a color "
+"that is somewhere between those two colors, often leading to a nice "
+"mixture."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:160
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:39
+msgid ""
+"We can mix even more easily with glazing when we set our brush's **flow**"
+" to a lower setting. Subtly different than opacity, :ref:`flow "
+"<option_opacity_n_flow>` is transparency per dab instead of stroke, and "
+"so it gives us softer strokes without giving up control."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:41
+msgid ""
+"Furthermore, we can combine glazing with various **blending modes** to "
+"achieve different, interesting effects. For example, glazing with the "
+"**multiply** blending mode to create nice shadows:"
+msgstr ""
+
+msgid ".. image:: images/en/color_category/Color_gloss_example_1.png"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:46
+msgid "Staring with line art and base colors."
+msgstr ""
+
+msgid ".. image:: images/en/color_category/Color_gloss_example_2.png"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:51
+msgid ""
+"Using a semi-transparent brush that's set to multiply, we can add colored"
+" layers to suggest shadows and mid-tones. The multiply blending mode will"
+" darken and interact with each base color differently."
+msgstr ""
+
+msgid ".. image:: images/en/color_category/Color_gloss_example_3.png"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:56
+msgid ""
+"Then, using a brush with low flow (~0.30), we can pick the resulting "
+"colors and lay down more layers. Not only does this help you define the "
+"different planes and forms that are so crucial for creating a sense of "
+"depth and three-dimensionality, it also gives quite a nice, painterly "
+"effect!"
+msgstr ""
+
+msgid ".. image:: images/en/color_category/Color_gloss_example_4.png"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:62
+msgid ""
+"Continue with a lower opacity and flow to create even smoother gradients."
+" Make your **edges** as sharp or smooth as your subject matter and art "
+"style demands!"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:65
+msgid "Smudging"
+msgstr ""
+
+msgid ".. image:: images/en/color_category/Color_mix.gif"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:71
+msgid ""
+"**Smudge mixing** is done with the :ref:`color_smudge_brush_engine`, a "
+"special brush engine that allows you to mix your current brush color with"
+" the color(s) under the brush. It's a very powerful type of brush that "
+"gives a lovely painterly effect. *Performance wise, it's a bit more "
+"demanding and slower than the regular pixel brush.*"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:73
+msgid ""
+"If you *remove all paint from a smudge brush*, you get a simple-yet-"
+"powerful smudge effect:"
+msgstr ""
+
+msgid ".. image:: images/en/color_category/Color_smudge.gif"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:79
+msgid ""
+"Different smudge brushes have different effects, so be sure to try them "
+"all out!"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:82
+msgid "Scumbling"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:84
+msgid ""
+"**Scumbling** is similar to glazing, except instead of having a semi-"
+"opaque layer, we use layers of **textured** or **patterned** paint."
+msgstr ""
+
+msgid ".. image:: images/en/color_category/Color_scumble2.gif"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:89
+msgid ""
+"Like most painting programs, Krita allow you to pick a "
+":ref:`option_brush_tip`, which can be used to create a textured effect "
+"like that of scumbling."
+msgstr ""
+
+msgid ".. image:: images/en/color_category/Color_scumble.gif"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:95
+msgid ""
+"Krita's brush engines also allows you to use :ref:`option_texture`. This "
+"allows you to create interesting and stylized screentone-like effects."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:97
+msgid ""
+"With glazing can get you pretty far when it comes to *defining planes and"
+" forms*, scumbling is the best method to *create texture and to break up "
+"big pasty flats* in your painting."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:100
+msgid "Off-Canvas Mixing"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:102
+msgid ""
+"**Off-canvas** mixing has basically always been a core tool for artists "
+"everywhere; when we think of the stereotypical artist we might imagine "
+"someone with a few **brushes** in one hand and a wooden **palette** in "
+"the other. Whether it's oils, watercolor, or other traditional media, for"
+" the artist to have absolute control over their colors it's crucial to "
+"have some kind of palette, plate, jar, or other **off-canvas area** to "
+"mix colors together. While it's easy to overlook this in digital painting"
+" (where selecting fresh new colors without mixing at all is both easy and"
+" free*), Krita has a few very useful and unique features for off-canvas "
+"mixing."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:105
+msgid "Color Picker Blending"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:109
+msgid ""
+"Krita, like almost every art and graphics program, has a "
+":ref:`color_picker_tool` which allows you to very quickly sample a color "
+"from any pixel on your canvas. While this tool may seem relatively simple"
+" and humble, it is also one of the most important and commonly used tools"
+" in the digital artist's toolbox - perhaps only second to the brush! In "
+"fact, the color picker tool is at the very heart of mixing colors, and is"
+" often used in combination with on-canvas techniques like glazing and "
+"scumbling to produce smooth blends of color."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:111
+msgid ""
+"And still, there is more to this little tool than meets the eye! Not only"
+" can you configure Krita's color picker to sample from the average color "
+"of a **radius** of pixels, Krita's Color Picker also has a unique "
+"**blending** feature: a powerful and intuitive tool for off-canvas color "
+"mixing!"
+msgstr ""
+
+msgid ".. image:: images/en/color_category/Krita_cpb_mixing.gif"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:117
+msgid ""
+"The Color Picker Blending feature changes the way that picking colors has"
+" traditionally worked for decades; instead of completely replacing your "
+"current brush color with the newly sampled color, *blending allows you to"
+" quickly \"soak up\" some portion of the sampled color*, which is then "
+"mixed with your current brush color."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:119
+msgid ""
+"You can use Color Picker Blending much like a physical paint brush in "
+"traditional media. If you were to dip your paint brush into a pool of "
+"*blue* paint, and then immediately dip again into a pool of *red* paint "
+"and paint a stoke across your canvas, the stoke wouldn't be pure red - it"
+" would be some combination of blue and red which would mix to create an "
+"intermediate purple color. Which shade of purple would depend on the "
+"ratio of paints that mix together within the hairs of your brush, and "
+"this is essentially what the Color Picker's \"blend\" option controls: "
+"what percentage of sampled color is mixed together with your current "
+"brush color!"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:121
+msgid ""
+"Not only does Krita's Color Picker Blending feel even more like mixing "
+"paints, it is also completely off-canvas and independent of opacity, "
+"flow, shape, and other brush settings. Furthermore, unlike most on-canvas"
+" mixing techniques, Color Picker Blending works regardless of the "
+"location of colors on your canvas - enabling your to mix with colors at "
+"any position, on any layer, or even in different documents! Quickly mix "
+"lighting colors with local colors, mix the ambient sky color into "
+"shadows, create atmospheric depth, mix from a preselected palette of "
+"colors in another layer/document, etc."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:123
+msgid ""
+"To use Color Picker Blending, simply set the \"blend\" option in the "
+"**Tool Options Docker** while the Color Picker Tool is active; setting "
+"blend to 100% will cause your Color Picker to work in the traditional way"
+" (completely replacing your brush color with the picked color), setting "
+"to around 50% will give you a half-way mix between colors, and setting to"
+" a lower value will create more subtle shifts in colors each click. Of "
+"course, blending affects both your dedicated Color Picker Tool as well as"
+" the :kbd:`ctrl +` |mouseleft| shortcut."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:127
+msgid ""
+"Clicking and dragging the Color Picker around the canvas currently causes"
+" it to sample many times as it switches pixels. You can use this trait to"
+" quickly soak up more color by \"dipping\" your color picker into a color"
+" and swirling it around. This can be pretty satisfying! However, this "
+"also means that some care must be taken to prevent from accidentally "
+"picking up more color than you want. It's pretty easy to click a single "
+"pixel only one time using a **mouse**, but when painting with a **drawing"
+" tablet and pen** it can sometimes be desirable to use a slightly lower "
+"blend setting!"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:130
+msgid "The Digital Colors Mixer"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:132
+msgid ""
+"Somewhat hidden away in the **Dockers** menu (:menuselection:`Settings "
+"--> Dockers --> Digital Colors Mixer`), this can be a useful tool for "
+"off-canvas mixing. The Digital Colors Mixer looks a little bit like an "
+"audio mixing board that you'd see in a recording studio, but instead of "
+"mixing music it mixes colors! It contains 6 independent **color mixers** "
+"that mix your current brush color with any color of your choosing."
+msgstr ""
+
+msgid ".. image:: images/en/color_category/Digi_colormixer.png"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:138
+msgid ""
+"By clicking the **color buttons** below each mixer you can choose a "
+"palette of colors to mix with. Above each mixer is a **color patch** that"
+" will produce a color that mixes some amount of your current brush color "
+"with the palette color. Colors towards the top of the mixer will deliver "
+"subtle changes to your current color, while colors towards the bottom "
+"will be much closer to the palette color of that channel."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:141
+msgid "Other Tips"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:143
+msgid ""
+"**Q*:** \"What a waste of time! This is digital painting! Why should I "
+"bother mixing colors at all!?\" - *Strawman* Joe."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:145
+msgid ""
+"**A:** There's some truth to this; traditional painters often have a "
+"starting palette that's limited by the tubes/pans of paints that they "
+"own, which is further limited by availability and cost of paint. For "
+"digital painters, on the other hand, it's quick, easy, and totally free "
+"to click on Krita's **Advanced Color Selector** to pull up any color in "
+"your current color space. So why mix at all?"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:147
+msgid ""
+"Well... Because working within a limited palette and mixing almost always"
+" gives you *\"better colors\"*! Don't get me wrong - it's not that one "
+"color is inherently and objectively better than another. While there is "
+"certainly a time and place for bright and vivid illustration styles with "
+"lots of strong and saturated colors, mixing from a more limited palette "
+"results in *colors with depth, subtlety, and harmony* and helps artists "
+"to achieve a **color scheme**. Not only does painting with a color scheme"
+" help to get rid of dreaded \"choice paralysis\", it also sometimes helps"
+" to imbue your artwork with the sense of *emotion and intentionality* "
+"that we often admire in other great works of art."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:149
+msgid ""
+"So, next time you need to paint some *gray*, instead of reaching for a "
+"random or generic gray from the Advanced Color Selector, consider using "
+"one of Krita's many wonderful mixing tools to *create an interesting and "
+"fitting gray* from hues that are roughly **complementary** (opposite each"
+" other on the color wheel)."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:153
+msgid ""
+"While on-canvas and off-canvas techniques are fundamentally different "
+"categories of mixing colors, they are **not** mutually exclusive at all! "
+"All of the mixing methods in this article have pros and cons; different "
+"tools can be useful for different situations, and combining various "
+"techniques can be extremely powerful and fun!"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:157
+msgid ""
+"Finally, mixing colors will often go far better in a :ref:`higher bit-"
+"depth like 16bit <bit_depth>`, though it'll make the image take up much "
+"more working **memory** (RAM). Furthermore, using a :ref:`linear color "
+"space <linear_and_gamma>` can often give far better mixtures than a "
+"**gamma-corrected** one, though doing sketches and line art is easier to "
+"do in a gamma-corrected space."
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:162
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:164
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:166
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:168
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:170
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:172
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:174
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:176
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:178
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:180
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:182
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:184
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:186
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:188
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:190
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:192
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:194
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:196
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:198
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:200
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:202
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:204
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:206
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:208
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:210
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:212
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:214
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:216
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:218
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:220
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:222
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:224
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:226
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:228
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:230
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:232
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:234
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:236
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:238
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../general_concepts/colors/color_mixing.rst:240
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

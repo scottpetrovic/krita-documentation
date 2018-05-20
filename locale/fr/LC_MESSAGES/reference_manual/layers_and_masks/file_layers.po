@@ -1,0 +1,337 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:16
+msgid "File Layers"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:18
+msgid ""
+"File Layers are references to files outside of the document: If the "
+"referenced document updates, the file layer will update. Do not remove "
+"the original file on your computer once you add it to Krita. Deleting "
+"your original image will break the file layer. If Krita cannot find the "
+"original file, it'll ask you where to find it. File layers cannot display"
+" animations."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:20
+msgid "File Layers have the following scaling options:"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:22
+msgid "No Scaling"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:23
+msgid "This'll import the file layer with the full pixel-size."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:24
+msgid "Scale to Image Size"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:25
+msgid ""
+"Scales the file layer to fit exactly within the canvas boundaries of the "
+"image."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:27
+msgid "Adapt to image resolution"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:27
+msgid ""
+"If the imported layer and the image have a different resolution, it'll "
+"scale the filelayer by scaling it's resolution. In other words, import a "
+"600dpi A4 image onto a 300dpi A4 image, and the filelayer will be scaled "
+"to fit precisely on the 300dpi image. Useful for comics, where the ink-"
+"layer is prefered to be at a higher resolution than the colors."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:29
+msgid ""
+"File Layers can currently not be painted on. If you want to transform a "
+"file layer, you need to apply a transformation mask to it and use that."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:33
+msgid ""
+"In the layerdocker, next to the file layer only, there's a little folder "
+"icon. Pressing that will open the file pointed at in Krita if it hadn't "
+"yet. Using the properties you can make the file layer point to a "
+"different file."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:37
+msgid ""
+"You can turn any set of layers into a file layer by rightclicking them "
+"and doing :menuselection:`convert --> convert to file layer`. It will "
+"then open a save prompt for the file location and when done will save the"
+" file and replace the layer with a file layer pointing at that file."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:40
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:42
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:44
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:46
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:48
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:50
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:52
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:54
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:56
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:58
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:60
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:62
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:64
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:66
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:68
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:70
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:72
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:74
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:76
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:78
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:80
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:82
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:84
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:86
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:88
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:90
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:92
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:94
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:96
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:98
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:100
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:102
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:104
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:106
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:108
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:110
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:112
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:114
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:116
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:118
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:120
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

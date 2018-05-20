@@ -1,0 +1,329 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:16
+msgid "Fill Layers"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:18
+msgid ""
+"A Fill Layer is a special layer that Krita generates on-the-fly that can "
+"contain either a pattern or a solid color."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:21
+msgid ".. image:: images/en/Fill_Layer.png"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:25
+msgid "Pattern"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:23
+msgid ""
+"This fills the layer with a predefined pattern or texture that has been "
+"loaded into Krita through the Resource Management interface.  Patterns "
+"can be a simple and interesting way to add texture to your drawing or "
+"painting, helping to recreate the look of watercolor paper, linen, "
+"canvas, hardboard, stone or an infinite other number of options.  For "
+"example if you want to take a digital painting and finish it off with the"
+" appearance of it being on canvas you can add a Fill Layer with the "
+"Canvas texture from the texture pack below and set the opacity very low "
+"so the \"threads\" of the pattern are just barley visible.  The effect is"
+" quite convincing."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:25
+msgid ""
+"You can create your own and use those as well.  For a great set of well "
+"designed and useful patterns check out one of our favorite artists and a "
+"great friend of Krita, David Revoy's free texture pack "
+"(http://www.davidrevoy.com/article156/texture-pack-1)."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:28
+msgid "Color"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:28
+msgid ""
+"The second option is not quite as exciting, but does the job. Fill the "
+"layer with a selected color."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:31
+msgid "Painting on a fill layer"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:33
+msgid ""
+"A fill-layer is a single-channel layer, meaning it only has transparency."
+" Therefore, you can erase and paint on fill-layers to make them semi-"
+"opaque, or for when you want to have a particular colour only. Being "
+"single channel, fill-layers are also a little bit less memory-consuming "
+"than regular 4-channel paint layers."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:36
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:38
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:40
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:42
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:44
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:46
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:48
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:50
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:52
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:54
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:56
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:58
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:60
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:62
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:64
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:66
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:68
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:70
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:72
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:74
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:76
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:78
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:80
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:82
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:84
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:86
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:88
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:90
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:92
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:94
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:96
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:98
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:100
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:102
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:104
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:106
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:108
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:110
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:112
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:114
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:116
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

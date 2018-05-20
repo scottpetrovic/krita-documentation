@@ -1,0 +1,399 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../changes.rst:2
+msgid "Title Page Heading"
+msgstr ""
+
+#: ../../changes.rst:4
+msgid "A bit of text explaining what all that the restructured format can do."
+msgstr ""
+
+#: ../../changes.rst:6
+msgid "You can do *italics* text"
+msgstr ""
+
+#: ../../changes.rst:8
+msgid "You can do **bold** text"
+msgstr ""
+
+#: ../../changes.rst:10
+msgid "You can do ``code examples``"
+msgstr ""
+
+#: ../../changes.rst:15
+msgid "Section Header"
+msgstr ""
+
+msgid ""
+".. image:: images/en/sample.png\n"
+"   :alt: Alternative text"
+msgstr ""
+
+#: ../../changes.rst:23
+msgid "You can do lists:"
+msgstr ""
+
+#: ../../changes.rst:25
+msgid "bulleted list item 1"
+msgstr ""
+
+#: ../../changes.rst:26
+msgid "bulleted list item 2"
+msgstr ""
+
+#: ../../changes.rst:28
+msgid "Numbered list item 1"
+msgstr ""
+
+#: ../../changes.rst:29
+msgid "Numbered list item 2"
+msgstr ""
+
+#: ../../changes.rst:31
+msgid "Numbered list alternate 1"
+msgstr ""
+
+#: ../../changes.rst:32
+msgid "Numbered list alternate 2"
+msgstr ""
+
+#: ../../changes.rst:35
+msgid "parent list item"
+msgstr ""
+
+#: ../../changes.rst:36
+msgid "nested list item"
+msgstr ""
+
+#: ../../changes.rst:37
+msgid "parent list continues"
+msgstr ""
+
+#: ../../changes.rst:42
+msgid "definition term"
+msgstr ""
+
+#: ../../changes.rst:41
+msgid "Definition text explaining the term. Just needs 4 spaces"
+msgstr ""
+
+#: ../../changes.rst:44
+msgid "If you want to have"
+msgstr ""
+
+#: ../../changes.rst:45
+msgid "specific line break"
+msgstr ""
+
+#: ../../changes.rst:46
+msgid "you can do it like this"
+msgstr ""
+
+#: ../../changes.rst:50
+msgid "A way to do code samples with multiple lines:"
+msgstr ""
+
+#: ../../changes.rst:52
+msgid "Not processed the same. Can have multiple lines and even line breaks"
+msgstr ""
+
+#: ../../changes.rst:55
+msgid "Like this"
+msgstr ""
+
+#: ../../changes.rst:58
+msgid ""
+"Easiest way to do tables is like this. Notice the equal sign length in "
+"the source code"
+msgstr ""
+
+#: ../../changes.rst:61
+msgid "A"
+msgstr ""
+
+#: ../../changes.rst:61
+msgid "B"
+msgstr ""
+
+#: ../../changes.rst:61
+msgid "A and B"
+msgstr ""
+
+#: ../../changes.rst:63 ../../changes.rst:64 ../../changes.rst:65
+msgid "False"
+msgstr ""
+
+#: ../../changes.rst:64 ../../changes.rst:65 ../../changes.rst:66
+msgid "True"
+msgstr ""
+
+#: ../../changes.rst:70
+msgid ""
+"You can also add `Link Text <https://invalid.domain />`_  . Don't forget "
+"the underscore at the end"
+msgstr ""
+
+#: ../../changes.rst:79
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../changes.rst:81
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../changes.rst:83
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../changes.rst:85
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../changes.rst:87
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../changes.rst:89
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../changes.rst:91
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../changes.rst:93
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../changes.rst:95
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../changes.rst:97
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../changes.rst:99
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../changes.rst:101
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../changes.rst:103
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../changes.rst:105
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../changes.rst:107
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../changes.rst:109
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../changes.rst:111
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../changes.rst:113
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../changes.rst:115
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../changes.rst:117
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../changes.rst:119
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../changes.rst:121
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../changes.rst:123
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../changes.rst:125
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../changes.rst:127
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../changes.rst:129
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../changes.rst:131
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../changes.rst:133
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../changes.rst:135
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../changes.rst:137
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../changes.rst:139
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../changes.rst:141
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../changes.rst:143
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../changes.rst:145
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../changes.rst:147
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../changes.rst:149
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../changes.rst:151
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../changes.rst:153
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../changes.rst:155
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../changes.rst:157
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../changes.rst:159
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

@@ -1,0 +1,322 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:15
+msgid "Filter Masks"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:17
+msgid ""
+"Filter masks show an area of their layer with a filter (such as blur, "
+"levels, brightness / contrast etc.). For example, if you select an area "
+"of a paint layer and add a Filter Layer, you will be asked to choose a "
+"filter. If you choose the blur filter, you will see the area you selected"
+" blurred."
+msgstr ""
+
+msgid ".. image:: images/en/Krita_ghostlady_2.png"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:23
+msgid ""
+"With filter masks, we can for example make this ghost-lady more ethereal "
+"by putting a clone layer underneath, and setting a lens-blur filter on "
+"it."
+msgstr ""
+
+msgid ".. image:: images/en/Krita_ghostlady_3.png"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:29
+msgid ""
+"Set the blending mode of the clone layer to :guilabel:`Color Dodge` and "
+"she becomes really spooky!"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:31
+msgid ""
+"Unlike applying a filter to a section of a paint layer directly, filter "
+"masks do not permanently alter the original image. This means you can "
+"tweak the filter (or the area it applies to) at any time. Changes can "
+"always be altered or removed."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:33
+msgid ""
+"Unlike filter layers, filter masks apply only to the area you have "
+"selected (the mask)."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:35
+msgid ""
+"You can edit the settings for a filter mask at any time by double "
+"clicking on it in the Layers docker. You can also change the selection "
+"that the filter mask affects by selecting the filter mask in the Layers "
+"docker and then using the paint tools in the main window. Painting white "
+"includes the area, painting black excludes it, and all other colors are "
+"turned into a shade of grey which applies proportionally."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:38
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:40
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:42
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:44
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:46
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:48
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:50
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:52
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:54
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:56
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:58
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:60
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:62
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:64
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:66
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:68
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:70
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:72
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:74
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:76
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:78
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:80
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:82
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:84
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:86
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:88
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:90
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:92
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:94
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:96
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:98
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:100
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:102
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:104
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:106
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:108
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:110
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:112
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:114
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:116
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/filter_masks.rst:118
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

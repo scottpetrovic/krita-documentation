@@ -1,0 +1,624 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../user_manual/selections.rst:16
+msgid "Selections"
+msgstr ""
+
+#: ../../user_manual/selections.rst:18
+msgid ""
+"Selections allow you to pick a specific area of your artwork to change. "
+"There are many selection tools available that select in different ways. "
+"Once an area is selected most tools will stay inside that area. On that "
+"area you can draw or use gradients to quickly get colored and/or shaded "
+"shapes with hard edges."
+msgstr ""
+
+#: ../../user_manual/selections.rst:25
+msgid "Creating Selections"
+msgstr ""
+
+#: ../../user_manual/selections.rst:27
+msgid ""
+"The most common selection tools all exist at the bottom of the toolbox. "
+"Each tool selects things slightly differently. The links for each tool go"
+" into a more detailed description with how to use it."
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid ":ref:`rectangle_selection_tool`"
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid "|toolselectrect|"
+msgstr ""
+
+#: ../../user_manual/selections.rst:223
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid "Select the shape of a square."
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid ":ref:`ellipse_selection_tool`"
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid "|toolselectellipse|"
+msgstr ""
+
+#: ../../user_manual/selections.rst:225
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid "Select the shape of a circle."
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid ":ref:`polygonal_selection_tool`"
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid "|toolselectpolygon|"
+msgstr ""
+
+#: ../../user_manual/selections.rst:227
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid ""
+"Click where you want each point of the Polygon to be. Double click to end"
+" your polygon and finalize your selection area. Use Shift + Z to undo "
+"last point."
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid ":ref:`outline_selection_tool`"
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid "|toolselectoutline|"
+msgstr ""
+
+#: ../../user_manual/selections.rst:231
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid "Outline/Lasso tool is used for a rough selection by drawing the outline."
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid ":ref:`similar_selection_tool`"
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid "|toolselectsimilar|"
+msgstr ""
+
+#: ../../user_manual/selections.rst:235
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid "Similar Color Selection Tool"
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid ":ref:`contiguous_selection_tool`"
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid "|toolselectcontiguous|"
+msgstr ""
+
+#: ../../user_manual/selections.rst:233
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid ""
+"Contiguous or “Magic Wand” selects a field of color, Adjust the fuzziness"
+" to allow more changes in the field of color, by default limited to the "
+"current layer."
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid ":ref:`path_selection_tool`"
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid "|toolselectpath|"
+msgstr ""
+
+#: ../../user_manual/selections.rst:229
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../user_manual/selections.rst:1
+msgid ""
+"Path select an area based on a vector path, click to get sharp corners or"
+" drag to get flowing lines and close the path with enter or connecting "
+"back to the first point."
+msgstr ""
+
+#: ../../user_manual/selections.rst:43
+msgid ""
+"You can also use the transform tools on your selection, a great way to "
+"try different proportions on parts of your image."
+msgstr ""
+
+#: ../../user_manual/selections.rst:46
+msgid "Editing Selections"
+msgstr ""
+
+#: ../../user_manual/selections.rst:48
+msgid ""
+"The tool options for each selection tool gives you the ability to modify "
+"your selection."
+msgstr ""
+
+#: ../../user_manual/selections.rst:52
+msgid "Action"
+msgstr ""
+
+#: ../../user_manual/selections.rst:52
+msgid "Modifier"
+msgstr ""
+
+#: ../../user_manual/selections.rst:52
+msgid "Shortcut"
+msgstr ""
+
+#: ../../user_manual/selections.rst:54
+msgid "Replace"
+msgstr ""
+
+#: ../../user_manual/selections.rst:54
+msgid "Ctrl"
+msgstr ""
+
+#: ../../user_manual/selections.rst:54 ../../user_manual/selections.rst:56
+msgid "--"
+msgstr ""
+
+#: ../../user_manual/selections.rst:56
+msgid "Intersect"
+msgstr ""
+
+#: ../../user_manual/selections.rst:56
+msgid "Shift + Alt"
+msgstr ""
+
+#: ../../user_manual/selections.rst:58
+msgid "Add"
+msgstr ""
+
+#: ../../user_manual/selections.rst:58
+msgid "Shift"
+msgstr ""
+
+#: ../../user_manual/selections.rst:58
+msgid "A"
+msgstr ""
+
+#: ../../user_manual/selections.rst:60
+msgid "Subtract"
+msgstr ""
+
+#: ../../user_manual/selections.rst:60
+msgid "Alt"
+msgstr ""
+
+#: ../../user_manual/selections.rst:60
+msgid "S"
+msgstr ""
+
+#: ../../user_manual/selections.rst:64
+msgid "Removing Selections"
+msgstr ""
+
+#: ../../user_manual/selections.rst:66
+msgid ""
+"If you want to delete the entire selection, the easiest way is de-select "
+"everything. :menuselection:`Select --> Deselect`. Shortcut :kbd:`Ctrl + "
+"Shift + A`."
+msgstr ""
+
+#: ../../user_manual/selections.rst:70
+msgid "Display Modes"
+msgstr ""
+
+#: ../../user_manual/selections.rst:72
+msgid ""
+"In the bottom left hand corner of the status bar there is a button to "
+"toggle how the selection is displayed. The two display modes are the "
+"following: (Marching) Ants and Mask. The red color with Mask can be "
+"changed in the preferences. You can edit the color under "
+":menuselection:`Settings --> Configure Krita --> Display --> Selection "
+"Overlay`. If there is no selection, this button will not do anything."
+msgstr ""
+
+#: ../../user_manual/selections.rst:79
+msgid ".. image:: images/en/Ants-displayMode.jpg"
+msgstr ""
+
+#: ../../user_manual/selections.rst:80
+msgid ""
+"Ants display mode (default) is best if you want to see the un-selected "
+"area."
+msgstr ""
+
+#: ../../user_manual/selections.rst:84
+msgid ".. image:: images/en/Mask-displayMode.jpg"
+msgstr ""
+
+#: ../../user_manual/selections.rst:85
+msgid ""
+"Mask display mode is good if you are interested in seeing the various "
+"transparency levels for your selection. For example, you can create a "
+"selection with a gradient."
+msgstr ""
+
+#: ../../user_manual/selections.rst:90
+msgid "Global Selection Mask (Painting a Selection)"
+msgstr ""
+
+#: ../../user_manual/selections.rst:92
+msgid ""
+"The global Selection Mask is your selection that appears on the layers "
+"docker. By default this is hidden, so you will need to make it visible "
+":menuselection:`Select --> Show Global Selection Mask`."
+msgstr ""
+
+#: ../../user_manual/selections.rst:97
+msgid ".. image:: images/en/Global-selection-mask.jpg"
+msgstr ""
+
+#: ../../user_manual/selections.rst:98
+msgid ""
+"Once the global Selection Mask is shown, you will need to create a "
+"selection. The benefit of using this is that you can paint your selection"
+" using any of the normal painting tools. The information is saved as "
+"greyscale. You might want to switch to the Mask display mode if it is "
+"difficult to see the results."
+msgstr ""
+
+#: ../../user_manual/selections.rst:105
+msgid "Selection from layer transparency"
+msgstr ""
+
+#: ../../user_manual/selections.rst:107
+msgid ""
+"You can create a selection based on a layer's transparency by right-"
+"clicking on the layer in the layer docker and selecting “Select Opaque” "
+"from the context menu."
+msgstr ""
+
+#: ../../user_manual/selections.rst:112
+msgid "Pixel and Vector Selection Types"
+msgstr ""
+
+#: ../../user_manual/selections.rst:114
+msgid ""
+"Vector selections allow you to modify your selection with vector anchor "
+"tools. Pixel selections allow you to modify selections with pixel "
+"information. They both have their benefits and disadvantages. You can "
+"convert one type of selection to another."
+msgstr ""
+
+#: ../../user_manual/selections.rst:120
+msgid ".. image:: images/en/Vector-pixel-selections.jpg"
+msgstr ""
+
+#: ../../user_manual/selections.rst:121
+msgid ""
+"When creating a selection, you can select what type of selection you want"
+" from the Mode in the selection tool options: Pixel or Vector."
+msgstr ""
+
+#: ../../user_manual/selections.rst:124
+msgid ""
+"Vector selections can can modify as any other vector shape with the "
+"“Shape Handle” tool, if you try to paint on a vector selection it will be"
+" converted into a pixel selection. Pixel selections can be painted with "
+"any tool. You can also convert vector shapes to selection. In turn, "
+"vector selections can be made from vector shapes, and vector shapes can "
+"be converted to vector selections using the options in the selections "
+"menu. Krita will add a new vector layer for this shape."
+msgstr ""
+
+#: ../../user_manual/selections.rst:132
+msgid ""
+"One of the most common reasons to use vector selections is that they give"
+" you the ability to move and transform a selection. Moving the selection "
+"with a pixel selection will move the content on the layer. Moving the "
+"selection on a vector selection will only move the selection. You can "
+"also use the path editing tool to change the anchor points in the "
+"selection"
+msgstr ""
+
+#: ../../user_manual/selections.rst:140
+msgid ""
+"If you started with a pixel selection, you can still convert it to a "
+"vector selection to get these benefits. Go to Select > Convert to Vector "
+"Selection."
+msgstr ""
+
+#: ../../user_manual/selections.rst:145
+msgid ""
+"If you have multiple levels of transparency when you convert a selection "
+"to vector, you will lose the grey values."
+msgstr ""
+
+#: ../../user_manual/selections.rst:148
+msgid "Common Shortcuts while Using Selections"
+msgstr ""
+
+#: ../../user_manual/selections.rst:150
+msgid "Copy -- :kbd:`Ctrl + C` or :kbd:`Ctrl + Ins`"
+msgstr ""
+
+#: ../../user_manual/selections.rst:151
+msgid "Paste -- :kbd:`Ctrl + V` or :kbd:`Shift + Ins`"
+msgstr ""
+
+#: ../../user_manual/selections.rst:152
+msgid "Cut -- :kbd:`Ctrl + X`, :kbd:`Shift + Del`"
+msgstr ""
+
+#: ../../user_manual/selections.rst:153
+msgid "Copy From All Layers -- :kbd:`Ctrl + Shift + C`"
+msgstr ""
+
+#: ../../user_manual/selections.rst:154
+msgid "Copy Selection to New Layer -- :kbd:`Ctrl + Alt + J`"
+msgstr ""
+
+#: ../../user_manual/selections.rst:155
+msgid "Cut Selection to New Layer -- :kbd:`Ctrl + Shift + J`"
+msgstr ""
+
+#: ../../user_manual/selections.rst:156
+msgid "Display or hide selection with :kbd:`Ctrl + H`"
+msgstr ""
+
+#: ../../user_manual/selections.rst:159
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../user_manual/selections.rst:161
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../user_manual/selections.rst:163
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../user_manual/selections.rst:165
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../user_manual/selections.rst:167
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../user_manual/selections.rst:169
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../user_manual/selections.rst:171
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../user_manual/selections.rst:173
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../user_manual/selections.rst:175
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../user_manual/selections.rst:177
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../user_manual/selections.rst:179
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../user_manual/selections.rst:181
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../user_manual/selections.rst:183
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../user_manual/selections.rst:185
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../user_manual/selections.rst:187
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../user_manual/selections.rst:189
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../user_manual/selections.rst:191
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../user_manual/selections.rst:193
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../user_manual/selections.rst:195
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../user_manual/selections.rst:197
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../user_manual/selections.rst:199
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../user_manual/selections.rst:201
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../user_manual/selections.rst:203
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../user_manual/selections.rst:205
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../user_manual/selections.rst:207
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../user_manual/selections.rst:209
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../user_manual/selections.rst:211
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../user_manual/selections.rst:213
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../user_manual/selections.rst:215
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../user_manual/selections.rst:217
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../user_manual/selections.rst:219
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../user_manual/selections.rst:221
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../user_manual/selections.rst:237
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../user_manual/selections.rst:239
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

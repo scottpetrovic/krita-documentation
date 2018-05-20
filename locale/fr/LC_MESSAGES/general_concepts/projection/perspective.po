@@ -1,0 +1,451 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../general_concepts/projection/perspective.rst:10
+msgid ""
+"This is a continuation of the :ref:`axonometric tutorial "
+"<projection_axonometric>`, be sure to check it out if you get confused!"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:15
+msgid "Perspective Projection:"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:17
+msgid ""
+"So, up till now we’ve done only parallel projection. This is called like "
+"that because all the projection lines we drew were parallel ones."
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:19
+msgid ""
+"However, in real life we don’t have parallel projection. This is due to "
+"the lens in our eyes."
+msgstr ""
+
+msgid ""
+".. image:: "
+"images/en/category_projection/Projection_Lens1_from_wikipedia.svg"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:24
+#, python-format
+msgid ""
+"Convex lenses, as this lovely image from `wikipedia "
+"<https://en.wikipedia.org/wiki/Lens_%28optics%29>`_ shows us, have the "
+"ability to turn parallel lightrays into converging ones."
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:26
+msgid ""
+"The point where all the rays come together is called the focal point, and"
+" the vanishing point in a 2d drawing is related to it as it’s the "
+"expression of the maximum distortion that can be given to two parallel "
+"lines as they’re skewed toward the focal point."
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:28
+msgid ""
+"As you can see from the image, the focal point is not an end-point of the"
+" rays. Rather, it is where the rays cross before diverging again… The "
+"only difference is that the resulting image will be inverted. Even in our"
+" eyes this inversion happens, but our brains are used to this awkwardness"
+" since childhood and turn it around automatically."
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:30
+msgid "Let’s see if we can perspectively project our box now."
+msgstr ""
+
+msgid ".. image:: images/en/category_projection/projection-cube_12.svg"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:35
+msgid ""
+"That went pretty well. As you can see we sorta ‘merged’ the two sides "
+"into one(resulting into the purple side square) so we had an easier time "
+"projecting. The projection is limited to one or two vanishing point type "
+"projection, so only the horizontal lines get distorted. We can also "
+"distort the vertical lines"
+msgstr ""
+
+msgid ".. image:: images/en/category_projection/projection-cube_13.svg"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:40
+msgid ""
+"… to get three-point projection, but this is a bit much.(And I totally "
+"made a mistake in there…)"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:42
+msgid "Let’s setup our perspective projection again…"
+msgstr ""
+
+msgid ".. image:: images/en/category_projection/projection_image_31.png"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:47
+msgid ""
+"We’ll be using a single vanishing point for our focal point. A guide line"
+" will be there for the projection plane, and we’re setting up horizontal "
+"and vertical parallel rules to easily draw the straight lines from the "
+"view plane to where they intersect."
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:49
+msgid ""
+"And now the workflow in gif-format…(don’t forget you can rotate the "
+"canvas with 4 and 6)"
+msgstr ""
+
+msgid ".. image:: images/en/category_projection/projection_animation_03.gif"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:54
+msgid "Result:"
+msgstr ""
+
+msgid ".. image:: images/en/category_projection/projection_image_32.png"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:59
+msgid "Looks pretty haughty, doesn’t he?"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:61
+msgid "And again, there’s technically a simpler setup here…"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:63
+msgid "Did you know you can use Krita to rotate in 3d? No?"
+msgstr ""
+
+msgid ".. image:: images/en/category_projection/projection_image_33.png"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:68
+msgid "Well, now you do."
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:70
+msgid "The ortho graphics are being set to 45 and 135 degrees respectively."
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:72
+msgid ""
+"We draw horizontal lines on the originals, so that we can align vanishing"
+" point rulers to them."
+msgstr ""
+
+msgid ".. image:: images/en/category_projection/projection_image_34.png"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:77
+msgid ""
+"And from this, like with the shearing method, we start drawing.(don’t "
+"forget the top-views!)"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:79
+msgid "Which should get you something like this:"
+msgstr ""
+
+msgid ".. image:: images/en/category_projection/projection_image_35.png"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:84
+msgid "But again, the regular method is actually a bit easier..."
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:86
+msgid ""
+"But now you might be thinking: gee, this is a lot of work… Can’t we make "
+"it easier with the computer somehow?"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:88
+msgid ""
+"Uhm, yes, that’s more or less why people spent time on developing 3d "
+"graphics technology:"
+msgstr ""
+
+msgid ".. image:: images/en/category_projection/projection_image_36.png"
+msgstr ""
+
+msgid ".. image:: images/en/category_projection/projection_image_37.png"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:96
+msgid "(above sculpted in blender using our orthographic reference)"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:98
+msgid ""
+"So let us look at what this technique can be practically used for in the "
+"next part..."
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:101
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:103
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:105
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:107
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:109
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:111
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:113
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:115
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:117
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:119
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:121
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:123
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:125
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:127
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:129
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:131
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:133
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:135
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:137
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:139
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:141
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:143
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:145
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:147
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:149
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:151
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:153
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:155
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:157
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:159
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:161
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:163
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:165
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:167
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:169
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:171
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:173
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:175
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:177
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:179
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../general_concepts/projection/perspective.rst:181
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

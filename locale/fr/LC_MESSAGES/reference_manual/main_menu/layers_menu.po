@@ -1,0 +1,650 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:15
+msgid "Layers"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:17
+msgid ""
+"These are the topmenu options are related to Layer Management, check out "
+"that page first, if you haven't."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:19
+msgid "Cut Layer(3.0+)"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:20
+msgid "Cuts the whole layer rather than just the pixels."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:21
+msgid "Copy Layer(3.0+)"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:22
+msgid "Copy the whole layer rather than just the pixels."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:23
+msgid "Paste Layer(3.0+)"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:24
+msgid "Pastes the whole layer if any of the top two actions have been taken."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:37
+msgid "New"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:26
+#: ../../reference_manual/main_menu/layers_menu.rst:40
+#: ../../reference_manual/main_menu/layers_menu.rst:61
+#: ../../reference_manual/main_menu/layers_menu.rst:79
+#: ../../reference_manual/main_menu/layers_menu.rst:93
+#: ../../reference_manual/main_menu/layers_menu.rst:103
+#: ../../reference_manual/main_menu/layers_menu.rst:119
+msgid "Organizes the following actions:"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:28
+msgid "Paint Layer"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:29
+msgid "Add a new paint layer"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:30
+msgid "New layer from visible(3.0.2+)"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:31
+msgid "Add a new layer with the visible pixels."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:32
+msgid "Duplicate Layer or Mask"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:33
+msgid "Duplicates the layer."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:34
+msgid "Cut Selection to New Layer"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:35
+msgid "Single action for cut+paste"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:37
+msgid "Copy Selection to New Layer"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:37
+msgid "Single action for copy+paste"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:58
+msgid "Import/Export"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:42
+msgid "Save Layer or Mask"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:43
+msgid "Saves the Layer or Mask as a separate image."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:44
+msgid "Save Group Layers"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:45
+msgid "Saves the top-level group layers as single-layer images."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:46
+msgid "Import Layer"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:47
+#: ../../reference_manual/main_menu/layers_menu.rst:50
+#: ../../reference_manual/main_menu/layers_menu.rst:52
+#: ../../reference_manual/main_menu/layers_menu.rst:54
+#: ../../reference_manual/main_menu/layers_menu.rst:56
+#: ../../reference_manual/main_menu/layers_menu.rst:58
+#: ../../reference_manual/main_menu/layers_menu.rst:64
+#: ../../reference_manual/main_menu/layers_menu.rst:68
+#: ../../reference_manual/main_menu/layers_menu.rst:70
+#: ../../reference_manual/main_menu/layers_menu.rst:72
+#: ../../reference_manual/main_menu/layers_menu.rst:106
+#: ../../reference_manual/main_menu/layers_menu.rst:108
+#: ../../reference_manual/main_menu/layers_menu.rst:110
+#: ../../reference_manual/main_menu/layers_menu.rst:112
+#: ../../reference_manual/main_menu/layers_menu.rst:114
+#: ../../reference_manual/main_menu/layers_menu.rst:116
+#: ../../reference_manual/main_menu/layers_menu.rst:122
+#: ../../reference_manual/main_menu/layers_menu.rst:124
+msgid "--"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:58
+msgid "Import as..."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:49
+msgid "Import an image as"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:51
+msgid "Paint layer"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:53
+#: ../../reference_manual/main_menu/layers_menu.rst:67
+msgid "Transparency Mask"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:55
+#: ../../reference_manual/main_menu/layers_menu.rst:69
+msgid "Filter Mask"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:58
+#: ../../reference_manual/main_menu/layers_menu.rst:71
+msgid "Selection Mask"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:76
+msgid "Convert"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:63
+msgid "Convert a layer to..."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:65
+msgid "Convert to Paint Layer"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:66
+msgid "Convert a mask or vector layer to a paint layer."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:73
+msgid "Convert Group to Animated Layer"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:74
+msgid ""
+"This takes the images in the group layer and makes them into frames of an"
+" animated layer."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:76
+msgid "Convert Layer Color Space"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:76
+msgid "This only converts the color space of the layer, not the image."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:90
+msgid "Select(3.0+):"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:81
+msgid "All layers"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:82
+msgid "Select all layers."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:83
+msgid "Visible Layers"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:84
+msgid "Select all visible layers."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:85
+msgid "Invisible Layers"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:86
+msgid "Select all invisible layers, useful for cleaning up a sketch."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:87
+msgid "Locked Layers"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:88
+msgid "Select all locked layers."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:90
+msgid "Unlocked Layers"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:90
+msgid "Select all unlocked layers."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:100
+msgid "Group"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:95
+msgid "Quick Group(3.0+)"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:96
+msgid "Adds all selected layers to a group."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:97
+msgid "Quick Clipping Group(3.0+)"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:98
+msgid ""
+"Adds all selected layers to a group and adds a alpha-inherited layer "
+"above it."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:100
+msgid "Quick Ungroup"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:100
+msgid "Ungroups the activated layer."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:116
+msgid "Transform"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:105
+msgid "Mirror Layer Horizontally"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:107
+msgid "Mirror Layer Vertically"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:109
+msgid "Rotate"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:111
+msgid "Scale Layer"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:113
+msgid "Shear Layer"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:116
+msgid "Offset Layer"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:126
+msgid "Split..."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:121
+msgid "Split Alpha"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:123
+msgid "Split Layer"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:126
+msgid "Clones Array"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:126
+msgid ""
+"A complex bit of functionality to generate clone-layers for quick sprite "
+"making."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:128
+msgid "Edit Metadata"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:129
+msgid "Each layer can have it's own meta-data."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:130
+msgid "Histogram"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:131
+msgid "Shows a histogram."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:132
+msgid "Merge With Layer Below"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:133
+msgid "Merge a layer down."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:134
+msgid "Flatten Layer"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:135
+msgid "Flatten a Group Layer or flatten the masks into any other layer."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:136
+msgid "Rasterize Layer"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:137
+msgid "For making vectors into raster layers."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:138
+msgid "Flatten Image"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:139
+msgid "Flatten all layers into one."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:140
+msgid "Merge Selected Layers"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:141
+msgid ""
+"Merge the layers that were selected with multi-selection in the Layer "
+"Docker."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:144
+msgid "Layerstyle(2.9.5+)"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:143
+msgid "Set the PS-style layerstyle"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:146
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:148
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:150
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:152
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:154
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:156
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:158
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:160
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:162
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:164
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:166
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:168
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:170
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:172
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:174
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:176
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:178
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:180
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:182
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:184
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:186
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:188
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:190
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:192
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:194
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:196
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:198
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:200
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:202
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:204
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:206
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:208
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:210
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:212
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:214
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:216
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:218
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:220
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:222
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:224
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:226
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

@@ -1,0 +1,417 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/main_menu/file_menu.rst:16
+msgid "File Menu"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:18
+msgid "New"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:19
+msgid "Make a new file."
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:20
+msgid "Open"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:21
+msgid "Open a previous File."
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:22
+msgid "Open Recent"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:23
+msgid "Open the recently opened document."
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:24
+msgid "Save"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:25
+msgid ""
+"File formats that Krita can save to. These formats can later be opened "
+"back up in Krita."
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:26
+msgid "Save As"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:27
+msgid "Save as a new file."
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:28
+msgid "Open Existing Document As New document"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:29
+msgid "Similar to import in other programs."
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:30
+msgid "Export"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:31
+msgid ""
+"Additional formats that can be saved. Some of these formats may not be "
+"later imported or opened by Krita"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:32
+msgid "Export as PDF"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:33
+msgid "PDF export. Doesn't support multiple pages."
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:34
+msgid "Import Animation Frames(3.0+)"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:35
+msgid "Import frames for animation."
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:36
+msgid "Save incremental version"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:37
+msgid "Save as a new version of the same file with a number attached."
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:38
+msgid "Save incremental Backup"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:39
+msgid "Make a backup file without leaving the working file."
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:40
+msgid "Create Template from image"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:41
+msgid ""
+"The \\*.kra file will be saved into the template folder for future use. "
+"All you layers and guides will be saved along!"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:42
+msgid "Create Copy From Current Image"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:43
+msgid ""
+"Makes a new document from the current image, so you can easily reiterate "
+"on a single image. Useful for areas where the template system is too "
+"powerful."
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:44
+msgid "Document Information"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:45
+msgid ""
+"Look at the document information. Contains all sorts of interesting "
+"information about image, such as technical information or metadata."
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:46
+msgid "Close"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:47
+msgid "Close the view or document."
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:48
+msgid "Close All"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:49
+msgid "Close all views and documents."
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:52
+msgid "Quit"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:51
+msgid "Close Krita"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:54
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:56
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:58
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:60
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:62
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:64
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:66
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:68
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:70
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:72
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:74
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:76
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:78
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:80
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:82
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:84
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:86
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:88
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:90
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:92
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:94
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:96
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:98
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:100
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:102
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:104
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:106
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:108
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:110
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:112
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:114
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:116
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:118
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:120
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:122
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:124
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:126
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:128
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:130
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:132
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/main_menu/file_menu.rst:134
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+
