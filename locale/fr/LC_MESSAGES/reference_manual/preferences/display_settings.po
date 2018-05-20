@@ -1,0 +1,533 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/preferences/display_settings.rst:16
+msgid "Display Settings"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:19
+msgid ".. image:: images/en/Krita_Preferences_Display.png"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:20
+msgid "Here various settings for the rendering of Krita can be edited."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:23
+msgid "OpenGL"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:25
+msgid "**For Krita 3.3 or later: Reworded as \"*Canvas Graphics Acceleration*\"**"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:27
+msgid ""
+"OpenGL is a bit of code especially for graphics cards. Graphics cards a "
+"dedicate piece of hardware for helping your computer out with graphics "
+"calculations, which Krita uses a lot. All modern computer have graphics "
+"cards."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:29
+msgid ""
+"**For Krita 3.3 or later:** On Windows, Krita also supports using "
+"Direct3D instead with the help of the ANGLE library. ANGLE works by "
+"converting the OpenGL functions that Krita makes use of to the equivalent"
+" in Direct3D. It may (or may not) be slower than native OpenGL, but it "
+"has better compatibility with typical Windows graphics drivers."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:31
+msgid ""
+"Enable OpenGL **(For Krita 3.3 or later: Reworded as *Canvas Graphics "
+"Acceleration*)**"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:32
+msgid ""
+"Selecting this checkbox will enable the OpenGL / ANGLE canvas drawing "
+"mode. With a decent graphics card this should give faster feedback on "
+"brushes and tools. Also the canvas operations like Rotate,Zoom and Pan "
+"should be considerably faster."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:34
+msgid "For Krita 3.3 or later:"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:34
+msgid "Renderer"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:35
+msgid ""
+"*On Windows:* You can switch between native OpenGL or ANGLE Direct3D 11 "
+"rendering. The usual recommendation is to leave it as \"Auto\", which "
+"Krita will decide the best to use based on some internal compatibility "
+"checking. Changes to this option require a restart of Krita to take "
+"effect."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:36
+msgid "Use Texture Buffer"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:37
+msgid ""
+"This setting utilizes the graphics card's buffering capabilities to speed"
+" things up a bit. Although for now, this feature may be broken on some "
+"AMD/Radeon cards and may work fine on some Intel graphics cards."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:48
+msgid "Scaling Mode"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:39
+msgid ""
+"The user can choose which scaling mode to use while zooming the canvas. "
+"The choice here only affects the way the image is displayed during canvas"
+" operations and has no effect on how Krita scales an image when a "
+"transformation is applied."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:41
+msgid "Nearest Neighbour"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:42
+msgid ""
+"This is the fastest and crudest filtering method . While fast, this "
+"results in a large number of artifacts - 'blockiness' during "
+"magnification, and aliasing and shimmering during minification."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:43
+msgid "Bilinear Filtering"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:44
+msgid ""
+"This is the next step up.This removes the 'blockiness' seen during "
+"magnification and gives a smooth looking result. For most purposes this "
+"should be a good trade-off between speed and quality."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:45
+msgid "Trilinear Filtering"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:46
+msgid "This should give a little better result than Bilinear Filtering."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:48
+msgid "High Quality Filtering"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:48
+msgid ""
+"Only available when your graphics card supports OpenGL 3.0. As the name "
+"suggests, this setting provides the best looking image during canvas "
+"operations."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:51
+msgid "Transparency Checkboxes"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:53
+msgid ""
+"Krita supports layer transparency. Of course, the nasty thing is that "
+"transparency can't be seen. So to indicate transparency at the lowest "
+"layer, we use a checker pattern. This part allows you to configure it."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:55
+msgid "Size"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:56
+msgid ""
+"This sets the size of the checkers which show up in transparent parts of "
+"an image."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:57
+#: ../../reference_manual/preferences/display_settings.rst:65
+#: ../../reference_manual/preferences/display_settings.rst:77
+msgid "Color"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:58
+msgid "The user can set the colors for the checkers over here."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:60
+msgid "Move Checkers When Scrolling"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:60
+msgid ""
+"When selected the checkers will move along with opaque elements of an "
+"image during canvas Panning, Zooming,etc.  Otherwise the checkers remain "
+"stationary and only the opaque parts of an image will move."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:63
+msgid "Canvas Border"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:66
+msgid ""
+"The user can select the color for the canvas i.e. the space beyond a "
+"document's boundaries."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:68
+msgid "Hide Scrollbars"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:68
+msgid "Selecting this will hide the scrollbars in all view modes."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:71
+msgid "Pixel Grid"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:75
+msgid ""
+"This allows configuring a automatic pixel-by-pixel gid, which is very "
+"useful for doing pixel art."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:78
+msgid "The color of the grid."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:80
+msgid "Start Showing at"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:80
+msgid ""
+"This determines the zoom level at which the pixel grid starts showing, as"
+" showing it when the image is zoomed out a lot will make the grid "
+"overwhelm the image, and is thus counter productive."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:83
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:85
+msgid "Color Channels in Color"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:86
+msgid ""
+"This is supossed to determine what to do when only a single channel is "
+"selected in the channels docker, but it doesn't seem to work."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:87
+msgid "Enable Curve Anti-Aliasing"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:88
+msgid ""
+"This allows anti-aliasing on previewing curves, like the ones for the "
+"circle tool, or the path tool."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:89
+msgid "Enable Selection Outline Anti-Aliasing"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:90
+msgid ""
+"This allows automatic anti-aliasing on selection. It makes the selection "
+"feel less jaggy and more precise."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:91
+msgid "Hide window scrollbars."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:92
+msgid "Hides the scrollbars on the canvas."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:95
+msgid "Hide Layer thumbnail popup"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:94
+msgid "This disables the thumbnail that you get when hovering over a layer."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:97
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:99
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:101
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:103
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:105
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:107
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:109
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:111
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:113
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:115
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:117
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:119
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:121
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:123
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:125
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:127
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:129
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:131
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:133
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:135
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:137
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:139
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:141
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:143
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:145
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:147
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:149
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:151
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:153
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:155
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:157
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:159
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:161
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:163
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:165
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:167
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:169
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:171
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:173
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:175
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:177
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

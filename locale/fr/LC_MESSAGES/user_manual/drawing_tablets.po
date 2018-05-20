@@ -1,0 +1,534 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../user_manual/drawing_tablets.rst:17
+msgid "Drawing Tablets"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:19
+msgid ""
+"This page is about drawing tablets, what they are, how they work, and "
+"where things can go wrong."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:23
+msgid "What are tablets?"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:25
+msgid ""
+"Drawing with a mouse can be unintuitive and difficult compared to pencil "
+"and paper. Even worse, extended mouse use can result in carpal tunnel "
+"syndrome. That’s why most people who draw digitally use a specialized "
+"piece of hardware known as a drawing tablet."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:31
+msgid ".. image:: images/en/Krita_tablet_types.png"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:32
+msgid ""
+"A drawing tablet is a piece of hardware that you can plug into your "
+"machine, much like a keyboard or mouse. It usually looks like a plastic "
+"pad, with a stylus. Another popular format is a computer monitors with "
+"stylus used to draw directly on the screen. These are better to use than "
+"a mouse because it’s more natural to draw with a stylus and generally "
+"better for your wrists."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:39
+msgid ""
+"With a properly installed tablet stylus, Krita can use information like "
+"pressure sensitivity, allowing you to make strokes that get bigger or "
+"smaller depending on the pressure you put on them, to create richer and "
+"more interesting strokes."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:45
+msgid ""
+"Sometimes, people confuse finger-touch styluses with a proper tablet. You"
+" can tell the difference because a drawing tablet stylus usually has a "
+"pointy nib, while a stylus made for finger-touch has a big rubbery round "
+"nib, like a finger. These tablets may not give good results and a "
+"pressure-sensitive tablet is recommended."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst
+msgid ".. image:: images/en/Krita_tablet_stylus.png"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:50
+msgid "Drivers and Pressure Sensitivity"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:52
+msgid ""
+"So you have bought a tablet, a real drawing tablet. And you wanna get it "
+"to work with Krita! so you plug in the USB cable, start up Krita and... "
+"it doesn’t work! Or well, you can make strokes, but that pressure "
+"sensitivity you heard so much about doesn’t seem to work."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:57
+msgid ""
+"This is because you need to install a program called a ‘driver’. Usually "
+"you can find the driver on a CD that was delivered alongside your tablet,"
+" or on the website of the manufacturer. Go install it, and while you "
+"wait, we’ll go into the details of what it is!"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:62
+msgid ""
+"Running on your computer is a basic system doing all the tricky bits of "
+"running a computer for you. This is the operating system, or OS. Most "
+"people use an operating system called Windows, but people on an Apple "
+"device have an operating system called MacOS, and some people, including "
+"many of the developers use a system called Linux."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:68
+msgid ""
+"The base principle of all of these systems is the same though. You would "
+"like to run programs like Krita, called software, on your computer, and "
+"you want Krita to be able to communicate with the hardware, like your "
+"drawing tablet. But to have those two communicate can be really difficult"
+" - so the operating system, works as a glue between the two."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:74
+msgid ""
+"Whenever you start Krita, Krita will first make connections with the "
+"operating system, so it can ask it for a lot of these things: It would "
+"like to display things, and use the memory, and so on. Most importantly, "
+"it would like to get information from the tablet!"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:80
+msgid ".. image:: images/en/Krita_tablet_drivermissing.png"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:81
+msgid ""
+"But it can’t! Turns out your operating system doesn’t know much about "
+"tablets. That’s what drivers are for. Installing a driver gives the "
+"operating system enough information so the OS can provide Krita with the "
+"right information about the tablet. The hardware manufacturer's job is to"
+" write a proper driver for each operating system."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:88
+msgid ""
+"Because drivers modify the operating system a little, you will always "
+"need to restart your computer when installing or deinstalling a driver, "
+"so don’t forget to do this! Conversely, because Krita isn’t a driver, you"
+" don’t need to even deinstall it to reset the configuration, just rename "
+"or delete the configuration file."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:91
+msgid "Where it can go wrong"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:93
+msgid ""
+"Krita automatically connects to your tablet if the drivers are installed."
+" When things go wrong, usually the problem isn't with Krita."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:97
+msgid "Surface pro tablets need two drivers"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:99
+msgid ""
+"Certain tablets using n-trig, like the Surface Pro, have two types of "
+"drivers. N-trig by default only has Windows Ink drivers, but Krita "
+"requires Wintab-style drivers. Recommended to install both versions. See "
+"the FAQ for more info on this."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:106
+msgid ""
+"Since 3.3, Krita can use windows ink style drivers too, just go to "
+":menuselection:`Settings --> Configure Krita --> Tablet Settings` and "
+"toggle the \"windows 8+ pointer input\" there."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:109
+msgid "Windows 10 updates"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:111
+msgid ""
+"Sometimes a windows 10 update can mess up tablet drivers. In that case, "
+"reinstalling the drivers should work."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:115
+msgid "Broken Drivers"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:117
+msgid ""
+"Tablet drivers need to be made by the manufacturer. Sometimes, with "
+"really cheap tablets, the hardware is fine, but the driver is badly "
+"written, which means that the driver just doesn’t work well. We cannot do"
+" anything about this, sadly. You will have to sent a complaint to the "
+"manufacturer for this, or buy a better tablet with better quality "
+"drivers."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:125
+msgid "Conflicting Drivers"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:127
+msgid ""
+"On Windows, you can only have a single wintab-style driver installed at a"
+" time. So be sure to deinstall the previous driver before installing the "
+"one that comes with the tablet you want to use. Other operating systems "
+"are a bit better about this, but even Linux, where the drivers are often "
+"preinstalled, cant run two tablets with different drivers at once."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:135
+msgid "Interfering software"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:137
+msgid ""
+"Sometimes, there's software that tries to make a security layer between "
+"Krita and the operating system. Sandboxie is an example of this. However,"
+" Krita cannot always connect to certain parts of the operating system "
+"while sandboxed, so it will often break in programs like sandboxie. "
+"Similarly, certain mouse software, like Razer utilities can also affect "
+"whether Krita can talk to the operating system, converting tablet "
+"information to mouse information. This type of software should be "
+"configured to leave Krita alone, or be deinstalled."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:146
+msgid ""
+"The following software has been reported to interfere with tablet events "
+"to Krita:"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:149
+msgid "Sandboxie"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:150
+msgid "Razer mouse utilities"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:151
+msgid "AMD catalyst “game mode” (this broke the right click for someone)"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:154
+msgid "Flicks (Wait circle showing up and then calling the popup palette)"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:156
+msgid ""
+"If you have a situation where trying to draw keeps bringing up the pop-up"
+" palette on windows, then the problem might be flicks. These are a type "
+"of gesture, a bit of windows functionality that allows you to make a "
+"motion to serve as a keyboard shortcut. Windows automatically turns these"
+" on when you install tablet drivers, because the people who made this "
+"part of windows forgot that people also draw with computers. So you will "
+"need to turn it off in the windows flicks configuration."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:165
+msgid "Wacom Double Click Sensitivity (Straight starts of lines)"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:167
+msgid ""
+"If you experience an issue where the start of the stroke is straight, and"
+" have a wacom tablet, it could be caused by the wacom driver double-click"
+" detection."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:171
+msgid ""
+"To fix this, go to the wacom settings utility and lower the double click "
+"sensitivity."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:175
+msgid "Supported Tablets"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:177
+msgid ""
+"Supported tablets are the ones of which Krita developers have a version "
+"themselves, so they can reliably fix bugs with them. :ref:`We maintain a "
+"list of those here <list_supported_tablets>`."
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:181
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:183
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:185
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:187
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:189
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:191
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:193
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:195
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:197
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:199
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:201
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:203
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:205
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:207
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:209
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:211
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:213
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:215
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:217
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:219
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:221
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:223
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:225
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:227
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:229
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:231
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:233
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:235
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:237
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:239
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:241
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:243
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:245
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:247
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:249
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:251
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:253
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:255
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:257
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:259
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../user_manual/drawing_tablets.rst:261
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

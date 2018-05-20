@@ -1,0 +1,409 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/linux_command_line.rst:15
+msgid "Linux Command Line"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:19
+msgid ""
+"As a native Linux program, Krita allows you to do operations on images "
+"without opening the program when using the Terminal. This option was "
+"disabled on Windows and OSX, but with 3.3 it is enabled for them!"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:21
+msgid ""
+"This is primarily used in bash or shell scripts, for example, to mass "
+"convert kra files into pngs."
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:24
+msgid "Export"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:26
+msgid "This allows you to quickly convert files via the terminal:"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:28
+msgid "``krita importfilename --export --export-filename exportfilename``"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:33
+msgid "importfilename"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:33
+msgid "Replace this with the filename of the file you want to manipulate."
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:41
+msgid ""
+"Replace this with the name of the output file. Use a different extension "
+"to change the fileformat."
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:43
+msgid "Example:"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:45
+msgid "``krita final.png --export --export-filename final.jpg``"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:47
+msgid ""
+"This piece of code takes the file ``file.png`` and saves it as "
+"``file.jpg``."
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:50
+msgid "PDF export"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:52
+msgid "Pdf export looks a bit different, using the ``--export-pdf`` option."
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:54
+msgid "``krita final.png --export-pdf --export-filename final.pdf``"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:56
+msgid "This exports the file ``file.png`` as a pdf file."
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:60
+msgid "This has been removed from 3.1 because the results were incorrect."
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:63
+msgid "Open with Custom Screen DPI"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:65
+msgid "Open Krita with specified Screen DPI."
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:72
+msgid "For example:"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:74
+msgid "``krita --dpi <72,72>``"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:77
+msgid "Open template"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:79
+msgid ""
+"Open krita and automatically open the given template(s). This allows you "
+"to, for example, create a shortcut to Krita that opens a given template, "
+"so you can get to work immidiately!"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:81
+msgid "``krita --template templatename.desktop``"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:88
+msgid ""
+"All templates are saved with the .desktop extension. You can find "
+"templates in the .kde/share/apps/krita/template or in the install folder "
+"of Krita."
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:90
+msgid "``krita --template BD-EuroTemplate.desktop``"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:92
+msgid "This opens the European BD comic template with Krita."
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:94
+msgid "``krita --template BD-EuroTemplate.desktop BD-EuroTemplate.desktop``"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:96
+msgid "This opens the European BD template twice, in seperate documents."
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:99
+msgid "Start up"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:117
+msgid "`` krita --workspace Animation``"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:119
+msgid "Starts Krita in the Animation workspace."
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:122
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:124
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:126
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:128
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:130
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:132
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:134
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:136
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:138
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:140
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:142
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:144
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:146
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:148
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:150
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:152
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:154
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:156
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:158
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:160
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:162
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:164
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:166
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:168
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:170
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:172
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:174
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:176
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:178
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:180
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:182
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:184
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:186
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:188
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:190
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:192
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:194
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:196
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:198
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:200
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/linux_command_line.rst:202
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

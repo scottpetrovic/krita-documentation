@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../general_concepts/file_formats/file_svg.rst:14
+msgid "\\*.svg"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:16
+msgid ""
+".svg, or Scalable Vector Graphics, is the most modern vector graphics "
+"interchange file format out there."
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:18
+msgid ""
+"Being vector graphics, svg is very light weight. This is because it "
+"usually only stores coordinates and parameters for the maths involved "
+"with vector graphics."
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:20
+msgid ""
+"It is maintained by the w3c svg working group, who also maintain other "
+"open standards that make up our modern internet."
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:22
+msgid ""
+"While you can open up svg files with any text-editor to edit them, it is "
+"best to use a vector program like Inkscape. Krita 2.9 to 3.3 supports "
+"importing svg via the add shape docker. Since Krita 4.0, SVGs can be "
+"properly imported, and you can export singlevector layers via "
+":menuselection:`Layer --> Import/Export --> Save Vector Layer as SVG...`."
+" For 4.0, Krita will also use SVG to save vector data into it's "
+":ref:`internal format <file_kra>`."
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:24
+msgid ""
+"svg is designed for the internet, though sadly, because vector graphics "
+"are considered a bit obscure compared to raster graphics, not a lot of "
+"websites accept them yet. Hosting them on your own webhost works just "
+"fine though."
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:27
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:29
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:31
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:33
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:35
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:37
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:39
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:41
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:43
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:45
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:47
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:49
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:51
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:53
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:55
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:57
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:59
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:61
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:63
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:65
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:67
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:69
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:71
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:73
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:75
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:77
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:79
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:81
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:83
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:85
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:87
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:89
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:91
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:93
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:95
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:97
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:99
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:101
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:103
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:105
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:107
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

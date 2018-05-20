@@ -1,0 +1,767 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:16
+msgid "Introduction to Krita coming from Painttool Sai"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:19
+msgid "How do you do that in Krita?"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:21
+msgid ""
+"This section goes over the functionalities that Krita and Paint Tool Sai "
+"share, but shows how they slightly differ."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:24
+msgid "Canvas navigation"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:26
+msgid ""
+"Krita, just like Sai, allows you to flip, rotate and duplicate the view. "
+"Unlike Sai, these are tied to keyboard keys."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:28
+msgid "Mirror"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:29
+msgid "This is tied to :kbd:`M` to flip."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:30
+msgid "Rotate"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:31
+msgid ""
+"There's a couple of possibilities here: either :kbd:`4` and :kbd:`6`, or "
+":kbd:`ctrl`+:kbd:`[` and :kbd:`ctrl+]` for basic 15 degrees rotation left"
+" and right. But you can also have more sophisticated rotation with "
+":kbd:`Shift + Space` + drag or :kbd:`shift` + |mousemiddle| + drag. To "
+"reset the rotation, press :kbd:`5`."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:222
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:33
+msgid "Zoom"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:33
+msgid ""
+"You can use :kbd:`+` and :kbd:`-` to zoom out and in, or use :kbd:`ctrl` "
+"+ |mousemiddle|. Use 1, 2 or 3 to reset the zoom, fit the zoom to page or"
+" fit the zoom to page width."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:35
+msgid ""
+"You can use the Overview docker in :menuselection:`settings --> dockers` "
+"to quickly navigate over your image."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:37
+msgid ""
+"You can also put these commands on the toolbar, so it'll feel a little "
+"like Sai. Go to :menuselection:`settings --> configure Toolbars`. There's"
+" two toolbars, but we'll add to the file toolbar."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:39
+msgid ""
+"Then, you can type in something in the left column to search for it. So, "
+"for example, 'undo'. Then select the action 'undo freehand stroke' and "
+"drag it to the right. Select the action to the right, and click "
+":menuselection:`change text`. There, toggle :menuselection:`hide text "
+"when toolbar shows action alongside icon` to prevent the action from "
+"showing the text. Then press OK. When done right, the undo should now be "
+"sandwiched between the save and the gradient icon."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:41
+msgid ""
+"You can do the same for :guilabel:`Redo`, :guilabel:`Deselect`, "
+":guilabel:`Invert Selection`, :guilabel:`zoom out`, :guilabel:`zoom in`, "
+":guilabel:`reset zoom`, :guilabel:`rotate left`, :guilabel:`rotate "
+"right`, :guilabel:`mirror view` and perhaps :guilabel:`smoothing:basic` "
+"and :guilabel:`smoothing: stablizer` to get nearly all the functionality "
+"of Sai's topbar in Krita's topbar. (Though, on smaller screens this will "
+"cause all the things in the brushes toolbar to hide inside a drop down to"
+" the right, so you need to experiment a little)."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:43
+msgid ""
+":guilabel:`hide selection`, :guilabel:`reset rotation` are currently not "
+"available via the Toolbar configuration, you'll need to use the shortcuts"
+" :kbd:`Ctrl`+:kbd:`h` and :kbd:`5` to toggle these."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:47
+msgid ""
+"Krita 3.0 currently doesn't allow changing the text in the toolbar, we're"
+" working on it."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:50
+msgid "Rightclick color picker"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:52
+msgid ""
+"You can actually set this in :menuselection:`settings --> configure Krita"
+" --> canvas input settings --> alternate invocation`. Just double-click "
+"the entry that says :kbd:`ctrl` + |mouseleft| before 'pick foreground "
+"color from image' to get a window to set it to |mouseright|."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:218
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:220
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:56
+msgid ""
+"Krita 3.0 actually has a Paint-tool Sai-compatible input sheet shipped by"
+" default. Combine these with the shortcut sheet for Paint tool sai to get"
+" most of the functionality on familair hotkeys."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:59
+msgid "Stabilizer"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:61
+msgid ""
+"This is in the tool options docker of the freehand brush. Use Basic "
+"Smoothing for more advanced tablets, and Stabilizer is much like Paint "
+"Tool Sai's. Just turn off 'Delay' so that the dead-zone disappears."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:64
+msgid "Transparency"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:66
+msgid ""
+"So one of the things that throws a lot of paint tool Sai users off is "
+"that Krita uses checkers to display transparency, which is actually not "
+"that uncommon. Still, if you want to have the canvas background to be "
+"white, this is possible. Just choose 'Background: As Canvas Color' in the"
+" new image dialogue and the image background will be white. You can turn "
+"it back to transparent via :menuselection:`image --> change image "
+"background color`. If you export a PNG or JPG, make sure to untick 'save "
+"transparency' and to make the background color white(it's black by "
+"default)."
+msgstr ""
+
+msgid ".. image:: images/en/Krita-color-to-alpha.png"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:71
+msgid ""
+"Like Sai, you can quickly turn a black and white image to black and "
+"transparent with the :menuselection:`Color to Alpha Filter` under "
+":menuselection:`Filters --> Colors --> Color to Alpha`"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:74
+msgid "Brush Settings"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:76
+msgid ""
+"Another, somewhat amusing misconception is that Krita's brush engine is "
+"not very complex. After all, you can only change the Size, Flow and "
+"Opacity from the topbar."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:78
+msgid ""
+"This is not quite true. It's rather that we don't have our brush settings"
+" in a docker but a dropdown on the toolbar. The easiest way to access "
+"this is with :kbd:`f5`. As you can see it's actually quite complex. We "
+"have more than a dozen brush engines, which are a type of brush you can "
+"make. The ones you are used to from Paint Tool Sai are the Pixel "
+"Brush(ink), The Color Smudge Brush(Brush) and the filter brush(dodge, "
+"burn)."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:80
+msgid ""
+"A simple inking brush recipe for example is to take a pixel brush, untick"
+" the 'enable pen-settings' on opacity and flow, and untick everything but"
+" size from the option list. Then, go into brush-tip, pick autobrush from "
+"the tabs, and set the size to 25(right-click a blue bar if you want to "
+"input numbers), turn on anti-aliasing under the brush icon, and set fade "
+"to 0.9. Then, as a final touch, set spacing to 'auto' and the spacing "
+"number to 0.8."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:82
+msgid ""
+"You can configure the brushes in a lot of detail, and share the packs "
+"with others. Importing of packs and brushes can be done via the "
+":menuselection:`settings --> manage resources`, where you can import "
+".bundle files or .kpp files."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:85
+msgid "Erasing"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:87
+msgid ""
+"Erasing is a blending mode in Krita, much like the transparency mode of "
+"Paint Tool Sai. It's activated with :kbd:`E` or you can select it from "
+"the Blending Mode dropdown..."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:90
+msgid "Blending Modes"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:92
+msgid ""
+"Krita has a lot of Blending modes, and thankfully all of Paint Tool Sai's"
+" are amongst them except binary. To manage the blending modes, each of "
+"them has a little check-box that you can tick to add them to the "
+"favorites."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:94
+msgid ""
+"Multiple, Screen, Overlay and Normal are amongst the favourites. Krita's "
+"Luminosity is actually slightly different from Paint Tool Sai's and it "
+"replaces the relative brightness of a color with the relative brightness "
+"of the colour of the layer."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:97
+msgid ""
+"Sai's Luminosity mode is actually the same as Krita's *Addition* or "
+"*linear dodge* mode. The Shade mode is the same as *Color Burn* and *Hard"
+" Mix* is the same as the lumi and shade mode."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:100
+msgid "Layers"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:102
+msgid "Lock Alpha"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:103
+msgid "This is the checkerbox icon next to every layer."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:104
+msgid "Clipping group"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:105
+msgid ""
+"For Clipping masks in Krita you'll need to put all your images in a "
+"single layer, and then press the 'a' icon, or press "
+":kbd:`ctrl`+:kbd:`shift`+:kbd:`G`"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:106
+msgid "Ink layer"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:107
+msgid "This is a vector layer in Krita, and also holds the text."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:108
+msgid "Masks"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:109
+msgid ""
+"These grayscale layers that allow you to affect the transparency are "
+"called transparency masks in Krita, and like Painttool Sai, they can be "
+"applied to groups as well as layers. If you have a selection and make a "
+"transparency mask, it will use the selection as a base."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:111
+msgid "Clearing a layer"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:111
+msgid ""
+"This is under :menuselection:`edit --> clear`, but you can also just "
+"press :kbd:`Del`."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:114
+msgid "Mixing between two colours"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:116
+msgid ""
+"If you liked this docker in Paint Tool Sai, Krita's Digital Color "
+"Selector docker will be able to help you. Dragging the sliders will "
+"change how much of a colour is mixed in."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:119
+msgid "What do you get extra when using Krita?"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:122
+msgid "More brush customisation"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:124
+msgid ""
+"You already met the brush settings editor. Sketch brushes, grid brushes, "
+"deform brushes, clone brushes, brushes that are textures, brushes that "
+"respond to tilt, rotation, speed, brushes that draw hatches and brushes "
+"that deform the colors. Krita's variety is quite big."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:127
+msgid "More color selectors"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:129
+msgid ""
+"You can have HSV sliders, RGB sliders, triangle in a hue ring. But you "
+"can also have HSI, HSL or HSY' sliders, CMYK sliders, palettes, round "
+"selectors, square selectors, tiny selectors, big selectors, color history"
+" and shade selectors. Just go into :menuselection:`settings --> configure"
+" Krita --> advanced color selector settings` to change the shape and type"
+" of the main big color selector."
+msgstr ""
+
+msgid ".. image:: images/en/Krita_Color_Selector_Types.png"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:134
+msgid ""
+"You can call the color history with :kbd:`h`, common colors with :kbd:`u`"
+" and the two shade selectors with :kbd:`shift`+:kbd:`n` and "
+":kbd:`shift`+:kbd:`m`. The big selector can be called with "
+":kbd:`shift`+:kbd:`i` on canvas."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:137
+msgid "Geometric Tools"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:139
+msgid "Circles, rectangles, paths, Krita allows you to draw these easily."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:142
+msgid "Multibrush, Mirror Symmetry and Wrap Around"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:144
+msgid ""
+"These tools allow you to quickly paint a mirrored image, manadala or "
+"tiled texture in no time. Useful for backgrounds and abstract vignettes."
+msgstr ""
+
+msgid ".. image:: images/en/Krita-multibrush.png"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:150
+msgid "Assistants"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:152
+msgid ""
+"The painting assistants can help you to set up a perspective, or a "
+"concentric circle and snap to them with the brush."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:158
+msgid ""
+".. image:: images/en/Krita_basic_assistants.png\n"
+"   :alt: Krita's vanishing point assistants in action"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:158
+msgid "Krita's vanishing point assistants in action"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:161
+msgid "Locking the Layer"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:163
+msgid "Lock the layer with the padlock so you don't draw on it."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:166
+msgid "Quick Layer select"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:168
+msgid ""
+"If you hold :kbd:`R` and press a spot on your drawing, Krita will select "
+"the layer underneath the cursor. Really useful when dealing with a large "
+"amount of layers."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:171
+msgid "Color Management"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:173
+msgid ""
+"This allows you to prepare your work for print, or to do tricks with the "
+"Lut docker so you can diagnose your image better. For example, using the "
+"Lut docker to turn the colors greyscale in a separate view, so you can "
+"see the values instantly."
+msgstr ""
+
+msgid ".. image:: images/en/Krita-view-dependant-lut-management.png"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:179
+msgid "Advanced Transform Tools"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:181
+msgid ""
+"Not just rotate and scale, but also cage, wrap, liquefy and non-"
+"destructive transforms with the transform tool and masks."
+msgstr ""
+
+msgid ".. image:: images/en/Krita_transforms_recursive.png"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:187
+msgid "More Filters and non-destructive filter layers and masks"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:189
+msgid ""
+"With filters like color balance and curves you can make easy shadow "
+"layers. In fact, with the filter layers and layer masks you can make them"
+" apply on the fly as you draw underneath."
+msgstr ""
+
+msgid ".. image:: images/en/Krita_ghostlady_3.png"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:195
+msgid "Pop-up palette"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:197
+msgid ""
+"This is the little circular thing that is by default on the right click. "
+"You can organise your brushes in tags, and use those tags to fill up the "
+"pop-up palette. It also keeps a little color selector and a color "
+"history, so you can switch brushes on the fly."
+msgstr ""
+
+msgid ".. image:: images/en/Krita-popuppalette.png"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:203
+msgid "What does Krita lack compared to Paint Tool Sai?"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:205
+msgid "Variable width vector lines"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:206
+msgid "The selection source option for layers"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:207
+msgid "Dynamic hard-edges for strokes(the fringe effect)"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:208
+msgid "No mix-docker."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:209
+msgid "No Preset-tied stablizer."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:210
+msgid "No per-preset hotkeys."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:213
+msgid "Conclusion"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:215
+msgid ""
+"I hope this introduction got you a little more excited to use Krita, if "
+"not feel a little more at home."
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:224
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:226
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:228
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:230
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:232
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:234
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:236
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:238
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:240
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:242
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:244
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:246
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:248
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:250
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:252
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:254
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:256
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:258
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:260
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:262
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:264
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:266
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:268
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:270
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:272
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:274
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:276
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:278
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:280
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:282
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:284
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:286
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:288
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:290
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:292
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:294
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:296
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:298
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

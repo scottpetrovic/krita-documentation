@@ -1,0 +1,400 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:13
+msgid "Brush-tips:Sculpt-paint-brush"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:16
+msgid "Question"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:18
+msgid ""
+"**How do I make a brush like the one in Sinix's paint-like-a-sculptor "
+"video?**"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:20
+msgid ""
+"It's actually quite easy, but most easy to do since Krita 3.0 due a few "
+"bugfixes."
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:22
+msgid ""
+"First, select *Basic_Wet* from the default presets, and go into the brush"
+" editor with :kbd:`f5`."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Painter-sculpt-brush-01.png\n"
+"   :alt: brush setting dialog to get started"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:27
+msgid ""
+"Then, the trick is to go into **Opacity**, untoggle **Pressure** from the"
+" sensors, toggle **Fade** and then reverse the curve as shown above. Make"
+" sure that the curve ends a little above the bottom-right, so that you "
+"are aways painting something. Otherwise, the smudge won't work."
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:29
+msgid ""
+"This'll make the color rate decrease and turn it into a smudge brush as "
+"the stroke continues:"
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Painter-sculpt-brush-02.png\n"
+"   :alt: remove pressure from oppacity parameter and add fade."
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:34
+msgid ""
+"The **Fade** sensor will base the stroke length on brush size. The "
+"**Distance** sensor will base it on actual pixels, and the **Time** on "
+"actual seconds."
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:36
+msgid ""
+"Then, select :menuselection:`Brushtip --> Predfined` and select the "
+"default *A_Angular_Church_HR* brushtip."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Painter-sculpt-brush-03.png\n"
+"   :alt: select the Angular church brush tip"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:41
+msgid "This makes for a nice textured square brush."
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:43
+msgid ""
+"Of course, this'll make the stroke distance longer to get to smudging, so"
+" we go back to the *Opacity*."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Painter-sculpt-brush-04.png\n"
+"   :alt: opacity parameter in the rbush setting"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:48
+msgid ""
+"Just adjust the fade-length by |mouseright| on the slider bar. You can "
+"then input a number. In the screenshot, I have 500, but the sweet spot "
+"seems to be somewhere betwen 150 and 200."
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:72
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:50
+msgid ""
+"Now, you'll notice that on the start of a stroke, it might be a little "
+"faded, so go into **Color Rate** and turn off the **Enable Pen Settings**"
+" there."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Painter-sculpt-brush-05.png\n"
+"   :alt: switch off sensors for color rate"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:55
+msgid "Then, finally, we'll make the brush rotate."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Painter-sculpt-brush-06.png\n"
+"   :alt: brush rotation is enabled"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:60
+msgid ""
+"Tick the **Rotation** parameter, and select it. There, untick "
+"**Pressure** and tick **Drawing Angle**."
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:62
+msgid ""
+"Then, for better angling, tick **Lock** and set the **Angle Offset** to "
+"90 degrees by |mouseright| the slider bar and typing in 90."
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:64
+msgid ""
+"Now, give your brush a new name, doodle on the brush-square, **Save to "
+"presets** and paint!"
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Painter-sculpt-brush-07.png\n"
+"   :alt: result from the brush we made."
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:70
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:74
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:76
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:78
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:80
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:82
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:84
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:86
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:88
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:90
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:92
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:94
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:96
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:98
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:100
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:102
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:104
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:106
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:108
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:110
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:112
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:114
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:116
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:118
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:120
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:122
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:124
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:126
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:128
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:130
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:132
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:134
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:136
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:138
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:140
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:142
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:144
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:146
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:148
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:150
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

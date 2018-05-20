@@ -1,0 +1,592 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/filters/adjust.rst:15
+msgid "Adjust"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:17
+msgid ""
+"The Adjustment filters are image-wide and are for manipulating colors and"
+" contrast."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:20
+msgid "Dodge"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:22
+msgid ""
+"An image-wide dodge-filter. Dodge is named after a trick in traditional "
+"dark-room photography that gave the same results."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:25
+msgid ".. image:: images/en/Dodge-filter.png"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:26
+#: ../../reference_manual/filters/adjust.rst:42
+msgid "Shadows"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:27
+#: ../../reference_manual/filters/adjust.rst:43
+msgid "The effect will mostly apply to dark tones."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:28
+#: ../../reference_manual/filters/adjust.rst:44
+msgid "Midtones"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:29
+#: ../../reference_manual/filters/adjust.rst:45
+msgid "The effect will apply to mostly midtones."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:30
+#: ../../reference_manual/filters/adjust.rst:46
+msgid "Highlights"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:31
+#: ../../reference_manual/filters/adjust.rst:47
+msgid "This will apply the effect on the highlights only."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:33
+#: ../../reference_manual/filters/adjust.rst:49
+msgid "Exposure"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:33
+#: ../../reference_manual/filters/adjust.rst:49
+msgid "The strength at which this filter is applied."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:36
+msgid "Burn"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:38
+msgid ""
+"An image-wide burn-filter. Burn is named after a trick in traditional "
+"dark-room photography that gave similar results."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:41
+msgid ".. image:: images/en/Burn-filter.png"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:52
+msgid "Levels"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:54
+msgid ""
+"This filter allows you to directly modify the levels of the tone-values "
+"of an image, by manipulating sliders for highlights, midtones and "
+"shadows. you can even set an output and input range of tones for the "
+"image.A histogram is displayed to show you the tonal distribution. The "
+"default shortcut for levels filter is :kbd:`Ctrl + L` ."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:58
+msgid ".. image:: images/en/Levels-filter.png"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:59
+msgid ""
+"This is very useful to do an initial cleanup of scanned lineart or "
+"greyscale images. If the scanned lineart is light you can slide the black"
+" triangle to right to make it darker or if you want to remove the grey "
+"areas you can slide the white slider to left."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:61
+msgid ""
+"Auto levels is a quick way to adjust tone of an image. If you want to "
+"change the settings later you can click on the create filter mask button "
+"to add the levels as a filter mask."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:65
+msgid "Color Adjustment Curves"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:67
+msgid ""
+"This filter allows you to adjust each channel by manipulating the curves."
+" You can even adjust the alpha channel and the lightness channel though "
+"this filter. This is used very often by artists as a post processing "
+"filter to slightly heighten the mood of the painting by adjust the "
+"overall color. For example a scene with fire breathing dragon may be made"
+" more red and yellow by adjusting the curves to give it more warmer look,"
+" similarly a snowy mountain scene can be made to look cooler by adjusting"
+" the blues and greens. The default shortcut for this filter is :kbd:`Ctrl"
+" + M` ."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:71
+msgid ".. image:: images/en/Color-adjustment-curve.png"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:73
+msgid "Brightness/Contrast curves"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:75
+msgid ""
+"This filter allows you to adjust the brightness and contrast of the image"
+" by adjusting the curves."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:78
+msgid ""
+"These have been removed in Krita 4.0, because the Color Adjustment filter"
+" can do the same. Old files with brightness/contrast curves will be "
+"loaded as Color Adjustment curves"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:81
+msgid "Color Balance"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:83
+msgid ""
+"This filter allows you to control the color balance of the image by "
+"adjusting the sliders for Shadows, Midtones and Highlights. The default "
+"shortcut for this filter is :kbd:`Ctrl + B` ."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:87
+msgid ".. image:: images/en/Color-balance.png"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:89
+msgid "Desaturate"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:91
+msgid ""
+"Image-wide dasaturation filter. Will make any image Greyscale. Has "
+"several choices by which logic the colors are turned to grey. The default"
+" shortcut for this filter is :kbd:`Ctrl + Shift + U` ."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:95
+msgid ".. image:: images/en/Desaturate-filter.png"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:96
+msgid "Lightness"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:97
+msgid "This will turn colors to grey using the HSL model."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:98
+msgid "Luminosity(ITU-R BT.709)"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:99
+msgid ""
+"Will turn the color to grey by using the appropriate amount of weighting "
+"per channel according to ITU-R BT.709."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:100
+msgid "Luminosity(ITU-R BT.601)"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:101
+msgid ""
+"Will turn the color to grey by using the appropriate amount of weighting "
+"per channel according to ITU-R BT.601."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:102
+msgid "Avarage"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:103
+msgid "Will make an avarage of all channels."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:104
+msgid "Min"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:105
+msgid "Substracts all from one another to find the grey value."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:107
+msgid "Max"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:107
+msgid "Adds all channels together to get a grey-value"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:110
+msgid "Invert"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:112
+msgid ""
+"This filter like the name suggests inverts the color values in the "
+"image.So white (1,1,1) becomes black(0,0,0), yellow(1,1,0) becomes "
+"blue(0,1,1), etc. The default shortcut for this filter is :kbd:`Ctrl + I`"
+" ."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:116
+msgid "Auto Contrast"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:118
+msgid "Tries to adjust the constrast the universally acceptable levels."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:121
+msgid "HSV/HSL Adjustment"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:123
+msgid ""
+"With this filter, you can adjust the Hue, Saturation, Value or Lightness,"
+" through sliders. The default shortcut for this filter is :kbd:`Ctrl + U`"
+" ."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:126
+msgid ".. image:: images/en/Hue-saturation-filter.png"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:128
+msgid "Threshold"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:130
+msgid ""
+"A simple black and white threshold filter that uses sRGB luminosity. "
+"It'll convert any image to a image with only black and white, with the "
+"input number indicating the threshold value at which black becomes white."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:133
+msgid "Slope, Offset, Power"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:135
+msgid ""
+"A different kind of color balance filter, with three color selectors, "
+"which will have the same shape as the one used in settings."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:137
+msgid ""
+"This filter is particular because it has been defined by the American "
+"Society for Cinema as \"ASC_CDL\", meaning that it is a standard way of "
+"describing a color balance method."
+msgstr ""
+
+msgid ".. image:: images/en/Krita_filters_asc_cdl.png"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:143
+msgid "Slope"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:144
+msgid ""
+"This represents a multiplication and determine the adjustment of the "
+"brighter colors in an image."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:145
+msgid "Offset"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:146
+msgid ""
+"This determines how much the bottom is offset from the top, and so "
+"determines the color of the darkest colors."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:149
+msgid "Power"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:148
+msgid ""
+"This represents a power function, and determines the adjustment of the "
+"mid-tone to dark colors of an image."
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:151
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:153
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:155
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:157
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:159
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:161
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:163
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:165
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:167
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:169
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:171
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:173
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:175
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:177
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:179
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:181
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:183
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:185
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:187
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:189
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:191
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:193
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:195
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:197
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:199
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:201
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:203
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:205
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:207
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:209
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:211
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:213
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:215
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:217
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:219
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:221
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:223
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:225
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:227
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:229
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/filters/adjust.rst:231
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

@@ -1,0 +1,556 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../user_manual/getting_started/navigation.rst:17
+#: ../../user_manual/getting_started/navigation.rst:42
+msgid "Navigation"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:20
+msgid "Interface"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:22
+msgid ""
+"Krita provides an ample choice for the artists to arrange the workspace. "
+"An artist can snap and arrange the elements of the workspace, much like "
+"snapping together Lego blocks.  Krita provides a set of construction kit "
+"parts in the form of Dockers and Toolbars. Every set of elements can be "
+"shown, hidden, moved and rearranged that let the artist easily customize "
+"their own user interface experience."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:25
+msgid "A Tour of the Krita Interface"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:27
+msgid ""
+"As we've said before, the Krita interface is very malleable and the way "
+"that you choose to configure the work surface may not resemble those "
+"above but, at least this we can use these as a starting point."
+msgstr ""
+
+msgid ".. image:: images/en/Interface-tour.png"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:33
+msgid ""
+"**A** -- Traditional '''File''' or action menu found in most windowed "
+"applications"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:34
+msgid ""
+"**B** -- Toolbar - This is where you can choose your brushes, set "
+"parameters such as opacity and size and other settings."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:35
+msgid ""
+"**C** -- Sidebars for the Movable Panels/Dockers.  In some applications, "
+"these are known as Dockable areas. Krita also allows you to dock panels "
+"at the top and/or bottom as well."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:36
+msgid ""
+"**D** -- Status Bar - This space shows you prefered mode for showing "
+"selection i.e marching ants or mask mode, your selected brush preset, "
+":ref:`Color Space <color_managed_workflow>`, image size and provides a "
+"convenient zoom control."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:37
+msgid ""
+"**E** -- Floating Panel/Docker - These can be \"popped\" in and out of "
+"their docks at any time in order to see a greater range of options.  A "
+"good example of this would be the :ref:`brush_preset_docker` or the "
+":ref:`palette_docker`"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:39
+msgid ""
+"Your canvas sits in the middle and unlike traditional paper or even most "
+"digital painting apps, Krita provides the artist with a scrolling canvas "
+"of infinite size (not that you'll need it of course!).  The standard "
+"navigation tools are as follows:"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:43
+msgid ""
+"Many of the canvas navigation actions, like rotation, mirroring and "
+"zooming have default keys attached to them:"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:45
+msgid "Panning"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:46
+msgid ""
+"This can be done through |mousemiddle|, :kbd:`Space +` |mouseleft| and "
+":kbd:`the directional keys`."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:119
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:115
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:47
+msgid "Zooming"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:48
+msgid ""
+"Discrete zooming can be done through :kbd:`+`, and :kbd:`-`. Using "
+":kbd:`Ctrl + Space` or :kbd:`Ctrl +` |mousemiddle| can allow for direct "
+"zooming with the stylus."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:49
+msgid "Mirroring"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:50
+msgid ""
+"You can mirror the view can be quickly done via :kbd:`M`.   Mirroring is "
+"a great technique that seasoned digital artists use to quickly review the"
+" composition of their work to ensure that it \"reads\" well, even when "
+"flipped horizontally."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:52
+msgid "Rotating"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:52
+msgid ""
+"You can rotate the canvas without transforming it can be done with "
+":kbd:`Ctrl + [` or :kbd:`4` and the other way with :kbd:`Ctrl + ]` or "
+":kbd:`6`. Quick mouse based rotation is :kbd:`Shift + Space` and "
+":kbd:`Shift +` |mousemiddle|. To reset rotation use :kbd:`5` ."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:54
+msgid "You can also find these under :menuselection:`View --> Canvas`"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:57
+msgid "Dockers"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:59
+msgid ""
+"Krita subdivides many of it's options into functional panels called "
+"Dockers (aka Docks). Dockers are small windows that can contain, for "
+"example, things like the layer stack, Color Palette or Brush Presets. "
+"Think of them as the painter's palette, or his water, or his brushkit. "
+"Dockers can be activated by choosing the :guilabel:`Settings` menu and "
+"the :guilabel:`Dockers` sub-menu.  There you will find a long list of "
+"available options."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:63
+msgid ""
+"Dockers can be removed by clicking the **x** in the upper-right of the "
+"docker-window."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:65
+msgid ""
+"Dockers, as the name implied, can be docked into the main interface. You "
+"can do this by dragging the docker to the sides of the canvas (or top or "
+"bottom if you prefer)."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:67
+msgid ""
+"Dockers contain many of the \"hidden\", and powerful, aspects of "
+"**Krita** that you will want to explore as you start delving deeper into "
+"the application."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:69
+msgid ""
+"You can arrange the dockers in almost any permutation and combination "
+"according to the needs of your workflow, and then save these arrangements"
+" as Workspaces."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:71
+msgid ""
+"Dockers can be prevented from docking by pressing :kbd:`Ctrl` before "
+"starting to drag the docker."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:74
+msgid "Sliders"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:75
+msgid ""
+"Krita uses these to control values like brush size, opacity, flow, Hue, "
+"Saturation, etc... Below is an example of a Krita slider."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:78
+msgid ".. image:: images/en/Krita_Opacity_Slider.png"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:79
+msgid ""
+"The total range is represented from left to right and blue bar gives an "
+"indication of where in the possible range the current value is.  Clicking"
+" anywhere, left or right, of that slider will change the current number "
+"to something lower(to the left) or higher(to the right)."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:81
+msgid ""
+"To input a specific number, |mouseright| the slider. A number can now be "
+"entered directly for even greater precision."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:117
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:83
+msgid ""
+"Pressing :kbd:`Shift` while dragging the slider changes the values at a "
+"smaller increment, and Pressing :kbd:`Ctrl` while dragging the slider "
+"changes the value in whole numbers or multiples or 5."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:86
+msgid "Toolbars"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:88
+msgid ".. image:: images/en/Krita_Toolbar.png"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:89
+msgid ""
+"Toolbars are where some of the important actions and menu's are placed so"
+" that they are readily and quickly available for the artist while "
+"painting."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:91
+msgid ""
+"You can learn more about the Krita Toolbars and how to configure them in "
+"over in the Toolbars section of the manual. Putting these to effective "
+"use can really speed up the Artist's workflow, especially for users of "
+"Tablet-Monitors and Tablet-PCs."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:95
+msgid "Workspace Chooser"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:97
+msgid ""
+"The button on the very right of the toolbar is the workspace chooser. "
+"This allows you to load and save common configurations of the user "
+"interface in Krita. There are a few common workspaces that come with "
+"Krita."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:100
+msgid "Pop-up Palette"
+msgstr ""
+
+msgid ".. image:: images/en/Krita-popuppalette.png"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:105
+msgid ""
+"Pop-up Palette is an unique feature in Krita designed to increase "
+"productivity of the artist, It is a circular menu for quickly choosing "
+"brushes, foreground and background colors, recent colors while painting. "
+"To access the palette you have to just |mouseright| on the canvas. The "
+"palette will spawn at the place of the brush tip or cursor."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:107
+msgid ""
+"By tagging your brush presets you can add particular sets of brushes to "
+"this palette. for example If you add some inking brush presets to inking "
+"tag you can and change the tags to inking in the pop-up palette you'll "
+"get all the inking brushes in the palette."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:109
+msgid ""
+"You can :ref:`tag <tag_management>` brush presets via the "
+":ref:`brush_preset_docker`, check out the resource overview page to know "
+"more about tagging in general."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:111
+msgid ""
+"If you call up the pop-up palette again, you can click the wrench icon, "
+"and select the tag. In fact, you can make multiple tags and switch "
+"between them. When you need more than ten presets, go into "
+":menuselection:`Settings --> configure Krita --> general --> favorite "
+"presets` and change the number of presets from 10 to something you feel "
+"comfortable."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:121
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:123
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:125
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:127
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:129
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:131
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:133
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:135
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:137
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:139
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:141
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:143
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:145
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:147
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:149
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:151
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:153
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:155
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:157
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:159
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:161
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:163
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:165
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:167
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:169
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:171
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:173
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:175
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:177
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:179
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:181
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:183
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:185
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:187
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:189
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:191
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:193
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:195
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

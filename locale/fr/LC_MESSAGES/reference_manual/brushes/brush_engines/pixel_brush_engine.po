@@ -1,0 +1,447 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:15
+msgid "Pixel Brush Engine"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:18
+msgid ".. image:: images/icons/pixelbrush.svg"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:19
+msgid ""
+"Brushes are ordered alphabetically. The brush that is selected by default"
+" when you start with Krita is the '''Pixel Brush'''. The pixel brush is "
+"the traditional mainstay of digital art. This brush paints impressions of"
+" the brush tip along your stroke with a greater or smaller density."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:23
+msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Popup.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:24
+msgid "Let's first review these mechanics:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:26
+msgid ""
+"select a brush tip. This can be a generated brush tip (round, square, "
+"star-shaped), a predefined bitmap brush tip, a custom brush tip or a "
+"text."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:27
+msgid ""
+"select the spacing: this determines how many impressions of the tip will "
+"be made along your stroke"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:28
+msgid ""
+"select the effects: the pressure of your stylus, your speed of painting "
+"or other inputs can change the size, the color, the opacity or other "
+"aspects of the currently painted brush tip instance -- some applications "
+"call that a \"dab\"."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:29
+msgid ""
+"depending on the brush mode, the previously painted brush tip instance is"
+" mixed with the current one, causing a darker, more painterly stroke, or "
+"the complete stroke is computed and put on your layer. You will see the "
+"stroke grow while painting in both cases, of course!"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:31
+msgid ""
+"Since 4.0, the Pixel Brush Engine has Multithreaded brush-tips, with the "
+"default brush being the fastest mask."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:33
+msgid "Available Options:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:35
+msgid ":ref:`option_brush_tip`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:36
+msgid ":ref:`blending_modes`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:37
+msgid ":ref:`option_opacity_n_flow`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:38
+msgid ":ref:`option_size`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:39
+msgid ":ref:`option_ratio`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:40
+msgid ":ref:`option_spacing`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:41
+msgid ":ref:`option_mirror`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:42
+msgid ":ref:`option_softness`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:43
+msgid ":ref:`option_sharpness`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:44
+msgid ":ref:`option_rotation`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:45
+msgid ":ref:`option_scatter`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:46
+msgid ":ref:`option_source`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:47
+msgid ":ref:`option_mix`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:48
+msgid ":ref:`option_airbrush`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:49
+msgid ":ref:`option_texture`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:50
+msgid ":ref:`option_masked_brush`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:53
+msgid "Specific Parameters to the Pixel Brush Engine"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:56
+msgid "Darken"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:58
+msgid "Allows you to Darken the source colour with Sensors."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:61
+msgid ".. image:: images/en/Krita_2_9_brushengine_darken_01.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:62
+msgid ""
+"The color will always become black in the end, and will work with Plain "
+"Color, Gradient and Uniform random as source."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:65
+msgid "Hue, Saturation, Value"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:67
+msgid ""
+"These parameters allow you to do a HSV adjustment filter on the "
+":ref:`option_source` and control it with Sensors."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:70
+msgid ".. image:: images/en/Krita_2_9_brushengine_HSV_01.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:71
+msgid "Works with Plain Color, Gradient and Uniform random as source."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:74
+msgid "Uses"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:77
+msgid ".. image:: images/en/Krita_2_9_brushengine_HSV_02.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:78
+msgid ""
+"Having all three parameters on Fuzzy will help with rich color texture. "
+"In combination with :ref:`option_mix`, you can have even finer control."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:81
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:83
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:85
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:87
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:89
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:91
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:93
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:95
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:97
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:99
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:101
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:103
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:105
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:107
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:109
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:111
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:113
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:115
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:117
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:119
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:121
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:123
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:125
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:127
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:129
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:131
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:133
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:135
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:137
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:139
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:141
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:143
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:145
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:147
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:149
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:151
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:153
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:155
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:157
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:159
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:161
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

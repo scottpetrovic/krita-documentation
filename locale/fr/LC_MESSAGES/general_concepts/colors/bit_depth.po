@@ -1,0 +1,439 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../general_concepts/colors/bit_depth.rst:14
+msgid "Bit Depth"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:16
+msgid ""
+"Bit depth basically refers to the amount of working memory per pixel you "
+"reserve for an image."
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:18
+msgid ""
+"Like how having a A2 paper in real life can allow for much more detail in"
+" the end drawing, it does take up more of your desk than a simple A4 "
+"paper."
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:20
+msgid ""
+"However, this does not just refer to the size of the image, but also how "
+"much precision you need per colour."
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:22
+msgid ""
+"To illustrate this, I'll briefly talk about something that is not even "
+"available in Krita:"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:25
+msgid "Indexed Colour."
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:27
+msgid ""
+"In older programs, the computer would have per image, a palette that "
+"contains a number for each color. The palette size is defined in bits, "
+"because the computer can only store data in bit-sizes."
+msgstr ""
+
+msgid ".. image:: images/en/color_category/Kiki_lowbit.png"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:35
+msgid "1bit"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:36
+msgid "Only two colours in total, usually black and white."
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:37
+msgid "4bit(16 colors)"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:38
+msgid ""
+"16 colors in total, these are famous as many early games were presented "
+"in this color palette."
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:40
+msgid "8bit"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:40
+msgid ""
+"256 colors in total. 8bit images are commonly used in games to save on "
+"memory for textures and sprites."
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:42
+msgid ""
+"However,  this is not available in Krita. Krita instead works with "
+"channels, and counts how many colors per channel you need(described in "
+"terms of ''bits per channel''). This is called 'real colour'."
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:45
+msgid "Real Color"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:51
+msgid ".. image:: images/en/color_category/Rgbcolorcube_3.png"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:51
+msgid ""
+"1, 2, and 3bit per channel don't actually exist in any graphics "
+"application out there, however, by imagining them, we can imagine how "
+"each bit affects the precision: Usually, each bit subdivides each section"
+" in the color cube meaning precision becomes a power of 2 bigger than the"
+" previous cube."
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:53
+msgid "4bit per channel(not supported by Krita)"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:54
+msgid ""
+"Also known as Hi-color, or 16bit color total. A bit of an old system, and"
+" not used outside of specific displays."
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:55
+msgid "8bit per channel"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:56
+msgid ""
+"Also known as \"True Color\", \"Millions of colors\" or \"24bit/32bit\". "
+"The standard for many screens, and the lowest bit-depth Krita can handle."
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:57
+msgid "16bit per channel."
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:58
+msgid ""
+"One step up from 8bit, 16bit per channel allows for colors that can't be "
+"displayed by the screen. However, due to this, you are more likely to "
+"have smoother gradients. Sometimes known as \"Deep Color\". This color "
+"depth type doesn't have negative values possible, so it is 16bit "
+"precision, meaning that you have have 65536 values per channel."
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:59
+msgid "16bit float"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:60
+msgid ""
+"Similar to 16bit, but with more range and less precision. Where 16bit "
+"only allows coordinates like [1, 4, 3], 16bit float has coordinates like "
+"[0.15, 0.70, 0.3759], with [1.0,1.0,1.0] representing white. Because of "
+"the differences between floating point and integer type variables, and "
+"because Scene-referred imaging allows for negative values, you have about"
+" 10-11bits of precision per channel in 16 bit floating point compared to "
+"16 bit in 16 bit int(This is 2048 values per channel in the 0-1 range) "
+"Required for HDR/Scene referred images, and often known as 'half floating"
+" point'."
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:63
+msgid "32bit float"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:62
+msgid ""
+"similar to 16bit float but with even higher precision. The native color "
+"depth of OpenColor IO, and thus faster than 16bit float in HDR images, if"
+" not heavier. Because of the nature of floating point type variables, "
+"32bit float is roughly equal to 23-24 bits of precision per "
+"channel(16777216 values per channel in the 0-1 range), but with a much "
+"wider range(it can go far above 1), necessary for HDR/Scene-referred "
+"values. It is also known as 'single floating point'."
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:65
+msgid ""
+"This is important if you have a working colour space that is larger than "
+"your device space: At the least, if you do not want colour banding."
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:67
+msgid ""
+"And while you can attempt to create all your images a 32bit float, this "
+"will quickly take up your ram. Therefore, it's important to consider "
+"which bit depth you will use for what kind of image."
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:70
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:72
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:74
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:76
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:78
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:80
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:82
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:84
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:86
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:88
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:90
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:92
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:94
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:96
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:98
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:100
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:102
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:104
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:106
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:108
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:110
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:112
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:114
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:116
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:118
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:120
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:122
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:124
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:126
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:128
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:130
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:132
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:134
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:136
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:138
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:140
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:142
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:144
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:146
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:148
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:150
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

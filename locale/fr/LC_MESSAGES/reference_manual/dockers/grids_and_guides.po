@@ -1,0 +1,471 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:17
+msgid "Grids and Guides Docker"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:19
+msgid "The grids and guides docker replaces the :ref:`grid_tool` in Krita 3.0."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:21
+msgid ""
+"This docker controls the look and the visibility of both the Grid and the"
+" Guides decorations. It also features a checkbox to quickly toggle "
+"snapping on or off."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:24
+msgid "Grids"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:26
+msgid ""
+"Grids in Krita can currently only be orthogonal and diagonal.. There is a"
+" single grid per canvas, and it is saved within the document. Thus it can"
+" be saved in a :ref:`templates`."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:28
+msgid "Show Grid"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:29
+msgid "Shows or hides the grid."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:30
+msgid "Snap to Grid"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:31
+msgid ""
+"Toggles grid snapping on or off. This can also be achieved with "
+":kbd:`shift + S`."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:49
+msgid "Type"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:33
+msgid "The type of Grid"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:41
+msgid "Rectangle"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:36
+msgid "An orthogonal grid."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:38
+msgid "X and Y spacing"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:39
+msgid "Sets the width and height of the grid in pixels."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:41
+msgid "Subdivision"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:41
+msgid ""
+"Groups cells together as larger squares and changes the look of the lines"
+" it contains. A subdivision of 2 will make cells appear twice as big, and"
+" the inner lines will become subdivisions."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:49
+msgid "Isometric"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:44
+msgid "A diagonal grid. Isometric doesn't support snapping."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:46
+msgid "Left and Right Angle"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:47
+msgid "The angle of the lines. Set both angles to 30° for true isometric."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:49
+msgid "Cell spacing"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:49
+msgid "Determines how much both sets of lines are spaced."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:51
+msgid "Grid Offset"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:52
+msgid ""
+"Offsets the grid’s starting position from the top-left corner of the "
+"document, in pixels."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:53
+msgid "Main Style"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:54
+msgid "Controls the look of the grid’s main lines."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:56
+msgid "Div Style"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:56
+msgid "Controls the look of the grid’s “subdivision” lines."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:59
+msgid ".. image:: images/en/Grid_sudvision.png"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:60
+msgid ""
+"The grid's base size is 64 pixels. With a subdivision of 2, the main grid"
+" lines are 128 px away from one another, and the intermediate lines have "
+"a different look."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:63
+msgid "Guides"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:65
+msgid ""
+"Guides are horizontal and vertical reference lines. You can use them to "
+"place and align layers accurately on the canvas."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:68
+msgid ".. image:: images/en/Guides.jpg"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:70
+msgid "Creating Guides"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:72
+msgid "To create a guide, you need both the rulers and the guides to be visible."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:74
+msgid "Rulers. (:menuselection:`View --> Show Rulers`)"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:75
+msgid "Guides.  (:menuselection:`View --> Show Guides`)"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:77
+msgid ""
+"To create a guide, move your cursor over a ruler and drag in the "
+"direction of the canvas. A line will appear. Dragging from the left ruler"
+" creates a vertical guide, and dragging from the top ruler creates a "
+"horizontal guide."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:79
+msgid ""
+"Editing Guides Place your cursor above a guide on the canvas. If the "
+"guides are not locked, your cursor will change to a double arrow. In that"
+" case, click and drag to move the guide. To lock and unlock the guides, "
+"open the Grid and Guides Docker. Ensure that the Guides tab is selected. "
+"From here you can lock the guides, enable snapping, and change the line "
+"style."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:85
+msgid ""
+"Currently, it is not possible to create or to move guides to precise "
+"positions. The only way to achieve that for now is to zoom in on the "
+"canvas, or to use the grid and snapping to place the guide."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:88
+msgid "Removing Guides"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:90
+msgid ""
+"Click on the guide you want to remove and drag it outside of the canvas "
+"area. When you release your mouse or stylus, the guide will be removed."
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:93
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:95
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:97
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:99
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:101
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:103
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:105
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:107
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:109
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:111
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:113
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:115
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:117
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:119
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:121
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:123
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:125
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:127
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:129
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:131
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:133
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:135
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:137
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:139
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:141
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:143
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:145
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:147
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:149
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:151
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:153
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:155
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:157
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:159
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:161
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:163
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:165
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:167
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:169
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:171
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:173
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

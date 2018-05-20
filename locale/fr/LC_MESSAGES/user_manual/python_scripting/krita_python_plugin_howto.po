@@ -1,0 +1,864 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:18
+msgid "How to make a Krita Python plugin"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:20
+msgid ""
+"You might have some neat scripts you have written in the Scripter Python "
+"runner, but maybe you want to do more with it and run it automatically "
+"for instance. Wrapping your script in a plugin can give you much more "
+"flexibility and power than running scripts from the Scripter editor."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:22
+msgid ""
+"Okay, so even if you know python really well, there's some little details"
+" to getting Krita to recognise a python plugin. So this page will give an"
+" overview how to create the various types of python script unique to "
+"Krita."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:24
+msgid ""
+"These mini-tutorials are written for people with a basic understanding of"
+" python, and in such a way to encourage experimentation instead of "
+"plainly copy and pasting code, so read the text carefully."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:27
+msgid "Getting Krita to recognise your plugin"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:29
+msgid ""
+"A script in Krita has two components - the script directory (holding your"
+" script's Python files) and a \".desktop\" file that Krita uses to load "
+"and register your script. For Krita to load your script both of these "
+"must put be in the pykrita subdirectory of your Krita resources folder "
+"(on Linux  ~/.local/share/krita/pykrita). To find your resources folder "
+"start Krita and click the :menuselection:`Settings --> Manage Resources "
+"menu item`. This will open a dialog box. Click the button Open Resources "
+"Folder. This should open a file manager on your system at your Krita "
+"resources folder. See the `API <https://api.kde.org/extragear-api"
+"/graphics-apidocs/krita/libs/libkis/html/index.html>`_ docs under \"Auto "
+"starting scripts\".  If there is no pykrita subfolder in the Krita "
+"resources directory use your file manager to create one."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:31
+msgid ""
+"Scripts are identified by a file that ends in a .desktop extension that "
+"contain information about the script itself."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:33
+msgid ""
+"Therefore, for each proper plug-in you will need to create a folder, and "
+"a desktop file."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:35
+msgid "The desktop file should look as follows::"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:46
+msgid "Type"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:47
+msgid "This should always be service."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:48
+msgid "ServiceTypes"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:49
+msgid "This should always be Krita/PythonPlugin for python plugins."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:50
+msgid "X-KDE-Library"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:51
+msgid "This should be the name of the plugin folder you just created."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:52
+msgid "X-Python-2-Compatible"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:53
+msgid ""
+"Whether it is python compatible... we don't actually do anything with "
+"this."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:54
+msgid "X-Krita-Manual"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:55
+msgid ""
+"An Optional Value that will point to the manual item. This is shown in "
+"the Python Plugin manager. If it's `a HTML file it'll be shown as rich "
+"text <https://doc.qt.io/qt-5/richtext-html-subset.html>`_, if not, it'll "
+"be shown as plain text."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:56
+msgid "Name"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:57
+msgid "The name that will show up in the Python Plugin Manager"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:59
+msgid "Comment"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:59
+msgid "The description that will show up in the Python Plugin Manager."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:61
+msgid ""
+"Krita python plugins need to be python modules, so make sure there's an "
+"__init__.py script, containing something like..."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:68
+msgid ""
+"Where .myplugin is the name of the main file of your plugin. If you "
+"restart Krita, it now should show this in the Python Plugin Manager in "
+"the settings, but it will be grayed out, because there's no myplugin.py. "
+"If you hover over disabled plugins, you can see the error with them."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:71
+msgid "Summary"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:73
+msgid "In summary, if you want to create a script called *myplugin*:"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:76
+msgid "in your Krita *resources/pykrita* directory create"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:76
+msgid "a folder called *myplugin*"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:77
+msgid "a file called *myplugin.desktop*"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:79
+msgid "in the *myplugin* folder create"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:79
+msgid "a file called *__init__.py*"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:80
+msgid "a file called *myplugin.py*"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:81
+msgid "in the *__init__.py* file put this code:"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:87
+msgid "in the desktop file put this code::"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:97
+msgid "write your script in the ''myplugin/myplugin.py'' file."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:100
+msgid "Creating an extension"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:102
+msgid ""
+"`Extensions <https://api.kde.org/extragear-api/graphics-"
+"apidocs/krita/libs/libkis/html/classExtension.html>`_ are relatively "
+"simple python scripts that run on Krita start. They are made by extending"
+" the Extension class, and the most barebones extension looks like this:"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:124
+msgid ""
+"This code of course doesn't do anything. Typically, in createActions we "
+"add actions to Krita so we can access our script from the tools menu."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:126
+msgid ""
+"First, let's create an `action <https://api.kde.org/extragear-api"
+"/graphics-apidocs/krita/libs/libkis/html/classAction.html>`_. We can do "
+"that easily with `Window.createAction() <https://api.kde.org/extragear-"
+"api/graphics-"
+"apidocs/krita/libs/libkis/html/classWindow.html#a72ec58e53844076c1461966c34a9115c>`_."
+" Krita will call createActions for every Window that is created and pass "
+"the right window object that we have to use."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:128
+msgid "So..."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:136
+msgid "\"myAction\""
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:137
+msgid ""
+"This should be replaced with an unique id that Krita will use to find the"
+" action."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:139
+msgid "\"My Script\""
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:139
+msgid "This is what will be visible in the tools menu."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:141
+msgid ""
+"if you now restart Krita, you will have an action called \"My Script\". "
+"It still doesn't do anything, because we haven't connected it to a "
+"script."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:143
+msgid ""
+"So, lets make a simple export document script. Add the following to the "
+"extension class, make sure it is above where you add the extension to "
+"Krita:"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:159
+msgid "And add the import for QFileDialog above with the imports:"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:167
+msgid "Then, to connect the action to the new export document:"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:176
+msgid ""
+"This is an example of a `signal/slot connection "
+"<http://doc.qt.io/qt-5/signalsandslots.html>`_, which QT applications "
+"like Krita use a lot. We'll go over how to make our own signals and slots"
+" a bit later."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:178
+msgid "Restart Krita and your new action ought to now export the document."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:181
+msgid "Creating configurable keyboard shortcuts"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:183
+msgid ""
+"Now, your new action doesn't show up in :menuselection:`Settings --> "
+"configure Krita --> Keyboard Shortcuts`."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:185
+msgid ""
+"Krita, for various reasons, only adds actions to the shortcuts menu when "
+"they are present in an .action file. The action file to get our action to"
+" be added to shortcuts should look like this:"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:210
+msgid "<text>My Scripts</text>"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:211
+msgid ""
+"This will create a sub-category under scripts called \"My Scripts\" to "
+"add your shortcuts to."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:212
+msgid "name"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:213
+msgid ""
+"This should be the unique id you made for your action when creating it in"
+" the setup of the extension."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:214
+msgid "icon"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:215
+msgid ""
+"the name of a possible icon. These will only show up on KDE plasma, "
+"because Gnome and Windows users complained they look ugly."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:216
+msgid "text"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:217
+msgid "The text that it will show in the shortcut editor."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:218
+msgid "whatsThis"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:219
+msgid ""
+"The text it will show when a QT application specifically calls for 'what "
+"is this', which is a help action."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:220
+msgid "toolTip"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:221
+msgid "The tool tip, this will show up on hover-over."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:222
+msgid "iconText"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:223
+msgid ""
+"The text it will show when displayed in a toolbar. So for example, "
+"\"Resize Image to New Size\" could be shortened to \"Resize Image\" to "
+"save space, so we'd put that in here."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:224
+msgid "activationFlags"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:225
+msgid "This determines when an action is disabled or not."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:226
+msgid "activationConditions"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:227
+msgid "No clue"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:228
+msgid "shortcut"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:229
+msgid "Default shortcut."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:230
+msgid "isCheckable"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:231
+msgid "Whether it is a checkbox or not."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:233
+msgid "statusTip"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:233
+msgid "No Clue."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:235
+msgid ""
+"Save this file as \"myplugin.action\" where myplugin is the name of your "
+"plugin. The action file should be saved, not in the pykrita resources "
+"folder, but rather in a resources folder named \"actions\". (So, "
+"share/pykrita is where the python plugins and desktop files go, and "
+"share/actions is where the action files go) Restart Krita. The shortcut "
+"should now show up in the shortcut action list."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:238
+msgid "Creating a docker"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:240
+msgid ""
+"Creating a custom `docker <https://api.kde.org/extragear-api/graphics-"
+"apidocs/krita/libs/libkis/html/classDockWidget.html>`_ is much like "
+"creating an extension. Dockers are in some ways a little easier, but they"
+" also require more use of widgets. This is the barebones docker code:"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:259
+msgid ""
+"The window title is how it will appear in the docker list in Krita. "
+"canvasChanged always needs to be present, but you don't have to do "
+"anything with it, so hence just 'pass'."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:261
+msgid "For the addDockWidgetFactory..."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:263
+msgid "\"myDocker\""
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:264
+msgid ""
+"Replace this with an unique ID for your docker that Krita uses to keep "
+"track of it."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:265
+msgid "DockWidgetFactoryBase.DockRight"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:266
+msgid ""
+"The location. These can be DockTornOff, DockTop, DockBottom, DockRight, "
+"DockLeft, or DockMinimized"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:268
+msgid "MyDocker"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:268
+msgid "Replace this with class name of the docker your wanna add."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:270
+msgid ""
+"So, if we add our export document function we created in the extension "
+"section to this docker code, how do we allow the user to activate it? "
+"First, we'll need to do some QT GUI coding: Let's add a button!"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:272
+msgid ""
+"Krita standardly uses pyQT, but their documentation is pretty bad, mostly"
+" because the regular QT documentation is really good, and you'll often "
+"find that the pyQT documentation of a class, say, `QWidget "
+"<http://pyqt.sourceforge.net/Docs/PyQt4/qwidget.html>`_ is like a weird "
+"copy of the regular `QT documentation "
+"<http://doc.qt.io/qt-5/qwidget.html>`_ for that class."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:274
+msgid ""
+"Anyway, what we need to do first is that we need to create a QWidget, "
+"it's not very complicated, under setWindowTitle, add:"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:281
+msgid "Then, we create a button:"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:287
+msgid ""
+"Now, to connect the button to our function, we'll need to look at the "
+"signals in the documentation. `QPushButton "
+"<http://doc.qt.io/qt-5/qpushbutton.html>`_ has no unique signals of it's "
+"own, but it does say it inherits 4 signals from `QAbstractButton "
+"<http://doc.qt.io/qt-5/qabstractbutton.html#signals>`_, which means that "
+"we can use those too. In our case, we want clicked."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:293
+msgid ""
+"If we now restart Krita, we'll have a new docker and in that docker "
+"there's a button. Clicking on the button will call up the export "
+"function."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:295
+msgid ""
+"However, the button looks aligned a bit oddly. That's because our "
+"mainWidget has no layout. Let's quickly do that:"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:302
+msgid ""
+"Qt has several `layouts <http://doc.qt.io/qt-5/qlayout.html>`_, but the "
+"`QHBoxLayout and the QVBoxLayout "
+"<http://doc.qt.io/qt-5/qboxlayout.html>`_ are the easiest to use, they "
+"just arrange widgets horizontally or vertically."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:304
+msgid "Restart Krita and the button should now be laid out nicely."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:307
+msgid "PyQT Signals and Slots"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:309
+msgid ""
+"We've already been using pyqt signals and slots already, but there's "
+"times where you want to create your own signals and slots. `As pyQt's "
+"documentation is pretty difficult to understand "
+"<http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html>`_, "
+"and the way how signals and slots are created is very different from C++ "
+"qt, we're explaining it here:"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:312
+msgid ""
+"All python functions you make in pyQt can be understood as slots, meaning"
+" that they can be connected to signals like Action.triggered or "
+"QPushButton.clicked. However, QCheckBox has a signal for toggled, which "
+"sents a boolean. How do we get our function to accept that boolean?"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:314
+msgid "First, make sure you have the right import for making custom slots:"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:316
+msgid "``from PyQt5.QtCore import pyqtSlot``"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:318
+msgid ""
+"(If there's from ``PyQt5.QtCore import *`` already in the list of "
+"imports, then you won't have to do this, of course)"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:320
+msgid "Then, you need to add a pyQt slot definition before your function:"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:332
+msgid ""
+"Then, when you ave created your checkbox, you can do something like "
+"myCheckbox.toggled.connect(self.myFunction)"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:334
+msgid "Similarly, to make your own pyQT signals, you do the following:"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:346
+msgid "and use the right import:"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:348
+msgid "``from PyQt5.QtCore import pyqtSignal``"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:350
+msgid ""
+"To emit or create slots for objects that aren't standard python objects, "
+"you only have to put their names between quotation marks."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:353
+msgid "Conclusion"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:355
+msgid ""
+"Okay, so that covers all the Krita specific details for creating python "
+"plugins. It doesn't handle how to parse the pixel data, or best practces "
+"with documents, but if you have a little bit of experience with python "
+"you should be able to start creating your own plugins."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:357
+msgid ""
+"As always, read the code carefully and read the API docs for python, "
+"krita and QT carefully to see what is possible, and you'll get pretty "
+"far."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:360
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:362
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:364
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:366
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:368
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:370
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:372
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:374
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:376
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:378
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:380
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:382
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:384
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:386
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:388
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:390
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:392
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:394
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:396
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:398
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:400
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:402
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:404
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:406
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:408
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:410
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:412
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:414
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:416
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:418
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:420
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:422
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:424
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:426
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:428
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:430
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:432
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:434
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:436
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:438
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:440
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

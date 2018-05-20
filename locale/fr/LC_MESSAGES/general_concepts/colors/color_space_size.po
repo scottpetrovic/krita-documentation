@@ -1,0 +1,364 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../general_concepts/colors/color_space_size.rst:14
+msgid "Color Space Size"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:16
+msgid ""
+"Using Krita's color space browser, you can see that there's many "
+"different space sizes."
+msgstr ""
+
+msgid ""
+".. image:: "
+"images/en/color_category/Basiccolormanagement_compare4spaces.png"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:24
+msgid "How do these affect you image, and why would you use them?"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:26
+msgid "The primary reason to use a large space is for three reasons:"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:28
+msgid ""
+"Even though you can't see the colors, the computer program does "
+"understand them and can do color maths with it."
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:29
+msgid ""
+"For exchanging between programs and devices: most CMYK profiles are a "
+"little bigger than our default sRGB in places, while in other places, "
+"it's smaller. To get the best conversion, having your image in a space "
+"that encompasses both you screen profile as your printer profile."
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:30
+msgid ""
+"For archival purposes. In other words, maybe monitors of the future will "
+"have larger amounts of colors they can show(spoiler: they already do), "
+"and this allows you to be prepared for that."
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:32
+msgid "Let's compare the following gradients in different spaces:"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:36
+msgid ""
+".. image:: "
+"images/en/color_category/Basiccolormanagement_gradientsin4spaces_v2.jpg"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:39
+msgid ""
+".. image:: "
+"images/en/color_category/Basiccolormanagement_gradientsin4spaces_nonmanaged.png"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:40
+msgid ""
+"On the left we have an artefact-ridden color managed jpeg file with an "
+"ACES sRGBtrc v2 profile attached(or not, depending on mediawiki's mood, "
+"if not then you can see the exact different between the colors more "
+"clearly). This should give an approximation of the actual colors. On the "
+"right, we have a sRGB png that was converted in Krita from the base file."
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:42
+msgid ""
+"Each of the gradients are gradients from the max of a given channel. As "
+"you can see, the mid-tone of the ACES color space is much brighter than "
+"the mid-tone of the RGB colorspace, and this is because the primaries are"
+" further apart."
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:44
+msgid ""
+"What this means for us is that when we start mixing or applying filters, "
+"Krita can output values higher than visible, but also generate more "
+"correct mixes and gradients. In particular, when color correcting, the "
+"bigger space can help with giving more precise information."
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:46
+msgid ""
+"If you have a display profile that uses a LUT, then you can use "
+"perceptual to give an indication of how your image will look."
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:48
+msgid ""
+"Bigger spaces do have the downside they require more precision if you do "
+"not want to see banding, so make sure to have at the least 16bit per "
+"channel when choosing a bigger space."
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:51
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:53
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:55
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:57
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:59
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:61
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:63
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:65
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:67
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:69
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:71
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:73
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:75
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:77
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:79
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:81
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:83
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:85
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:87
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:89
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:91
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:93
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:95
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:97
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:99
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:101
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:103
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:105
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:107
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:109
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:111
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:113
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:115
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:117
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:119
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:121
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:123
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:125
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:127
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:129
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../general_concepts/colors/color_space_size.rst:131
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

@@ -1,0 +1,372 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/blending_modes/negative.rst:15
+msgid "Negative"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:17
+msgid "These are all blending modes which seem to make the image go negative."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:22
+msgid "Additive Subtractive"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:23
+msgid "Subtract the square root of the lower layer from the upper layer."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:28
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Additive_Subtractive_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:28
+msgid "Left: **Normal**. Right: **Additive Subtractive**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:33
+msgid "Arcus Tangent"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:35
+msgid ""
+"Divides the lower layer by the top. Then divides this by Pi. Then uses "
+"that in an Arc tangent function, and multiplies it by two."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:41
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Arcus_Tangent_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:41
+msgid "Left: **Normal**. Right: **Arcus Tangent**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:46
+msgid "Difference"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:48
+msgid ""
+"Checks per pixel of which layer the pixel-value is highest/lowest, and "
+"then subtracts the lower value from the higher-value."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:53
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Difference_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:53
+msgid "Left: **Normal**. Right: **Difference**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:58
+msgid "Equivalence"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:60
+msgid ""
+"Subtracts the underlying layer from the upper-layer. Then inverts that. "
+"Seems to produce the same result as [[#Difference|Difference]]."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:65
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Equivalence_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:65
+msgid "Left: **Normal**. Right: **Equivalence**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:70
+msgid "Exclusion"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:72
+msgid ""
+"This multiplies the two layers, adds the source, and then subtracts the "
+"multiple of two layers twice."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:77
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Exclusion_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:77
+msgid "Left: **Normal**. Right: **Exclusion**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:81
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:83
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:85
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:87
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:89
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:91
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:93
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:95
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:97
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:99
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:101
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:103
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:105
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:107
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:109
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:111
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:113
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:115
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:117
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:119
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:121
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:123
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:125
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:127
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:129
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:131
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:133
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:135
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:137
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:139
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:141
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:143
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:145
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:147
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:149
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:151
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:153
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:155
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:157
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:159
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/negative.rst:161
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

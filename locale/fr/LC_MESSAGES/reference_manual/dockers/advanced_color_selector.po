@@ -1,0 +1,634 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:15
+msgid "Advanced Color Selector"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:19
+msgid ".. image:: images/en/Advancecolorselector.jpg"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:20
+msgid ""
+"As compared to other color selectors in Krita, Advance color selector "
+"provides more control and options to the user. To open Advance color "
+"selector choose :menuselection:`Settings --> Docker --> Advance Color "
+"Selector`. You can configure this docker by clicking on the little wrench"
+" icon on the top left corner. Clicking on the wrench will open a popup "
+"window with following tabs and options :"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:23
+msgid "Color Selector"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:25
+msgid "Here you configure the main selector."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:28
+msgid "Type and Shape"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:31
+msgid ".. image:: images/en/Krita_Color_Selector_Types.png"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:32
+msgid ""
+"Here you can pick the hsx model you'll be using. There's a small blurb "
+"explaining the characteristic of each model, but let's go into detail:"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:35
+msgid "HSV"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:36
+msgid ""
+"Stands for Hue, Saturation, Value. Saturation determines the difference "
+"between white, grey, black and the most colorful color. Value in turn "
+"measures either the difference between black and white, or the difference"
+" between blakc and the most colorful color."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:37
+msgid "HSL"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:38
+#, python-format
+msgid ""
+"Stands for Hue, Saturation, Lightness. All saturated colors are equal to "
+"50% lightness. Saturation allows for shifting between grey and color."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:39
+msgid "HSI"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:40
+msgid ""
+"This stands for Hue, Saturation and Intensity. Unlike HSL, this one "
+"determine the intensity as the sum of total rgb components. Yellow(1,1,0)"
+" has higher intensity than blue(0,0,1) but is the same intensity as "
+"cyan(0,1,1)."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:42
+msgid "HSY'"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:42
+msgid ""
+"Stands for Hue, Saturation, Luma, with Luma being an RGB approximation of"
+" true luminosity. (Luminosity being the measurement of relative "
+"lightness). HSY' uses the Luma Coefficients, like "
+"[http://en.wikipedia.org/wiki/Rec._709 Rec 709], to calculate the Luma. "
+"Due to this, HSY' can be the most intuitive selector to work with, or the"
+" most confusing."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:44
+msgid ""
+"Then, under shape, you can select one of the shapes available within that"
+" colour model."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:48
+msgid ""
+"Triangle is in all colour models because to a certain extent, it is a "
+"wildcard shape: All colour models look the same in a equilateral triangle"
+" selector."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:51
+msgid "Luma Coefficients"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:53
+msgid ""
+"This allows you to edit the Luma coefficients for the HSY model selectors"
+" to your leisure. Want to use [http://en.wikipedia.org/wiki/Rec._601 Rec "
+"601] instead of Rec 709? These boxes allow you to do that!"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:55
+msgid "By default, the Luma coefficients should add up to 1 at maximum."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:58
+msgid "Gamma"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:58
+msgid ""
+"The HSY selector is linearised, this setting allows you to choose how "
+"much gamma is applied to the Luminosity for the gui element. 1.0 is fully"
+" linear, 2.2 is default."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:61
+msgid "Color Space"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:63
+msgid ""
+"This allows you to set the overall color space for the Advanced Color "
+"Selector."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:66
+msgid ""
+"You can pick only sRGB colors in advanced color selector regardless of "
+"the color space of advanced color selector. This is a bug."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:69
+msgid "Behaviour"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:72
+msgid "When docker resizes"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:74
+msgid "This determines the behavior of the widget as it become smaller."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:76
+msgid "Change to Horizontal"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:77
+msgid ""
+"This'll arrange the shade selector horizontal to the main selector. Only "
+"works with the MyPaint shade selector"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:78
+msgid "Hide Shade Selector"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:79
+msgid "This hides the shade selector."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:81
+msgid "Do nothing"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:81
+msgid "Does nothing, just resizes."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:84
+msgid "Zoom selector UI"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:86
+msgid ""
+"If your have set the docker size considerably smaller to save space, this"
+" option might be helpful to you. This allows you to set whether or not "
+"the selector will give a zoomed view of the selector in a size specified "
+"by you, you have these options for the zoom selector:"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:88
+msgid "when pressing middle mouse button"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:89
+msgid "on mouse over"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:90
+msgid "never"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:92
+msgid ""
+"The size given here, is also the size of the Main Color Selector and the "
+"MyPaint Shade Selector when they are called with :kbd:`shift + I` and "
+":kbd:`shift`+:kbd:`M`, respectively."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:95
+msgid "Hide Pop-up on click"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:95
+msgid ""
+"This allows you to let the pop-up selectors called with the above hotkeys"
+" to dissapear upon clicking them instead of having to leave the pop-up "
+"boundary. This is useful for faster working."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:98
+msgid "Shade selector"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:100
+msgid ""
+"Shade selector options. The shade selectors are useful to decide upon new"
+" shades of color."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:104
+msgid "Update Selector"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:106
+msgid "This allows you to determine when the shade selector updates."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:109
+msgid "MyPaint Shade Selector"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:111
+msgid ""
+"Ported from MyPaint, and extended with all color models. Default hotkey "
+"is :kbd:`Shift+ M`"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:115
+msgid "Simple Shade Selector"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:117
+msgid "This allows you to configure the simple shade selector in detail."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:120
+msgid "Color Patches"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:122
+msgid "This sets the options of the color patches."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:124
+msgid ""
+"Both Color History and Colors From the Image have similar options which "
+"will be explained below."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:126
+msgid "Show"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:127
+msgid ""
+"This is a radio button to show or hide the section. It also determines "
+"whether or not the colors are visible with the advanced color selector "
+"docker."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:128
+msgid "Size"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:129
+msgid "The size of the color boxes can be set here."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:130
+msgid "Patch Count"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:131
+msgid "The number of patches to display."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:132
+msgid "Direction"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:133
+msgid "The direction of the patches, Horizontal or Vertical."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:134
+msgid "Allow Scrolling"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:135
+msgid ""
+"Whether to allow scrolling in the section or not when there are too many "
+"patches."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:136
+msgid "Number of Columns/Rows"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:137
+msgid "The number of Columns or Rows to show in the section."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:139
+msgid "Update After Every Stroke"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:139
+msgid ""
+"This is only available for Colors From the Image and tells the docker "
+"whether to update the section after every stroke or not, as after each "
+"stroke the colors will change in the image."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:142
+msgid "History patches"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:144
+msgid ""
+"The history patches remember which colors you've drawn on canvas with. "
+"They can be quickly called with :kbd:`H`"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:147
+msgid "Common Patches"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:149
+msgid ""
+"The common patches are generated from the image, and are the most common "
+"colour in the image. The hotkey for them on canvas is :kbd:`U`."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:152
+msgid "External Info"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:154
+msgid ""
+"`HSI and HSY for Krita’s advanced colour selector. "
+"<http://wolthera.info/?p=726>`_"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:157
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:159
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:161
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:163
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:165
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:167
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:169
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:171
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:173
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:175
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:177
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:179
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:181
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:183
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:185
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:187
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:189
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:191
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:193
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:195
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:197
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:199
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:201
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:203
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:205
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:207
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:209
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:211
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:213
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:215
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:217
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:219
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:221
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:223
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:225
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:227
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:229
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:231
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:233
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:235
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:237
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

@@ -1,0 +1,472 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/blending_modes.rst:5
+msgid "Blending Modes"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:7
+msgid ""
+"Blending modes are a little difficult to explain. Basically, when one "
+"layer is above the other, the computer uses a bit of programming to "
+"decide how the combination of both layers will look."
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:9
+msgid ""
+"Blending modes can not just apply to Layers, but also to individual "
+"strokes."
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:12
+msgid "Favorites"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:14
+msgid ""
+"These are the blending modes that have been ticked as favorites, "
+"defaulting these are:"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:16
+msgid ":ref:`bm_addition`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:17
+msgid ":ref:`bm_color_burn`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:18
+msgid ":ref:`bm_color`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:19
+msgid ":ref:`bm_color_dodge`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:20
+msgid ":ref:`bm_darken`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:21
+msgid ":ref:`bm_erase`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:22
+msgid ":ref:`bm_lighten`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:23
+msgid ":ref:`bm_luminosity`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:24
+msgid ":ref:`bm_multiply`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:25
+msgid ":ref:`bm_normal`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:26
+msgid ":ref:`bm_overlay`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:27
+msgid ":ref:`bm_saturation`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:30
+msgid "Hotkeys associated with Blending modes"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:32
+msgid ""
+"Defaultly the following hotkeys are associated with blending modes. You "
+"first need to use modifiers :kbd:`alt + shift`, then use the following "
+"hotkey to have the associated blending mode:"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:36
+msgid ":kbd:`A` :ref:`bm_linear_burn`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:37
+msgid ":kbd:`B` :ref:`bm_color_burn`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:38
+msgid ":kbd:`C` :ref:`bm_color`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:39
+msgid ":kbd:`D` :ref:`bm_color_dodge`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:40
+msgid ":kbd:`E` :ref:`bm_difference`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:41
+msgid ":kbd:`F` :ref:`bm_soft_light`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:42
+msgid ":kbd:`I` :ref:`bm_dissolve`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:43
+msgid ":kbd:`J` :ref:`bm_linear_light`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:44
+msgid ":kbd:`K` :ref:`bm_darken`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:45
+msgid ":kbd:`L` :ref:`bm_hard_mix`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:46
+msgid ":kbd:`M` :ref:`bm_multiply`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:47
+msgid ":kbd:`O` :ref:`bm_overlay`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:48
+msgid ":kbd:`Q` :ref:`bm_behind`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:49
+msgid ":kbd:`R` :ref:`bm_normal`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:50
+msgid ":kbd:`S` :ref:`bm_screen`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:51
+msgid ":kbd:`T` :ref:`bm_saturation`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:52
+msgid ":kbd:`U` :ref:`bm_hue`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:53
+msgid ":kbd:`V` :ref:`bm_vivid_light`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:54
+msgid ":kbd:`W` :ref:`bm_exclusion`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:55
+msgid ":kbd:`X` :ref:`bm_linear_dodge`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:56
+msgid ":kbd:`Y` :ref:`bm_luminosity`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:57
+msgid ":kbd:`Z` :ref:`bm_pin_light`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:58
+msgid "Next Blending Mode :kbd:`+`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:59
+msgid "Previous Blending Mode :kbd:`-`"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:69
+msgid "Basic blending modes:"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:70
+msgid "http://en.wikipedia.org/wiki/Blend_modes"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:71
+msgid "Grain Extract/Grain Merge:"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:72
+msgid "http://docs.gimp.org/en/gimp-concepts-layer-modes.html"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:73
+msgid "For most of Krita's mystery blendingmodes:"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:74
+msgid "http://illusions.hu/effectwiki/doku.php?id=list_of_blendings"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:78
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:80
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:82
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:84
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:86
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:88
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:90
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:92
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:94
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:96
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:98
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:100
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:102
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:104
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:106
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:108
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:110
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:112
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:114
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:116
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:118
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:120
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:122
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:124
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:126
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:128
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:130
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:132
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:134
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:136
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:138
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:140
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:142
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:144
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:146
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:148
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:150
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:152
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:154
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:156
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:158
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

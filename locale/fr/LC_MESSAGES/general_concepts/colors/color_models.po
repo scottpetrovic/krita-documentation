@@ -1,0 +1,759 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../general_concepts/colors/color_models.rst:14
+msgid "Color Models"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:16
+msgid ""
+"Krita has many different color spaces and models. Following here is a "
+"brief explanation of each, and their use-cases."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:21
+msgid "RGB"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:23
+msgid "Red, Green, Blue."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:25
+msgid ""
+"These are the most efficient primaries for light-based color mixing, like"
+" computer screens. Adding Red, Green and Blue light together results in "
+"White, and is thus named the additive color wheel."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:27
+msgid "RGB is used for two purposes:"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:29
+msgid "Images that are meant for viewing on a screen:"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:31
+msgid ""
+"So that could be images for the web, buttons, avatars, or just portfolio "
+"images."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:32
+msgid "Or for Video games, both sprites and textures are best in RGB there."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:33
+msgid "Or for 3d rendering, visual effects and cg animation."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:35
+msgid ""
+"And for the working space. A working space is a RGB gamut that is really "
+"large and predictable, meaning it's good for image manipulation. You use "
+"this next to a profiled monitor. This way you can have precise colours "
+"while also being able to view them correctly on multiple screens."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:38
+msgid "Blending modes in RGB"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:42
+#: ../../general_concepts/colors/color_models.rst:84
+#: ../../general_concepts/colors/color_models.rst:101
+msgid "Color 1"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:42
+#: ../../general_concepts/colors/color_models.rst:84
+#: ../../general_concepts/colors/color_models.rst:101
+msgid "Color 2"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:42
+#: ../../general_concepts/colors/color_models.rst:84
+#: ../../general_concepts/colors/color_models.rst:101
+msgid "Normal"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:42
+#: ../../general_concepts/colors/color_models.rst:84
+#: ../../general_concepts/colors/color_models.rst:101
+msgid "Multiply"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:42
+#: ../../general_concepts/colors/color_models.rst:84
+#: ../../general_concepts/colors/color_models.rst:101
+msgid "Screen"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:44
+msgid "R"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:44
+#: ../../general_concepts/colors/color_models.rst:86
+msgid "G"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:44
+msgid "B"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:46
+#: ../../general_concepts/colors/color_models.rst:105
+msgid "R & G"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:46
+#: ../../general_concepts/colors/color_models.rst:105
+msgid "1.0"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:46
+#: ../../general_concepts/colors/color_models.rst:105
+#: ../../general_concepts/colors/color_models.rst:107
+#: ../../general_concepts/colors/color_models.rst:120
+msgid "0.0"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:46
+#: ../../general_concepts/colors/color_models.rst:48
+#: ../../general_concepts/colors/color_models.rst:88
+#: ../../general_concepts/colors/color_models.rst:105
+#: ../../general_concepts/colors/color_models.rst:107
+#: ../../general_concepts/colors/color_models.rst:118
+#: ../../general_concepts/colors/color_models.rst:120
+msgid "0.5"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:48
+#: ../../general_concepts/colors/color_models.rst:88
+#: ../../general_concepts/colors/color_models.rst:107
+msgid "Gray"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:48
+#: ../../general_concepts/colors/color_models.rst:88
+#: ../../general_concepts/colors/color_models.rst:105
+#: ../../general_concepts/colors/color_models.rst:107
+#: ../../general_concepts/colors/color_models.rst:118
+#: ../../general_concepts/colors/color_models.rst:120
+msgid "0.25"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:48
+#: ../../general_concepts/colors/color_models.rst:88
+#: ../../general_concepts/colors/color_models.rst:105
+#: ../../general_concepts/colors/color_models.rst:107
+#: ../../general_concepts/colors/color_models.rst:118
+#: ../../general_concepts/colors/color_models.rst:120
+msgid "0.75"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:54
+msgid "RGB models: HSV, HSL, HSI and HSY"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:56
+msgid ""
+"These are not included as their own color spaces in Krita. However, they "
+"do show up in the blending modes and color selectors, so a brief "
+"overview:"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:58
+msgid "--Images of relationship rgb-hsv etc."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:60
+msgid "Hue"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:61
+msgid ""
+"The tint of a color, or, whether it's red, yellow, green, etc. Krita's "
+"Hue is measured in 360 degrees, with 0 being red, 120 being green and 240"
+" being blue."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:62
+msgid "Saturation"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:63
+msgid ""
+"How vibrant a color is. Saturation is slightly different between HSV and "
+"the others. In HSV it's a measurement of the difference between two base "
+"colors being used and three base colors being used. In the others it's a "
+"measurement of how close a color is to grey, and sometimes this value is "
+"called **Chroma**. Saturation ranges from 0(grey) to 100(pure color)."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:64
+msgid "Value"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:65
+msgid ""
+"Sometimes known as Brightness. Measurement of how much the pixel needs to"
+" light up. Also measured from 0 to 100."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:66
+msgid "Lightness"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:67
+msgid ""
+"Where a color aligns between white and black. This value is non-linear, "
+"and puts all the most saturated possible colors at 50. Ranges from 0 to "
+"100."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:68
+msgid "Intensity"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:69
+msgid ""
+"Similar to lightness, except it acknowledges that yellow (1,1,0) is "
+"lighter than blue (0,0,1). Ranges from 0 to 100."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:71
+msgid "Luma(Y')"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:71
+msgid ""
+"Similar to lightness and Intensity, except it weights the red, green and "
+"blue components based real-life measurements of how much light a color "
+"reflects to determine it's lightness. Ranges from 0 to 100. Luma is well "
+"known for being used in film-colour spaces."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:76
+msgid "Grayscale"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:78
+msgid ""
+"This color space only registers grey-values. This is useful, because by "
+"only registering grey values, it only needs one channel of information, "
+"which in turn means the image becomes much lighter in memory consumption!"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:81
+msgid ""
+"This is useful for textures, but also anything else that needs to stay "
+"grayscale, like Black and White comics."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:94
+msgid "CMYK"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:96
+msgid "Cyan, Magenta, Yellow, Key"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:98
+msgid ""
+"This is the color space of printers. Unlike computers, printers have "
+"these four colors, and adding them all adds up to black instead of white."
+" This is thus also called a 'subtractive' color space."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:103
+#: ../../general_concepts/colors/color_models.rst:116
+msgid "C"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:103
+#: ../../general_concepts/colors/color_models.rst:116
+msgid "M"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:103
+#: ../../general_concepts/colors/color_models.rst:116
+#: ../../general_concepts/colors/color_models.rst:164
+msgid "Y"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:103
+#: ../../general_concepts/colors/color_models.rst:116
+msgid "K"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:110
+msgid ""
+"There's also a difference between 'colored gray' and 'neutral gray' "
+"depending on the profile."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:114
+msgid "25%"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:114
+msgid "50%"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:114
+msgid "75%"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:118
+msgid "Colored Gray"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:120
+msgid "Neutral Gray"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:127
+msgid ".. image:: images/en/color_category/Cmyk_black_differences.png"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:127
+msgid ""
+"In Krita, there's also the fact that the default color is a perfect black"
+" in RGB, which then gets converted to our default CMYK in a funny manner,"
+" giving a yellow look to the strokes. Again, another good reason to work "
+"in RGB and let the conversion be done by the printing house."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:129
+msgid ""
+"While CMYK has a smaller 'gamut' than RGB, however, it's still "
+"recommended to use a RGB working space profile to do your editing in. "
+"Afterwards, you can convert it to your printer's CMYK profile using "
+"either perceptual or relative colorimetric intend. Or you can just give "
+"the workspace rgb image to your printer and let them handle the work."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:135
+msgid "YCrCb"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:137
+msgid "Luminosity, Red-chroma, Blue-chroma"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:139
+msgid "YCrCb stands for"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:141
+msgid "Y'/Y"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:142
+msgid "Luma/Luminosity, thus, the amount of light a color reflects."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:143
+msgid "Cr"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:144
+msgid "Red Chroma. This value measures how red a color is versus how green it is."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:146
+msgid "Cb"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:146
+msgid ""
+"Blue Chroma. This value measures how blue a color is versus how yellow it"
+" is."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:148
+msgid ""
+"This color space is often used in photography and in (correct) "
+"implementations of JPEG. As humans you're much more sensitive to the "
+"lightness of colors, and thus JPEG tries to compress the Cr and Cb "
+"channels, and leave the Y channel in full quality."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:152
+msgid ""
+"Krita doesn't bundle a ICC profile for YCrCb on the basis of there being "
+"no open source ICC profiles for this color space. It's unusable without "
+"one, and also probably very untested."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:157
+msgid "XYZ"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:159
+msgid ""
+"Back in 1931, the CIE(Institute of Color and Light), was studying human "
+"color perception. In doing so, they made the first color spaces, with XYZ"
+" being the one best at approximating human vision."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:162
+msgid "It's almost impossible to really explain what XYZ is."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:165
+msgid "is equal to green."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:166
+msgid "Z"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:167
+msgid "akin to blue."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:169
+msgid "X"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:169
+msgid "is supposed to be red."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:171
+msgid ""
+"XYZ is used as a baseline reference for all other profiles and models. "
+"All color conversions are done in XYZ, and all profiles coordinates match"
+" XYZ."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:176
+msgid "L\\*a\\*b\\*"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:178
+msgid "Stands for:"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:180
+msgid "L\\*"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:181
+msgid "Lightness, similar to luminosity in this case."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:182
+msgid "a\\*"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:183
+msgid ""
+"a\\* in this case is the measurement of how magenta a color is versus how"
+" green it is."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:185
+msgid "b\\*"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:185
+msgid ""
+"b\\* in this case is a measurement of how yellow a color is versus how "
+"blue a color is."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:187
+msgid ""
+"L\\*a\\*b\\* is supossed to be a more comprehensible variety of XYZ and "
+"the most 'complete' of all color spaces. It's often used as an in between"
+" colour space in conversion, but even more as the correct color space to "
+"do color-balancing in. It's far easier to adjust the contrast and color "
+"tone in L*a*b*."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:189
+msgid ""
+"L\\*a\\*b\\* is technically the same as Photoshop's LAB. Photoshop "
+"specifically uses CIELAB d50."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:192
+msgid "Filters and blending modes."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:194
+msgid ""
+"Maybe you have noticed that blending modes in LAB don't work like they do"
+" in RGB or CMYK. This is because the blending modes work by doing a bit "
+"of maths on the color coordinates, and because color coordinates are "
+"different per color space, the blending modes look different."
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:198
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:200
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:202
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:204
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:206
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:208
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:210
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:212
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:214
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:216
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:218
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:220
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:222
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:224
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:226
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:228
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:230
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:232
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:234
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:236
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:238
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:240
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:242
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:244
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:246
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:248
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:250
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:252
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:254
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:256
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:258
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:260
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:262
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:264
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:266
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:268
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:270
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:272
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:274
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:276
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../general_concepts/colors/color_models.rst:278
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

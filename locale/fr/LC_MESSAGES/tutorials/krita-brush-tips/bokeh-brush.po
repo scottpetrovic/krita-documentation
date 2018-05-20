@@ -1,0 +1,328 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:13
+msgid "Brush Tips: Bokeh"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:16
+msgid "Question"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:18
+msgid "How do you do bokeh effects?"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:20
+msgid "First, blur your image with the Lens Blur to roughly 50 pixels."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Krita-brushtips-bokeh_01.png\n"
+"   :alt: krita bokeh brush setup background"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:26
+msgid "Take smudge_textured, add scattering, turn off tablet input."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Krita-brushtips-bokeh_02.png\n"
+"   :alt: Krita bokeh brush tips scatter settings"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:31
+msgid ""
+"Change the brush-tip to ‘Bokeh’ and check ‘overlay’ (you will want to "
+"play with the spacing as well)."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Krita-brushtips-bokeh_03.png\n"
+"   :alt: Choosing the brush tip for the bokeh effect"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:36
+msgid ""
+"Then make a new layer over your drawing, set that to ‘lighter color’(it’s"
+" under lighter catagory) and painter over it with you brush."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Krita-brushtips-bokeh_04.png\n"
+"   :alt: paint the bokeh circles on the background"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:41
+msgid ""
+"Overlay mode on the smudge brush allows you to sample all the layers, and"
+" the ‘lighter color’ blending mode makes sure that the Bokeh circles only"
+" show up when they are a lighter color than the original pixels "
+"underneath. You can further modify this brush by adding a ‘fuzzy’ sensor "
+"to the spacing and size options, changing the brush blending mode to "
+"‘addition’, or by choosing a different brush-tip."
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:44
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:46
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:48
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:50
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:52
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:54
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:56
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:58
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:60
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:62
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:64
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:66
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:68
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:70
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:72
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:74
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:76
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:78
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:80
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:82
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:84
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:86
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:88
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:90
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:92
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:94
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:96
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:98
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:100
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:102
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:104
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:106
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:108
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:110
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:112
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:114
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:116
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:118
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:120
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:122
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/bokeh-brush.rst:124
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+
