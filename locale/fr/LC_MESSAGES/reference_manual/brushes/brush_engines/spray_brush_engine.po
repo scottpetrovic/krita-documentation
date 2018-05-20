@@ -1,0 +1,578 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:15
+msgid "Spray Brush Engine"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:18
+msgid ".. image:: images/icons/spraybrush.svg"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:19
+msgid "A brush that can spray particles around in it's brush area."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:22
+msgid "Options"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:24
+msgid ":ref:`option_spray_area`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:25
+msgid ":ref:`option_spray_shape`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:26
+msgid ":ref:`option_brush_tip` (Used as particle if spray shape is not active)"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:27
+msgid ":ref:`option_opacity_n_flow`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:28
+msgid ":ref:`option_size`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:29
+msgid ":ref:`blending_modes`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:30
+msgid ":ref:`option_shape_dyna`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:31
+msgid ":ref:`option_color_spray`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:32
+msgid ":ref:`option_rotation`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:33
+msgid ":ref:`option_airbrush`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:38
+msgid "Spray Area"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:40
+msgid "The area in which the particles are sprayed."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:42
+msgid "Diameter"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:43
+msgid "The size of the area."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:44
+msgid "Aspect Ratio"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:45
+msgid "It's aspect ratio: 1.0 is fully circular."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:46
+msgid "Angle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:47
+msgid "The angle of the spray size: works nice with aspect ratios other than 1.0."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:48
+msgid "Scale"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:49
+msgid "Scales the diameter up."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:51
+msgid "Spacing"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:51
+msgid "Increases the spacing of the diameter's spray."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:54
+msgid "Particles"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:56
+msgid "Count"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:57
+msgid "Use a specified amount of particles."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:58
+msgid "Density"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:59
+msgid "Use a % amount of particles."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:60
+msgid "Jitter Movement"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:61
+msgid "Jitters the spray area around for extra randomness."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:63
+msgid "Gaussian Distribution"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:63
+msgid ""
+"Focusses the particles to paint in the center instead of evenly random "
+"over the spray area."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:68
+msgid "Spray Shape"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:70
+msgid ""
+"If activated, this will generate a special particle. If not, the brush-"
+"tip will be the particle."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:79
+msgid "Shape"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:73
+msgid "Can be..."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:75
+msgid "Ellipse"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:76
+msgid "Rectangle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:77
+msgid "Anti-aliased Pixel"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:78
+msgid "Pixel"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:79
+msgid "Image"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:81
+msgid "Width & Height"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:82
+msgid "Decides the width and height of the particle."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:83
+msgid "Proportional"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:84
+msgid "Locks Width & Height to be the same."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:86
+msgid "Texture"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:86
+msgid "Allows you to pick an image for the <menu choice>image shape."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:91
+msgid "Shape Dynamics"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:93
+msgid "Random Size"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:94
+msgid ""
+"Randomizes the particle size between 1x1 px and the given size of the "
+"particle in brush-tip or spray shape."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:95
+msgid "Fixed Rotation"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:96
+msgid "Gives a fixed rotation to the particle to work from."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:97
+msgid "Randomized Rotation"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:98
+msgid "Randomizes the rotation."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:99
+msgid "Follow Cursor Weight"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:100
+msgid ""
+"How much the pressure affects the rotation of the particles. At 1.0 and "
+"high pressure it'll seem as if the particles are exploding from the "
+"middle."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:102
+msgid "Angle Weight"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:102
+msgid "How much the spray area angle affects the particle angle."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:107
+msgid "Color Options"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:109
+msgid "Random HSV"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:110
+msgid ""
+"Randomize the HSV with the strength of the sliders. The higher, the more "
+"the color will deviate from the foreground color, with the direction "
+"indicating clock or counter clockwise."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:111
+msgid "Random Opacity"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:112
+msgid "Randomizes the opacity."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:113
+msgid "Color Per Particle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:114
+msgid "Has the color options be per particle instead of area."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:115
+msgid "Sample Input Layer."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:116
+msgid ""
+"Will use the underlying layer as reference for the colors instead of the "
+"foreground color."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:117
+msgid "Fill Background"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:118
+msgid "Fills the area before drawing the particles with the background color."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:121
+msgid "Mix with background color."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:120
+msgid ""
+"Gives the particle a random color between foreground/input/random HSV and"
+" the background color."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:123
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:125
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:127
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:129
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:131
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:133
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:135
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:137
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:139
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:141
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:143
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:145
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:147
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:149
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:151
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:153
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:155
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:157
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:159
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:161
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:163
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:165
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:167
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:169
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:171
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:173
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:175
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:177
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:179
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:181
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:183
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:185
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:187
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:189
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:191
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:193
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:195
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:197
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:199
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:201
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:203
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

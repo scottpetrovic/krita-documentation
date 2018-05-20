@@ -1,0 +1,433 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:15
+#: ../../reference_manual/brushes/brush_settings/texture.rst:20
+msgid "Texture"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:17
+msgid ""
+"This allows you to have textured strokes. This parameter always shows up "
+"as two parameters:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:22
+#: ../../reference_manual/brushes/brush_settings/texture.rst:43
+msgid "Pattern"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:23
+msgid "Which pattern you'll be using."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:25
+msgid "Scale"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:25
+msgid ""
+"The size of the pattern. 1.0 is 100%. .. image:: "
+"/images/en/Krita_2_9_brushengine_texture_05.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:28
+msgid "Horizontal Offset & Vertical Offset"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:28
+msgid ""
+"How much a brush is offset, random offset sets a new per stroke. .. "
+"image:: /images/en/Krita_2_9_brushengine_texture_04.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:36
+msgid "Texturing mode"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:31
+msgid "Multiply"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:32
+msgid ""
+"Uses alpha multiplication to determine the effect of the texture. Has a "
+"soft feel."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:34
+msgid "Subtract"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:34
+msgid ""
+"Uses substraction to determine the effect of the texture. Has a harsher, "
+"more texture feel."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst
+msgid ".. image:: images/en/Krita_2_9_brushengine_texture_01.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:48
+msgid "Cutoff policy"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:39
+msgid ""
+"Cutoff policy will determine what range and where the strength will "
+"affect the textured outcome."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:41
+msgid "Disabled"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:42
+msgid "doesn't cut off. Full range will be used."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:44
+msgid "cuts the pattern off."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:46
+msgid "Brush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:46
+msgid "Cuts the brush-tip off."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst
+msgid ".. image:: images/en/Krita_2_9_brushengine_texture_02.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:53
+msgid "Cutoff"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:51
+msgid ""
+"Cutoff is... the grayscale range that you can limit the texture to. This "
+"also affects the limit takes by the strength. In the below example, we "
+"move from the right arrow moved close to the left one, resulting in only "
+"the darkest values being drawn. After that, three images with larger "
+"range, and underneath that, three ranges with the left arrow moved, "
+"result in the darkest values being cut away, leaving only the lightest. "
+"The last example is the pattern without cutoff."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst
+msgid ".. image:: images/en/Krita_2_9_brushengine_texture_07.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:57
+msgid "Invert Pattern"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:56
+msgid ""
+"Invert the pattern. .. image:: "
+"/images/en/Krita_2_9_brushengine_texture_06.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:62
+msgid "Brightness and Contrast .. versionadded:: 3.3.1"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:60
+msgid ""
+"Adjust the pattern with a simple brightness/contrast filter to make it "
+"easier to use. Because Subtract and Multiply work differently, it's "
+"recommended to use different values with each:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst
+msgid ".. image:: images/en/Krita_3_1_brushengine_texture_07.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:65
+msgid "Strength"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:67
+msgid ""
+"This allows you to set the texture to Sensors. It will use the cutoff to "
+"continuously draw lighter values of the texture(making the result darker)"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:70
+msgid ".. image:: images/en/Krita_2_9_brushengine_texture_03.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:73
+msgid ""
+"`David Revoy describing the texture feature(old) "
+"<http://www.davidrevoy.com/article107/textured-brush-in-floss-digital-"
+"painting>`_"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:77
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:79
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:81
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:83
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:85
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:87
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:89
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:91
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:93
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:95
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:97
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:99
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:101
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:103
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:105
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:107
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:109
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:111
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:113
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:115
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:117
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:119
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:121
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:123
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:125
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:127
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:129
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:131
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:133
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:135
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:137
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:139
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:141
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:143
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:145
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:147
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:149
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:151
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:153
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:155
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:157
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

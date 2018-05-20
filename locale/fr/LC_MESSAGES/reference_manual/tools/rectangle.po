@@ -1,0 +1,377 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/tools/rectangle.rst:14
+msgid "Rectangle Tool"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:16
+msgid "|toolrectangle|"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:81
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:18
+msgid ""
+"This tool can be used to paint rectangles, or create rectangle shapes on "
+"a vector layer. Click and hold the left mouse button to indicate one "
+"corner of the rectangle, drag to the opposite corner, and release the "
+"button."
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:21
+msgid "Hotkeys and Sticky-keys"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:23
+msgid "There's no default hotkey for switching to rectangle."
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:25
+msgid ""
+"If you hold :kbd:`Shift` while drawing, a square will be drawn instead of"
+" a rectangle. Holding :kbd:`Ctrl` will change the way the rectangle is "
+"constructed. Normally, the first mouse click indicates one corner and the"
+" second click the opposite. With :kbd:`Ctrl`, the initial mouse position "
+"indicates the center of the rectangle, and the final mouse position "
+"indicates a corner. You can press :kbd:`Alt` while still keeping the left"
+" mouse button down to move the rectangle to a different location."
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:27
+msgid ""
+"You can change between the corner/corner and center/corner drawing "
+"methods as often as you want by pressing or releasing :kbd:`Ctrl`, "
+"provided that you keep the left mouse button pressed. With :kbd:`Ctrl` "
+"pressed, mouse movements will affect all four corners of the rectangle "
+"(relative to the center), without :kbd:`Ctrl`, one of the corners is "
+"unaffected."
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:31
+msgid "Tool Options"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:34
+msgid "Fill"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:36
+msgid "Not filled."
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:37
+msgid "The rectangle will be transparent from the inside."
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:38
+msgid "Foreground color"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:39
+msgid "The rectangle will use the foreground color as fill."
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:40
+msgid "Background color."
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:41
+msgid "The rectangle will use the background color as fill."
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:43
+msgid "Pattern"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:43
+msgid "The rectangle will use the active pattern as fill."
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:46
+msgid "Outline"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:48
+msgid "No Outline"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:49
+msgid "The Rectangle will render without outline."
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:51
+msgid "Brush"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:51
+msgid "The Rectangle will use the current selected brush to outline."
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:54
+msgid ""
+"On vector layers, the rectangle will not render with a brush outline, but"
+" rather a vector outline."
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:57
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:59
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:61
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:63
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:65
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:67
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:69
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:71
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:73
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:75
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:77
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:79
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:83
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:85
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:87
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:89
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:91
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:93
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:95
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:97
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:99
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:101
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:103
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:105
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:107
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:109
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:111
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:113
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:115
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:117
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:119
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:121
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:123
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:125
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:127
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:129
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:131
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:133
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:135
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangle.rst:137
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

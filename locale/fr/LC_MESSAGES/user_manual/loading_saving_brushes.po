@@ -1,0 +1,1185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../user_manual/loading_saving_brushes.rst:16
+msgid "Loading and Saving Brushes"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:18
+msgid ""
+"In the real world, when painting or drawing, you don't just use one tool."
+" You use pencils, erasers, paintbrushes, different types of paint, inks, "
+"crayons, etcetera. All these have different ways of making marks."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:22
+msgid ""
+"In a digital program like Krita you have something similar. We call this "
+"a brush engine. And much like how cars have different engines that give "
+"different feels when driving, or how pencils make distinctly different "
+"marks than rollerbal pens, different brush engines have totally different"
+" feels."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:28
+msgid ""
+"The brush engines have a lot of different settings as well. So, you can "
+"save those settings into presets."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:31
+msgid ""
+"Unlike Photoshop, Krita makes a difference between brush-tips and brush-"
+"presets. Tips are only a stamp of sorts, while the preset uses a tip and "
+"many other settings to create the full brush."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:36
+msgid "The Brush settings dropdown"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:38
+msgid ""
+"To start, the Brush Settings Editor panel can be accessed in the toolbar,"
+" between the Blending Modes button on the right and the Patterns button "
+"on the left. Alternately, you can use the function key f5 to open it."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:43
+msgid ""
+"When you open Brush Settings Editor panel you will see something like "
+"this:"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:47
+msgid "Tour of the brush settings dropdown"
+msgstr ""
+
+msgid ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:52
+msgid "The brush settings drop down is divided into six areas,"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:55
+msgid "Section A - General Information"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:57
+msgid ""
+"This contains the **Preset Icon**, **Live Brush Preview**, the **Preset "
+"Name**, the **Engine** name, and several buttons for saving, renaming, "
+"and reloading."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:61
+msgid ""
+"Krita's brush settings are stored into the meta data of a 200x200 png(The"
+" KPP file), where the image in the png file becomes the preset icon. The "
+"icon is used everywhere in Krita, and is useful for differentiating "
+"brushes in ways that the live preview cannot."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:66
+msgid ""
+"The live preview shows a stroke of the current brush as a little s-curve "
+"wiggle, with the pressure being non-existent on the left, and increasing "
+"to full pressure as it goes to the right. The live preview can thus show "
+"the effect of the Pressure, Drawing Angle, Distance, Fade and Fuzzy Dab "
+"sensors, but none of the others. For some brush engines it cannot show "
+"anything. For the color smudge, filter brush and clone tool, it shows a "
+"alternating line pattern because these brush engines use the pixels "
+"already on canvas to change their effect."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:75
+msgid ""
+"After the preset name, there's a button for **renaming** the brush. This "
+"will save the brush as a new brush and blacklist the previous name."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:79
+msgid "Engine"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:81
+msgid ""
+"The engine of a brush is the underlying programming that generates the "
+"stroke from a brush. What that means is that different brush engines have"
+" different options and different results. You can see this as the "
+"difference between using crayons, pencils and inks, but because computers"
+" are maths devices, most of our brush engines produce different things in"
+" a more mathematical way."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:88
+msgid ""
+"For most artists the mathematical nature doesn't matter as much as the "
+"different textures and marks each brush engine, and each brush engine has"
+" it's own distinct flavor and use, and can be further customized by "
+"modifying the options."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:94
+msgid "Reloading"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:96
+msgid ""
+"If you change a preset, an icon will appear behind the engine name. This "
+"is the reload button. You can use it to revert to the original brush "
+"settings."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:101
+msgid "Saving a preset."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:103
+msgid "On the right, there's {MenuChoice\\|Save New Preset}} and ."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:108
+msgid "Overwrite Preset"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:106
+msgid ""
+"This will only enable if there's any changes. Pressing this will override"
+" the current preset with the new settings, keeping the name and the icon "
+"intact. It will always make a timestamped back up in the resources "
+"folder."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:113
+msgid "Save New Preset"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:111
+msgid ""
+"Will take the current preset and all it's changes and save it as a new "
+"preset. If no change was made, you will be making a copy of the current "
+"preset."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:115
+msgid ""
+"Save new preset will call up the following window, with a mini scratch "
+"pad, and all sorts of options to change the preset icon:"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:119
+msgid ".. image:: images/en/Krita_4_0_Save_New_Brush_Preset_Dialog.png"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:120
+msgid ""
+"The image on the left is a mini scratchpad, you can draw on it with the "
+"current brush, allowing small modifications on the fly."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:125
+msgid "Brush Name"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:124
+msgid ""
+"The Name of your brush. This is also used for the KPP file. If there's "
+"already a brush with that name, it will effectively overwrite it."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:127
+msgid "Load Existing Thumbnail"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:128
+msgid "This will load the existing thumbnail inside the preset."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:130
+msgid "Load scratch pad thumbnail"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:130
+msgid ""
+"This will load the dashed area from the big scratch pad(Section C) into "
+"the thumbnail area."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:132
+msgid "Load Image"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:133
+msgid "With this you can choose an image from disk to load as a thumbnail."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:134
+msgid "Load from Icon Library"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:135
+msgid "This opens up the icon library."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:137
+msgid "Clear Thumbnail"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:137
+msgid "This will make the mini scratch pad white."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:140
+msgid "The Icon Library"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:142
+msgid "To make making presets icons faster, we added a icon library to Krita"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:145
+msgid ".. image:: images/en/Krita_4_0_Preset_Icon_Library_Dialog.png"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:146
+msgid ""
+"It allows you to select tool icons, and an optional small emblem. When "
+"you press OK it will load the resulting combination into the mini scratch"
+" pad and you can draw in the stroke."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:150
+msgid ""
+"If you go to your resources folder(), there's a folder there called "
+"“preset\\_icons”, and in this folder there's “tool\\_icons” and "
+"“emblem\\_icons”. You can add semi-transparent pngs here and Krita will "
+"load those into the icon library as well so you can customize your icons "
+"even more!"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:156
+msgid ""
+"At the top right of the icon library, there's three sliders. They allow "
+"you to adjust the tool icon. The top two are the same Hue and Saturation "
+"as in HSL adjustment, ad the lowest slider is a super simple levels "
+"filter. This is done this way because the levels filter allows "
+"maintaining the darkest shadows and brightest highlights on a tool icon, "
+"making it much better for quick adjustments."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:163
+msgid ""
+"If you're done with everything, you can press save in the Save New Preset"
+" dialog and Krita will save the new brush."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:167
+msgid "Section B - The Preset Chooser"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:169
+msgid ""
+"The preset chooser is much the same like the preset docker and the preset"
+" dropdown on F6. It's unique in that it allows you to filter by engine "
+"and this is also where you can create brushes for an engine from scratch."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:174
+msgid ""
+"It is by default collapsed, so you will need to press the arrow at the "
+"top left of the brush engine to show it."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:177
+msgid ""
+"The top drop down is set to “all” by default, which means it shows all "
+"engines. It then shows a tag section where you can select the tags, the "
+"preset list and the search bar."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:181
+msgid ""
+"Underneath that there's a plus icon, which when pressed gives you the "
+"full list of Krita's engines. Selecting an engine from the list will for "
+"that engine."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:185
+msgid ""
+"The trashcan icon does the same as it does in the preset docker: , or "
+"rather, blacklist a preset so it won't show up in the list."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:189
+msgid "Section C - The Scratch pad"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:191
+msgid ""
+"When you tweak your brushes, you want to be able to check what each "
+"setting does. That's why, to the right of the settings drop down, there "
+"is a scratch pad."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:195
+msgid ""
+"It is by default collapsed, so you will have to press the arrow at the "
+"top right of the brush settings to show it."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:198
+msgid ""
+"When saving a new preset, you can choose to get the icon from the scratch"
+" pad, this will load the dash area into the mini scratch pad of the Save "
+"New Preset dialog."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:202
+msgid "The scratch pad has five buttons underneath it. These are in order for:"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:204
+msgid "showing the current brush image"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:206
+msgid "adding a gradient to the scratch pad(useful for smudge brushes)"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:207
+msgid "filling with the background color"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:208
+msgid "clearing everything on the scratch pad."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:211
+msgid "Section D - The Options List"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:213
+msgid ""
+"The options, as stated above, are different per brush engine. These "
+"represent the different parameters, toggles and knobs that you can turn "
+"to make a brush preset unique. For a couple of options, the main things "
+"to change are sliders and check boxes, but for a lot of them, they use "
+"curves instead."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:219
+msgid ""
+"Some options can be toggled, as noted by the little check boxes next to "
+"them, but others, like flow and opacity are so fundamental to how the "
+"brush works, that they are always on."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:223
+msgid ""
+"The little padlock icon next to the options is for locking the brush. "
+"This has its own page."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:227
+msgid "Section E - Option Configuration Widget"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:229
+msgid ""
+"Where section D is the list of options, section E is the widget where you"
+" can change things."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:233
+msgid "Using sensor curves"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:235
+msgid ""
+"One of the big important things that makes art unique to the artist who "
+"created it is the style of the strokes. Strokes are different because "
+"they differ in speed, rotation, direction, and the amount of pressure put"
+" onto the stylus. Because these are so important, we would want to "
+"customize how these values are understood in detail. The best way to do "
+"this is to use curves."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:242
+msgid ""
+"Curves show up with the size widget for example. With an inking brush, we"
+" want to have size mapped to pressure. Just toggling the size option in "
+"the option list will do that."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:246
+msgid ""
+"However, different people have different wrists and thus will press "
+"differently on their stylus. Someone who presses softly tends to find it "
+"easy to make thin strokes, but very difficult to make thick strokes. "
+"Conversely, someone who presses hard on their stylus naturally will have "
+"a hard time making thin strokes, but easily makes thick ones."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:252
+msgid ""
+"Such a situation can be improve by using the curves to map pressure to "
+"output thinner lines or thicker ones."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:255
+msgid ""
+"The brush settings curves even have quick curve buttons for these at the "
+"top. Someone who has a hard time making small strokes should try the "
+"second to last concave button, while someone who has a hard time making "
+"thick strokes should try the third button, the S shape."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:260
+msgid "Underneath the curve widget there's two more options:"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:264
+msgid "Share Curves across all settings"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:263
+msgid ""
+"This is for the list of sensors. Toggling this will make all the sensors "
+"use the same curve. Untoggled, all toggled sensors will have seperate "
+"curves."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:284
+msgid "Curves Calculation Mode"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:267
+msgid ""
+"This indicates how the multiple values of the sensor curves are used. The"
+" curves always go from 0 to 1.0, so if one curve outputs 0.5 and the "
+"other 0.7, then..."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:271
+msgid "Multiply"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:272
+msgid "will multiply the two values, 0.5\\*0.7 = 0.35"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:274
+msgid "Addition"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:274
+msgid ""
+"will add the the two to a maximum of 1.0, so 0.5+0.7 = 1.2, which is then"
+" capped at 1.0."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:277
+msgid "Maximum"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:277
+msgid ""
+"Will compare the two and pick the largest. So in the case of 0.5 and 0.7,"
+" the result is 0.7."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:280
+msgid "Minimum"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:280
+msgid ""
+"Will compare the two and pick the smallest. So in the case of 0.5 and "
+"0.7, the result is 0.5."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:284
+msgid "Difference"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:283
+msgid "Will subtract the smallest value from the largest, so 0.7-0.5 = 0.2"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:286
+msgid "It's maybe better to see with the following example:"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:289
+msgid ".. image:: images/en/Krita_4_0_brush_curve_calculation_mode.png"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:290
+msgid "The first two are regular, the rest with different multiplication types."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:292
+msgid "Is a brush with size set to the distance sensor."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:293
+msgid "Is a brush with the size set to the fade sensor."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:294
+msgid "The size is calculated from the fade and distance sensors multiplied."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:295
+msgid ""
+"The size is calculated from the fade and distance sensors added to each "
+"other. Notice how thick it is."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:297
+msgid ""
+"The size takes the maximum value from the values of the fade and distance"
+" sensors."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:299
+msgid ""
+"The size takes the minimum value from the values of the face and distance"
+" sensors."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:301
+msgid ""
+"The size is calculated by having the largest of the values subtracted "
+"with the smallest of the values."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:305
+msgid "Section F - Miscellaneous options"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:316
+msgid "Temporarily Save Tweaks to Preset (Dirty Presets)"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:308
+msgid ""
+"This enables dirty presets. Dirty presets store the tweaks you make as "
+"long as this session of Krita is active. After that, the revert to "
+"default. Dirtied presets can be recognized by the icon in the top-left of"
+" the preset."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst
+msgid ".. image:: images/en/Krita_4_0_dirty_preset_icon.png"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:316
+msgid ""
+"The icon in the top left of the first two presets indicate it is “Dirty”,"
+" meaning there's tweaks made to the preset."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:319
+msgid "Eraser Switch Size"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:319
+msgid ""
+"This switches the brush to a separately stored size when using the "
+"eraserE key."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:321
+msgid "Eraser Switch Opacity"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:322
+msgid "Same as above, but then with Eraser opacity."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:330
+msgid "Instant Preview"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:324
+msgid ""
+"This allows you to toggle instant preview on the brush. The Instant "
+"Preview has a super-secret feature: when you press the instant preview "
+"label, and then right click it, it will show a threshold slider. This "
+"slider determines at what brush size instant preview is activated for the"
+" brush. This is useful because small brushes can be slower with instant "
+"preview, so the threshold ensures it only activates when necessary."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:333
+msgid "The On-canvas brush settings"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:335
+msgid ""
+"There are on-canvas brush settings. If you open up the pop-up palette, "
+"there should be an icon on the bottom-right. Press that to show the on-"
+"canvas brush settings. You will see several sliders here, to quickly make"
+" small changes."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:340
+msgid ""
+"At the top it shows the currently active preset. Next to that is a "
+"settings button, click that to get a list of settings that can be shown "
+"and organized for the given brush engine. You can use the up and down "
+"arrows to order their position, and then left and right arrows to add or "
+"remove from the list. You can also drag and drop."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:347
+msgid "Making a Brush Preset"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:349
+msgid "Now, let's make a simple brush to test the waters with:"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:352
+msgid "Getting a default for the brush engine."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:354
+msgid "First, open the settings with F5."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:356
+msgid ""
+"Then, press the arrow on the upper left to open the preset chooser. "
+"There, press the “+” icon to get a list of engines. For this brush we're "
+"gonna make a pixel brush."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:361
+msgid "Example: Making an inking brush"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:363
+msgid ""
+"Draw on the scratch pad to see what the current brush looks like. If done"
+" correctly you should have a 5px wide brush that has pressure set to "
+"opacity."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:366
+msgid ""
+"Let us turn off the opacity first. Click on the :ref:`opacity "
+"<option_opacity_n_flow>` option in the right-hand list. The settings "
+"should now be changed to a big curve. This is the sensor curve."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:370
+msgid "Untick the enable pen settings button."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:371
+msgid ""
+"Test on the scratch pad... there still seems to be something affecting "
+"opacity. This is due the :ref:`flow <option_opacity_n_flow>` option."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:375
+msgid ""
+"Select the Flow option from the list on the right hand. Flow is like "
+"Opacity, except that Flow is per dab, and opacity is per stroke."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:377
+msgid "Turn off the enable pen settings button here as well. Test again."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:378
+msgid ""
+"Now you should be getting somewhere towards an inking brush. It is still "
+"too small however, and kinda grainy looking. Click :ref:`Brush Tip "
+"<option_brush_tip>` in the brush engine options."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:381
+msgid ""
+"Here, diameter is the size of the brush-tip. You can touch the slider "
+"change the size, or right-click it and type in a value. Set it to 25 and "
+"test again. It should be much better."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:384
+msgid ""
+"Now to make the brush feel a bit softer, turn down the fade parameter to "
+"about 0.9. This'll give the *brush mask* a softer edge."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:386
+msgid ""
+"If you test again, you'll notice the fade doesn't seem to have much "
+"effect. This has to do with the spacing of the dabs: The closer they are "
+"together, the harder the line is. By default this is 0.1, which is a bit "
+"low. If you set it to 10 and test, you'll see what kind of effect spacing"
+" has. The :ref:`Auto <option_spacing>` tickbox changes the way the "
+"spacing is calculated, and Auto Spacing with a value of 0.8 is the best "
+"value for inking brushes. Don't forget that you can use right-click to "
+"type in a value."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:395
+msgid ""
+"Now, when you test, the fade seems to have a normal effect... except on "
+"the really small sizes, which look pixelly. To get rid of that, tick the "
+"anti-aliasing check box. If you test again, the lines should be much "
+"nicer now."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:401
+msgid "Saving the new Brush"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:403
+msgid "When you're satisfied, go to the upper left and select “save new preset”."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:406
+msgid ""
+"You will get the save preset dialog. Name the brush something like “My "
+"Preset”. Then, select “Load from Icon Library” to get the icon library. "
+"Choose a nice tool icon and press OK."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:410
+msgid ""
+"The icon will be loaded into the mini scratch pad on the left. Now doodle"
+" a nice stroke next to it. If you feel you messed up, just go back to the"
+" icon library to load a new icon."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:414
+msgid "Finally press “save”, and your brush should be done."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:416
+msgid "You can further modify your inking brush by..."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:419
+msgid ""
+"Changing the amount of pressure you need to put on a brush to make it "
+"full size."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:419
+msgid ""
+"To do this, select the :ref:`size <option_size>` option, and press the "
+"pressuresensor from the list next to the curve. The curve should look "
+"like a straight line. Now if you want a brush that gets big with little "
+"pressure, tick on the curve to make a point, and drag the point to the "
+"upper-left. The more the point is to the upper-left, the more extreme the"
+" effect. If you want instead a brush that you have to press really hard "
+"on to get to full size, drag the dot to the lower-right. Such a brush is "
+"useful for fine details. Don't forget to save the changes to your brush "
+"when done."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:422
+msgid "Making the fine lines look even softer by using the flow option."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:422
+msgid ""
+"To do this, select the flow option, and turn back on the enable pen "
+"settings check box. Now if you test this, it is indeed a bit softer, but "
+"maybe a bit too much. Click on the curve to make a dot, and drag that dot"
+" to the top-left, half-way the horizontal of the first square of the "
+"grid. Now, if you test, the thin lines are much softer, but the hard your"
+" press, the harder the brush becomes."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:425
+msgid "Sharing Brushes"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:427
+msgid ""
+"Okay, so you've made a new brush and want to share it. There's several "
+"ways to share a brush preset."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:430
+msgid ""
+"The recommended way to share brushes and presets is by using the resource"
+" bundle system. We have detailed instructions on how to use them on the "
+":ref:`resource management page <resource_management>`."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:434
+msgid ""
+"However, there's various old-fashioned ways of sharing brushes that can "
+"be useful when importing and loading very old packs:"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:438
+msgid "Sharing a single preset"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:440
+msgid "There's three types of resources a single preset can take:"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:442
+msgid ""
+"A Paintoppreset file: This is the preset proper, with the icon and the "
+"curves stored inside."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:444
+msgid ""
+"A Brush file: This is the brush tip. When using masked brushes, there's "
+"two of these."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:446
+msgid "A Pattern file: this is when you are using textures."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:448
+msgid ""
+"So when you have a brush that uses unique predefined tips for either "
+"brush tip or masked brush, or unique textures you will need to share "
+"those resources as well with the other person."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:452
+msgid "To find those resources, go to ."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:454
+msgid ""
+"There, the preset file will be inside paintoppresets, the brush tips "
+"inside brushes and the texture inside patterns."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:458
+msgid "Importing a single KPP file."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:460
+msgid ""
+"Now, if you want to use the single preset, you should go to the preset "
+"chooser on f6 and press the folder icon there. This will give a file "
+"dialog. Navigate to the kpp file and open it to import it."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:464
+msgid ""
+"If there's brush tips and patterns coming with the file, do the same with"
+" pattern via the pattern docker, and for the brush-tip go to the settings"
+" dropdown(f5) and then go to the “brush-tip” option. There, select "
+"predefined brush, and then the “import” button to call up the file "
+"dialog."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:471
+msgid "Sharing via ZIP(old fashioned)"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:473
+msgid ""
+"Sharing via ZIP should be replaced with resource bundles, but older brush"
+" packs are strored in zip files."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:477
+msgid "Using a ZIP with the relevant files."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:479
+msgid "Go to to open the resource folder."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:480
+msgid "Then, open up the zip file."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:481
+msgid ""
+"Copy the brushes, paintoppresets and patterns folders from the zip file "
+"to the resource folder. You should get a prompt to merge the folders, "
+"agree to this."
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:484
+msgid "Restart Krita"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:485
+msgid "Enjoy your brushes!"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:488
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:490
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:492
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:494
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:496
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:498
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:500
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:502
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:504
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:506
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:508
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:510
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:512
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:514
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:516
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:518
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:520
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:522
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:524
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:526
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:528
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:530
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:532
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:534
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:536
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:538
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:540
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:542
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:544
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:546
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:548
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:550
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:552
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:554
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:556
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:558
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:560
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:562
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:564
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:566
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../user_manual/loading_saving_brushes.rst:568
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

@@ -1,0 +1,544 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:14
+msgid "Arithmetic"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:16
+msgid "These blending modes are based on simple maths."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:21
+msgid "Addition"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:23
+msgid "Adds the numerical values of two colours together:"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:25
+msgid "Yellow(1, 1, 0) + Blue(0, 0, 1) = White(1, 1, 1)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:27
+msgid ""
+"Darker Gray(0.4, 0.4, 0.4) + Lighter Gray(0.5, 0.5, 0.5) = Even Lighter "
+"Gray (0.9, 0.9, 0.9)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:32
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Addition_Gray_0.4_and_Gray_0.5_n.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:32
+#: ../../reference_manual/blending_modes/arithmetic.rst:39
+#: ../../reference_manual/blending_modes/arithmetic.rst:46
+#: ../../reference_manual/blending_modes/arithmetic.rst:53
+msgid "Left: **Normal**. Right: **Addition**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:34
+msgid ""
+"Light Blue(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706) = (1.1608,"
+" 1.2235, 0.8980) &rarr; Very Light Yellow(1, 1, 0.8980)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:39
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Addition_Light_blue_and_Orange.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:41
+msgid "Red(1, 0, 0) + Grey(0.5, 0.5, 0.5) = Pink(1, 0.5, 0.5)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:46
+msgid ".. image:: images/blending_modes/Blending_modes_Addition_Red_plus_gray.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:48
+msgid ""
+"When the result of the addition is more than 1, white is the color "
+"displayed. Therefore, white plus any other color results in white. On the"
+" other hand, black plus any other color results in the added color."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:53
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Addition_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:58
+msgid "Divide"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:60
+msgid "Divides the numerical value from the lower color by the upper color."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:62
+msgid "Red(1, 0, 0) / Gray(0.5, 0.5, 0.5) = (2, 0, 0) &rarr; Red(1, 0, 0)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:64
+msgid ""
+"Darker Gray(0.4, 0.4, 0.4) / Lighter Gray(0.5, 0.5, 0.5) = Even Lighter "
+"Gray (0.8, 0.8, 0.8)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:69
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Divide_Gray_0.4_and_Gray_0.5_n.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:69
+#: ../../reference_manual/blending_modes/arithmetic.rst:76
+#: ../../reference_manual/blending_modes/arithmetic.rst:81
+msgid "Left: **Normal**. Right: **Divide**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:71
+msgid ""
+"Light Blue(0.1608, 0.6274, 0.8274) / Orange(1, 0.5961, 0.0706) = (0.1608,"
+" 1.0525, 11.7195) &rarr; Aqua(0.1608, 1, 1)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:76
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Divide_Light_blue_and_Orange.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:81
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Divide_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:86
+msgid "Inverse Subtract"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:88
+msgid "This inverts the lower layer before subtracting it from the upper layer."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:90
+msgid ""
+"Lighter Gray(0.5, 0.5, 0.5)_(1_Darker Gray(0.4, 0.4, 0.4)) = (-0.1, -0.1,"
+" -0.1) &rarr; Black(0, 0, 0)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:95
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Inverse_Subtract_Gray_0.4_and_Gray_0.5_n.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:95
+#: ../../reference_manual/blending_modes/arithmetic.rst:102
+#: ../../reference_manual/blending_modes/arithmetic.rst:107
+msgid "Left: **Normal**. Right: **Inverse Subtract**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:97
+msgid ""
+"Orange(1, 0.5961, 0.0706)_(1_Light Blue(0.1608, 0.6274, 0.8274)) = "
+"(0.1608, 0.2235, -0.102) &rarr; Dark Green(0.1608, 0.2235, 0)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:102
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Inverse_Subtract_Light_blue_and_Orange.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:107
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Inverse_Subtract_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:112
+msgid "Multiply"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:114
+msgid ""
+"Multiplies the two colors with each other, but does not go beyond the "
+"upper limit."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:116
+msgid ""
+"This is often used to color in a black and white lineart. One puts the "
+"black and white lineart on top, and sets the layer to 'Multiply', and "
+"then draw in color on a layer beneath. Multiply will all the colour to go"
+" through."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:119
+msgid "White(1,1,1) x White(1, 1, 1) = White(1, 1, 1)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:121
+msgid "White(1, 1, 1) x Grey(0.5, 0.5, 0.5) = Grey(0.5, 0.5, 0.5)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:123
+msgid ""
+"Darker Gray(0.4, 0.4, 0.4) x Lighter Gray(0.5, 0.5, 0.5) = Even Darker "
+"Gray (0.2, 0.2, 0.2)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:128
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Multiply_Gray_0.4_and_Gray_0.5_n.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:128
+#: ../../reference_manual/blending_modes/arithmetic.rst:135
+#: ../../reference_manual/blending_modes/arithmetic.rst:140
+msgid "Left: **Normal**. Right: **Multiply**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:130
+msgid ""
+"Light Blue(0.1608, 0.6274, 0.8274) x Orange(1, 0.5961, 0.0706) = "
+"Green(0.1608, 0.3740, 0.0584)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:135
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Multiply_Light_blue_and_Orange.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:140
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Multiply_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:145
+msgid "Subtract"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:147
+msgid "Subtracts the top layer from the bottom layer."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:149
+msgid "White(1, 1, 1)_White(1, 1, 1) = Black(0, 0, 0)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:151
+msgid "White(1, 1, 1)_Grey(0.5, 0.5, 0.5) = Grey(0.5, 0.5, 0.5)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:153
+msgid ""
+"Darker Gray(0.4, 0.4, 0.4)_Lighter Gray(0.5, 0.5, 0.5) = (-0.1, -0.1, "
+"-0.1) &rarr; Black(0, 0, 0)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:158
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Subtract_Gray_0.4_and_Gray_0.5_n.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:158
+#: ../../reference_manual/blending_modes/arithmetic.rst:165
+#: ../../reference_manual/blending_modes/arithmetic.rst:170
+msgid "Left: **Normal**. Right: **Subtract**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:160
+msgid ""
+"Light Blue(0.1608, 0.6274, 0.8274) - Orange(1, 0.5961, 0.0706) = "
+"(-0.8392, 0.0313, 0.7568) &rarr; Blue(0, 0.0313, 0.7568)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:165
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Subtract_Light_blue_and_Orange.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:170
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Subtract_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:174
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:176
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:178
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:180
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:182
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:184
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:186
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:188
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:190
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:192
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:194
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:196
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:198
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:200
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:202
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:204
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:206
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:208
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:210
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:212
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:214
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:216
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:218
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:220
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:222
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:224
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:226
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:228
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:230
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:232
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:234
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:236
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:238
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:240
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:242
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:244
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:246
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:248
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:250
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:252
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:254
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

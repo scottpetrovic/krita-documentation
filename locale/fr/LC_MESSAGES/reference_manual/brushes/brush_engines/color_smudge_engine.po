@@ -1,0 +1,1033 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:17
+msgid "Color Smudge Brush Engine"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:21
+msgid ".. image:: images/icons/colorsmudge.svg"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:22
+msgid ""
+"The Color Smudge Brush is a brush engine that allows you to mix colors by"
+" smearing or dulling. A very powerful brush engine to the painter."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:25
+msgid "Options"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:28
+msgid ":ref:`option_brush_tip`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:29
+msgid ":ref:`blending_modes`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:30
+msgid ":ref:`option_opacity_n_flow`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:31
+msgid ":ref:`option_size`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:32
+msgid ":ref:`option_spacing`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:33
+msgid ":ref:`option_mirror`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:34
+msgid ":ref:`option_softness`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:35
+msgid ":ref:`option_rotation`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:36
+msgid ":ref:`option_scatter`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:37
+msgid ":ref:`option_gradient`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:38
+msgid ":ref:`option_airbrush`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:39
+msgid ":ref:`option_texture`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:43
+msgid "Options Unique to the Color Smudge Brush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:48
+msgid "Color Rate"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:50
+msgid ""
+"How much of the foreground color is added to the smudging mix. Works "
+"together with :ref:`option_smudge_length` and :ref:`option_smudge_radius`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:53
+msgid ".. image:: images/en/Krita_2_9_brushengine_colorrate_04.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:57
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:113
+msgid "Smudge Length"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:59
+msgid "Affects smudging and allows you to set it to Sensors."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:61
+msgid "There's two major types:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:64
+msgid ".. image:: images/en/Krita_2.9_brush_engine_smudge_length_03.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:65
+msgid "Smearing"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:66
+msgid "Great for making brushes that have a very impasto oil feel to them."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:68
+msgid "Dulling"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:68
+msgid "Named so because it dulls strong colors."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:70
+msgid ""
+"Using an arithmetic blending type, Dulling is great for more smooth type "
+"of painting."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:73
+msgid ".. image:: images/en/Krita_2.9_brushengine_smudge_length_01.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:75
+msgid "Strength"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:75
+msgid ""
+"Affects how much the smudge length takes from the previous dab it's "
+"sampling. This means that smudge-length at 1.0 will never decrease, but "
+"smudge-lengths under that will decrease based on spacing and "
+"opacity/flow."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:78
+msgid ".. image:: images/en/Krita_2.9_brushengine_smudge_length_02.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:82
+msgid "Smudge Radius"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:84
+msgid ""
+"The Smudge Radius allows you to sample a larger radius when using smudge-"
+"length in Dulling mode."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:86
+msgid ""
+"The slider is percentage of the brush-size. You can have it modified with"
+" Sensors."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:89
+msgid ".. image:: images/en/Krita_2.9_brushengine_smudge_radius_01.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:91
+msgid "Overlay"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:93
+msgid ""
+"Overlay is a toggle that determine whether or not the smudge brush will "
+"sample all layers(overlay on), or only the current one."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:96
+msgid "Tutorial: Color Smudge Brushes"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:98
+msgid ""
+"I recommend at least skimming over the first part to get an idea of what "
+"does what."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:101
+msgid "Overview and settings"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:104
+msgid "Overview: Smearing and Dulling"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:106
+msgid ""
+"The Color Smudge Brush offers 2 modes, accessible from the Smudge Rate "
+"section: * Smearing: This mode mixes colors by smudging (\"smearing\") "
+"the area underneath. * Dulling: In his mode, the brush \"picks up\" the "
+"color underneath it, mixes it with its own color, then paints with it."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:111
+msgid ".. image:: images/en/Krita-tutorial5-I.1.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:115
+msgid ""
+"To better demonstrate the smudge function, I turned the color rate "
+"function off."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:118
+msgid ".. image:: images/en/Krita-tutorial5-I.2.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:119
+msgid ""
+"Common behaviors: * Unchecking the smudge rate function sets smudge rate "
+"to 1.00 (not 0.00) * Opacity: Below 0.50, there is practically no "
+"smudging left: keep opacity over 0.50."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:123
+msgid ""
+"Differences: * Spacing with Smearing: the lower the spacing, the smoother"
+" the effect, so for smearing with a round brush you may prefer a value of"
+" 0.05 or less. Spacing affects the length of the smudge trail, but to a "
+"much lesser extent. The \"strength\" of the effect remains more or less "
+"the same however. * Spacing with Dulling: the lower the spacing, the "
+"stronger the effect: lowering the spacing too much can make the dulling "
+"effect too strong (it picks up a color and never lets go of it). The "
+"length of the effect is also affected. * Both Smearing and Dulling have a"
+" \"smudge trail\", but in the case of Dulling, the brush shape is "
+"preserved. Instead the trail determines how fast the color it picked up "
+"is dropped off."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:129
+msgid ""
+"The other settings should be pretty obvious from the pictures, so I'll "
+"spare you some walls of text."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:132
+msgid "Color Rate, Gradient and Blending modes"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:135
+msgid ".. image:: images/en/Krita-tutorial5-I.3.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:136
+msgid ""
+"Again, most of the settings behaviors should be obvious from the "
+"pictures. Just remember to keep Opacity over 0.50."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:139
+msgid "Brush tips"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:141
+msgid ""
+"The Color Smudge Brush has all the same brush tip options as the Pixel "
+"Brush!"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:144
+msgid ".. image:: images/en/Krita-tutorial5-I.4.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:145
+msgid ""
+"Just remember that the smudge effects are weaker when a brush tip's "
+"opacity is lower, so for low-opacity brush tips, increase the opacity and"
+" smudge/color rates."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:148
+msgid "Scatter and other shape dynamics"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:150
+msgid ""
+"The Color Smudge Brush shares the following dynamics with the Pixel "
+"Brush: Opacity, Size, Spacing, Rotation, and Scatter."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:152
+msgid ""
+"However, because of the Smudge effects, the outcome will be different "
+"from the Pixel Brush. In particular, the Scatter option becomes much more"
+" significant."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:155
+msgid ".. image:: images/en/Krita-tutorial5-I.5-1.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:156
+msgid "A few things to note:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:158
+msgid ""
+"Scattering is proportional to the brush size. It's fine to use a "
+"scattering of 5.00 for a tiny round brush, but for bigger brushes, you "
+"may want to get it down to 0.50 or less."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:159
+msgid ""
+"You may notice the lines with the Smearing option. Those are caused by "
+"the fact that it picked up the hard lines of the rectangle."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:160
+msgid ""
+"For scattering, the brush picks up colors within a certain distance, not "
+"the color directly under the paintbrush:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:163
+msgid ".. image:: images/en/Krita-tutorial5-I.5-2.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:165
+msgid "Other color behaviors: Gradient, Blending modes, Overlay mode"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:168
+msgid "Gradient"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:170
+msgid ""
+"Gradient is equivalent to the Source -> Gradient and Color -> Mix for the"
+" Pixel brush: the color will vary between the colors of the gradient."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:173
+msgid ".. image:: images/en/Krita-tutorial5-I.6-1.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:174
+msgid "You can either:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:176
+msgid ""
+"Leave the default Foreground -> Background gradient setting, and just "
+"change the foreground and background colors"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:177
+msgid "Select a more specific gradient"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:178
+msgid "Or make custom gradients."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:181
+msgid "Blending Modes"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:183
+msgid ""
+"Blending Modes work just like with the Pixel Brush. The color used though"
+" is the color from Color rate."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:185
+msgid ""
+"Color Blending modes with the smudge brush are even harder to predict "
+"than with the pixel brush, so I'll leave you to experiment on your own."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:188
+msgid "Overlay Mode"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:190
+msgid ""
+"By default, the Color Smudge Brush only takes information from the layer "
+"it is on. However, if you want it to take color information from All the "
+"layers, you can turn on the Overlay mode."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:192
+msgid ""
+"Be aware though, that it does so by \"picking up\" bits of the layer "
+"underneath, which may mess up your drawing if you later make changes to "
+"the layer underneath."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:195
+msgid "Use cases: Smudging and blending"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:197
+msgid "This part describes use cases with color rate off."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:199
+msgid ""
+"I won't explain the settings for dynamics in detail, as you can find the "
+"explanations in the Pixel Brush tutorial."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:202
+msgid "Smudging effects"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:204
+msgid "For simple smudging:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:206
+msgid "# Pick the Color Smudge Brush. You can use either Smearing or Dulling."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:208
+msgid "# Turn off Color Rate"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:210
+msgid "# Smudge away"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:213
+msgid ".. image:: images/en/Krita-tutorial5-II.2.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:214
+msgid ""
+"When using lower opacity brush tips, remember to \"compensate\" for the "
+"less visible effects by increasing both Smudge Rate and Opacity, if "
+"necessary to maximum."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:217
+msgid "Some settings for Smearing"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:219
+msgid ""
+"For smoother smearing, decrease spacing. Remember that spacing is "
+"proportional to brush tip size. For a small round brush, 0.10 spacing is "
+"fine, but for mid-sized and large brushes, decrease spacing to 0.05 or "
+"less."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:222
+msgid "Some settings for Dulling"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:224
+msgid ""
+"Lowering the spacing will also make the smudging effect stronger, so find"
+" a right balance. 0.10 for most mid-sized round brushes should be fine."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:225
+msgid ""
+"Unlike Smearing, Dulling preserves the brush shape and size, so it won't "
+"\"fade off\" in size like Smearing brushes do. You can mimic that effect "
+"though with a simple size fade dynamic."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:228
+msgid "Textured blending"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:230
+msgid ""
+"In this case, what I refer to as \"Blending\" here is simply using one of"
+" the following two dynamics: * Rotation set to Distance or Fuzzy"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:235
+msgid "And/or Scatter:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:234
+msgid ""
+"For most mid-sized brushes you will probably want to lower the scatter "
+"rate to 0.50 or lower. Higher settings are okay for tiny brushes."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:235
+msgid ""
+"Note that Scatter picks colors within a certain distance, not the color "
+"directly under the brush (see [[Special:myLanguage/Krita/Tutorial_5|Brush"
+" tips]])"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:237
+msgid ""
+"Optional: Pile on size and other dynamics and vary brush tips In fact, "
+"the Color Smudge brush is not a blur brush, so smudging is not a very "
+"good method of \"smooth\" blending. To blend smoothly, you'll have better"
+" luck with:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:238
+msgid ""
+"Building up the transition by painting with intermediate values, "
+"described later"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:239
+msgid ""
+"Or using the \"blur with feathered selection\" method that I'll briefly "
+"mention at the end of this tutorial."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:241
+msgid ""
+"I've tried to achieve smooth blending with Color Smudge brush by adding "
+"rotation and scatter dynamics, but honestly they looked like crap."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:243
+msgid "However, the Color Smudge brush is very good at \"textured blending\":"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:246
+msgid ".. image:: images/en/Krita-tutorial5-II.3.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:247
+msgid "Basically you can paint first and add textured transitions after."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:250
+msgid "Use cases: Coloring"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:252
+msgid "For this last section, Color Rate is on."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:255
+msgid "Layer options"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:257
+msgid ""
+"Before we get started, notice that you have several possibilities for "
+"your set up: * Shading on the same layer * Shading on a separate layer, "
+"possibly making use of alpha-inheritance. The brush blends with the "
+"transparency of the layer it's on. This means:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:261
+msgid ""
+"If the area underneath is more of less uniform, the output is actually "
+"similar as if shading on the same layer"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:263
+msgid ""
+"But if the area underneath is not uniform, then you'll get fewer color "
+"variations."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:265
+msgid ""
+"Shading on a separate layer, using Overlay mode. Use this only if you're "
+"fairly sure you don't need to adjust the layer below, or the colors may "
+"become a mess."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:268
+msgid ".. image:: images/en/Krita-tutorial5-III.1-1.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:270
+msgid "Issue with transparency"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:272
+msgid ""
+"The Color Smudge Brush blends with transparency. What this means is that "
+"when you start a new, transparent layer and \"paint\" on this layer, you "
+"will nearly always get less than full opacity."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:274
+msgid "Basically:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:276
+msgid "It may look great when you're coloring on a blank canvas"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:277
+msgid "But it won't look so great when you add something underneath"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:280
+msgid ".. image:: images/en/Krita-tutorial5-III.1-2.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:281
+msgid "The solution is pretty simple though:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:285
+msgid "Make sure you have the area underneath colored in first:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:284
+msgid ""
+"With tinting, you already have the color underneath colored, so that's "
+"done"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:285
+msgid "For painting, roughly color in the background layer first"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:286
+msgid "Or color in the shape on a new layer and make use of alpha-inheritance"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:287
+msgid ""
+"For the last solution, use colors that contrast highly with what you're "
+"using for best effect. For example, shade in the darkest shadow area "
+"first, or the lightest highlights, and use the color smudge brush for the"
+" contrasting color."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:290
+msgid ".. image:: images/en/Krita-tutorial5-III.1-3.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:292
+msgid "Soft-shading"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:294
+msgid ""
+"Suppose you want more or less smooth color transitions. You can either: *"
+" Color Rate as low as 0.10 for round brushes, higher with non fully "
+"opaque brush tips. * Or set the Smudge Rate as low as 0.10 instead. * Or "
+"a combination of the two. Please try yourself for the output you like "
+"best. * Optional: turn on Rotation for smoother blending * Optional: turn"
+" on Scatter for certain effects * Optional: fiddle with Size and Opacity "
+"dynamics as necessary."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:303
+msgid ".. image:: images/en/Krita-tutorial5-III.2-1.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:304
+msgid ""
+"This remains, in fact, a so-so way of making smooth transitions. It's "
+"best to build up intermediate values instead. Here: * I first passed over"
+" the blue area three times with a red color. I select 3 shades. * I color"
+" picked each of these values with Ctrl+click, then used them in "
+"succession"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:309
+msgid ".. image:: images/en/Krita-tutorial5-III.2-2.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:311
+msgid "Painting: thick oil style"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:313
+msgid ""
+"Many of the included color smudge brush presets produce a thick oil "
+"paint-like effect. This is mainly achieved with the Smearing mode on. "
+"Basically: * Smearing mode with high smudge and color rates ** Both at "
+"0.50 are fine for normal round brushes or fully opaque predefined brushes"
+" ** Up to 1.00 each for brushes with less density or non fully-opaque "
+"predefined brushes"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:319
+msgid ""
+"Add Size/Rotation/Scatter dynamics as needed. When you do this, increase "
+"smudge and color rates to compensate for increased color mixing."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:322
+msgid ".. image:: images/en/Krita-tutorial5-III.3-1.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:323
+msgid ""
+"One thing I really like to do is to set different foreground and "
+"background colors, then turn on Gradient -> Fuzzy. Alternatively, just "
+"paint with different colors in succession (bottom-right example)."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:326
+msgid ".. image:: images/en/Krita-tutorial5-III.3-2.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:327
+msgid ""
+"Here's some final random stuff. With pixel brushes, you can get all sorts"
+" of frill designs by using elongated brushes and setting the dynamics to "
+"rotation. You won't get that with Color Smudge Brushes. Instead you'll "
+"get something that looks more like... yarn. Which is cool too. Here, I "
+"just used oval brushes and rotation -> distance."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:330
+msgid ".. image:: images/en/Krita-tutorial5-III.3-3.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:332
+msgid "Painting: Digital watercolor style"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:334
+msgid ""
+"When I say \"digital watercolor\", it refers to a style often seen "
+"online, i.e. a soft, smooth shading style rather than realistic "
+"watercolor. For this you mostly need the Dulling mode. A few things: * "
+"Contrary to the Smearing mode, you may want to lower opacity for normal "
+"round brushes to get a smoother effect, to 0.70 for example. * Vary the "
+"brush tip fade value as well. * When using Scatter or other dynamics, you"
+" can choose to set smudge and color values to high or low values, for "
+"different outcomes."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:340
+msgid ".. image:: images/en/Krita-tutorial5-III.4.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:342
+msgid "Blurring"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:344
+msgid "You can:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:346
+msgid "Paint then smudge, for mostly textury transitions"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:347
+msgid "Or build up transitions by using intermediate color values"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:349
+msgid ""
+"If you want even smoother effects, well, just use Blur. Gaussian blur to "
+"be exact."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:352
+msgid ".. image:: images/en/Krita-tutorial5-III.5.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:353
+msgid "And there you go. That last little trick concludes this tutorial."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:357
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:359
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:361
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:363
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:365
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:367
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:369
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:371
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:373
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:375
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:377
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:379
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:381
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:383
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:385
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:387
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:389
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:391
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:393
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:395
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:397
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:399
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:401
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:403
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:405
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:407
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:409
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:411
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:413
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:415
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:417
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:419
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:421
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:423
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:425
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:427
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:429
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:431
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:433
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:435
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:437
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

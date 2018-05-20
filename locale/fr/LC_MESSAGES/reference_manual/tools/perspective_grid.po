@@ -1,0 +1,323 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/tools/perspective_grid.rst:15
+msgid "Perspective Grid Tool"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:17
+msgid "|toolperspectivegrid|"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:88
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:23
+msgid ""
+"The perspective grid tool allows you to draw and manipulate grids on the "
+"canvas that can serve as perspective guides for your painting. A grid can"
+" be added to your canvas by first clicking the tool in the tool bar and "
+"then clicking four points on the canvas which will serve as the four "
+"corners of your grid."
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:26
+msgid ".. image:: images/en/Perspectivegrid.png"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:27
+msgid ""
+"The grid can be manipulated by pulling on any of its four corners. The "
+"grid can be extended by clicking and dragging a midpoint of one of its "
+"edges. This will allow you to expand the grid at other angles.This "
+"process can be repeated on any subsequent grid or grid section. You can "
+"join the corners of two grids by dragging one onto the other. Once they "
+"are joined they will always move together, they cannot be separated. You "
+"can delete any grid by clicking on the red X at its center. This tool can"
+" be used to build reference for complex scenes."
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:29
+msgid "As displayed while the Perspective Grid tool is active: *"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:32
+msgid ".. image:: images/en/Multigrid.png"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:33
+msgid "As displayed while any other tool is active: *"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:36
+msgid ".. image:: images/en/KritaPersgridnoedit.png"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:37
+msgid ""
+"You can toggle the visibility of the grid from the main menu "
+":menuselection:`View --> Show Perspective Grid` option. You can also "
+"clear any grid setup you have and start over by using the "
+":menuselection:`View --> Clear Perspective Grid`."
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:40
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:42
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:44
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:46
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:48
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:50
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:52
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:54
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:56
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:58
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:60
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:62
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:64
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:66
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:68
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:70
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:72
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:74
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:76
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:78
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:80
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:82
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:84
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:86
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:90
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:92
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:94
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:96
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:98
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:100
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:102
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:104
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:106
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:108
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:110
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:112
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:114
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:116
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:118
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/tools/perspective_grid.rst:120
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

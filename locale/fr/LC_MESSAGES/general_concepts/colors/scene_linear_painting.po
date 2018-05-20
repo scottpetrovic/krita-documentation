@@ -1,0 +1,781 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:14
+msgid "Scene Linear Painting"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:16
+msgid ""
+"Previously referred to as HDR painting and Scene Referred painting, Scene"
+" Linear Painting is doing digital painting in a peculiar type of "
+"colorspace. It is painting in a color space that is..."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:18
+msgid ""
+"Linear - there’s no gamma encoding, or tone-mapping or whatever going on "
+"with the pixels you manipulate. (This is different from the pixels you "
+"see, but we’ll get to that later)"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:19
+msgid "Floating Point - So 16bit or 32bit floating point per channel."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:21
+msgid ""
+"These are the two important characteristics. The colorspace has a few "
+"more properties than this, such as the white point, or more importantly, "
+"the colorants that make up the gamut. But here’s the thing, those two "
+"could be anything, as long as the space is linear and the color depth is "
+"floating point."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:23
+msgid ""
+"So, *Scene Linear is not a single one colorspace, but a **TYPE** of "
+"colorspace*. You can have a scene linear space that uses the sRGB/rec 709"
+" colorants, or one that uses adobeRGB, or maybe one that uses rec 2020, "
+"as long as it is *linear* and in a *floating point bit depth*."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:25
+msgid ""
+"These two factors are for one reason: To make black and white arbitrary "
+"values. This might seem a bit weird. But when you are dealing with light-"
+"sources, you are dealing with a massive range of contrasts, and will have"
+" to decide afterwards which white and black you’d like to have. This is "
+"what the scene means in scene-linear, the relevant values are unique per "
+"scene, like a real world scene: a flowerfield lit by moonlight, a city in"
+" twilight or a sunny beach. You want to be able to put the right emphasis"
+" on the most important contrasting values, and being able to choose what "
+"is white and what is black is a very powerful tool here. After all, "
+"humans in the real world can see much more when they get used to the "
+"dark, or to the sun, so why not apply that to how we make our images?"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:27
+msgid ""
+"This is also why it needs to be Linear. Gamma and Tone-mapped color "
+"spaces are already choosing which contrast is the most important to you. "
+"But for that, they too need to choose what is white or black. Linear "
+"doesn’t make such assumptions, so much better for when you want to choose"
+" yourself. You will eventually want to stick your image through some "
+"tone-mapping or gamma correction, but only at the end after you have "
+"applied filters and mixed colors!"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:29
+msgid ""
+"In fact, there’s always a non-destructive sort of transform going on "
+"while you are working on your image which includes the tone-mapping. This"
+" is called a display or view transform, and they provide a sort of set of"
+" binoculars into the world of your image. Without it, your computer "
+"cannot show these colors properly; it doesn’t know how to interpret it "
+"properly, often making the image too dark. Providing such a transform and"
+" allowing you to configure it is the prime function of color management."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:31
+msgid ""
+"Between different view and display transforms, there’s also a difference "
+"in types. Some are really naive, others are more sophisticated, and some "
+"need to be used in a certain manner to work properly. The ICC color "
+"management can only give a certain type of view transforms, while OCIO "
+"color management in the lut docker can give much more complex transforms "
+"easily configurable and custom settings that can be shared between "
+"programs."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:37
+msgid ".. image:: images/en/color_category/Krita_scenelinear_cat_01.png"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:37
+msgid ""
+"Above, an example of the more naive transform provided by going from "
+"scene-linear sRGB to regular sRGB, and to the right a more sophisticated "
+"transform coming from the filmic blender ocio configuration. Look at the "
+"difference between the paws. Image by Wolthera van Hövell tot "
+"Westerflier, License: CC-BY-SA"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:39
+msgid ""
+"Conversely, transforming and interpreting your image’s colors is the only"
+" thing OCIO can do, and it can do it with really complex transforms, "
+"really fast. It doesn’t understand what your image’s color space is "
+"originally, doesn’t understand what CMYK is, and there’s also no such "
+"thing as a OCIO color profile. Therefore you will need to switch to an "
+"ICC workflow if you wish to prepare for print."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:42
+msgid "Yes, but what is the point?"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:44
+msgid "The point is making things easier in the long run:"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:46
+msgid "It is easier to keep saturated non-muddy colors in a linear space."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:47
+msgid "The high bit depth makes it easier to get smoother color mixes."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:48
+msgid ""
+"Filters are more powerful a give nicer results in this space. It is far "
+"more easy to get nice blurring and bokeh results."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:49
+msgid ""
+"Simple Blending Modes like Multiply or Addition are suddenly black magic."
+" This is because Scene-Linear is the closest you can get to the "
+"physical(as in, physics, not material) model of color where multiplying "
+"colors with one another is one of the main ways to calculate the effect "
+"of light."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:50
+msgid ""
+"Combining painting with other image results such as photography and "
+"physically based rendering is much easier as they too work in such a type"
+" of colorspace. So you could use such images as reference with little "
+"qualms, or make textures that play nice with such a renderer."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:52
+msgid ""
+"So the advantages are prettier colors, cooler filter results, more "
+"control and easier interchange with other methods."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:55
+msgid "Okay, but why isn’t this all the rage then?"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:57
+msgid ""
+"Simply put, because while it’s easier in the long run, you will also have"
+" to drop tools and change habits..."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:59
+msgid ""
+"In particular, there’s many a tool in a digital painter’s toolbox that "
+"has **hard-coded assumptions about black and white**."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:61
+msgid ""
+"A very simple but massive problem is one with **inversion**. Inverting "
+"colors is done code-wise by taking the color for white and subtracting "
+"the color you want to invert from it. It’s used in many blending modes. "
+"But often the color white is hardcoded in these filters. There’s "
+"currently no application out there that allows you to define the value "
+"range that inversion is done with, so inverting is useless. And that also"
+" means the filters and blending modes that use it, such as(but not "
+"limited to)..."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:63
+msgid "Screen (invert+multiply+invert)"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:64
+msgid ""
+"Overlay (screens values below midtone-value, in sRGB this would be middle"
+" gray)"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:65
+msgid "Color-dodge (divides the lower color with an inversion of the top one)"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:66
+msgid "Color-burn (inverts the lower color and then divides it by the top color)"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:67
+msgid "Hardlight (A different way of doing overlay, including the inversion)"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:68
+msgid "Softlight (Uses several inversions along the way)"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:70
+msgid ""
+"Conversely Multiply, Linear Dodge/Addition(they’re the same thing), "
+"Subtract, Divide, Darker(only compares colors’ channel values), "
+"Lighter(ditto), and Difference *are fine to use*, as long as the program "
+"you use doesn’t do weird clipping there."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:72
+msgid ""
+"Another one is HSL, HSI and HSY algorithms. They too need to assume "
+"something about the top value to allow scaling to white. HSV doesn’t have"
+" this problem. So it’s best to use a HSV color selector."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:74
+msgid ""
+"For the blending modes that use HSY, there’s always the issue that they "
+"tend to be hardcoded to sRGB/Rec709 values, but are otherwise fine(and "
+"they give actually far more correct results in a linear space). So these "
+"are not a good idea to use with wide-gamut colorspaces, and due the "
+"assumption about black and white, not with scene linear painting. The "
+"following blending modes use them:"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:76
+msgid "Color"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:77
+msgid "Luminosity"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:78
+msgid "Saturation"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:79
+msgid "Darker Color(uses luminosity to determine the color)"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:80
+msgid "Lighter Color(Ditto)"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:82
+msgid ""
+"So that is the blending modes. Many filters suffer from similar issues, "
+"and in many applications, filters aren’t adjusted to work with arbitrary "
+"whites."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:84
+msgid ""
+"Speaking of filters, when using the transform tool, you should also avoid"
+" using lanczos3, it’ll give a weird black halo to sharp contrasts in "
+"scene-linear. The bilinear interpolation filter will work just fine in "
+"this case."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:86
+msgid "The second big problem is that **black doesn’t work quite the same**."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:88
+msgid ""
+"If you have mixed pigments before, you will know that black can quite "
+"easily overpower the other colors, so you should only add the tiniest "
+"amount of it to a mixture. White in contrast gets dirtied quite easily."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:90
+msgid ""
+"In a Scene Linear Color space, this is flipped. White is now more "
+"overpowering and black gets washed out super quickly. This relates to the"
+" additive nature of digital color theory, that becomes more obvious when "
+"working in linear."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:92
+msgid ""
+"This makes sketching a bit different, after all, it’s really difficult to"
+" make marks now. To get around this, you can do the following:"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:94
+#, python-format
+msgid ""
+"Sketch on a mid-gray background. This is recommended anyway, as it serves"
+" as a neutral backdrop. For a linear space, 18% or 22% gray would be a "
+"good neutral."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:95
+msgid ""
+"Make a special brush that is more opaque than the regular sketching "
+"brushes you use."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:96
+msgid "Or conversely, sketch with white instead."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:97
+msgid ""
+"For painting, block out the shapes with a big opaque brush before you "
+"start doing your mixing."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:99
+msgid ""
+"Overall, this is something that will take a little while getting used to,"
+" but you will get used to it soon enough."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:101
+msgid "Finally, there’s the **issue of size**."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:103
+msgid ""
+"16 bit float per channel images are big. 32 bit float per channel images "
+"are bigger. This means that they will eat ram and that painting and "
+"filtering will be slower. This is something that will fix itself over the"
+" years, but not many people have such a high-end pc yet, so it can be a "
+"blocker."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:105
+msgid "So the issues are tools, expectations and size."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:108
+msgid "In Summary"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:110
+msgid ""
+"Scene Linear Painting is painting an image in a color space that is "
+"linear and has a floating point bit depth. This does not assume anything "
+"about the values of black and white, so you can only use tools that don’t"
+" assume anything about the values of black and white. It has the "
+"advantage of having nicer filter results and better color mixtures as "
+"well as better interoperability with other scene-linear output."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:112
+msgid ""
+"To be able to view such an image you use a view transform, also called a "
+"display conversion. Which means that if you wish to finalise your image "
+"for the web, you make a copy of the image that goes through a display "
+"conversion or view transform that then gets saved to png or jpeg or tiff."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:115
+msgid "Getting to actual painting"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:117
+msgid ""
+"Now we’ve covered the theory, let us look at a workflow for painting "
+"scene linear."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:120
+msgid "Setting up the Canvas"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:122
+msgid ""
+"Select either a 16bit or 32bit image. By default Krita will select a "
+"linear sRGB profile. This is fine."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:124
+msgid ""
+"Then, download an OCIO config. I will use `Filmic Blender "
+"<https://sobotka.github.io/filmic-blender/>`_ here because it is quite "
+"simple to set up. Extract the downloaded zip somewhere you can find it "
+"back. Open the LUT docker, turn on OCIO, select ‘OCIO’ and set the path "
+"to the downloaded OCIO config."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:126
+msgid ""
+"Set the view to ‘Filmic log encoding’ and the look to ‘Base Contrast’. "
+"And now you can start painting!"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:128
+msgid ""
+"Keep in mind everything mentioned above. Not all filters and not all "
+"blending modes work. This will improve in the future. Other than that, "
+"everything else is the same."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:131
+msgid "Picking really bright colors"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:133
+msgid ""
+"Picking regular colors is easy, but how do we pick the really bright "
+"colors? There’s three way of getting access to the really bright colors "
+"in Krita:"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:135
+msgid ""
+"By lowering the exposure in the LUT docker. This will increase the "
+"visible range of colors in the color selectors. You can even hotkey the "
+"exposure in the canvas input settings."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:136
+msgid ""
+"Or simply by opening the internal color selector by double clicking the "
+"dual color button and typing in values higher than 1 into the field."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:137
+msgid ""
+"And finally by picking a really bright color from an image that has such "
+"values."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:139
+msgid ""
+"Then paint. It’s recommended to make a bunch of swatches in the corner, "
+"at the least, until Krita’s new palette docker allows you to save the "
+"values properly."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:142
+msgid "Lighting based workflow"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:144
+msgid ""
+"So, we have our typical value based workflow, where we only paint the "
+"grays of the image so that we can focus on the values of the image. We "
+"can do something similar with Scene Linear Painting."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:146
+msgid ""
+"Where with the value based workflow you paint the image as if it were a "
+"grayscale of what you intended to paint, with a lighting based workflow "
+"you paint as if all the objects are white. The effect of the color of an "
+"object can be determined by multiplying it’s base color with the color of"
+" the light. So you could paint objects as if they were white, paint the "
+"colors on a separate layer and just use the multiply blending mode to get"
+" the right colors."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:152
+msgid ".. image:: images/en/color_category/Krita_scenelinear_cat_02.png"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:152
+msgid ""
+"The leftmost image is both the lighting based one and the color layer "
+"separate, the middle with the two layers multiplied and the right a "
+"luminosity based view. This cat is a nice example as it demonstrates why "
+"having textures and lighting separate could be interesting.)"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:154
+msgid ""
+"You can even combine this with a value based workflow by opening a new "
+"view and setting the component to luminosity. That way you can see both "
+"the grayscale as well as the lighting based version of the image next to "
+"one another."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:156
+msgid ""
+"The keen minded will notice that a lighting based workflow kind of "
+"resembles the idea of a light-pass and a color pas in 3d rendering. And "
+"indeed, it is basically the same, so you can use lighting passes from 3d "
+"renders here, just save them as EXR and import them as a layer. One of "
+"the examples where scene linear painting simplies combining methods."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:159
+msgid "Finishing up"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:161
+msgid ""
+"When you are done, you will want to apply the view transform you have "
+"been using to the image(at the least, if you want to post the end result "
+"on the internet)... This is called LUT baking and not possible yet in "
+"Krita. Therefore you will have to save out your image in EXR and open it "
+"in either Blender or Natron. Then, in Blender it is enough to just use "
+"the same ocio config, select the right values and save the result as a "
+"png."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:163
+msgid ""
+"You can even use some of Blender’s or Natron’s filters at this stage, and"
+" when working with others, you would save out in EXR so that others can "
+"use those."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:166
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:168
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:170
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:172
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:174
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:176
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:178
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:180
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:182
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:184
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:186
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:188
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:190
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:192
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:194
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:196
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:198
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:200
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:202
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:204
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:206
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:208
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:210
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:212
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:214
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:216
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:218
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:220
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:222
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:224
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:226
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:228
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:230
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:232
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:234
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:236
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:238
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:240
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:242
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:244
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:246
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

@@ -32,9 +32,7 @@ Scripts are identified by a file that ends in a .desktop extension that contain 
 
 Therefore, for each proper plug-in you will need to create a folder, and a desktop file.
 
-The desktop file should look as follows:
-
-::
+The desktop file should look as follows::
 
     [Desktop Entry]
     Type=Service
@@ -62,7 +60,7 @@ Comment
 
 Krita python plugins need to be python modules, so make sure there's an __init__.py script, containing something like...
 
-::
+.. code:: python
 
     from .myplugin import *
 
@@ -82,13 +80,11 @@ In summary, if you want to create a script called *myplugin*:
     - a file called *myplugin.py*
 - in the *__init__.py* file put this code:
 
- ::
+.. code:: python
  
     from .myplugin import *
 
-- in the desktop file put this code:
-
- ::
+- in the desktop file put this code::
  
     [Desktop Entry]
     Type=Service
@@ -105,7 +101,7 @@ Creating an extension
 
 `Extensions <https://api.kde.org/extragear-api/graphics-apidocs/krita/libs/libkis/html/classExtension.html>`_ are relatively simple python scripts that run on Krita start. They are made by extending the Extension class, and the most barebones extension looks like this:
 
-::
+.. code:: python
 
     import sys
     from krita import *
@@ -131,7 +127,7 @@ First, let's create an `action <https://api.kde.org/extragear-api/graphics-apido
 
 So...
 
-::
+.. code:: python
 
     def createActions(self, window):
         action = window.createAction("myAction", "My Script", "tools/scripts")
@@ -146,7 +142,7 @@ if you now restart Krita, you will have an action called "My Script". It still d
 
 So, lets make a simple export document script. Add the following to the extension class, make sure it is above where you add the extension to Krita:
 
-::
+.. code:: python
 
     def exportDocument(self):
         # Get the document:
@@ -162,7 +158,7 @@ So, lets make a simple export document script. Add the following to the extensio
 
 And add the import for QFileDialog above with the imports:
 
-::
+.. code:: python
 
     import sys
     from krita import *
@@ -170,7 +166,7 @@ And add the import for QFileDialog above with the imports:
 
 Then, to connect the action to the new export document:
 
-::
+.. code:: python
 
     def createActions(self, window):
         action = window.createAction("myAction", "My Script")
@@ -188,7 +184,7 @@ Now, your new action doesn't show up in :menuselection:`Settings --> configure K
 
 Krita, for various reasons, only adds actions to the shortcuts menu when they are present in an .action file. The action file to get our action to be added to shortcuts should look like this:
 
-::
+.. code:: xml
 
     <?xml version="1.0" encoding="UTF-8"?>
     <ActionCollection version="2" name="Scripts">
@@ -243,7 +239,7 @@ Creating a docker
 
 Creating a custom `docker <https://api.kde.org/extragear-api/graphics-apidocs/krita/libs/libkis/html/classDockWidget.html>`_ is much like creating an extension. Dockers are in some ways a little easier, but they also require more use of widgets. This is the barebones docker code:
 
-::
+.. code:: python
 
     import sys
     from PyQt5.QtWidgets import *
@@ -277,20 +273,20 @@ Krita standardly uses pyQT, but their documentation is pretty bad, mostly becaus
 
 Anyway, what we need to do first is that we need to create a QWidget, it's not very complicated, under setWindowTitle, add:
 
-::
+.. code:: python
 
     mainWidget = QWidget(self)
     self.setWidget(mainWidget)
 
 Then, we create a button:
 
-::
+.. code:: python
 
     buttonExportDocument = QPushButton("Export Document", mainWidget)
 
 Now, to connect the button to our function, we'll need to look at the signals in the documentation. `QPushButton <http://doc.qt.io/qt-5/qpushbutton.html>`_ has no unique signals of it's own, but it does say it inherits 4 signals from `QAbstractButton <http://doc.qt.io/qt-5/qabstractbutton.html#signals>`_, which means that we can use those too. In our case, we want clicked.
 
-::
+.. code:: python
 
     buttonExportDocument.clicked.connect(self.exportDocument)
 
@@ -298,7 +294,7 @@ If we now restart Krita, we'll have a new docker and in that docker there's a bu
 
 However, the button looks aligned a bit oddly. That's because our mainWidget has no layout. Let's quickly do that:
 
-::
+.. code:: python
 
     mainWidget.setLayout(QVBoxLayout())
     mainWidget.layout().addWidget(buttonExportDocument)
@@ -323,7 +319,7 @@ First, make sure you have the right import for making custom slots:
 
 Then, you need to add a pyQt slot definition before your function:
 
-::
+.. code:: python
 
     @pyqtSlot(bool)
     def myFunction(self, enabled)
@@ -337,7 +333,7 @@ Then, when you ave created your checkbox, you can do something like myCheckbox.t
 
 Similarly, to make your own pyQT signals, you do the following:
 
-::
+.. code:: python
 
     # signal name is added to the member variables of the class
     signal_name = pyqtSignal(bool, name='signalName')

@@ -1,0 +1,463 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:13
+msgid "Brush Tips: Caustics"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:16
+msgid "Question"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:18
+msgid ""
+"Could you do a tutorial on how to recreate the look of light refracting "
+"in water?"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:20
+msgid ""
+"Sure, caustics, it’s not like it’s the most complicated effect known to "
+"CG graphics… Okay, so the first thing is that light effects never work in"
+" isolation: you need to be spot on with colors and other effects to make "
+"it work. So we first need to recreate the suroundings a bit."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Krita-brushtips-caustics_01.png\n"
+"   :alt: Background gradient for creating caustic effects"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:26
+msgid ""
+"We set up something simple with gradients. Some radial, some linear. The "
+"eraser mode works with gradients as well, so use that to your advantage!"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:28
+msgid ""
+"We create a simple smudge brush by taking smudge_soft and adding "
+"scattering to it, as well as an s-curve on the smudge length."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Krita-brushtips-caustics_02.png\n"
+"   :alt: Brush Settings"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:33
+msgid "And then we build up a quick base:"
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Krita-brushtips-caustics_03.gif\n"
+"   :alt: building a base for the caustic effects from the brush"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:38
+msgid ""
+"Note how the smudge brush here is used not just to mix areas, but also to"
+" create definition of borders by lowering the scatter.(If you reverse the"
+" pressure curve on the scatter, this’ll be easily done by increasing the "
+"pressure on the stylus)"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:40
+msgid ""
+"Now for the real magic. Caustics are a bit hairy, which means it’s a good"
+" candidate for the sketch brush engine."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Krita-brushtips-caustics_04.png\n"
+"   :alt: Settings for the brush to create the caustic lines"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:45
+msgid ""
+"Take *sketch_ink_big*, and add pressure to the ‘line-width’ while setting"
+" ‘density’ under the brush-size to 100%. This makes it extra hairy."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Krita-brushtips-caustics_05.png\n"
+"   :alt: Set color blending mode the color dodge"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:50
+msgid ""
+"Set the brush blending mode to ‘Color Dodge’, and select the color of our"
+" caustics. Color dodge will cause a move towards white by applying "
+"special dodge color maths to our brush dabs instead of the ‘normal’ "
+"avaraging color maths."
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:52
+msgid ""
+"Outside of pressure for making varying strokes, glowiness for the light "
+"and extra density, we also want to have the size of the line decrease the"
+" further away it is…"
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Krita-brushtips-caustics_06.png\n"
+"   :alt: Setup the perspective assistant"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:57
+msgid ""
+"Then, use the assistant editor tool to add a perspective grid. It doesn’t"
+" need to be perfectly in perspective, because we’ll only use it for the "
+"perspective sensor."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Krita-brushtips-caustics_07.png\n"
+"   :alt: Select the perspective parameter in the brush settings"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:62
+msgid ""
+"This will cause the brush to give smaller lines the further it registers "
+"on the perspective assistant.(It only works per single perspective "
+"assistant, making it not very good for chaining, but for our purpose this"
+" is good.)"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:64
+msgid ""
+"Then you start slowly building up your lines. (Make sure to make a copy "
+"of the layer)(The color dodge blending doesn’t work well on a seperate "
+"layer, so do it on one that also has the ground on it)."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Krita-brushtips-caustics_08.png\n"
+"   :alt: painting the caustics"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:69
+msgid ""
+"Make sure to try and follow the shapes you made.(*I failed at this*) The "
+"great thing about the sketch brush is that it causes those little ‘melt-"
+"togethers’ where two lines cross. This is only per stroke, so make a lot "
+"of long ongoing strokes with this brush to make use of it."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Krita-brushtips-caustics_09.png\n"
+"   :alt: adding a little gradient"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:74
+msgid ""
+"Then take the gradient tool, and set the blending mode to color and the "
+"paint tool to a light blue, so we can get in the bluish atmospheric "
+"effect."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Krita-brushtips-caustics_10.png\n"
+"   :alt: Adding some atmospheric effect"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:79
+msgid ""
+"Then use the airbrush_pressure with the line tool to make some light-"
+"shafts of different sizes on a separate layer. (Don’t forget you can use "
+"the eraser mode to for subtle erasing with the line-tool as well)"
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Krita-brushtips-caustics_11.png\n"
+"   :alt: Add some light shafts"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:84
+msgid "Set the blending mode to color dodge and lower the opacity."
+msgstr ""
+
+msgid ""
+".. image:: images/en/brush-tips/Krita-brushtips-caustics_12.png\n"
+"   :alt: change the blend mode to color dodge of the layer"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:89
+msgid ""
+"Finally, polish the piece with the airbush tool and some local color "
+"picking."
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:94
+msgid ""
+".. image:: images/en/brush-tips/Krita-brushtips-caustics_13.png\n"
+"   :alt: final polish"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:94
+msgid "Final Result"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:97
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:99
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:101
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:103
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:105
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:107
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:109
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:111
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:113
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:115
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:117
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:119
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:121
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:123
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:125
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:127
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:129
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:131
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:133
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:135
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:137
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:139
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:141
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:143
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:145
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:147
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:149
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:151
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:153
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:155
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:157
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:159
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:161
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:163
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:165
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:167
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:169
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:171
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:173
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:175
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../tutorials/krita-brush-tips/caustics.rst:177
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

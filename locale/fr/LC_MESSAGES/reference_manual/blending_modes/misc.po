@@ -1,0 +1,393 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/blending_modes/misc.rst:15
+msgid "Misc"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:20
+msgid "Bumpmap"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:22
+msgid "This filter seems to both multiply and respect the alpha of the input."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:27
+msgid "Combine Normal Map"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:29
+msgid ""
+"Mathematically robust blending mode for normal maps, using `Reoriented "
+"Normal Map Blending <http://blog.selfshadow.com/publications/blending-in-"
+"detail/>`_."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:34
+msgid "Copy"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:36
+msgid ""
+"Copies the previous layer exactly. Useful for when using filters and "
+"filter-masks."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:42
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Copy_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:42
+msgid "Left: **Normal**. Right: **Copy**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:49
+msgid "Copy Red, Green, Blue"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:51
+msgid ""
+"This is a blending mode that will just copy/blend a source channel to a "
+"destination channel. Specifically, it will take the specific channel from"
+" the upper layer and copy that over to the lower layers."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:54
+msgid ""
+"So, if you want the brush to only affect the red channel, set the "
+"blending mode to 'copy red'."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:60
+msgid ""
+".. image:: "
+"images/blending_modes/Krita_Filter_layer_invert_greenchannel.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:60
+msgid "The copy red, green and blue blending modes also work on filter-layers."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:62
+msgid ""
+"This can also be done with filter layers. So if you quickly want to flip "
+"a layer's green channel, make an invert filter layer with 'copy green' "
+"above it."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:67
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Copy_Red_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:67
+msgid "Left: **Normal**. Right: **Copy Red**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:73
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Copy_Green_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:73
+msgid "Left: **Normal**. Right: **Copy Green**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:79
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Copy_Blue_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:79
+msgid "Left: **Normal**. Right: **Copy Blue**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:84
+msgid "Dissolve"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:86
+msgid ""
+"Instead of using transparency, this blending mode will use a random "
+"dithering pattern to make the transparent areas look sort of transparent."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:91
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Dissolve_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:91
+msgid "Left: **Normal**. Right: **Dissolve**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:95
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:97
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:99
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:101
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:103
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:105
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:107
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:109
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:111
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:113
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:115
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:117
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:119
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:121
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:123
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:125
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:127
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:129
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:131
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:133
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:135
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:137
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:139
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:141
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:143
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:145
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:147
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:149
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:151
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:153
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:155
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:157
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:159
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:161
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:163
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:165
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:167
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:169
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:171
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:173
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/misc.rst:175
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

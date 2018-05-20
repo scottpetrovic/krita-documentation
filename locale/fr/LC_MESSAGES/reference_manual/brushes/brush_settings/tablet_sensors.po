@@ -1,0 +1,402 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:15
+msgid "Sensors"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:17
+msgid "Pressure"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:18
+msgid "Uses the pressure input of your tablet."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:19
+msgid "X-tilt"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:20
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:22
+msgid "How much the brush is affected by stylus angle, if supported."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:21
+msgid "Y-tilt"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:23
+msgid "Tilt-direction"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:24
+msgid ""
+"How much the brush is affected by stylus direction. The pen point "
+"pointing towards the user is 0°, and can vary from -180° to +180°."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:25
+msgid "Tilt-elevation"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:26
+msgid ""
+"How much the brush is affected by stylus perpendicularity. 0° is the "
+"stylus horizontal, 90° is the stylus vertical."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:27
+msgid "Speed"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:28
+msgid "How much the brush is affected by the speed at which you draw."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:29
+msgid "Drawing Angle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:30
+msgid ""
+"How much the brush is affected by which direction you are drawing in. "
+":guilabel:`Lock` will lock the angle to the one you started the stroke "
+"with. :guilabel:`Fan corners` will try to smoothly round the corners, "
+"with the angle being the angles threshold it'll round. :guilabel:`Angle "
+"offset` will add an extra offset to the current angle."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:31
+msgid "Rotation"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:32
+msgid ""
+"How much a brush is affected by how the stylus is rotated, if supported "
+"by the tablet."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:33
+msgid "Distance"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:34
+msgid "How much the brush is affected over length in pixels."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:35
+msgid "Time"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:36
+msgid "How much a brush is affected over drawing time in seconds.."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:37
+msgid "Fuzzy (Dab)"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:38
+msgid "Basically the random option."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:39
+msgid "Fuzzy Stroke"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:40
+msgid ""
+"A randomness value that is per stroke. Useful for getting color and size "
+"variation in on speed-paint brushes."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:41
+msgid "Fade"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:42
+msgid ""
+"How much the brush is affected over length, proportional to the brush "
+"tine."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:43
+msgid "Perspective"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:44
+msgid "How much the brush is affected by the perspective assistant."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:49
+msgid "Tangential Pressure"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:46
+msgid "How much the brush is affected by the wheel on airbrush-simulating stylii."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:51
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:53
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:55
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:57
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:59
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:61
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:63
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:65
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:67
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:69
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:71
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:73
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:75
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:77
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:79
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:81
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:83
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:85
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:87
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:89
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:91
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:93
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:95
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:97
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:99
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:101
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:103
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:105
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:107
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:109
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:111
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:113
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:115
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:117
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:119
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:121
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:123
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:125
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:127
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:129
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:131
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

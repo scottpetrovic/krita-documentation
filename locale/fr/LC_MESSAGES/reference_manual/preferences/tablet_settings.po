@@ -1,0 +1,334 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/preferences/tablet_settings.rst:16
+msgid "Tablet Settings"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:19
+msgid ".. image:: images/en/Krita_Preferences_Tablet_Settings.png"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:20
+msgid "Tablet"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:21
+msgid ""
+"Input Pressure Global Curve : This is the global curve setting that your "
+"tablet will use in Krita. The settings here will make your tablet feel "
+"soft or hard globally."
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:29
+msgid "For Krita 3.3 or later:Tablet Input API"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:23
+msgid "on Windows 8 or above only"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:25
+msgid "WinTab"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:26
+msgid ""
+"Use the WinTab API to receive tablet pen input. This is the API being "
+"used before Krita 3.3. This option is recommended for most Wacom tablets."
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:29
+msgid "Windows 8+ Pointer Input"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:28
+msgid ""
+"Use the Pointer Input messages to receive tablet pen input. This option "
+"depends on Windows Ink support from the tablet driver. This is a "
+"relatively new addition so it's still considered to be experimental, but "
+"it should work well enough for painting. You should try this if you are "
+"using an N-Trig device (e.g. recent Microsoft Surface devices) or if your"
+" tablet does not work well with WinTab."
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:31
+msgid ""
+"If your tablet doesn't work with Krita, check out the :ref:`page on "
+"drawing tablets <drawing_tablets>`."
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:34
+msgid "External Links"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:36
+msgid ""
+"`David Revoy wrote an indepth guide on using this feature to maximum "
+"advantage. <http://www.davidrevoy.com/article182/calibrating-wacom-"
+"stylus-pressure-on-krita>`_"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:39
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:41
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:43
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:45
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:47
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:49
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:51
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:53
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:55
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:57
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:59
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:61
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:63
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:65
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:67
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:69
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:71
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:73
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:75
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:77
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:79
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:81
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:83
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:85
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:87
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:89
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:91
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:93
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:95
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:97
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:99
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:101
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:103
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:105
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:107
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:109
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:111
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:113
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:115
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:117
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/preferences/tablet_settings.rst:119
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

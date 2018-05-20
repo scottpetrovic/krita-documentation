@@ -1,0 +1,312 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:18
+msgid "Paint Layers"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:20
+msgid ""
+"Paint layers are the most commonly used type of layers used in digital "
+"paint or image manipulation software like Krita.  If you've ever used "
+"layers in :program:`Photoshop` or the :program:`Gimp`, you'll be used to "
+"how they work. In short, a paint layer,  also called a pixel, bitmap or "
+"raster layer, is a bitmap image (an image made up of many points of "
+"color)."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:22
+msgid ""
+"Paint layers let you apply many advanced effects such as smearing, "
+"smudging and distorting. This makes them the most flexible type of layer."
+" However,  paint layers don't scale well when enlarged (they pixelate), "
+"and any effects that have been applied can't be edited."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:24
+msgid ""
+"To deal with these two drawbacks, digital artists will typically work at "
+"higher Pixel Per Inch (PPI) counts.  It is not unusual to see PPI "
+"settings of 400 to 600 PPI for a canvas with a good amount of detail.  To"
+" combat the issue of applied effects that cannot be edited it is best to "
+"take advantage of the non-destructive layer capabilities of filter, "
+"transparency and transform masks."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:26
+msgid ""
+"As long as you have enough resolution / size on your canvas though, and "
+"as long as you aren't going to need to go back and tweak an effect you "
+"created previously, then a paint layer is usually the type of layer you "
+"will want. If you click on the :guilabel:`New layer` icon in the layers "
+"docker you'll get a paint layer. Of course you can always choose the "
+":guilabel:`New layer` dropdown to get another type."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:28
+msgid "The hotkey for adding a new paint layer is :kbd:`Ins`."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:31
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:33
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:35
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:37
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:39
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:41
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:43
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:45
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:47
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:49
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:51
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:53
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:55
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:57
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:59
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:61
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:63
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:65
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:67
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:69
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:71
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:73
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:75
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:77
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:79
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:81
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:83
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:85
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:87
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:89
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:91
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:93
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:95
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:97
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:99
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:101
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:103
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:105
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:107
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:109
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:111
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

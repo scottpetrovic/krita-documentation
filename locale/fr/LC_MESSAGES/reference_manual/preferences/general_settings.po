@@ -1,0 +1,757 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/preferences/general_settings.rst:16
+msgid "General Settings"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:18
+msgid ""
+"You can access the General Category of the preferences by first going to"
+"  :menuselection:`Settings --> Configure Krita`."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst
+msgid ".. image:: images/en/Krita_Preferences_General.png"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:23
+msgid "Cursor Settings"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:25
+msgid "Customise the drawing cursor here:"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:28
+msgid "Cursor Shape"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:30
+msgid ""
+"Select a cursor shape to use while the brush tools are used. This cursor "
+"will always be visible on the canvas. It is usually set to a type exactly"
+" where your pen nib is at. The available cursor types are shown below."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:35
+msgid "Tool Icon"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:33
+msgid "Shows the currently selected tool icon,even for the freehand brush."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst
+msgid ".. image:: images/en/Settings_cursor_tool_icon.png"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:40
+msgid "Arrow"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:38
+msgid "Shows a generic cursor."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst
+msgid ".. image:: images/en/Settings_cursor_arrow.png"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:45
+msgid "Crosshair"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:43
+msgid "Shows a precision reticule."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst
+msgid ".. image:: images/en/Settings_cursor_crosshair.png"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:47
+msgid "Small circle"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:49
+msgid "Shows a small white dot with a black outline."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst
+msgid ".. image:: images/en/Settings_cursor_small_circle.png"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:56
+msgid "No Cursor"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:54
+msgid "Show no cursor, useful for tablet-monitors."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst
+msgid ".. image:: images/en/Settings_cursor_no_cursor.png"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:58
+msgid "Triangle Right-Handed."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:60
+msgid "Gives a small white triangle with a black border."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst
+msgid ".. image:: images/en/Settings_cursor_triangle_righthanded.png"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:67
+msgid "Triangle Left-Handed."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:65
+msgid "Same as above but mirrored."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst
+msgid ".. image:: images/en/Settings_cursor_triangle_lefthanded.png"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:72
+msgid "Black Pixel"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:70
+msgid "Gives a single black pixel."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst
+msgid ".. image:: images/en/Settings_cursor_black_pixel.png"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:78
+msgid "White Pixel"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:75
+msgid "Gives a single white pixel."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst
+msgid ".. image:: images/en/Settings_cursor_white_pixel.png"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:81
+msgid "Outline Shape"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:83
+msgid ""
+"Select an outline shape to use while the brush tools are used. This "
+"cursor shape will optionally show in the middle of a painting stroke as "
+"well. The available outline shape types are shown below.(pictures will "
+"come soon)"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:85
+msgid "No Outline"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:86
+msgid "No outline."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:87
+msgid "Circle Outline"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:88
+msgid "Gives a circular outline approximating the brush size."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:89
+msgid "Preview Outline"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:90
+msgid "Gives an outline based on the actual shape of the brush."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:94
+msgid "Tilt Outline"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:92
+msgid "Gives a circular outline with a tilt-indicator."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:97
+msgid "Show Outline When Painting"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:97
+msgid ""
+"This option when selected will show the brush outline while a stroke is "
+"being made. If unchecked the brush outline will not appear during stroke "
+"making, it will show up only after the brush stroke is finished. This "
+"option works only when Brush Outline is selected as the Cursor Shape."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:101
+msgid "Window Settings"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:103
+msgid "Multiple Document Mode"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:104
+msgid ""
+"This can be either tabbed like :program:`GIMP` or :program:`Painttool "
+"Sai`, or subwindows, like :program:`Photoshop`."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:105
+msgid "Background image"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:106
+msgid "Allows you to set a picture background for subwindow mode."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:107
+msgid "Window Background"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:108
+msgid "Set the colour of the subwindow canvas area."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:109
+msgid "Don't show contents when moving subwindows."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:110
+msgid ""
+"This gives an outline when moving windows to work around ugly glitches "
+"with certain graphics-cards."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:111
+msgid "Show on-canvas popup messages"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:112
+msgid ""
+"Whether or not you want to see the on-canvas pop-up messages that tell "
+"you whether you are in tabbed mode, rotating the canvas, or mirroring it."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:113
+msgid "Enable Hi-DPI support"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:114
+msgid ""
+"Attempt to use the Hi-DPI support. It is an option because we are still "
+"experiencing bugs on windows."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:116
+msgid "Allow only once instance of Krita"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:116
+msgid ""
+"An instance is a single entry in your system's task manager. Turning this"
+" option makes sure that Krita will check if there's an instance of Krita "
+"open already when you instruct it to open new documents, and then have "
+"your documents opened in that single instance. There's some obscure uses "
+"to allowing multiple instances, but if you can't think of any, just keep "
+"this option on."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:119
+msgid "Tool options"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:121
+msgid "In docker (default)"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:122
+msgid "Gives you the tool options in a docker."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:124
+msgid "In toolbar"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:124
+msgid ""
+"Gives you the tool options in the toolbar, next to the brush settings. "
+"You can open it with :kbd:`\\\\`."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:127
+msgid "Switch ctrl/alt modifiers"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:127
+msgid ""
+"This switches the function of the ctrl and alt buttons when modifying "
+"selections. Useful for those used to Gimp instead of photoshop, or "
+"Lefties without a right-alt key on their keyboard."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:130
+msgid "Enable Touchpainting"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:130
+msgid ""
+"This allows fingerpainting with capacitive screens. Some devices have "
+"both capacitive touch and a stylus, and then this can interfere. In that "
+"case, just toggle this."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:153
+msgid "Kinetic Scrolling (Needs Restart)"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:133
+msgid "This enables kinetic scrolling for scrollable areas."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst
+msgid ".. image:: images/en/Krita_4_0_kinetic_scrolling.gif"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:138
+msgid ""
+"Kinetic scrolling on the brush chooser drop-down with activation mode set"
+" to `guilabel:`On Click Drag`, with this disabled all of these clicks "
+"would lead to a brush being selected regardless of drag motion."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:148
+msgid "Activation"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:141
+msgid "How it is activated."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:143
+msgid "Disabled"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:144
+msgid "Will never activated."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:145
+msgid "On Touch Drag"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:146
+msgid "Will activate if it can recognise a touch event. May not always work."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:148
+msgid "On Click Drag"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:148
+msgid "Will activate when it can recognise a click event, will always work."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:150
+msgid "Sensitivity"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:151
+msgid ""
+"How quickly the feature activates, this effective determines the length "
+"of the drag."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:153
+msgid "Show Scrollbar"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:153
+msgid "Whether to show scrollbars when doing this."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:156
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:158
+msgid "Autosave Every"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:159
+#, python-format
+msgid ""
+"Here the user can specify how often Krita should autosave the file, you "
+"can tick the checkbox to turn it off. For Windows these files are saved "
+"in the %TEMP% directory. If you are on Linux it is stored in "
+"/home/'username'."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:160
+msgid "Compress \\*.kra files more."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:161
+msgid ""
+"This increases the zip compression on the saved Krita files, which makes "
+"them lighter on disk, but this takes longer to load."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:162
+msgid "Upon importing Images as Layers, convert to the image color space."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:163
+msgid ""
+"This makes sure that layers are the same color space as the image, "
+"necessary for saving to PSD."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:164
+msgid "Undo Stack Size"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:165
+msgid ""
+"This is the number of undo commands Krita remembers. You can set the "
+"value to 0 for unlimited undos."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:166
+msgid "Favorite Presets"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:167
+msgid ""
+"This determines the amount of presets that can be used in the pop-up "
+"palette."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:168
+msgid "Create Backup File"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:169
+msgid "When selected Krita will try to save a backup file in case of a crash."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:170
+msgid "Hide splash screen on startup."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:171
+msgid "This'll hide the splash screen automatically once Krita is fully loaded."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:172
+msgid "Enable Native File Dialog"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:173
+msgid ""
+"This allows you to use the system file dialog. By default turned off "
+"because we cannot seem to get native file dialogues 100% bugfree."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:174
+msgid "Maximum brush size"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:175
+msgid ""
+"This allows you to set the maximum brush size to a size of up to 10.000 "
+"pixels. Do be careful with using this, as a 10.000 size pixel can very "
+"quickly be a full gigabyte of data being manipulated, per dab. In other "
+"words, this might be slow."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:179
+msgid "Recalculate animation cache in background."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:177
+msgid ""
+"This allows you to set whether the animation is cached for playback in "
+"the background. Then, when animation is cached when pressing play, this "
+"caching will take less long. However, turning off this automatic caching "
+"can save power by having your computer work less."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:181
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:183
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:185
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:187
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:189
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:191
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:193
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:195
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:197
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:199
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:201
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:203
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:205
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:207
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:209
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:211
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:213
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:215
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:217
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:219
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:221
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:223
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:225
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:227
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:229
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:231
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:233
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:235
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:237
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:239
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:241
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:243
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:245
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:247
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:249
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:251
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:253
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:255
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:257
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:259
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:261
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

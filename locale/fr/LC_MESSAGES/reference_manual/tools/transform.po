@@ -1,0 +1,651 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/tools/transform.rst:17
+msgid "Transform Tool"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:19
+msgid "|tooltransform|"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:207
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:21
+msgid ""
+"The Transform tool lets you quickly transform the current selection or "
+"layer. Basic transformation options include resize, rotate and skew. In "
+"addition, you have the option to apply advanced transforms such as "
+"Perspective, Warp, Cage and Liquid. These are all powerful options and "
+"will give you complete control over your selections/layers."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:23
+msgid ""
+"When you first invoke the tool,  handles will appear at the corners and "
+"sides, which you can use to resize your selection or layer. You can "
+"perform rotations by moving the mouse above or to the left of the handles"
+" and dragging it. You can also click anywhere inside the selection or "
+"layer and move it by dragging the mouse."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:25
+msgid ""
+"You can fine-tune the transform tool parameters using tool options "
+"docker. The parameters are split between five tabs: Free Transform, Warp,"
+" Perspective, Cage and Liquefy."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:29
+msgid ".. image:: images/en/Transform_Tool_Options.png"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:29
+msgid "Free Transform docker"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:32
+msgid "Free transform"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:34
+msgid ""
+"This allows you to do basic rotation, resizing, flipping, and even "
+"perspective skewing if you hold :kbd:`Ctrl`.Holding the :kbd:`Shift` key "
+"will maintain your aspect ratio throughout the transform."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:38
+msgid ".. image:: images/en/Krita_transforms_free.png"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:38
+#: ../../reference_manual/tools/transform.rst:66
+msgid "Free transform in action."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:40
+msgid ""
+"If you look at the bottom, there's quick buttons for flipping "
+"horizontally, vertically and rotating 90 degrees left and right. "
+"Furthermore, the button to the left of the anchor point widget allows you"
+" to choose whether to always transform using the anchor point, or not."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:42
+msgid ""
+"`Video of how to use the anchor point for resizing. "
+"<https://www.youtube.com/watch?v=grzccBVd0O8>`_"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:45
+msgid "Perspective"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:47
+msgid ""
+"While free transform has some perspective options, the perspective "
+"transform allows for maximum control. You can drag the corner points, or "
+"even the designated vanishing point."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:49
+msgid ""
+"You can also change the size, shear and position transform while "
+"remaining in perspective with the tool-options."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:53
+msgid ".. image:: images/en/Krita_transforms_perspective.png"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:53
+msgid "Perspective transform"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:56
+msgid "Warp"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:58
+msgid ""
+"Warp allows you to deform the image by dragging from a grid or choosing "
+"the dragging points yourself."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:62
+msgid ".. image:: images/en/Transform_Tool_Options_Warp.png"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:62
+msgid "Warp Option"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:66
+msgid ".. image:: images/en/Krita_transforms_warp.png"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:68
+msgid ""
+"There's warp options: Rigid, Afine and Similtude. These change the "
+"algorithm used to determine the strength of the deformation. The "
+"flexibility determines, how strong the effect of moving these point are."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:71
+msgid "Anchor Points"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:73
+msgid "You can divide these either by subdivision or drawing custom points."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:75
+msgid "Subdivision"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:76
+msgid "This allows you to subdivide the selected area into a grid."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:78
+msgid "Draw"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:78
+msgid ""
+"Draw the anchor points yourself. Locking the points will put you in "
+"transform mode. Unlocking the points back into edit mode."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:81
+msgid "Cage"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:83
+msgid ""
+"Create a cage around an image, and when it's closed, you can use it to "
+"deform the image. If you have at the least 3 points on the canvas, you "
+"can choose to switch between deforming and editing the existing points."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:87
+msgid ".. image:: images/en/Krita_transforms_cage.png"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:87
+msgid "Transforming a straight banana to be curved with the cage tool"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:90
+msgid "Hotkeys"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:92
+msgid ""
+"Both Cage and Warp use little nodes. These nodes can be selected and "
+"deselected together by pressing :kbd:`Ctrl` before clicking nodes."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:94
+msgid ""
+"Then you can move them by pressing the cursor inside the bounding box. "
+"Rotating is done by pressing and dragging the cursor outside the bounding"
+" box and scaling the same, only one presses :kbd:`Ctrl` before doing the "
+"motion."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:97
+msgid "Liquify"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:100
+msgid ".. image:: images/en/Transform_Tool_Options_Liquify.png"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:101
+msgid ""
+"Like our deform brush, the liquefy brush allows you to draw the "
+"deformations straight on the canvas."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:103
+msgid "Move"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:104
+msgid "Drag the image along the brush stroke."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:105
+msgid "Scale"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:106
+msgid "Grow/Shrink the image under the cursor."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:107
+msgid "Rotate"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:108
+msgid "Twirl the image under the cursor"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:109
+msgid "Offset"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:110
+msgid "Shift the image under the cursor."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:112
+msgid "Undo"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:112
+msgid "Erases the actions of other tools."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:116
+msgid ".. image:: images/en/Krita_transforms_liquefy.png"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:116
+msgid "Liquefy used to turn an apple into a pear"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:118
+msgid "In the options for each brush there's:"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:120
+msgid "Mode"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:121
+msgid ""
+"This is either wash or build up. :guilabel:`Wash` will normalize the "
+"effect to be between none, and the amount parameter as maximum. :guilabel"
+":`Build-up` will just add on until it's impossible.."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:122
+msgid "Size"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:123
+msgid ""
+"The brush size. The button to the right allow you to let it scale with "
+"pressure."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:124
+msgid "Amount"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:125
+msgid ""
+"The strength of the brush. The button to the right let's it scale with "
+"tablet-pressure."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:126
+msgid "Flow"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:127
+msgid "Only applicable with build-up."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:128
+msgid "Spacing"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:129
+msgid "The spacing of the liquefy dabs."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:131
+msgid "Reverse"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:131
+msgid ""
+"Reverses the action, so grow becomes shrink, rotate results in clockwise "
+"becoming counter-clockwise."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:135
+msgid ".. image:: images/en/Krita_transforms_deformvsliquefy.png"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:135
+msgid "liquefy on the left and deform brush on the right."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:137
+msgid ""
+"Krita also has a :ref:`deform_brush_engine` which is much faster than "
+"liquefy, but has less quality. If you are attempting to make liquefy a "
+"little faster, note that it speeds up with the less information it needs "
+"to process, so working with liquefy within a selection or using liquefy "
+"on a separate layer with little on it will greatly enhance the speed."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:140
+msgid "Recursive Transform"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:141
+msgid ""
+"The little spider icon on the lower-left of the transform tool options is"
+" the ''Recursive Transform''."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:145
+msgid ".. image:: images/en/Krita_transforms_recursive.png"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:145
+msgid ""
+"Recursive transform transforms all the layers in the group, so with this "
+"apple, both the line-art as the fill will be transformed."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:147
+msgid ""
+"Recursive transform, when toggled, allows you to mass-transform all the "
+"layers in a group when only transforming the group."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:150
+msgid "Continuous Transform"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:152
+msgid ""
+"If you apply a transformation, and try to start a new one directly "
+"afterwards, Krita will attempt to recall the previous transform, so you "
+"can continue it. This is the *continuous transform*. You can press "
+":kbd:`Esc` to cancel this and start a new transform, or presset "
+":guilabel:`reset` in the tool options while no transform is active."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:155
+msgid "Transformation Masks"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:157
+msgid ""
+"These allow you make non-destructive transforms, check :ref:`here "
+"<transformation_masks>` for more info."
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:160
+msgid "[[Category:Toolbox]]"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:163
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:165
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:167
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:169
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:171
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:173
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:175
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:177
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:179
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:181
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:183
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:185
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:187
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:189
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:191
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:193
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:195
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:197
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:199
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:201
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:203
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:205
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:209
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:211
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:213
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:215
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:217
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:219
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:221
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:223
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:225
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:227
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:229
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:231
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:233
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:235
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:237
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:239
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:241
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/tools/transform.rst:243
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

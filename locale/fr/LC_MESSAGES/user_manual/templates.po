@@ -1,0 +1,418 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../user_manual/templates.rst:16
+msgid "Templates"
+msgstr ""
+
+#: ../../user_manual/templates.rst:19
+msgid ".. image:: images/en/Krita_New_File_Template_A.png"
+msgstr ""
+
+#: ../../user_manual/templates.rst:20
+msgid ""
+"Templates are just .kra files which are saved in a special location so it"
+" can be pulled up by Krita quickly. This is like the :guilabel:`Open "
+"Existing Document and Untitled Document` but then with a nicer place in "
+"the UI."
+msgstr ""
+
+#: ../../user_manual/templates.rst:22
+msgid ""
+"You can make your own template file from any .kra file, by using "
+":guilabel:`create template from image` in the file menu. This will add "
+"your current document as a new template, including all its properties "
+"along with the layers and layer contents."
+msgstr ""
+
+#: ../../user_manual/templates.rst:24
+msgid "We have the following defaults:"
+msgstr ""
+
+#: ../../user_manual/templates.rst:27
+msgid "Comic Templates"
+msgstr ""
+
+#: ../../user_manual/templates.rst:29
+msgid ""
+"These templates are specifically designed for you to just get started "
+"with drawing comics. The comic template relies on a system of vectors and"
+" clones of those vector layers which automatically reflect any changes "
+"made to the vector layers. In between these two, you can draw your "
+"picture, and not fear them drawing over the panel. Use Inherit Alpha to "
+"clip the drawing by the panel."
+msgstr ""
+
+#: ../../user_manual/templates.rst:31
+msgid "European Bande Desinée Template."
+msgstr ""
+
+#: ../../user_manual/templates.rst:32
+msgid ""
+"This one is reminiscent of the system used by for example TinTin or "
+"Spirou et Fantasio. These panels focus on wide images, and horizontal "
+"cuts."
+msgstr ""
+
+#: ../../user_manual/templates.rst:33
+msgid "US-style comics Template."
+msgstr ""
+
+#: ../../user_manual/templates.rst:34
+msgid ""
+"This one is reminiscent of of old DC and Marvel comics, such as Batman or"
+" Captain America. Nine images for quick story progression."
+msgstr ""
+
+#: ../../user_manual/templates.rst:35
+msgid "Manga Template."
+msgstr ""
+
+#: ../../user_manual/templates.rst:36
+msgid ""
+"This one is based on Japanese comics, and focuses on a thin vertical "
+"gutter and a thick horizontal gutter, ensuring that the reader finished "
+"the previous row before heading to the next."
+msgstr ""
+
+#: ../../user_manual/templates.rst:38
+msgid "Waffle Iron Grid"
+msgstr ""
+
+#: ../../user_manual/templates.rst:38
+msgid "12 little panels at you disposal."
+msgstr ""
+
+#: ../../user_manual/templates.rst:41
+msgid "Design Templates"
+msgstr ""
+
+#: ../../user_manual/templates.rst:43
+msgid ""
+"These are templates for design and have various defaults with proper ppi "
+"at your disposal:"
+msgstr ""
+
+#: ../../user_manual/templates.rst:45
+msgid "Cinema 16:10"
+msgstr ""
+
+#: ../../user_manual/templates.rst:46
+msgid "Cinema 2.93:1"
+msgstr ""
+
+#: ../../user_manual/templates.rst:47
+msgid "Presentation A3-landscape"
+msgstr ""
+
+#: ../../user_manual/templates.rst:48
+msgid "Presentation A4 portrait."
+msgstr ""
+
+#: ../../user_manual/templates.rst:49
+msgid "Screen 4:3"
+msgstr ""
+
+#: ../../user_manual/templates.rst:50
+msgid "Web Design"
+msgstr ""
+
+#: ../../user_manual/templates.rst:53
+msgid "DSLR templates"
+msgstr ""
+
+#: ../../user_manual/templates.rst:55
+msgid "These have some default size for photos"
+msgstr ""
+
+#: ../../user_manual/templates.rst:57
+msgid "Canon 55D"
+msgstr ""
+
+#: ../../user_manual/templates.rst:58
+msgid "Canon 5DMK3"
+msgstr ""
+
+#: ../../user_manual/templates.rst:59
+msgid "Nikon D3000"
+msgstr ""
+
+#: ../../user_manual/templates.rst:60
+msgid "Nikon D5000"
+msgstr ""
+
+#: ../../user_manual/templates.rst:61
+msgid "Nikon D7000"
+msgstr ""
+
+#: ../../user_manual/templates.rst:64
+msgid "Texture Templates."
+msgstr ""
+
+#: ../../user_manual/templates.rst:66
+msgid "These are for making 3D textures, and are between 1024, to 4092."
+msgstr ""
+
+#: ../../user_manual/templates.rst:70
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../user_manual/templates.rst:72
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../user_manual/templates.rst:74
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../user_manual/templates.rst:76
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../user_manual/templates.rst:78
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../user_manual/templates.rst:80
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../user_manual/templates.rst:82
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../user_manual/templates.rst:84
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../user_manual/templates.rst:86
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../user_manual/templates.rst:88
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../user_manual/templates.rst:90
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../user_manual/templates.rst:92
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../user_manual/templates.rst:94
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../user_manual/templates.rst:96
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../user_manual/templates.rst:98
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../user_manual/templates.rst:100
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../user_manual/templates.rst:102
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../user_manual/templates.rst:104
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../user_manual/templates.rst:106
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../user_manual/templates.rst:108
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../user_manual/templates.rst:110
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../user_manual/templates.rst:112
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../user_manual/templates.rst:114
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../user_manual/templates.rst:116
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../user_manual/templates.rst:118
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../user_manual/templates.rst:120
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../user_manual/templates.rst:122
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../user_manual/templates.rst:124
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../user_manual/templates.rst:126
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../user_manual/templates.rst:128
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../user_manual/templates.rst:130
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../user_manual/templates.rst:132
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../user_manual/templates.rst:134
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../user_manual/templates.rst:136
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../user_manual/templates.rst:138
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../user_manual/templates.rst:140
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../user_manual/templates.rst:142
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../user_manual/templates.rst:144
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../user_manual/templates.rst:146
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../user_manual/templates.rst:148
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../user_manual/templates.rst:150
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

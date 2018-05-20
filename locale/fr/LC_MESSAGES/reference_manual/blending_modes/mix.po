@@ -1,0 +1,572 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/blending_modes/mix.rst:15
+msgid "Mix"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:20
+msgid "Allanon"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:22
+msgid ""
+"Blends the upper layer as half-transparent with the lower. (It add the "
+"two layers together and then halves the value)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:28
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Allanon_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:28
+msgid "Left: **Normal**. Right: **Allanon**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:33
+msgid "Alpha Darken"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:35
+msgid ""
+"As far as I can tell this seems to premultiply the alpha, as is common in"
+" some file-formats."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:40
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Alpha_Darken_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:40
+msgid "Left: **Normal**. Right: **Alpha Darken**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:45
+msgid "Behind"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:47
+msgid ""
+"Does the opposite of normal, and tries to have the upper layer rendered "
+"below the lower layer."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:52
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Behind_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:52
+msgid "Left: **Normal**. Right: **Behind**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:57
+msgid "Erase"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:59
+msgid ""
+"This subtracts the opaque pixels of the upper layer from the lower layer,"
+" effectively erasing."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:64
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Erase_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:64
+msgid "Left: **Normal**. Right: **Erase**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:69
+msgid "Geometric Mean"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:71
+msgid ""
+"This blending mode multiplies the top layer with the bottom, and then "
+"outputs the square root of that."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:76
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Geometric_Mean_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:76
+msgid "Left: **Normal**. Right: **Geometric Mean**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:81
+msgid "Grain Extract"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:83
+#, python-format
+msgid ""
+"Similar to subtract, the colors of the upper layer are subtracted from "
+"the colors of the lower layer, and then 50% grey is added."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:88
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Grain_Extract_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:88
+msgid "Left: **Normal**. Right: **Grain Extract**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:93
+msgid "Grain Merge"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:95
+#, python-format
+msgid ""
+"Similar to addition, the colors of the upper layer are added to the "
+"colors, and then 50% grey is subtracted."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:100
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Grain_Merge_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:100
+msgid "Left: **Normal**. Right: **Grain Merge**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:106
+msgid "Greater"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:108
+msgid ""
+"A blending mode which checks whether the painted color is painted with a "
+"higher opacity than the existing colors. If so, it paints over them, if "
+"not, it doesn't paint at all."
+msgstr ""
+
+msgid ".. image:: images/blending_modes/Greaterblendmode.gif"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:116
+msgid "Hard Mix"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:118
+msgid "Similar to Overlay."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:120
+msgid ""
+"Mixes both Color Dodge and Burn blending modes. If the color of the upper"
+" layer is darker than 50%, the blending mode will be Burn, if not the "
+"blending mode will be Color Dodge."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:126
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Hard_Mix_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:126
+msgid "Left: **Normal**. Right: **Hard Mix**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:131
+msgid "Hard Mix (Photoshop)"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:133
+msgid "This is the hard mix blending mode as it is implemented in photoshop."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:139
+msgid ".. image:: images/blending_modes/Krita_4_0_hard_mix_ps.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:139
+msgid ""
+"**Left**: Dots are mixed in with the normal blending mode, on the "
+"**Right**: Dots are mixed in with hardmix."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:141
+msgid ""
+"This add the two values, and then checks if the value is above the "
+"maximum. If so it will output the maximum, otherwise the minimum."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:146
+msgid "Hard Overlay"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:150
+msgid ""
+"Similar to Hard light but hard light use Screen when the value is above "
+"50%. Divide gives better results than Screen, especially on floating "
+"point images.."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:155
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Hard_Overlay_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:155
+msgid "Left: **Normal**. Right: **Hard Overlay**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:160
+msgid "Normal"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:162
+msgid "As you may have guessed this is the default Blending mode for all layers."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:164
+msgid ""
+"In this mode, the computer checks on the upper layer how transparent a "
+"pixel is, which colour it is, and then mixes the colour of the upper "
+"layer with the lower layer proportional to the transparency."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:169
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Normal_50_Opacity_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:169
+msgid "Left: **Normal** 100% Opacity. Right: **Normal** 50% Opacity."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:174
+msgid "Overlay"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:176
+msgid ""
+"A combination of the Multiply and Screen blending modes, switching "
+"between both at a middle-lightness."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:178
+msgid ""
+"Overlay checks if the colour on the upperlayer has a lightness above 0.5."
+" If so, the pixel is blended like in Screen mode, if not the pixel is "
+"blended like in Multiply mode."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:180
+msgid "This is useful for deepening shadows and highlights."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:185
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Overlay_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:185
+msgid "Left: **Normal**. Right: **Overlay**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:190
+msgid "Parallel"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:192
+msgid ""
+"This one first takes the percentage in two decimal behind the comma for "
+"both layers. It then adds the two values. Divides 2 by the sum."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:199
+msgid ""
+".. image:: "
+"images/blending_modes/Blending_modes_Parallel_Sample_image_with_dots.png"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:199
+msgid "Left: **Normal**. Right: **Parallel**."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:203
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:205
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:207
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:209
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:211
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:213
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:215
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:217
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:219
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:221
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:223
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:225
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:227
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:229
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:231
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:233
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:235
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:237
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:239
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:241
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:243
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:245
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:247
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:249
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:251
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:253
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:255
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:257
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:259
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:261
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:263
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:265
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:267
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:269
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:271
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:273
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:275
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:277
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:279
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:281
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/blending_modes/mix.rst:283
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

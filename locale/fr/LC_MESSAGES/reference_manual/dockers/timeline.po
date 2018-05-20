@@ -1,0 +1,545 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/dockers/timeline.rst:15
+msgid "Timeline Docker"
+msgstr ""
+
+msgid ".. image:: images/en/Timeline_docker.png"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:21
+msgid "Legend:"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:23
+msgid ""
+"**A** -- **layers in timeline** -- layers can be shown or hidden from the"
+" timeline by selecting the corresponding item in the right-click menu"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:24
+msgid "**B** -- **The Frame Table**"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:26
+msgid "Active Layer"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:27
+msgid ""
+"A highlighted row in the table. One can change active layer by clicking "
+"on the layer's name at the left header. It is *not* possible to change a "
+"layer by clicking inside the table for not disturbing user when scrubbing"
+" on the timeline"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:28
+msgid "Current Selection"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:29
+msgid ""
+"Just a selection. Can be created by mouse or keyboard. One can right-"
+"click on it to get a context menu to add/remove frames at that position. "
+"WARNING: *active frame* should not necessarily be a part of the "
+"selection; painting happens in the active frame, not in the selection"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:30
+msgid ""
+"**C** -- **Current Time** -- a highlighted column in the table. Shows "
+"current image time."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:33
+msgid "Active frame"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:33
+msgid ""
+"A frame of the *active layer* at the *current time* position. Active "
+"frame is always marked with a small circle inside. All editing operations"
+" happen with this frame only! WARNING: don't mix it with current "
+"selection!"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:35
+msgid ""
+"**D** -- **Cached Frames** -- the gray rectangles at the top header show "
+"if the corresponding image frame is cached or not. Cache is used for 1, "
+"playback; 2, scrubbing."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:36
+msgid "**E** - **The frame count header**"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:38
+msgid "Framerate"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:39
+msgid ""
+"The ruler at the top is divided into small sections, multiples of the "
+"framerate. Multiples of the framerate has double-line mark, and smaller "
+"counts have small single-line marks"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:40
+msgid ""
+"**G** -- **The Frame Resizer.** -- This allows you to resize frames in "
+"their width."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:41
+msgid ""
+"**F** -- **The Menu.** -- You can set 'show in timeline' here for the "
+"active layer."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:43
+msgid ""
+"The timeline docker is not immediately obvious, because when you start "
+"drawing, this doesn't automatically create a key frame out of your "
+"drawing. In fact, until you make a key frame on a layer, **Krita** "
+"assumes that there's no animation going on at all on the layer and it'll "
+"keep the layer static over the whole animation."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:46
+msgid ""
+"So, to make our first *animated layer*, we need to make a key frame! "
+"|mouseright| the square on the timeline docker to add a :guilabel:`new "
+"frame` ."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:105
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:49
+msgid ""
+"To keep a layer visible in the timeline docker regardless of which layer "
+"is selected, select the layer in the layerdocker so it shows up in the "
+"docker, the |mouseright| it on the docker-layer list and select "
+":guilabel:`show in timeline` . This way you can choose which layers are "
+"important and which are only minor."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:51
+msgid ""
+"You can :kbd:`drag and drop` the frame around to a different empty frame "
+"entry."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:53
+msgid ""
+"To add a new frame, either right click an empty frame entry to either add"
+" a new frame, or to copy the visible frame into a new frame."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:55
+msgid ""
+"In 3.0.2 you can also add color markers to frames so that you can find "
+"important frames back easily. The current color selection is remembered "
+"for new frames so that you can easily make a set of colored frames and "
+"then switch to another color."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:58
+msgid "GUI actions"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:60
+msgid "**Horizontal header**"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:62
+msgid "|mouseleft| : switch time + select frame of the active layer"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:103
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:63
+msgid "|mouseright| : menu (insert/remove/clear columns)"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:64
+msgid "|mouseleft| +drag: switch time + select frame of the current layer (scrub)"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:65
+msgid ":kbd:`shift` + |mouseleft| : select column"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:66
+msgid ":kbd:`shift` + |mouseleft| +drag: selection multiple columns"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:68
+msgid "**Vertical layers in timeline**"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:70
+msgid "|mouseleft| : select layer"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:71
+msgid "|mouseright| : menu (add/remove layer, show/hide layer)"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:73
+msgid "**Frames Table: empty area.**"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:75
+#: ../../reference_manual/dockers/timeline.rst:83
+msgid "|mouseleft| : select single frame + switch time + *don't* switch layer"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:76
+msgid "|mouseright| : menu (insert/copy frame)"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:77
+msgid ""
+"|mouseleft| + drag: select multiple frames + switch time to the latest + "
+"*don't* switch layer"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:78
+msgid ""
+":kbd:`shift` + |mouseleft| to select all frames between the active and "
+"the clicked frame."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:79
+msgid ""
+":kbd:`ctrl` + |mouseleft| to select individual frames together. "
+":kbd:`click+drag`  them into place."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:81
+msgid "**Frames Table: area on existent frame.**"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:84
+msgid "|mouseright| : menu (remove frame)"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:85
+msgid "|mouseleft| + drag: *move* a frame or multiple frames"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:86
+msgid ""
+":kbd:`ctrl` + |mouseleft| + drag on any frame(or set of) to copy said "
+"frame(s) and drag it into a spot."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:87
+msgid ""
+":kbd:`alt` + drag on any given frame will move that frame and *all* the "
+"frames to the right of it. This is useful for when you need to clear up "
+"some space in your animation, but don't want to select all the frame to "
+"the right of a particular frame."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:91
+msgid "**Frames Table: all**"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:90
+msgid ":kbd:`space` + |mouseleft| : pan"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:91
+msgid ":kbd:`space` + |mouseright| : zoom"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:93
+msgid ""
+":program:`Krita` will only track key frames. This is unlike "
+":program:`Flash` where you have to manually indicate how long a key frame"
+" will hold. Instead, :program:`Krita` just assumes that the space between"
+" key frame 1 and key frame 2 is supposed to be filled with key frame 1."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:95
+msgid ""
+"To delete frames, |mouseright| the frame and press :guilabel:`delete "
+"frame` . This will delete all selected frames."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:97
+msgid ""
+"To manually play your animation by using the mouse, a concept called "
+"*scrubbing*, you click-drag on the frame-count header. You can also right"
+" click this header to add and remove whole columns from the animation "
+"over all visible layers."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:100
+msgid ""
+"The is a small area between the header and the frames where you can see "
+"whether a frame has been cached. This is important for playback."
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:107
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:109
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:111
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:113
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:115
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:117
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:119
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:121
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:123
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:125
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:127
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:129
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:131
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:133
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:135
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:137
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:139
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:141
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:143
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:145
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:147
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:149
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:151
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:153
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:155
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:157
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:159
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:161
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:163
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:165
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:167
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:169
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:171
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:173
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:175
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:177
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:179
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:181
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/dockers/timeline.rst:183
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

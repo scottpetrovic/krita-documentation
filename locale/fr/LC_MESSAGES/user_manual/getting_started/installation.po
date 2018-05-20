@@ -1,0 +1,504 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../user_manual/getting_started/installation.rst:17
+msgid "Installation"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:20
+msgid "Windows"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:22
+msgid ""
+"Windows users can download the latest releases from our `website. "
+"<https://krita.org/download/krita-desktop>`__\\ Click on 64bit or 32bit "
+"according to the architecture of your OS. Go to the `KDE "
+"<http://download.kde.org/stable/krita/>`__ download directory to get the "
+"portable zip-file version of Krita instead of the setup.exe installer."
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:30
+msgid ""
+"Krita requires Windows Vista or newer. INTEL GRAPHICS CARD USERS: IF YOU "
+"SEE A BLACK OR BLANK WINDOW: UPDATE YOUR DRIVERS!"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:34
+msgid "Linux"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:36
+msgid ""
+"Many Linux distributions package the latest version of Krita. Sometimes "
+"you will have to enable an extra repository. Krita runs fine under on "
+"desktop: KDE, Gnome, LXDE -- even though it is a KDE SC application and "
+"needs the KDE libraries. You might also want to install the KDE "
+"systemsettings module and tweak the gui theme and fonts used, depending "
+"on your distributions"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:44
+msgid "Nautilus/Nemo file extensions"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:46
+msgid ""
+"Put here at the beginning, before we start on the many distro specific "
+"ways to get the program itself."
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:49
+msgid ""
+"Since April 2016, KDE's Dolphin will show kra and ora thumbnails by "
+"default, but Nautilus and it's derivatives will need an extension. `We "
+"recommend Moritz Molch's extensions for XCF, KRA, ORA and PSD thumbnails "
+"<http://moritzmolch.com/1749>`__."
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:55
+msgid "Appimages"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:57
+#, python-format
+msgid ""
+"For Krita 3.0 and later, first try out the appimage from the website "
+"first. **90% of the time this is by far the easiest way to get the latest"
+" Krita.** Just download the appimage, and then use the file properties or"
+" the bash command chmod to make the appimage executable. Double click it,"
+" and enjoy Krita. (Or run it in the terminal with "
+"./appimagename.appimage)"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:73
+msgid ""
+"Appimages are ISOs with all the necessary libraries inside, meaning no "
+"fiddling with repositories and dependencies, at the cost of a slight bit "
+"more diskspace taken up(And this size would only be bigger if you were "
+"using Plasma to begin with)."
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:79
+msgid "Ubuntu and Kubuntu"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:81
+msgid ""
+"It does not matter which version of Ubuntu you use, Krita will run just "
+"fine. However, by default, only a very old version of Krita is available."
+" You should either use the appimage, or the snap available from Ubuntu's "
+"app store."
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:87
+msgid "OpenSUSE"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:89
+msgid "The most latest stable builds are available from KDE:Extra repo:"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:91
+msgid "http://download.opensuse.org/repositories/KDE:/Extra/"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:94
+msgid ""
+"Krita is also in the official repos as *calligra-krita* , you can install"
+" it from Yast."
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:97
+msgid "Fedora"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:99
+msgid ""
+"Krita is in the official repos as **calligra-krita** , you can install it"
+" by using packagekit (Add/Remove Software ) or by writing the command "
+"below in terminal ``yum install calligra-krita`` Or ``dnf install "
+"calligra-krita`` if you are using fedora 22."
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:105
+msgid "Debian"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:107
+msgid ""
+"The latest version of Krita available in Debian is 2.6. Jessie (stable) "
+"has 2.8.5+dfsg-1+b2."
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:111
+msgid "Arch"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:113
+msgid ""
+"Arch Linux provides krita package in the Extra repository. You can "
+"install Krita by using the command below ``pacman -S krita`` You can "
+"install the most recent build of Krita using Yaourt repository with the "
+"help of command below ``yaourt -S krita-git``"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:119
+msgid "OS X"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:122
+msgid ""
+"Mac OSX is very experimental right now and unstable, don't use it for "
+"production purpose"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:124
+msgid ""
+"You can download the latest binary if you want from our `website "
+"<https://krita.org/download/krita-desktop/>`__. It has only been reported"
+" to work with Mac OSX 10.9."
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:129
+msgid "Source"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:131
+msgid ""
+"While it is certainly more difficult to compile Krita from source than it"
+" is to install from prebuilt packages, there are certain advantages that "
+"might make the effort worth it:"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:135
+msgid ""
+"You can follow the development of Krita on the foot. If you compile Krita"
+" regularly from the development repository, you will be able to play "
+"withall the new features that the developers are working on."
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:138
+msgid ""
+"You can compile optimized for your processor. Most pre-built packages are"
+" built for the lowest-common denominator."
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:140
+msgid "You will be getting all the bug fixes as soon as possible as well."
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:141
+msgid ""
+"You can help the developers by giving us your feedback on features as "
+"they are being developed and you can test bug fixes for us. This is "
+"hugely important, which is why our regular testers get their name in the "
+"about box just like developers."
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:146
+msgid ""
+"Of course, there are also disadvantages: when building from the current "
+"development source repository you also get all the unfinished features. "
+"It might mean less stability for a while, or things shown in the user "
+"interface that don't work. But in practice, there seldom is really bad "
+"instability, and if it is, it's easy for you to go back to a revision "
+"that does work."
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:153
+msgid ""
+"So... If you want to start compiling from source, begin with the latest "
+"build instructions from the excellent illustrated `guide "
+"<http://www.davidrevoy.com/article193/guide-building-krita-on-linux-for-"
+"cats>`__ by David Revoy."
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:158
+msgid ""
+"There is more information and troubleshooting help on the `Calligra "
+"<https://community.kde.org/Calligra/Building>`__ wiki:"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:161
+msgid ""
+"If you encounter any problems, or if you are new to compiling software, "
+"don't hesitate to contact the Krita developers. There are three main "
+"communication channels:"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:165
+msgid "irc: irc.freenode.net, channel #krita"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:166
+msgid "`mailing list <https://mail.kde.org/mailman/listinfo/kimageshop>`__"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:167
+msgid "`forums <http://forum.kde.org/viewforum.php?f=136>`__"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:170
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:172
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:174
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:176
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:178
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:180
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:182
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:184
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:186
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:188
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:190
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:192
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:194
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:196
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:198
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:200
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:202
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:204
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:206
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:208
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:210
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:212
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:214
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:216
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:218
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:220
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:222
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:224
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:226
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:228
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:230
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:232
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:234
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:236
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:238
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:240
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:242
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:244
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:246
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:248
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../user_manual/getting_started/installation.rst:250
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

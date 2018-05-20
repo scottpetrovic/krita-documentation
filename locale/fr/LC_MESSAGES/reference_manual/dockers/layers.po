@@ -1,0 +1,568 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/dockers/layers.rst:16
+msgid "Layers"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:19
+msgid ".. image:: images/en/Krita_Layers_Docker.png"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:20
+msgid ""
+"The Layers docker is for one of the core concepts of Krita: :ref:`Layer "
+"Management <layers_and_masks>`. You can add, delete, rename, duplicate "
+"and do many other things to layers here."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:23
+msgid "The Layer Stack"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:25
+msgid ""
+"You can select the active layer here. Using :kbd:`shift` and :kbd:`ctrl` "
+"you can select multiple layers and drag-and-drop them. You can also "
+"change the visibility, edit state, alpha inheritance and rename layers. "
+"You can open and close groups, and you can drag and drop layers, either "
+"to reorder them, or to put them in groups."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:27
+msgid "Name"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:28
+msgid ""
+"The Layer name, just do double- |mouseleft| to make it editable, and "
+"press :kbd:`Enter` to finish editing."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:94
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:29
+msgid "Label"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:30
+msgid ""
+"This is a color that you can set on the layer. |mouseright| the layer to "
+"get a context menu to assign a color to it. You can then later filter on "
+"these colors."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:96
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:31
+msgid "Blending Mode"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:32
+msgid "This will set the :ref:`blending_modes` of the layer."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:33
+msgid "Opacity"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:34
+msgid "This will set the opacity of the whole layer."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:35
+msgid "Visibility"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:36
+msgid "An eye-icon. Clicking this can hide a whole layer."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:37
+msgid "Edit State (Or layer Locking)"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:38
+msgid ""
+"A lock Icon. Clicking this will prevent the layer from being edited, "
+"useful when handling large amounts of layers."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:39
+msgid "Alpha Lock"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:40
+msgid ""
+"This will prevent the alpha of the layer being edited. In more plain "
+"terms: This will prevent the transparency of a layer being changed. "
+"Useful in colouring images."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:41
+msgid "Pass-through mode"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:42
+msgid ""
+"Only available on Group Layers, this allows you to have the blending "
+"modes of the layers within affect the layers outside the group. Doesn't "
+"work with masks currently, therefore these have a strike-through on group"
+" layers set to pass-through."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:43
+msgid "Alpha Inheritance"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:44
+msgid ""
+"This will use the alpha of all the peers of this layer as a transparency "
+"mask. For a full explanation see :ref:`layers_and_masks`."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:45
+msgid "Open or Close Layers"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:46
+msgid ""
+"(An Arrow Icon) This will allow you to access sub-layers of a layer. Seen"
+" with masks and groups."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:47
+msgid "Onion Skin"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:48
+msgid ""
+"This is only available on :ref:`animated layers <animation>`, and toggles"
+" the onion skin feature."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:50
+msgid "Layer Style"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:50
+msgid ""
+"This is only available on layers which have a :ref:`layer_style` "
+"assigned. The button allows you to switch between on/off quickly."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:52
+msgid ""
+"To edit these properties on multiple layers at once, press the properties"
+" option when you have multiple layers selected or press :kbd:`F3` There, "
+"to change the names of all layers, the checkbox before :guilabel:`name` "
+"should be ticked after which you can type in a name. Krita will "
+"automatically add a number behind the layer-names. You can change other "
+"layer properties like visibility, opacity, lock states etc too."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:56
+msgid ".. image:: images/en/Krita-multi-layer-edit.png"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:58
+msgid "Lower buttons"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:60
+msgid "These are buttons for doing layer operations."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:62
+msgid "Add"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:63
+msgid ""
+"Will by default add a new Paint Layer, but using the little arrow, you "
+"can call a sub-menu with the other layer types."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:64
+msgid "Duplicate"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:65
+msgid ""
+"Will Duplicate the active layer(s). Can be quickly invoked with "
+":kbd:`Ctrl` + |mouseleft| + drag."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:66
+msgid "Move layer up."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:67
+msgid ""
+"Will move the active layer up. Will switch them out and in groups when "
+"coming across them."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:68
+msgid "Move layer down."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:69
+msgid ""
+"Will move the active layer down. Will switch them out and in groups when "
+"coming across them."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:70
+msgid "Layer properties."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:71
+msgid "Will open the layer properties window."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:73
+msgid "Delete"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:73
+msgid ""
+"Will delete the active layer(s). For safety reasons, you can only delete "
+"visible layers."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:76
+msgid "Hot keys and Sticky Keys"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:78
+msgid ":kbd:`Shift + Ctrl` for selecting multiple layers."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:79
+msgid ""
+":kbd:`Ctrl` + |mouseleft| + drag - makes a duplicate of the selected "
+"layers, for you to drag and drop."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:80
+msgid ""
+":kbd:`Ctrl + E` for merging a layer down. This also merges selected "
+"layers, layer styles and will keep selection masks in tact. Using "
+":kbd:`ctrl + E` on a single layer with a mask will merge down the mask "
+"into the layer."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:81
+msgid ":kbd:`Ctrl + Shift + E` merges all layers."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:82
+msgid ""
+":kbd:`R` + |mouseleft| allows you to select layers on canvas, similar to "
+"picking colours directly on canvas. Use :kbd:`Shift + R` + |mouseleft| "
+"for multiple layers."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:83
+msgid ":kbd:`ins` for adding a new layer."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:84
+msgid ""
+":kbd:`Ctrl + G` will create a group layer. If multiple layers are "
+"selected, they are put into the group layer."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:85
+msgid ""
+":kbd:`Ctrl + Shift + G` will quickly set-up a clipping group, with the "
+"selected layers added into the group, and a new layer added on top with "
+"alpha-inheritance turned on, ready for painting!"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:86
+msgid ":kbd:`ctrl + Alt + G` will ungroup layers inside a group."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:87
+msgid ""
+":kbd:`Alt` + |mouseleft| on the thumbnail for isolated view of a layer. "
+"This will maintain between layers till the same action is repeated again."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:88
+msgid ""
+":kbd:`Shift` + |mouseleft| on the eye-icon for hidding all but the "
+"current layer."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:89
+msgid ":kbd:`Page Up` and :kbd:`Page Down` for switching between layers."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:90
+msgid ""
+":kbd:`Ctrl + Page Up` and :kbd:`Ctrl + Page Down` will move the selected "
+"layers up and down."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:98
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:100
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:102
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:104
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:106
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:108
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:110
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:112
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:114
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:116
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:118
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:120
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:122
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:124
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:126
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:128
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:130
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:132
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:134
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:136
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:138
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:140
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:142
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:144
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:146
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:148
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:150
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:152
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:154
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:156
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:158
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:160
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:162
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:164
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:166
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:168
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:170
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:172
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:174
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

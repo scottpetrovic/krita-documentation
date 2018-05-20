@@ -1,0 +1,345 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/filters/colors.rst:15
+msgid "Color"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:17
+msgid ""
+"Similar to the Adjust filters, the color filter are image wide color "
+"operations."
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:22
+msgid "Color to Alpha"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:24
+msgid ""
+"This filter allows you to make one single color transparent(alpha). By "
+"default when you run this filter white is selected, you can choose a "
+"color that you want to make transparent from the color selector"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:27
+msgid ".. image:: images/en/Color-to-alpha.png"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:28
+#, python-format
+msgid ""
+"The Threshold indicates how much other colors will be considered mixture "
+"of the removed color and non-removed colors. For example, with threshold "
+"set to 255, and the removed color set to white, a 50% grey will be "
+"considered a mixture of black+white, and thus transformed in a 50% "
+"transparent black."
+msgstr ""
+
+msgid ".. image:: images/en/Krita-color-to-alpha.png"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:34
+msgid ""
+"This filter is really useful in separating line-art from the white "
+"background."
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:39
+msgid "Color Transfer"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:41
+msgid ""
+"This filter converts the colors of the image to colors from the reference"
+" image. This is a quick way to change a color combination of an artwork "
+"to an already saved image or a reference image."
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:45
+msgid ".. image:: images/en/Color-transfer.png"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:49
+msgid "Maximize Channel"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:51
+msgid ""
+"This filter checks for all the channels of a each single color and set "
+"all but the highest value to 0."
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:56
+msgid "Minimize Channel"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:58
+msgid ""
+"This is reverse to Maximise channel, it checks all the channels of a each"
+" single color and sets all but the lowest to 0."
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:61
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:63
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:65
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:67
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:69
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:71
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:73
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:75
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:77
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:79
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:81
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:83
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:85
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:87
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:89
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:91
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:93
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:95
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:97
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:99
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:101
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:103
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:105
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:107
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:109
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:111
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:113
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:115
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:117
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:119
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:121
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:123
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:125
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:127
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:129
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:131
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:133
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:135
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:137
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:139
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/filters/colors.rst:141
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

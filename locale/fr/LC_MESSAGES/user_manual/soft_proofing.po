@@ -1,0 +1,481 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../user_manual/soft_proofing.rst:15
+msgid "Soft Proofing"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:17
+msgid ""
+"When we make an image in Krita, and print that out with a printer, the "
+"image tends to look different. The colours are darker, or less dark than "
+"expected, maybe the reds are more aggressive, maybe contrast is lost. For"
+" simple documents, this isn’t much of a problem, but for professional "
+"prints, this can be very sad, as it can change the look and feel of an "
+"image drastically."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:19
+msgid ""
+"The reason this happens is simply because the printer uses a different "
+"color model(CMYK) and it has often access to a lower range of "
+"colors(called a gamut)."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:21
+msgid ""
+"A naive person would suggest the following solution: do your work within "
+"the CMYK color model! But there’s three problems with that:"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:23
+msgid ""
+"Painting in a CMYK space doesn’t guarantee that the colors will be the "
+"same on your printer. For each combination of Ink, Paper and Printing "
+"device, the resulting gamut of colors you can use is different. Which "
+"means that each of these could have a different profile associated with "
+"them."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:24
+msgid ""
+"Furthermore, even if you have the profile and are working in the exact "
+"color space that your printer can output, the CMYK color space is very "
+"irregular, meaning that the color maths isn’t as nice as in other spaces."
+" Blending modes are different in CMYK as well."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:25
+msgid ""
+"Finally, working in that specific CMYK space means that the image is "
+"stuck to that space. If you are preparing your work for  different a CMYK"
+" profile, due the paper, printer or ink being different, you might have a"
+" bigger gamut with more bright colors that you would like to take "
+"advantage of."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:27
+msgid ""
+"So ideally, you would do the image in RGB, and use all your favourite RGB"
+" tools, and let the computer do a conversion to a given CMYK space on the"
+" fly, just for preview. This is possible, and is what we call ''Soft "
+"Proofing''."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:33
+msgid ".. image:: images/en/Softproofing_regularsoftproof.png"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:33
+msgid ""
+"On the left, the original, on the right, a view where soft proofing is "
+"turned on. The difference is subtle due to the lack of really bright "
+"colors, but the softproofed version is slightly less blueish in the "
+"whites of the flowers and slightly less saturated in the greens of the "
+"leaves."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:35
+msgid ""
+"You can toggle soft proofing on any image using :kbd:`Ctrl + Y`. Unlike "
+"other programs, this is per-view, so that you can look at your image non-"
+"proofed and proofed, side by side. The settings are also per image, and "
+"saved into the .kra file. You can set the proofing options in "
+":menuselection:`image --> image properties --> Soft Proofing`."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:37
+msgid "There you can set the following options:"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:39
+msgid "Profile, Depth, Space"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:40
+msgid ""
+"Of these, only the profile is really important. This will serve as the "
+"profile you are proofing to. In a professional print workflow, this "
+"profile should be determined by the printing house."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:47
+msgid "Intent"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:42
+msgid ""
+"Set the proofing Intent. It uses the same intents as the intents "
+"mentioned in the color managed workflow."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst
+msgid ".. image:: images/en/Softproofing_adaptationstate.png"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:48
+msgid ""
+"Left: Soft proofed image with Adaptation state slider set to max. Right: "
+"Soft proofed image with Adaptation State set to minimum"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:49
+msgid "Adaptation State"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:50
+msgid ""
+"A feature which allows you to set whether :guilabel:`Absolute "
+"Colorimetric` will make the white in the image screen-white during "
+"proofing(The slider set to max), or whether it will use the white point "
+"of the profile(The slider set to minimum). Often CMYK profiles have a "
+"different white as the screen, or amongst one another due to the paper "
+"color being different."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:51
+msgid "Black Point Compensation"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:52
+msgid ""
+"Set the black point compensation. Turning this off will crunch the shadow"
+" values to the minimum the screen and the proofing profile can handle, "
+"while turning this on will scale the black to the screen-range, showing "
+"you the full range of grays in the image."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:54
+msgid "Gamut Warning"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:54
+msgid "Set the color of the out-of-gamut warning."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:56
+msgid ""
+"You can set the defaults that Krita uses in :menuselection:`Settings --> "
+"Configure Krita --> Color Management`"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:58
+msgid ""
+"To configure this properly, it's recommended to make an test image to "
+"print(and that is printed by a properly set-up printer) and compare "
+"against, and then approximate in the proofing options how the image looks"
+" compared to the real-life copy you have made."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:61
+msgid "Out of Gamut Warning"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:63
+msgid ""
+"The out of gamut warning, or gamut alarm, is an extra option on top of "
+"Soft-Proofing: It allows you to see which colors are being clipped, by "
+"replacing the resulting color with the set alarm color."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:65
+msgid ""
+"This can be useful to determine where certain contrasts are being lost, "
+"and to allow you to change it slowly to a less contrasted image."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:71
+msgid ".. image:: images/en/Softproofing_gamutwarnings.png"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:71
+msgid ""
+"Left: View with unsoftproofed image, Right: View with softproofing and "
+"gamut warnings turned on. Krita will save the gamut warning color "
+"alongside the proofing options into the Kra file, so pick a color that "
+"you think will stand out for your current image.]]"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:73
+msgid ""
+"You can activate Gamut Warnings with :kbd:`Ctrl + Shift + Y`, but it "
+"needs soft proofing activated to work fully."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:76
+msgid ""
+"Soft Proofing doesn’t work properly in floating point spaces, and "
+"attempting to force it will cause incorrect gamut alarms. It is therefore"
+" disabled."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:79
+msgid ""
+"Gamut Warnings sometimes give odd warnings for linear profiles in the "
+"shadows. This is a bug in LCMS, see `here <http://ninedegreesbelow.com"
+"/bug-reports/soft-proofing-problems.html>`_ for more info."
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:82
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:84
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:86
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:88
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:90
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:92
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:94
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:96
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:98
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:100
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:102
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:104
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:106
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:108
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:110
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:112
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:114
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:116
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:118
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:120
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:122
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:124
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:126
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:128
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:130
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:132
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:134
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:136
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:138
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:140
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:142
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:144
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:146
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:148
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:150
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:152
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:154
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:156
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:158
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:160
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../user_manual/soft_proofing.rst:162
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

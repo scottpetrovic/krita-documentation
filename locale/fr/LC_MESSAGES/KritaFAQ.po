@@ -1,0 +1,2053 @@
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# Timo <animtim@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: 2018-05-19 23:44+0100\n"
+"Last-Translator: Timo <animtim@gmail.com>\n"
+"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: ../../KritaFAQ.rst:25
+msgid "Krita FAQ"
+msgstr "Krita FAQ"
+
+#: ../../KritaFAQ.rst:27
+msgid "This page contains common problems people have with Krita"
+msgstr ""
+"Cette page contient les problèmes les plus courants rencontrés par les"
+" utilisateurs de Krita"
+
+#: ../../KritaFAQ.rst
+msgid "Contents"
+msgstr "Contenu"
+
+#: ../../KritaFAQ.rst:32
+msgid "General"
+msgstr "Général"
+
+#: ../../KritaFAQ.rst:34
+msgid "General questions"
+msgstr "Questions générales"
+
+#: ../../KritaFAQ.rst:37
+msgid "What is Krita?"
+msgstr "Krita, c'est quoi?"
+
+#: ../../KritaFAQ.rst:39
+msgid "This is our vision for the development of Krita:"
+msgstr "Voici notre vision pour le développement de Krita:"
+
+#: ../../KritaFAQ.rst:41
+msgid ""
+"Krita is a free and open source cross-platform application that offers an"
+" end-to-end solution for creating digital art files from scratch. Krita "
+"is optimized for frequent, prolonged and focused use."
+msgstr ""
+"Krita est une application libre, open source et cross-platform offrant une"
+" solution complète pour la création d'images sur ordinateur. Krita est"
+" optimisé pour un usage fréquent et intensif."
+
+#: ../../KritaFAQ.rst:45
+msgid ""
+"Explicitly supported fields of painting are illustrations, concept art, "
+"matte painting, textures, comics and animations."
+msgstr ""
+"Il est adapté pour la création de peinture et d'illustrations, de concept"
+" art, de matte painting, de textures, de bandes dessinée et d'animations."
+
+#: ../../KritaFAQ.rst:48
+msgid ""
+"Developed together with users, Krita is an application that supports "
+"their actual needs and workflow. Krita supports open standards and "
+"interoperates with other applications"
+msgstr ""
+"Développé avec ses utilisateurs, Krita est une application couvrant leurs"
+" besoins réels et leurs méthodes de travail. Krita supporte les standards"
+" ouverts et est interopérable avec les autres applications."
+
+#: ../../KritaFAQ.rst:55
+msgid ""
+"Krita starts with an empty canvas and nothing changes when you try to "
+"draw or Krita shows a black or blank screen or Krita crashes when "
+"creating a document or Krita's menubar is hidden on a Windows system with"
+" an Intel GPU"
+msgstr ""
+"Sur un système Windows avec un GPU Intel: Krita démarre avec une zone de"
+" travail vide et rien ne change quand on essaye de dessiner, ou Krita affiche"
+" un écran noir ou vide, ou Krita plante à la création d'un document, ou la"
+" bar du menu est cachée."
+
+#: ../../KritaFAQ.rst:57
+msgid ""
+"*Update to Krita 3.3 or later:* Go to Settings/Configure Krita/Display, "
+"change Renderer to ANGLE and restart Krita. If this doesn't work, disable"
+" Canvas Graphics Acceleration and please also make a bug report about it."
+msgstr ""
+"*Depuis Krita 3.3 et les suivants:* Allez dans Paramètres/Configuration de"
+" Krita/Afficher, sélectionnez ANGLE pour le mode de rendu et redémarrez"
+" Krita. Si cela ne fonctionne pas, désactivez l'accélération graphique et"
+" s'il vous plait rapportez un bug à ce sujet."
+
+#: ../../KritaFAQ.rst:63
+msgid ""
+"Krita freezes when saving to PNG or JPEG on OSX or macOS/ I cannot enable"
+" OpenGL on my mac"
+msgstr ""
+"Krita se bloque lorsque je sauvegarde en PNG ou JPEG sur OSX ou macOS/ Je ne"
+" peux pas activer OpenGL sur mon mac"
+
+#: ../../KritaFAQ.rst:65
+msgid ""
+"If the former, you probably have an AMD Radeon display chip and are "
+"running a version of Krita lower than 3.2. Disable opengl in Krita. If "
+"the latter, you've still got an AMD display chip in your mac and are "
+"running Krita 3.2 or 3.3. The problem is that Apple's AMD opengl drivers "
+"hang Krita 3.x when trying to save to a single-layer file format. No, we "
+"don' t know why, and we don't have the hardware to figure out why. But "
+"Krita 4.0, this problem has been solved because there Krita saves a copy "
+"of the image in the background."
+msgstr ""
+"Dans le premier cas, vous avez probablement une carte graphique AMD Radeon et"
+" utilisez une version de Krita antérieure à 3.2. Désactivez OpenGL dans les"
+" préférences de Krita. "
+"Dans le second cas, vous avez aussi probablement une carte graphique AMD dans"
+" votre mac et utilisez Krita 3.2 ou 3.3. Le problème vient du fait que les"
+" drivers OpenGL d'Apple pour AMD font bloquer Krita lors de la sauvegarde"
+" dans un format de fichier ne supportant pas les calques. Non, nous ne savons"
+" pas pourquoi, et nous n'avons pas le matériel pour reproduire et corriger le"
+" problème. Mais depuis Krita 4.0, ce problème a été résolu car Krita"
+" sauvegarde une copie de l'image en fond de tâche."
+
+#: ../../KritaFAQ.rst:75
+msgid "Is it possible to use Krita in my own language, not English?"
+msgstr "Est-il possible d'utiliser Krita dans une autre langue que l'anglais ?"
+
+#: ../../KritaFAQ.rst:77
+msgid ""
+"Unless you belong to a proud tribe of a minority language, YES it is "
+"POSSIBLE! You can easily do this by going into"
+msgstr ""
+"Oui, c'est possible ! Vous pouvez changer la langue utilisée en allant dans : "
+
+#: ../../KritaFAQ.rst:80
+msgid "settings → switch application language. An small window will appear."
+msgstr ""
+"Paramètres → Changer la langue de l'application. Une petite fenêtre va"
+" apparaître."
+
+#: ../../KritaFAQ.rst:81
+msgid "click Primary language and select your language."
+msgstr "cliquez sur Primary language et sélectionnez votre langue."
+
+#: ../../KritaFAQ.rst:82
+msgid "click OK to close the window."
+msgstr "cliquez sur OK pour fermer la fenêtre."
+
+#: ../../KritaFAQ.rst:83
+msgid "restart krita and it will be displayed in your selected language!"
+msgstr "redémarrez Krita, qui s'ouvrira dans la nouvelle langue choisie !"
+
+#: ../../KritaFAQ.rst:86
+msgid "Does Krita have layer clip or clipping mask?"
+msgstr "Est-ce qu'il existe une fonction masque d'écrêtage dans Krita ?"
+
+#: ../../KritaFAQ.rst:88
+msgid ""
+"Krita has no clipping mask, but it has a clipping feature called inherit "
+"alpha. Let's see :ref:`this page <clipping_masks_and_alpha_inheritance>` "
+"and learn how to do clipping in Krita!"
+msgstr ""
+"Krita n'a pas de masque d'écrêtage, mais une fonction nommée \"héritage"
+" alpha\". Voir :ref:`cette page <clipping_masks_and_alpha_inheritance>` pour"
+" apprendre à écrêter dans Krita ! "
+
+#: ../../KritaFAQ.rst:93
+msgid "OBS can't record the Krita openGL canvas"
+msgstr "OBS ne peut pas enregistrer le canevas OpenGL de Krita"
+
+#: ../../KritaFAQ.rst:95
+msgid "Apparantly the workaround for this is to either..."
+msgstr "Apparemment pour contourner le problème il faut soit... "
+
+#: ../../KritaFAQ.rst:97
+msgid "Turn off OpenGL in settings → configure Krita → display."
+msgstr "Désactiver OpenGL dans le menu Paramètres/Configurer Krita/Afficher."
+
+#: ../../KritaFAQ.rst:98
+msgid ""
+"Or don't use the hardware accelerated mode(game recording mode) in OBS, "
+"so capture the whole desktop instead of attempting to capture only Krita."
+msgstr ""
+"Ou ne pas utiliser le mode d'accélération matérielle (mode enregistrement de"
+" jeu) dans OBS, et donc enregistrer le bureau en entier au lieu d'essayer"
+" d'enregistrer seulement Krita."
+
+#: ../../KritaFAQ.rst:102
+msgid ""
+"*For Krita 3.3 or later:* You might be able to work around by using the "
+"ANGLE renderer instead of native OpenGL."
+msgstr ""
+"*Depuis Krita 3.3:* Vous pouvez éventuellement contourner le problème en"
+" utilisant le mode de rendu ANGLE au lieu d'OpenGL."
+
+#: ../../KritaFAQ.rst:106
+msgid "Where are the configuration files stored?"
+msgstr "Où sont enregistrés les fichiers de configuration?"
+
+#: ../../KritaFAQ.rst:108
+msgid ""
+"These are stored at the following places for the following operating "
+"systems:"
+msgstr ""
+"Ils sont enregistrés aux endroits suivants en fonction du système"
+" d'exploitation:"
+
+#: ../../KritaFAQ.rst:111 ../../KritaFAQ.rst:129 ../../KritaFAQ.rst:136
+#: ../../KritaFAQ.rst:152 ../../KritaFAQ.rst:353 ../../KritaFAQ.rst:553
+msgid "Linux"
+msgstr "Linux"
+
+#: ../../KritaFAQ.rst:112 ../../KritaFAQ.rst:153
+msgid ":file:`$HOME/.config/kritarc`"
+msgstr ":file:`$HOME/.config/kritarc`"
+
+#: ../../KritaFAQ.rst:113 ../../KritaFAQ.rst:132 ../../KritaFAQ.rst:138
+#: ../../KritaFAQ.rst:154 ../../KritaFAQ.rst:376 ../../KritaFAQ.rst:555
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../KritaFAQ.rst:114
+msgid ":file:`%APPDATA%\\Local\\kritarc`"
+msgstr ":file:`%APPDATA%\\Local\\kritarc`"
+
+#: ../../KritaFAQ.rst:116 ../../KritaFAQ.rst:157
+msgid "MacOS X"
+msgstr "MacOS X"
+
+#: ../../KritaFAQ.rst:116 ../../KritaFAQ.rst:157
+msgid ":file:`$HOME/Library/Preferences/kritarc`"
+msgstr ":file:`$HOME/Library/Preferences/kritarc`"
+
+#: ../../KritaFAQ.rst:118
+msgid "The kritarc file is the configuration file."
+msgstr "Le fichier kritarc est le fichier de configuration."
+
+#: ../../KritaFAQ.rst:121
+msgid "My resource disappeared with installing 3.0! Did Krita delete them?"
+msgstr ""
+"Mes ressources ont disparues en installant la version 3.0! Est-ce-que Krita"
+" les as supprimées ?"
+
+#: ../../KritaFAQ.rst:123
+msgid ""
+"Don't worry, Krita nor the installer know how to delete your "
+"brushes(unless you use the 'delete backup files' in the resource manager)"
+msgstr ""
+"Pas d'inquiétude, ni Krita, ni l'installeur n'ont le pouvoir de supprimer vos"
+" brosses (à moins de cocher \"supprimer les fichiers de sauvegardes\" dans le"
+" resource manager). "
+
+#: ../../KritaFAQ.rst:127
+msgid "Your old 2.9 brushes should be at"
+msgstr "Vos anciennes brosses de la version 2 devraient être dans :"
+
+#: ../../KritaFAQ.rst:130
+msgid ":file:`home/.kde/share/krita`"
+msgstr ":file:`home/.kde/share/krita`"
+
+#: ../../KritaFAQ.rst:132
+msgid ""
+":file:`User\\\\AppData\\\\Roaming\\\\krita\\\\share\\\\apps\\\\krita\\\\`"
+msgstr ""
+":file:`User\\\\AppData\\\\Roaming\\\\krita\\\\share\\\\apps\\\\krita\\\\`"
+
+#: ../../KritaFAQ.rst:134
+msgid "For 3.0, these should go to"
+msgstr "Pour la version 3.0, ces ressources doivent aller dans:"
+
+#: ../../KritaFAQ.rst:137 ../../KritaFAQ.rst:554
+msgid ":file:`$HOME/.local/share/krita/`"
+msgstr ":file:`$HOME/.local/share/krita/`"
+
+#: ../../KritaFAQ.rst:139 ../../KritaFAQ.rst:556
+msgid ""
+":file:`user\\\\Appdata\\\\Roaming\\\\krita\\\\` or "
+":file:`%APPDATA%\\\\Roaming\\\\krita\\\\`"
+msgstr ""
+":file:`user\\\\Appdata\\\\Roaming\\\\krita\\\\` or "
+":file:`%APPDATA%\\\\Roaming\\\\krita\\\\`"
+
+#: ../../KritaFAQ.rst:141 ../../KritaFAQ.rst:558
+msgid "OSX"
+msgstr "OSX"
+
+#: ../../KritaFAQ.rst:141 ../../KritaFAQ.rst:558
+msgid ":file:`~/Library/Application Support/Krita/`"
+msgstr ":file:`~/Library/Application Support/Krita/`"
+
+#: ../../KritaFAQ.rst:143
+msgid "Just copy the files over!"
+msgstr "Copiez simplement les fichiers d'un dossier à l'autre !"
+
+#: ../../KritaFAQ.rst:146
+msgid "Resetting Krita configuration"
+msgstr "Restaurer les paramètres par défaut de Krita"
+
+#: ../../KritaFAQ.rst:148
+msgid "You can reset the Krita configuration in two ways:"
+msgstr ""
+"Vous pouvez restaurer les paramètres par défaut de Krita de deux façons:"
+
+#: ../../KritaFAQ.rst:150
+msgid "For Krita 3.0 and later: Delete/rename the kritarc file, found here:"
+msgstr ""
+"Pour Krita 3.0 : Supprimer/renommer le fichier kritarc se trouvant ici:"
+
+#: ../../KritaFAQ.rst:155
+msgid ":file:`%APPDATA%\\\\Local\\\\kritarc`"
+msgstr ":file:`%APPDATA%\\\\Local\\\\kritarc`"
+
+#: ../../KritaFAQ.rst:159
+msgid ""
+"There can be two other files you might want to remove: kritaopenglrc and "
+"kritadisplayrc."
+msgstr ""
+"Il peut y avoir deux autres fichiers à supprimer: kritaopenglrc et"
+" kritadisplayrc."
+
+#: ../../KritaFAQ.rst:162
+msgid ""
+"If the config was causing a crash, don't delete but instead rename and "
+"send us the file so we can figure out what caused the crash."
+msgstr ""
+"Si vous rencontrez un crash causé par votre configuration, ne l'effacez pas,"
+" renommez-le et envoyez-le nous pour que nous puissions trouver la cause du"
+" crash."
+
+#: ../../KritaFAQ.rst:166
+msgid ""
+"Krita tells me it can't find the configuration files and then closes, "
+"what should I do?"
+msgstr ""
+"Krita m'indique qu'il ne peut pas trouver les fichiers de configuration, puis"
+" se ferme. que dois-je faire ?"
+
+#: ../../KritaFAQ.rst:168
+msgid ""
+"First, search your filesystem for kritarc. If it's nowhere to be found, "
+"then that is the main problem."
+msgstr ""
+"Premièrement, cherchez dans votre système le fichier kritarc. S'il est"
+" introuvable, alors c'est de là que vient le problème."
+
+#: ../../KritaFAQ.rst:171
+msgid "Causes for this could be the following:"
+msgstr "Plusieurs explications sont possibles :"
+
+#: ../../KritaFAQ.rst:173
+msgid ""
+"It might be that your download got corrupted and is missing files(common "
+"with bad wifi and bad internet connection in general), in that case, try "
+"to find a better internet connection before trying to download again. "
+"Krita should be around 80 to 100 mb big when downloading."
+msgstr ""
+"Le téléchargement de Krita a pu être corrompu et des fichiers sont manquants"
+" (c'est courant dans le cas où la connexion internet ou la réception wifi"
+" sont mauvaises). Dans ce cas, essayez de trouver une meilleure connexion"
+" pour recommencer le téléchargement. Celui-ci doit atteindre une taille"
+" d'environ 100Mb."
+
+#: ../../KritaFAQ.rst:178
+msgid ""
+"It might be something went wrong during installation. Check if your "
+"harddrive isn't full. If not, and the problem still occurs, there might "
+"be something odd going on with your device and it's recommended to find "
+"an computer expert to diagnose what is going on."
+msgstr ""
+"Quelque chose s'est mal passé lors de l'installation. Vérifiez que le disque"
+" dur n'est pas déjà plein. Si non, alors il est possible que votre matériel"
+" ne fonctionne pas correctement. Dans ce cas, adressez-vous à un"
+" professionnel pour réaliser un diagnostique."
+
+#: ../../KritaFAQ.rst:182
+msgid ""
+"Some unzippers don't unpack our zipfiles correctly. The native ones on "
+"windows, OSX and most linux distributions should be just fine, and we "
+"recommend using them."
+msgstr ""
+"Certains logiciels archiveurs n'extraient pas les fichiers ZIP correctement."
+" Les logiciels natifs sur Windows, OSX et la plupart des distributions Linuw"
+" devraient fonctionner, et nous vous recommandons de les utiliser pour"
+" extraire les fichiers de Krita."
+
+#: ../../KritaFAQ.rst:187
+msgid "What Graphics Cards does Krita support?"
+msgstr "Quelles cartes graphiques sont supportées par Krita?"
+
+#: ../../KritaFAQ.rst:189
+msgid ""
+"Krita can use OpenGL to accelerate painting and canvas zooming, rotation "
+"and panning. Nvidia and recent Intel GPUs give the best results. Make "
+"sure your OpenGL drivers support OpenGL 3.2 as the minimum. AMD/ATI GPU’s"
+" are known to be troublesome, especially with the proprietary drivers on "
+"Linux. However, it works perfectly with the radeon free driver on linux "
+"for supported AMD GPU."
+msgstr ""
+"Krita peut utiliser OpenGL pour accélérer la peinture et la manipulation de"
+" l'espace de travail (zoom, rotation et déplacement). Nvidia et les GPUs"
+" Intel récents donnent les meilleurs résultats. Assurez-vous que vos pilotes"
+" OpenGL supporte au moins OpenGL 3.2 . Les GPUs AMD/ATI sont connus pour être"
+" problématiques, spécialement sur Linux avec les pilotes propriétaires."
+" Cependant, cela fonctionne parfaitement avec le pilote libre radeon sur"
+" Linux pour les GPU AMD supportés."
+
+#: ../../KritaFAQ.rst:196
+msgid ""
+"*For Krita 3.3 or later:* Krita on Windows can use Direct3D 11 for "
+"graphics acceleration (through ANGLE)."
+msgstr ""
+"*Depuis Krita 3.3:* Krita sur Windows peut utiliser Direct3D 11 pour"
+" l'accélération graphique (en utilisant ANGLE)."
+
+#: ../../KritaFAQ.rst:200
+msgid "I can't edit text from PSD files created by photoshop"
+msgstr ""
+"Je ne peux pas éditer du texte dans des fichiers PSD créés avec photoshop"
+
+#: ../../KritaFAQ.rst:202
+msgid ""
+"There is no text support for psd file yet. The text will appear "
+"rasterized and converted into paint layer."
+msgstr ""
+"Le texte dans les fichiers psd n'est pas encore supporté. Le texte apparaîtra"
+" rastérisé et converti en calque de dessin."
+
+#: ../../KritaFAQ.rst:206
+msgid "How much memory does my image take?"
+msgstr "Combien de mémoire est utilisée par mon image?"
+
+#: ../../KritaFAQ.rst:208
+msgid ""
+"For simple images, that’s pretty simple: you mulitply width \\* height "
+"\\* channels \\* size of the channels (so, for a 1000×1000 16 bit integer"
+" rgba image: 1000 x 1000 x 4 x 2). You multiply this by the number of "
+"layers plus two (one for the image, one for the display). If you add "
+"masks, filter layers or clone layers, it gets more complicated."
+msgstr ""
+"Pour les images simples, c'est très simple: multipliez la largeur x la"
+" hauteur x les canaux x la taille des canaux (donc, pour une image 1000x1000"
+" 16 bit entier rvba: 1000 X 1000 X 4 X 2). Multipliez ce résultat par le"
+" nombre de calques plus deux (un pour l'image, un pour l'affichage). Si vous"
+" ajoutez des masques, des calques de filtres ou des calques de clones, ça"
+" devient plus compliqué."
+
+#: ../../KritaFAQ.rst:215
+msgid "Why do I get a checkerboard pattern when I use the eraser?"
+msgstr "Pourquoi j'obtiens un motif de damier quand j'utilise la gomme?"
+
+#: ../../KritaFAQ.rst:217
+msgid ""
+"You’re probably used to Gimp or Photoshop. The background, that is "
+"default or first layer in these applications doesn’t have an alpha "
+"channel by default. so, on their background layer, the eraser paints in "
+"the background color."
+msgstr ""
+"Vous avez peut-être l'habitude de Gimp ou Photoshop. L'arrière-plan, qui est"
+" par défaut ou en tant que premier calque dans ces applications n'a pas de"
+" canal alpha par défaut. Donc, sur leur calque d'arrière-plan, la gomme peint"
+" la couleur d'arrière-plan."
+
+#: ../../KritaFAQ.rst:222
+msgid ""
+"In Krita, all layers have an alpha channel, so if you want to paint in "
+"the background color, you should do that, instead of erasing. You get the"
+" same effect in, say, gimp, if you create new image, add an alpha channel"
+" and then use the eraser tool. Most Krita users actually on starting a "
+"sketch in Krita add a new blank layer first thing they do (the INSert key"
+" is a useful shortcut here.) That doesn’t use extra memory, since a blank"
+" layer or a layer with a default color just takes one pixel worth of "
+"memory."
+msgstr ""
+"Dans Krita, tous les calques ont un canal alpha, donc si vous voulez peindre"
+" avec la couleur d'arrière-plan, vous devriez faire ça, au lieu de gommer."
+" Vous avez le même effet, disons, dans gimp, si vous créez une nouvelle"
+" image, ajoutez un canal alpha et utilisez ensuite l'outil gomme. En fait, la"
+" première chose que font la plupart des utilisateurs de Krita, lorsqu'ils"
+" commencent un croquis, est d'ajouter un nouveau calque vide (la touche"
+" insérer est ici un raccourci utile). Cela n'utilise pas de mémoire"
+" supplémentaire, alors qu'un calque vide ou un calque avec une couleur par"
+" défaut prend juste un pixel de mémoire."
+
+#: ../../KritaFAQ.rst:232
+msgid "Can I use Krita with sandboxie on Windows?"
+msgstr "Est-ce que je peux utiliser Krita avec sandboxie sous Windows?"
+
+#: ../../KritaFAQ.rst:234
+msgid ""
+"No, this is not recommended. Sandboxie causes stuttering and freezes due "
+"to the way it intercepts calls for resources on disk."
+msgstr ""
+"Non, ce n'est pas conseillé. Sandboxie provoque des saccades et des gels"
+" d'écran dus à la manière dont il intercepte les appels de ressources du"
+" disque."
+
+#: ../../KritaFAQ.rst:238
+msgid "Can krita work with 8 bit (indexed) images?"
+msgstr "Krita peut-il fonctionner avec des images 8 bit (indexé)?"
+
+#: ../../KritaFAQ.rst:240
+msgid ""
+"No. Krita has been designed from the ground up to use real colors, not "
+"indexed palettes. There are no plans to support indexed color images, "
+"though Krita can export to some indexed color image formats, such as GIF."
+" However, Krita does not offer detailed control over pixel values."
+msgstr ""
+"Non. Krita a été conçu dès le départ pour utiliser de vraies couleurs, et non"
+" des palettes de couleurs indexées. Le support des images en couleurs"
+" indexées n'est pas prévu, cependant Krita peut exporter vers des formats"
+" d'images en couleurs indexées, tel que le GIF. Néanmoins, Krita n'offre pas"
+" de contrôle spécifique pour les palettes de couleurs indexées utilisées."
+
+#: ../../KritaFAQ.rst:246
+msgid "How do I export gifs with Krita?"
+msgstr "Comment exporter les GIFs avec Krita ?"
+
+#: ../../KritaFAQ.rst:248
+msgid ""
+"Currently, Krita 3.0 doesn't have gif, apng or spritesheet export yet. "
+"Krita 3.1 does have :ref:`render_animation`."
+msgstr ""
+"Pour le moment, Krita 3.0 ne prend pas en charge l'export en gif, apng ou"
+" spritesheet. Cependant, Krita 3.1 est capable d'exporter en gif animé depuis"
+" le menu :ref:`render_animation`."
+
+#: ../../KritaFAQ.rst:251
+msgid ""
+"For big projects we recommend exporting your animation as a png sequence,"
+" and then inputtng that into a video editor."
+msgstr ""
+"Pour les gros projets, nous recommandons d'exporter l'animation en séquence"
+" d'images png, puis d'importer cette séquence d'image dans un logiciel de"
+" montage vidéo."
+
+#: ../../KritaFAQ.rst:255
+msgid "How can I produce a backtrace on Windows?"
+msgstr "Comment puis-je produire une trace d'appels (backtrace) sur windows ?"
+
+#: ../../KritaFAQ.rst:257
+msgid "*See also: :ref:`Dr. Mingw debugger <dr_minw>` *"
+msgstr "*Voir aussi: :ref:`Dr. Mingw debugger <dr_minw>` *"
+
+#: ../../KritaFAQ.rst:259
+msgid ""
+"If you experience a crash on Windows, and can reproduce the crash, the "
+"bug report will be much more valuable if you can create a backtrace. A "
+"backtrace is somewhat akin to an airplane's blackbox, in that they tell "
+"what set of instructions your computer was running when it was "
+"crashing(where the crash happened), making it very useful to figure out "
+"why the crash happened."
+msgstr ""
+"Si vous avez un crash de Krita sur Windows, et que vous pouvez le reproduire,"
+" rapporter le bug sera beaucoup plus utilse si vous fournissez une trace"
+" d'appels (backtrace). Une trace d'appels est comme la boîte noire dans un"
+" avion. Elle indique la série d'instructions exécutée par votre ordinateur au"
+" moment du crash, ce qui rend possible la compréhension de ses causes."
+
+#: ../../KritaFAQ.rst
+msgid "For **Krita 3.1 or later**"
+msgstr "Pour **Krita 3.1 et suivants**"
+
+#: ../../KritaFAQ.rst:268
+msgid ""
+"The :ref:`Dr. Mingw debugger <dr_minw>` is bundled with Krita. Please "
+"visit the page :ref:`Dr. Mingw debugger <dr_minw>` for instructions on "
+"getting a backtrace with it."
+msgstr ""
+"Le débogueur :ref:`Dr. Mingw debugger <dr_minw>` est fourni avec Krita."
+" Visitez la page :ref:`Dr. Mingw debugger <dr_minw>`, vous y trouverez des"
+" instructions pour obtenir une trace d'appels."
+
+#: ../../KritaFAQ.rst
+msgid "For **Krita 3.0**"
+msgstr "Pour **Krita 3.0**"
+
+#: ../../KritaFAQ.rst:272
+msgid "first you need to install DrMingw, which is a debugger application:"
+msgstr "Premièrement vous avez besoin d'un débogueur :"
+
+#: ../../KritaFAQ.rst:274
+msgid "https://github.com/jrfonseca/drmingw"
+msgstr "https://github.com/jrfonseca/drmingw"
+
+#: ../../KritaFAQ.rst:276
+msgid ""
+"Then you need a special version of Krita, one with debugging information."
+" The latest development builds with all the latest bug fixed are here:"
+msgstr ""
+"Ensuite, vous avez besoin d'une version spéciale de Krita, qui donne des"
+" informations de déboguage. Les derniers builds de développement avec les"
+" dernières réparations de bugs sont ici :"
+
+#: ../../KritaFAQ.rst:278
+msgid ""
+"http://files.kde.org/krita/3/windows/debugbuilds/krita3-x64-dbg-latest.zip"
+msgstr ""
+"http://files.kde.org/krita/3/windows/debugbuilds/krita3-x64-dbg-latest.zip"
+
+#: ../../KritaFAQ.rst:279
+msgid ""
+"http://files.kde.org/krita/3/windows/debugbuilds/krita3-x86-dbg-latest.zip"
+msgstr ""
+"http://files.kde.org/krita/3/windows/debugbuilds/krita3-x86-dbg-latest.zip"
+
+#: ../../KritaFAQ.rst:281
+msgid ""
+"You can download the right file, unzip it and double-click on the krita "
+"link in the unzipped folder. If you now reproduce the crash, Windows will"
+" ask you whether you want to debug it; answer yes, and DrMingw will pop "
+"up and after some time show you a lot of text. You can paste that into "
+"your bug report."
+msgstr ""
+"Vous pouvez télécharger le bon fichier, extraire le zip, et double-cliquer"
+" sur le lien dans le dossier extrait. Si le crash se reproduit, Windows vous"
+" demandera si vous voulez le débuguer ; répondez oui. DrMingw apparaitra et"
+" après un moment affichera une grande quantité de texte. Copiez ce texte dans"
+" le rapport de bug."
+
+#: ../../KritaFAQ.rst:285
+msgid "Where can I find older versions of Krita?"
+msgstr "Où puis-je trouver les anciennes versions de Krita?"
+
+#: ../../KritaFAQ.rst:287
+msgid "All older versions of Krita that are still available can be found here:"
+msgstr "Toutes les versions de Krita encore disponibles se trouvent ici:"
+
+#: ../../KritaFAQ.rst:289
+msgid "`Krita 3.0.builds <http://files.kde.org/krita/3>`_"
+msgstr "`Krita 3.0 <http://files.kde.org/krita/3>`_"
+
+#: ../../KritaFAQ.rst:290
+msgid "`Krita 2.x.builds <http://files.kde.org/krita/>`_"
+msgstr "`Krita 2.x <http://files.kde.org/krita/>`_"
+
+#: ../../KritaFAQ.rst:291
+msgid "`Very old builds <http://download.kde.org/stable/krita>`_"
+msgstr "`Paquets très anciens <http://download.kde.org/stable/krita>`_"
+
+#: ../../KritaFAQ.rst:294
+msgid "On Windows, the Krita User Interface is too small on my HiDPI screen."
+msgstr "Sur Windows, l'interface de Krita est trop petite sur mon écran HiDPI."
+
+#: ../../KritaFAQ.rst:296
+#, python-format
+msgid ""
+"If you're using Windows, you can set the display scaling to1 150% or "
+"200%, and enable the experimental HiDPI support in the config:"
+msgstr ""
+"Si vous utilisez Windows, vous pouvez régler le zoom de l'affichage sur 150%"
+" ou 200%, et activer l'option expérimental HiDPI dans les paramètres:"
+
+#: ../../KritaFAQ.rst:299
+msgid "On the menu, select :menuselection:`Settings --> Configure Krita`"
+msgstr "Dans le menu :menuselection:`Paramètres --> Configuration de Krita`"
+
+#: ../../KritaFAQ.rst:300
+msgid "Switch to :guilabel:`Window`"
+msgstr "Dans l'onglet :guilabel:`Fenêtre`"
+
+#: ../../KritaFAQ.rst:301
+msgid "Check :guilabel:`Enable Hi-DPI support`"
+msgstr "Cochez l'option :guilabel:`Enable Hi-DPI support`"
+
+#: ../../KritaFAQ.rst:302
+msgid "Restart Krita"
+msgstr "Redémarrez Krita"
+
+#: ../../KritaFAQ.rst:305
+msgid "I'm using MacOS Sierra and Krita won't start"
+msgstr "J'utilise MacOS Sierra et Krita ne démarre pas."
+
+#: ../../KritaFAQ.rst:307
+msgid ""
+"We don't sign Krita binaries on OSX because we feel Apple already has "
+"more money than is good for them and in order to sign our binaries we "
+"have to give them money every year. In Sierra, Apple removed the "
+"“Anywhere” button in the security pane, making it even less obvious how "
+"to start Krita. Here's the trick: go to the krita app bundle in Finder "
+"and ctrl-click on it. Then Krita will start, and macOS will remember "
+"that. Or you can re-enable the button by executing the following line in "
+"your terminal:"
+msgstr ""
+"Nous ne signons pas les binaires de Krita sur OSX car nous pensons qu'Apple"
+" gagne déjà plus d'argent qu'il n'en faut, et pour signer nos fichiers il"
+" faudrait leur donner de l'argent chaque année. Depuis Sierra, Apple a"
+" retirer le bouton \"Anywhere\" du panneau de sécurité, ce qui complique la"
+" possibilité de lancer Krita. Voici ce qu'il faut faire: avec Finder, allez"
+" dans le bundle d'application krita et faites un Ctrl+clique dessus. Ensuite"
+" Krita démarrera, et macOS s'en souviendra. Ou bien, vous pouvez réactiver le"
+" bouton \"Anywhere\" en exécutant la ligne suivante dans le terminal:"
+
+#: ../../KritaFAQ.rst:316
+msgid "``sudo spctl --master-enable``"
+msgstr "``sudo spctl --master-enable``"
+
+#: ../../KritaFAQ.rst:319
+msgid "I'm using Linux and Krita crashes on start"
+msgstr "J'utilise Linux et Krita crash au démarrage."
+
+#: ../../KritaFAQ.rst:321
+msgid ""
+"If you also see somethine like “QIODevice::seek: Invalid pos: -18” on the"
+" command line, it's quite likely that at one point you had the Deepin "
+"file manager installed. That comes with some qimageio plugins that are "
+"completely and utterly broken. Krita's reference images docker scans your"
+" Pictures folder on startup, and if your Pictures folder. It reads the "
+"images using Qt's QImageIO class, which loads that Deepin plugin. `The "
+"issue is reported to Deepin <https://github.com/linuxdeepin/deepin-image-"
+"viewer/issues/2>`_, but the Deepin developers don't seem convinced that "
+"it makes sense to check whether there are any bytes to read, before "
+"reading the bytes."
+msgstr ""
+"Si vous voyez aussi quelque-chose comme “QIODevice::seek: Invalid pos: -18”"
+" dans la console, il est probable que vous ayez à un moment installé le"
+" gestionnaire de fichiers de Deepin. Celui-ci est fourni avec des plugins"
+" qimageio complètement cassés. Le panneau Image de référence de Krita scan"
+" votre dossier Images au démarrage. Il lit les images en utilisant la classe"
+" de Qt QImageIO, qui charge ces plugins de Deepin. `Le problème a été"
+" rapporté aux développeurs de Deepin <https://github.com/linuxdeepin/deepin-im"
+"age-viewer/issues/2>`_, mais ils ne semblent pas convaincus..."
+
+#: ../../KritaFAQ.rst:332
+msgid "Tablets"
+msgstr "Tablettes graphiques"
+
+#: ../../KritaFAQ.rst:335
+msgid "What tablets does Krita support?"
+msgstr "Quelles tablettes sont supportées par Krita?"
+
+#: ../../KritaFAQ.rst:337
+msgid ""
+"Krita isn’t much fun without a pressure sensitive tablet. If the tablet "
+"has been properly configured, Krita works with Wacom, Huion and other uc-"
+"logic based tablets, on Windows and Linux (look below for more "
+"information on Huion Linux support). N-Trig tablets should work too, but "
+"some setting up might be needed. Genius tablets are know to have "
+"problems. You can find a community curated list of tablets supported by "
+"krita :ref:`here <list_supported_tablets>`."
+msgstr ""
+"l n'est pas très plaisant d'utiliser Krita sans une tablette sensible à la"
+" pression. Si la tablette a été bien configurée, Krita fonctionne avec les"
+" tablettes Wacom, Huion ou encore les tablettes de type uc-logic, sous"
+" Windows et sur Linux (voir ci-dessous pour plus d'informations sur le"
+" support Huion Linux). Des problèmes sont connus sur les tablettes Genius."
+" Vous trouverez une liste mise à jour par la communauté :ref:`sur cette page"
+" <list_supported_tablets>`."
+
+#: ../../KritaFAQ.rst:345
+msgid ""
+"If you're looking for information about tablets like the iPad or Android "
+"tablets, look :ref:`here <krita_android>`_."
+msgstr ""
+"Si vous cherchez des informations sur les tablettes du type iPad ou Android,"
+" regardez :ref:`sur cette page <krita_android>`_."
+
+#: ../../KritaFAQ.rst:350
+msgid "What if your tablet is not recognized by Krita?"
+msgstr "Que faire si votre tablette n'est pas reconnue par Krita?"
+
+#: ../../KritaFAQ.rst:355
+msgid "We would like to see the full output of the following commands:"
+msgstr "Nous voudrions voir les résultats complets des commandes suivantes:"
+
+#: ../../KritaFAQ.rst:357
+msgid "``lsmod``"
+msgstr "``lsmod``"
+
+#: ../../KritaFAQ.rst:358
+msgid "``xinput``"
+msgstr "``xinput``"
+
+#: ../../KritaFAQ.rst:359
+msgid "``xinput list-props`` (id can be fetched from the item 2)"
+msgstr "``xinput list-props`` (l'id peut être trouvé avec la seconde commande)"
+
+#: ../../KritaFAQ.rst:360
+msgid "Get the log of the tablet events (if applicable):"
+msgstr "Obtenez la sortie des évènements de la tablette (si il y en a):"
+
+#: ../../KritaFAQ.rst:362
+msgid "Open a console application (e.g. Konsole on KDE)"
+msgstr ""
+"Ouvrez un émulateur de terminal (par exemple Konsole sur le bureau Linux"
+" Plasma)"
+
+#: ../../KritaFAQ.rst:363
+msgid ""
+"Set the amount of scrollback to 'unlimited' (for :program:`Konsole`: "
+":menuselection:`Settings --> Edit Current Profile --> Scrolling --> "
+"Unlimited Scrollback`)"
+msgstr ""
+"Réglez la quantité de \"scrollback\" sur \"illimité\" (pour"
+" :program:`Konsole`: :menuselection:`Settings --> Edit Current Profile -->"
+" Scrolling --> Unlimited Scrollback`)"
+
+#: ../../KritaFAQ.rst:365
+msgid "Start Krita by typing 'krita' and create any document :)"
+msgstr "Démarrez Krita en tapant 'krita' et créez un document :)"
+
+#: ../../KritaFAQ.rst:366 ../../KritaFAQ.rst:388
+msgid ""
+"Press :kbd:`Ctrl + Shift + T`, you will see a message box telling the "
+"logging is started"
+msgstr ""
+"Tapez :kbd:`Ctrl + Maj + T`, vous verrez un message informant que"
+" l'enregistrement de la sortie est démarré (logging is started)"
+
+#: ../../KritaFAQ.rst:368 ../../KritaFAQ.rst:390
+msgid "Try to reproduce your problem"
+msgstr "Essayez de reproduire votre problème"
+
+#: ../../KritaFAQ.rst:369
+msgid ""
+"The console is now filled with the log. Attach it to a bug report or "
+"paste using services like paste.kde.org"
+msgstr ""
+"L'émulateur de terminal est maintenant rempli par le log. Copiez le"
+" entièrement et joignez le à un rapport de bug"
+
+#: ../../KritaFAQ.rst:372
+msgid ""
+"Attach all this data to a bugreport using public paste services like "
+"paste.kde.org"
+msgstr ""
+"Utilisez un service comme paste.kde.org, et joignez le lien dans votre"
+" rapport de bug"
+
+#: ../../KritaFAQ.rst:378
+msgid ""
+"First check whether switching to the Windows 8 Pointer API makes a "
+"difference: Settings/Configure Krita/Tablet. Then, if you still have "
+"problems with Windows and your tablet, we cannot help you without a "
+"tablet log."
+msgstr ""
+"Vérifiez d'abord si vous voyez une différence en activant l'API du curseur de"
+" Windows 8 dans Paramètres/Configuration de Krita/Configuration de la"
+" tablette. Si vous avez toujours des problèmes avec Windows et votre"
+" tablette, nous ne pouvons pas vous aider sans un log de la tablette."
+
+#: ../../KritaFAQ.rst:383
+msgid ""
+"Install `DebugView <http://technet.microsoft.com/en-"
+"us/sysinternals/bb896647.aspx>`_ from the official Microsoft site"
+msgstr ""
+"Installez `DebugView <http://technet.microsoft.com/en-"
+"us/sysinternals/bb896647.aspx>`_ depuis le site officiel de Microsoft"
+
+#: ../../KritaFAQ.rst:386
+msgid "Start :program:`DebugView`"
+msgstr "Démarrez :program:`DebugView`"
+
+#: ../../KritaFAQ.rst:387
+msgid "Start :program:`Krita`"
+msgstr "Démarrez :program:`Krita`"
+
+#: ../../KritaFAQ.rst:391
+msgid ""
+"Go back to DebugView and save its output to a file. Attach this file to a"
+" bug report or paste using services like paste.kde.org."
+msgstr ""
+"Retournez sur DebugView et sauvegardez le texte de sorti dans un fichier"
+" texte. Joignez ensuite ce fichier à un rapport de bug en utilisant un"
+" service comme paste.kde.org."
+
+#: ../../KritaFAQ.rst:395
+msgid "How to fix a tablet offset on multiple screen setup on Windows"
+msgstr ""
+"Comment réparer le décalage de curseur d'une tablette sur une installation"
+" d'écran multiple sous Windows"
+
+#: ../../KritaFAQ.rst:397
+msgid ""
+"If you see that your tablet pointer has an offset when working with Krita"
+" canvas, it might be highly probable, that Krita got incorrect screen "
+"resolution from the system. That problem happens mostly when an external "
+"monitor is present and when either of monitor or a tablet was connected "
+"after the system boot."
+msgstr ""
+"Si vous voyez que votre curseur de tablette a un décalage quand vous"
+" travaillez avec les canevas de Krita, ça pourrait très probablement"
+" signifier que Krita a une mauvaise résolution d'écran de système. Le"
+" problème arrive le plus souvent quand un écran externe est présent et quand"
+" ni un écran ni une tablette n'était connectée après le démarrage du système."
+
+#: ../../KritaFAQ.rst:403
+msgid "Now there is a simple solution to fix this data manually."
+msgstr ""
+"Maintenant il y a une solution simple de réparer ces données manuellement."
+
+#: ../../KritaFAQ.rst:405
+msgid "Lay you stylus aside"
+msgstr "Mettez votre stylet de côté"
+
+#: ../../KritaFAQ.rst:406
+msgid "Start Krita without using a stylus, that is using a mouse or a keyboard"
+msgstr ""
+"Démarrez Krita sans utiliser un stylet, i.e en utilisant une souris ou un"
+" clavier"
+
+#: ../../KritaFAQ.rst:408
+msgid "Press Shift key and hold it"
+msgstr "Appuyez sur la touche Maj et maintenez"
+
+#: ../../KritaFAQ.rst:409
+msgid "Touch a tablet with your stylus so Krita would recognize it"
+msgstr "Touchez la tablette avec votre stylet pour que Krita le reconnaisse"
+
+#: ../../KritaFAQ.rst:411
+msgid ""
+"You will see a special dialog asking for real screen resolution. Choose "
+"the correct value or enter it manually and press OK."
+msgstr ""
+"Vous allez voir une boîte de dialogue spéciale demandant la résolution réelle"
+" de l'écran. Choisissez la valeur correcte et entrez-la manuellement et"
+" appuyez sur OK."
+
+#: ../../KritaFAQ.rst:414
+msgid ""
+"If you have a dual monitor setup and only the top half of the screen is "
+"reachable, you might have to enter the total width of both screens plus "
+"the double height of your monitor in this field."
+msgstr ""
+"Si vous avez une configuration en double-écran et que vous ne pouvez"
+" atteindre que la moitié haute de l'écran, une solution pourrait être"
+" d'entrer la largeur totale des deux écran + deux fois la hauteur de votre"
+" moniteur dans ce champ."
+
+#: ../../KritaFAQ.rst:418
+msgid ""
+"If this didn't work, and if you have a Wacom tablet, an offset in the "
+"canvas can be caused by a faulty Wacom preference file which is not "
+"removed or replaced by reinstalling the drivers."
+msgstr ""
+"Si cela ne fonctionne pas, et si vous avez une tablette Wacom, un décalage"
+" dans la zone de travail peut être causé par un fichier de préférence Wacom"
+" défectueux qui n'est pas enlevé ou remplacé en réinstallant le driver."
+
+#: ../../KritaFAQ.rst:422
+msgid ""
+"To fix it, use the “Wacom Tablet Preference File Utility” to clear all "
+"the preferences. This should allow Krita to detect the correct settings "
+"automatically."
+msgstr ""
+"Pour corriger cela, utilisez le \"Wacom Tablet Preference File Utility\" pour"
+" effacer toutes les préférences. Cela devrait permettre à Krita de détecter"
+" les réglages corrects automatiquement."
+
+#: ../../KritaFAQ.rst:427
+msgid ""
+"this will reset your tablets configuration so you will need to "
+"recalibrate/reconfigure it."
+msgstr ""
+"Cela va réinitialiser la configuration de votre tablette, vous devrez donc la"
+" recalibrer ou la reconfigurer."
+
+#: ../../KritaFAQ.rst:429
+msgid ""
+"*For Krita 3.3 or later:* You can try to :ref:`enable “Windows 8+ Pointer"
+" Input” <tablet_settings>`, but some features might not work with it."
+msgstr ""
+"*Depuis Krita 3.3:* Vous pouvez essayer :ref:`enable \"Windows 8+ Pointer"
+" Input\" <tablet_settings>`, mais certaines fonctions peuvent ne pas"
+" fonctionner avec."
+
+#: ../../KritaFAQ.rst:432
+msgid "Microsoft Surface Pro and NTrig"
+msgstr "Microsoft Surface Pro et NTrig"
+
+#: ../../KritaFAQ.rst:434
+msgid ""
+"Krita 3.3.0 supports the Windows Pointer API (Windows Ink) natively. Your"
+" Surface Pro or other n-trig enabled pen tablet should work out of the "
+"box with Krita after you enable Windows Ink in Settings/Configure "
+"Krita/Tablet."
+msgstr ""
+"Krita 3.3.0 supporte désormais l'API Windows Ink. Votre Surface Pro ou autre"
+" tablette basée sur la technologie n-trig devrait marcher directement après"
+" avoir activer l'option Windows Ink dans le menu Paramètres/Configuration de"
+" Krita/Configuration de la tablette."
+
+#: ../../KritaFAQ.rst:440
+msgid "Tablet Pro and the Surface Pro"
+msgstr "Tablet Pro et la Surface Pro"
+
+#: ../../KritaFAQ.rst:442
+msgid ""
+"Unlike Wacom's Companion, the Surface line of tablets doesn't have "
+"working hardware buttons. Tablet Pro is a (non-free) utility that puts "
+"virtual buttons on screen. Krita 3.1 (currently in beta) will have "
+"predefined shortcut profiles to work with Tablet Pro."
+msgstr ""
+"Contrairement au Wacom Companion, les tablettes de la gamme Surface n'ont pas"
+" de boutons matériels. Tablet Pro est une application (non libre) permettant"
+" d'afficher des boutons virtuels sur l'écran. Depuis la version 3.1, Krita"
+" contient des raccourcis prédéfinis pour Tablet Pro."
+
+#: ../../KritaFAQ.rst:447
+msgid "http://tabletpro.net/"
+msgstr "http://tabletpro.net/"
+
+#: ../../KritaFAQ.rst:449
+msgid "See http://www.youtube.com/watch?v=WKXZgYqC3tI for instructions."
+msgstr ""
+"Voir les instructions dans  http://www.youtube.com/watch?v=WKXZgYqC3tI "
+
+#: ../../KritaFAQ.rst:452
+msgid "How to make my Huion tablet work with Krita on Linux?"
+msgstr "Comment faire fonctionner ma tablette Huion avec Krita sur Linux?"
+
+#: ../../KritaFAQ.rst:454
+msgid ""
+"This applies to Huion models: H610 (maybe others too? report your model "
+"here..)"
+msgstr ""
+"Cela s'applique aux modèles Huion: H610 (peut-être d'autres aussi? reportez"
+" votre modèle ici...)"
+
+#: ../../KritaFAQ.rst:457
+msgid ""
+"First, if you use a linux kernel version 3.13 or above, remove the buggy "
+"huion driver with this command line:"
+msgstr ""
+"Tout d'abord, si vous utilisez une version de noyau linux 3.13 ou au-delà,"
+" retirez le pilote huion bugué avec cette ligne de commande: "
+
+#: ../../KritaFAQ.rst:460
+msgid "``rmmod hid-huion``"
+msgstr "``rmmod hid-huion``"
+
+#: ../../KritaFAQ.rst:462
+msgid "or, depending on your distribution:"
+msgstr "ou, selon votre distribution:"
+
+#: ../../KritaFAQ.rst:464
+msgid "``modprobe -r hid-huion``"
+msgstr "``modprobe -r hid-huion``"
+
+#: ../../KritaFAQ.rst:466
+msgid ""
+"Then build and install the `correct kernel driver "
+"<https://github.com/DIGImend/huion-driver>`_."
+msgstr ""
+"Ensuite compilez et installez `le driver approprié pour votre tablette <"
+"https://github.com/DIGImend/huion-driver>`_."
+
+#: ../../KritaFAQ.rst:468
+msgid ""
+"(note that you’ll have to redo those steps after each kernel update, "
+"until this driver is included in mainline kernel.)"
+msgstr ""
+"(notez que vous allez devoir refaire ces étapes après chaque mise à jour de"
+" noyau, jusqu'à ce que le pilote soit inclus dans le noyau mainline) "
+
+#: ../../KritaFAQ.rst:471
+msgid ""
+"Now you should have a working tablet in Krita and Gimp (sadly, it doesn’t"
+" work with current mypaint version, probably because of GTK3..) But as by"
+" default the whole tablet area is mapped to the whole screen, depending "
+"on your screen ratio you may want to adapt the active area of the tablet "
+"to have the same proportions."
+msgstr ""
+"Maintenant vous devriez avoir une tablette qui fonctionne dans Krita et Gimp"
+" (malheureusement, cela ne fonctionne pas avec la version courante de"
+" MyPaint, probablement à cause de GTK3...) Mais, comme par défaut la zone"
+" entière de la tablette est mappée à l'écran entier, vous voudrez peut-être"
+" adapter, selon votre ratio d'écran, la zone active de la tablette pour"
+" qu'elle ait les mêmes proportions. "
+
+#: ../../KritaFAQ.rst:477
+msgid ""
+"For this, first you need to install xinput-calibrator (check in your "
+"package manager it may be named a bit differently, with – or \\_ in the "
+"middle…)"
+msgstr ""
+"Pour cela, vous aurez tout d'abord besoin d'installer xinput_calibrator"
+" (vérifiez dans votre gestionnaire de paquets, il se peut qu'il soit nommé"
+" légèrement différemment, avec un - ou un \\_ au milieu...) "
+
+#: ../../KritaFAQ.rst:481
+msgid ""
+"Now, you’ll need the name or ID of your device, so list devices with this"
+" command line:"
+msgstr ""
+"Maintenant, vous allez avoir besoin du nom ou de l'ID de votre appareil,"
+" alors listez vos appareils avec cette ligne de commande:"
+
+#: ../../KritaFAQ.rst:484
+msgid "``xinput_calibrator --list | grep H610``"
+msgstr "``xinput_calibrator --list | grep H610``"
+
+#: ../../KritaFAQ.rst:486
+msgid ""
+"Then I noticed the huion report two different devices with the same name,"
+" just different ID. So to find out which is the one corresponding to the "
+"actual stylus tablet area, get devices values with this command line:"
+msgstr ""
+"Puis, j'ai remarqué que la Huion rapportait deux appareils différents avec le"
+" même nom, seulement des ID différents. Alors pour trouver pour trouver"
+" lequel correspond effectivement à la zone du stylet, obtenez les valeurs"
+" associées à chaque périphérique avec la ligne de commande suivante:"
+
+#: ../../KritaFAQ.rst:491
+msgid "``xinput_calibrator --device 10``"
+msgstr "``xinput_calibrator --device 10``"
+
+#: ../../KritaFAQ.rst:493
+msgid "(adapt id number the the values you found on previous step…)"
+msgstr ""
+"(adaptez le numéro id aux valeurs que vous avez trouvé à l'étape"
+" précédente...)"
+
+#: ../../KritaFAQ.rst:495
+msgid ""
+"It will open a sort of calibration window, don’t click the crosses, just "
+"press any key to abort. Then you can see the default values of the device"
+" appeared in the console. One devices has much bigger max values (0 40000"
+" 0 25000), this is the one you should get the ID number. (in my case here"
+" was ID 10 )"
+msgstr ""
+"Cela ouvrira une sorte de fenêtre de calibrage, ne cliquez pas sur les croix,"
+" appuyez juste sur n'importe quelle touche pour annuler. Puis vous verrez"
+" apparaître les valeurs par défaut de l'appareil dans le terminal. Un des"
+" périphériques a des valeurs maximum beaucoup plus élevées (0 40000 0 25000),"
+" c'est celui dont vous devrez prendre le numéro ID. (dans mon cas, c'était ID"
+" 10)"
+
+#: ../../KritaFAQ.rst:501
+msgid ""
+"Then calculate the values to set the active area to the same ratio as "
+"screen.. For example, for a 1920×1080 screen, I did this operation: "
+"40000\\*1080/1920=22500"
+msgstr ""
+"Puis calculez les valeurs pour installer la zone active au même ratio que"
+" l'écran... Par exemple, pour un écran 1920x1080, j'ai fait l'opération:"
+" 40000x1080/1920=22500"
+
+#: ../../KritaFAQ.rst:505
+msgid ""
+"And finally set the calibration values (TopX BottomX TopY BottomY) like "
+"this:"
+msgstr ""
+"Et enfin définissez les valeurs de calibrage (HautX BasX HautY BasY) comme"
+" ci-dessous:"
+
+#: ../../KritaFAQ.rst:508
+msgid "``xinput set-prop 10 “Evdev Axis Calibration” 0 40000 0 22500``"
+msgstr "``xinput set-prop 10 “Evdev Axis Calibration” 0 40000 0 22500``"
+
+#: ../../KritaFAQ.rst:510
+msgid ""
+"**Weird stuff happens on Windows, like ripples, rings, squiggles or "
+"poltergeists**"
+msgstr ""
+"**Des choses étranges se passent sur Windows, comme des ondulations, des"
+" cercles, des gribouillis ou des fantômes**"
+
+#: ../../KritaFAQ.rst:513
+msgid ""
+"Windows comes with a lot of settings to make it work with a pen. Al these"
+" settings are annoying. This tool can help to set the settings correctly "
+"if you're using a tablet:"
+msgstr ""
+"Windows est fourni avec de nombreux réglages pour les stylets. Ces réglages"
+" sont embêtant pour la peinture numérique. Cet outil peut vous aider à régler"
+" correctement ces réglages:"
+
+#: ../../KritaFAQ.rst:517
+msgid "https://github.com/saveenr/Fix_My_Pen/releases"
+msgstr "https://github.com/saveenr/Fix_My_Pen/releases"
+
+#: ../../KritaFAQ.rst:520
+msgid "Toolbox"
+msgstr "Boîte à outils"
+
+#: ../../KritaFAQ.rst:523
+msgid "Toolbox missing"
+msgstr "Boîte à outils manquante"
+
+#: ../../KritaFAQ.rst:525
+msgid ""
+"You either reset the workspace by pressing the right most button on the "
+"toolbar, the workspace switcher, and clicking a workspace from the list."
+msgstr ""
+"You either reset the workspace by pressing the right most button on the"
+" toolbar, the workspace switcher, and clicking a workspace from the list."
+
+#: ../../KritaFAQ.rst:528
+msgid ""
+"Or right-click on any docker titlebar or open space in any toolbar, and "
+"select Toolbox. It's the first option."
+msgstr ""
+"Ou bien faites un clic-droit sur n'importe quel barre de titre de panneau, et"
+" sélectionnez Boite à outils. C'est la première option."
+
+#: ../../KritaFAQ.rst:531
+msgid ""
+"Or check the Settings menu, it's got lots of interesting stuff, then go "
+"to the Dockers menu and... select toolbox."
+msgstr ""
+"Ou encore, regardez dans le menu Paramètres, il contient de nombreuses choses"
+" intéressantes, puis allez dans le sous-menu Panneaux et... sélectionnez"
+" Boite à outils."
+
+#: ../../KritaFAQ.rst:535
+msgid "Tool icons size is too big"
+msgstr "Les icônes des outils sont trop grosses"
+
+#: ../../KritaFAQ.rst:537
+msgid "Right click the toolbox to set the size."
+msgstr "Clic-droit dans la boite à outils et sélectionnez la taille."
+
+#: ../../KritaFAQ.rst:540
+msgid "Krita can't get maximized"
+msgstr "Krita ne peux pas être maximisé"
+
+#: ../../KritaFAQ.rst:542
+msgid ""
+"This is due to the toolbox being too big, for example, when it's "
+"accidentally made 1-columns wide. Resize it to make it 2 columns wide."
+msgstr ""
+"C'est probablement à cause de la boite à outils qui est trop longue, par"
+" example si elle est accidentellement rétrécie sur une seule colonne."
+" Agrandissez la sur deux colonnes."
+
+#: ../../KritaFAQ.rst:546
+msgid "Resources"
+msgstr "Ressources"
+
+#: ../../KritaFAQ.rst:549
+msgid ""
+"Is there a way to restore a default brush that I have mistakenly "
+"overwritten with new settings to default?"
+msgstr ""
+"Existe-t-il un moyen de restaurer une brosse par défaut que j'ai"
+" accidentellement modifié et écrasé?"
+
+#: ../../KritaFAQ.rst:551
+msgid "Yes. First go to the resource folder, which is"
+msgstr "Oui. D'abord, allez dans le dossier des ressources, qui est"
+
+#: ../../KritaFAQ.rst:560
+msgid ""
+"You can easily do this by going into :menuselection:`settings --> manage "
+"resources --> open resource folder`."
+msgstr ""
+"Vous pouvez y accéder facilement via le menu :menuselection:`Paramètres -->"
+" Gérer les ressources --> Ouvrir le dossier de ressources`."
+
+#: ../../KritaFAQ.rst:562
+msgid ""
+"Then go into the paintoppressets folder and remove the latest created "
+"file that you made of your preset."
+msgstr ""
+"Allez ensuite dans le dossier paintoppresets et supprimez le dernier fichier"
+" créé contenant ce preset."
+
+#: ../../KritaFAQ.rst:565
+msgid ""
+"Then go back to the resources folder and edit the blacklist file to "
+"remove the previous paintop preset so Krita will load it. (Yes, it is a "
+"bit of a convoluted system, but at the least you don't lose your brushes)"
+msgstr ""
+"Allez ensuite dans le dossier ressources et éditez le fichier blacklist pour"
+" enlever le nom du preset correspondand pour que Krita le charge à nouveau."
+" (Oui, c'est un peu compliqué, mais au moins on ne perd pas ses brosses)."
+
+#: ../../KritaFAQ.rst:571
+msgid "How do I set favourite presets?"
+msgstr "Comment définir les presets favoris?"
+
+#: ../../KritaFAQ.rst:573
+msgid ""
+"Right-click a brush in the brush docker and assign it a tag. Then when "
+"clicking the lower-right settings icon you can pick you tag."
+msgstr ""
+"Clic-droit sur un preset dans le panneau des brosses et assignez lui un tag."
+" Puis, dans la popup palette, en bas à droite, cliquez sur l'icône de"
+" configuration et sélectionnez le tag correspondant."
+
+#: ../../KritaFAQ.rst:577
+msgid "Can Krita load Photoshop Brushes?"
+msgstr "Est-ce-que Krita peut charger des brosses de Photoshop?"
+
+#: ../../KritaFAQ.rst:579
+msgid ""
+"Yes, but there are limitations. You can load ABR files by using the Add "
+"Brush button in the predefined brush tab in the brush editor. Since Adobe"
+" hasn’t disclosed the file format specification, we depend on reverse-"
+"engineering to figure out what to load, and currently that’s limited to "
+"basic features."
+msgstr ""
+"Oui, mais avec certaines limitations. Vous pouvez charger un fichier ABR en"
+" utilisant le bouton Importer dans l'onglet Prédéfini de l'éditeur de brosse."
+" Étant donné qu'Adobe n'a pas publié les spécifications du format, nous"
+" dépendons du reverse-engineering pour deviner ce qu'il faut charger, et"
+" actuellement c'est limité aux fonctions de base."
+
+#: ../../KritaFAQ.rst:586
+msgid "Krita is slow"
+msgstr "Krita est lent"
+
+#: ../../KritaFAQ.rst:588
+msgid ""
+"There is a myriad of reasons why this might be. Below is a short "
+"checklist."
+msgstr ""
+"Il existe une multitude de raisons possibles. Ci-dessous vous trouverez une"
+" liste de possibilités."
+
+#: ../../KritaFAQ.rst:591
+msgid "Something else is hogging the cpu."
+msgstr "Une autre application surcharge votre processeur"
+
+#: ../../KritaFAQ.rst:592
+msgid ""
+"You are running Windows, and have 3rdparty security software like "
+"sandboxie or total defender installed"
+msgstr ""
+"Vous utilisez Windows, et utilisez un logiciel de sécurité tiers comme"
+" sandboxie ou total defender"
+
+#: ../../KritaFAQ.rst:594
+msgid ""
+"you are working on images that are too big for your hardware (dimensions,"
+" channel depth or number of layers)"
+msgstr ""
+"Vous travaillez sur une image trop grande pour votre matériel (au niveau"
+" dimensions, profondeur de canaux ou nombre de calques)"
+
+#: ../../KritaFAQ.rst:596
+msgid "you do not have canvas acceleration enabled"
+msgstr "Vous n'avez pas l'accélération matérielle activée"
+
+#: ../../KritaFAQ.rst:598
+msgid "Please also check this page: https://phabricator.kde.org/T7199"
+msgstr "Veuillez aussi lire cette page: https://phabricator.kde.org/T7199"
+
+#: ../../KritaFAQ.rst:601
+msgid "Slow start-up"
+msgstr "Démarrage lent"
+
+#: ../../KritaFAQ.rst:603
+msgid ""
+"You probably have too many resources installed. Deactivate some bundles "
+"under settings → manage resources"
+msgstr ""
+"Vous avez probablement trop de ressources installées. Désactivez des bundles"
+" dans Paramètres → Gérer les ressources"
+
+#: ../../KritaFAQ.rst:606
+msgid ""
+"If you're using Windows and the portable zip file, Windows will scan all "
+"files everytime you start Krita. That takes ages. Either use the "
+"installer or tell Microsoft Security Essentials to make an exception for "
+"Krita."
+msgstr ""
+"Si vous utilisez Windows et le logiciel en version zip portable, Windows scan"
+" tous les fichiers à chaque lancement de Krita. Ce scan est très long."
+" Préférez l'utilisation de l'installeur, ou dites à Microsoft Security"
+" Essentials de faire une exception pour Krita."
+
+#: ../../KritaFAQ.rst:612
+msgid "Slow Brushes"
+msgstr "Brosses lentes"
+
+#: ../../KritaFAQ.rst:614
+msgid ""
+"Check if you accidentally turned on the stabilizer in the tool options "
+"docker."
+msgstr ""
+"Vérifiez si vous avez accidentellement activé l'option Stabilisateur dans le"
+" panneau Préférences d'outils."
+
+#: ../../KritaFAQ.rst:616
+msgid ""
+"Try another display filter like trilinear. settings → configure Krita → "
+"display"
+msgstr ""
+"Essayez un autre Mode de mise à l'échelle comme tri-linéaire. Paramètres →"
+" Configuration de Krita → Afficher"
+
+#: ../../KritaFAQ.rst:618
+msgid "Try a lower channel depth than 16-bit."
+msgstr "Essayez une profondeur de canaux inférieure à 16-bit."
+
+#: ../../KritaFAQ.rst:619
+msgid "For NVidia, try a 16-bit floating point color space."
+msgstr ""
+"For NVidia, essayez un espace de couleur en 16-bit à virgule flottante."
+
+#: ../../KritaFAQ.rst:620
+msgid ""
+"For AMD (Krita 2.9.10 and above), turn off the vector optimizations that "
+"are broken on AMD CPUs. settings → configure Krita → performance"
+msgstr ""
+"Pour AMD (Krita 2.9.10 et suivants), cochez \"Disable vector optimizations"
+" (for AMD CPUs)\" dans Paramètres → Configuration de Krita → Performance"
+
+#: ../../KritaFAQ.rst:622
+msgid ""
+"It's a fairly memory hungry program, so 2GB of ram is the minimum, and 4 "
+"gig is the preferable minimum."
+msgstr ""
+"Krita est un programme gourmand au niveau mémoire vive, de 2GB de RAM est le"
+" minimum nécessaire, 4GB est le minimum recommandé."
+
+#: ../../KritaFAQ.rst:624
+msgid "Check that not something else is hogging your CPU"
+msgstr "Vérifiez qu'aucune autre application ne surcharge votre processeur"
+
+#: ../../KritaFAQ.rst:625
+msgid ""
+"Check that Instant Preview is enabled if you're using bigger brushes (for"
+" very small brushes, disabled)"
+msgstr ""
+"Vérifiez que l'Aperçu Instantané est activé si vous utilisez de larges"
+" brosses (pour de petites brosses, désactivez cette option)"
+
+#: ../../KritaFAQ.rst:627
+msgid "Set brush precision to 3 or auto"
+msgstr "Réglez la précision de la brosse sur 3 ou auto"
+
+#: ../../KritaFAQ.rst:628
+msgid "Use a larger value for brush spacing"
+msgstr "Augmentez la valeur de l'espacement de la brosse"
+
+#: ../../KritaFAQ.rst:629
+msgid ""
+"If all of this fails, record a video and post a link and description on "
+"the Krita forum."
+msgstr ""
+"Si tout cela échoue, enregistrez une vidéo et postez la avec une description"
+" dans le forum de Krita."
+
+#: ../../KritaFAQ.rst:631
+msgid ""
+"check whether opengl is enabled, and if it isn't, enable it, or if it is,"
+" and you'r on windows, try the Angle renderer. Or disable it."
+msgstr ""
+"Vérifiez si OpenGL est activé, et s'il ne l'est pas activez le. S'il est"
+" activé, et que vous êtes sur windows, essayez le mode de rendu Angle. Ou"
+" désactivez le."
+
+#: ../../KritaFAQ.rst:635
+msgid "Slowdown after a while of working"
+msgstr "Ralentissements après un long moment de travail"
+
+#: ../../KritaFAQ.rst:637
+msgid ""
+"Once you have the slowdown, click on the image-dimensions in the status "
+"bar. It will tell you how much Krita is using, and if it's hit the limit,"
+" whether it's started swapping. Swapping can slow down a program a lot, "
+"so either work on smaller images or turn up the maximum amount of ram in "
+"settings → configure Krita → performance"
+msgstr ""
+"Lorsqu'un ralentissement se manifeste, cliquez sur les dimensions de l'image"
+" dans la barre de statut. Cela vous dira combien de mémoire Krita utilise, et"
+" s'il a atteint la limite, s'il a commencé à utiliser le swap. Le swap peut"
+" beaucoup ralentir un programme, vous avez donc deux choix: soit travailler"
+" sur des images plus petites, ou bien augmentez la quantité de RAM dans"
+" Paramètres → Configuration de Krita → Performance"
+
+#: ../../KritaFAQ.rst:644
+msgid "Tools"
+msgstr "Outils"
+
+#: ../../KritaFAQ.rst:647
+msgid ""
+"Why does the Transform Tool give a good result and then get blurry upon "
+"finalizing?"
+msgstr ""
+"Pourquoi l'outil de Transformation affiche un résultat correct qui ensuite"
+" devient flou lorsqu'on l'applique?"
+
+#: ../../KritaFAQ.rst:649
+msgid ""
+"The transform tool makes a preview that you edit before computing the "
+"finalized version. As this preview is using the screen resolution rather "
+"than the image resolution, it may feel that the result is blurry compared"
+" to the preview. See https://forum.kde.org/viewtopic.php?f=139&t=127269 "
+"for more info."
+msgstr ""
+"L'outil de transformation créé un aperçu que vous éditez avant de calculer la"
+" version finale. Puisque cet aperçu utilise la résolution de l'écran au lieu"
+" de celle de l'image, il est possible que le résultat soit flou comparé à"
+" l'aperçu. Voir https://forum.kde.org/viewtopic.php?f=139&t=127269 pour plus"
+" d'info."
+
+#: ../../KritaFAQ.rst:656
+msgid ""
+"Why is the zoom tool suddenly zooming to my cursor instead of to canvas?"
+msgstr ""
+"Pourquoi tout d'un coup l'outil de zoom est centré sur mon curseur au lieu du"
+" centre de la zone de travail?"
+
+#: ../../KritaFAQ.rst:658
+msgid ""
+"In Krita 3.0.1 we changed the default zooming mode to zoom to the cursor "
+"instead of to the canvas center as that was more intuitive for artists. "
+"we call this relative zoom mode."
+msgstr ""
+"Depuis Krita 3.0.1, nous avons changé le mode de zoom par défaut pour suivre"
+" la position du curseur au lieu du centre de la zone de travail, c'est en fin"
+" de compte plus intuitif pour la plupart des artistes. Nous appelons ce mode"
+" Zoom relatif."
+
+#: ../../KritaFAQ.rst:662
+msgid ""
+"If you want to get the old behavior back, go to and change all 4(!) "
+"entries with into plain ."
+msgstr ""
+"Si vous voulez récupérer l'ancien comportement, changez les 4 options (??) ..."
+
+#: ../../KritaFAQ.rst:666
+msgid "License, rights and the Krita foundation"
+msgstr "License, droits et la Krita Foundation"
+
+#: ../../KritaFAQ.rst:669
+msgid "Who owns Krita?"
+msgstr "A qui appartient Krita?"
+
+#: ../../KritaFAQ.rst:671
+msgid "The Stichting Krita Foundation owns the Krita trademark."
+msgstr "La marque Krita appartient à la Stichting Krita Foundation."
+
+#: ../../KritaFAQ.rst:674
+msgid "Is there professional support available for Krita?"
+msgstr "Existe-t-il un support professionnel pour Krita?"
+
+#: ../../KritaFAQ.rst:676
+msgid ""
+"Yes, the Krita Foundation and Boudewijn Rempt Software offer support for "
+"Krita through the `development fund <https://krita.org/support-"
+"us/donations/>`_, sponsoring opportunities, consultancy and `dedicated "
+"development contracts <https://krita.org/support-us/commercial/>`_."
+msgstr ""
+"Oui, la fondation Krita et Boudewijn Rempt Software proposent du support pour"
+" Krita à travers le `fond de développement <"
+"https://krita.org/support-us/donations/>`_, ainsi que des opportunités de"
+" sponsoring, de consultant, et des `contrats de développement dédié <"
+"https://krita.org/support-us/commercial/>`_."
+
+#: ../../KritaFAQ.rst:681
+msgid "Who and what is Kiki?"
+msgstr "Qui est Kiki?"
+
+#: ../../KritaFAQ.rst:683
+msgid ""
+"Kiki is a squirrel. She’s our mascot and has been designed by Tyson Tan. "
+"We choose a squirrel when we discovered that ‘krita’ is the Albanian word"
+" for Squirrel."
+msgstr ""
+"Kiki est un écureuil. Elle est notre mascotte et fût créée par Tyson Tan."
+" Nous avons choisi un écureuil après avoir découvert que `krita` en Albanais"
+" signifie écureuil."
+
+#: ../../KritaFAQ.rst:688
+msgid "Why is Krita Free?"
+msgstr "Pourquoi Krita est-il gratuit?"
+
+#: ../../KritaFAQ.rst:690
+msgid ""
+"Krita is developed as `free software <http://www.gnu.org/>`_ within the "
+"KDE community. We believe that good tools should be available for all "
+"artists. You can also buy Krita on the Windows Store if you want to "
+"support Krita's development or want to have automatic updates to newer "
+"versions."
+msgstr ""
+"Krita est un `logiciel libre <http://www.gnu.org/>`_ développé au sein de la"
+" communauté KDE. Nous croyons dans l'idée que de bons outils devraient être"
+" disponibles pour tous les artistes. Vous pouvez aussi acheter Krita sur le"
+" Windows Store si vous voulez supporter le développement de Krita, ou si vous"
+" voulez bénéficier des mises à jour automatiques."
+
+#: ../../KritaFAQ.rst:697
+msgid "Can I use Krita commercially?"
+msgstr "Puis-je utiliser Krita commercialement?"
+
+#: ../../KritaFAQ.rst:699
+msgid ""
+"Yes. What you create with Krita is your sole property. You own your work "
+"and can license your art however you want. Krita’s GPL license applies to"
+" Krita’s source code. Krita can be used commercially by artists for any "
+"purpose, by studios to make concept art, textures, or vfx, by game "
+"artists to work on commercial games, by scientists for research, and by "
+"students in educational institutions."
+msgstr ""
+"Oui. Ce que vous créez avec Krita est votre entière propriété. Votre travail"
+" vous appartient et vous pouvez y appliquer la licence de votre choix. La"
+" licence GPL de Krita s'applique à son code source. Krita peut être utilisé"
+" commercialement par des artistes pour n'importe quel usage, par des studios"
+" pour créer des concept art, des textures, ou des effets spéciaux, par des"
+" game artistes travaillant sur des jeux commerciaux, par des scientifiques"
+" pour leurs recherches, ou encore par des étudiants en milieu éducatif."
+
+#: ../../KritaFAQ.rst:706
+msgid ""
+"If you modify Krita itself, and distribute the result, you have to share "
+"your modifications with us. Krita’s GNU GPL license guarantees you this "
+"freedom. Nobody is ever permitted to take it away."
+msgstr ""
+"Si vous modifiez le logiciel Krita, et distribuez cette version modifiée,"
+" vous devez obligatoirement partager vos modifications avec nous. La licence"
+" GNU GPL de Krita garantie cette liberté. Personne n'a le droit de la retirer."
+
+#: ../../KritaFAQ.rst:714
+msgid "Can I get Krita for iPad? for Android?"
+msgstr "Puis-je avoir Krita sur iPad? ou sur Android?"
+
+#: ../../KritaFAQ.rst:716
+msgid ""
+"Krita will probably not be available for iOS (iPad, iPhone, iPad Pro) any"
+" time soon because Apple's Appstore's terms and conditions add "
+"restrictions that are thought to be incompatible with free software "
+"licensed under the GNU Public License. And then there are problems "
+"actually building Krita and all its dependencies on iOS as well as "
+"problems getting Krita into the app store."
+msgstr ""
+"Krita ne sera probablement pas disponible de sitôt sur iOS (iPad, iPhone,"
+" iPad Pro) car l'Appstore d'Apple contient des restrictions potentiellement"
+" incompatibles avec les logiciels libres sur licence GNU Public License."
+" Ensuite il y a aussi les problèmes pour compiler Krita et ses dépendances"
+" sur iOS ainsi que ceux pour publier Krita dans l'app store."
+
+#: ../../KritaFAQ.rst:723
+msgid ""
+"As for Android, there are no licensing problems, and we would like to see"
+" a version for Android, but Krita is an enormous application and we "
+"haven't managed to build it for Android yet."
+msgstr ""
+"Pour Android, il n'existe pas de problème de licence, et nous voudrions"
+" sortir une version pour Android, mais Krita est une application très grosse"
+" et nous n'avons pas encore réussi à la compiler pour Android pour l'instant."
+
+#: ../../KritaFAQ.rst:728
+msgid "Who translates Krita and are there translations available?"
+msgstr "Qui traduit Krita et existe-t-il des traductions disponibles?"
+
+#: ../../KritaFAQ.rst:730
+msgid ""
+"Krita is a `KDE application <http://www.kde.org/>`__ — and proud of it! "
+"That means that Krita’s translations are done by `KDE localization teams "
+"<http://i18n.kde.org/>`__. If you want to help out, join the team for "
+"your language! There is another way you can help out making Krita look "
+"good in any language, and that is join the development team and fix "
+"issues within the code that make Krita harder to translate."
+msgstr ""
+"Krita est une `Application KDE <http://www.kde.org/>`__ — et fier de l'être!"
+" Cela signifie que les traductions de Krita sont faites par `l'équipe de"
+" localization de KDE <http://i18n.kde.org/>`__. Si vous voulez aider,"
+" rejoignez l'équipe pour votre langue! Il existe un autre moyen d'aider à"
+" peaufiner Krita dans n'importe quelle langue, c'est de rejoindre l'équipe de"
+" développement et de corriger des problèmes dans le code qui peuvent rendre"
+" la traduction plus difficile."
+
+#: ../../KritaFAQ.rst:737
+msgid ""
+"The translations are easy to install on any linux distribution. On "
+"Windows they are bundled and you can set them via settings->change "
+"application language. On OSX, we are working to make them work similarly "
+"to windows, but there are a few bugs preventing the translations work "
+"correctly at the time of writing."
+msgstr ""
+"Les traductions sont faciles à installer sur n'importe quelle distribution"
+" GNU/Linux. Sur Windows, elles sont incluses dans l'installeur et vous pouvez"
+" choisir la langue dans Paramètres -> Changer la langue de l'application. Sur"
+" OSX, nous travaillons pour les faire fonctionner de la même manière que sur"
+" Windows, mais il y a quelques bugs empêchant la traduction de fonctionner"
+" correctement au moment d'écrire ces lignes."
+
+#: ../../KritaFAQ.rst:744
+msgid "What are Krita’s Development Goals?"
+msgstr "Quels sont les objectifs de développement de Krita?"
+
+#: ../../KritaFAQ.rst:746
+msgid ""
+"Krita is primarily a painting program, although it has image processing "
+"capabilities. This means that Krita is intended for creative people who "
+"desire to paint and draw with computer software as they do with real-"
+"world tools in an art studio."
+msgstr ""
+"Krita est tout d'abord un logiciel de peinture numérique, bien qu'il dispose"
+" de fonctions pour la retouche d'image. Cela signifie que Krita est prévu"
+" pour les créatifs que désirent peindre et dessiner avec un ordinateur comme"
+" ils le feraient avec des outils réels dans un atelier."
+
+#: ../../KritaFAQ.rst:751
+msgid ""
+"If you are looking for a tool primarily to apply effects to existing "
+"images or photos, to catalog images, or to view images other software "
+"(such as Digikam) may be more suitable.If you want to work on collage, "
+"photo editing or print production work, Gimp might be more suitable. Ease"
+" of use and power as a painting application will always have a higher "
+"priority in Krita’s ongoing development."
+msgstr ""
+"Si vous recherchez un outil principalement pour appliquer des effets sur des"
+" images existantes ou des photos, pour cataloguer des images, ou pour voir"
+" des images, d'autres logiciels (comme Digikam) peuvent être plus appropriés."
+" Si vous voulez effectuer des collages, de l'édition de photo ou du travail"
+" de préparation pour l'impression, Gimp peut être plus approprié. La facilité"
+" d'utilisation et les capacités en tant qu'application de peinture numérique"
+" seront toujours nos priorités pour le développement en cours de Krita."
+
+#: ../../KritaFAQ.rst:759
+msgid "Would you like bug reports?"
+msgstr "Souhaitez vous des rapports de bug?"
+
+#: ../../KritaFAQ.rst:761
+msgid ""
+"Definitely. Please take care to include backtraces if you’ve got a crash,"
+" and if there’s an image that breaks Krita for you, try to attach the "
+"image to the report. If it’s too big, contact me (that’s ‘boud’) on irc: "
+"#krita, or directly via email. Adding new wishes to bugzilla isn’t "
+"terribly useful, I’m afraid. We have a lot on our TODO already, and to "
+"create a new feature, we need to engage in some deep interaction with "
+"you, so drop by on the forum, mailing or irc instead. You can report bugs"
+" at the KDE bug tracker. We try to reply to bug reports within a week."
+msgstr ""
+"Bien sûr. S'il vous plait, faites bien attention d'inclure un backtrace si"
+" vous avez un crash. Si vous avez une image qui ne fonctionne pas"
+" correctement dans Krita, essayez de la joindre à votre rapport. Si elle est"
+" trop grosse, contactez moi sur irc (surnom `boud`) sur le canal #krita, ou"
+" directement par email. Il n'est pas très utile d'ajouter un nouveau souhait"
+" dans la liste des bugs. Nous avons déjà une longue liste sur notre liste de"
+" choses à faire, et pour créer une nouvelle fonction, nous devons nous"
+" investir dans une interaction avec vous, venez donc sur le forum, sur la"
+" mailing liste ou sur irc. Vous pouvez rapporter des bugs sur le bug tracker"
+" KDE. Nous essayons de répondre aux rapports de bug sous une semaine."
+
+#: ../../KritaFAQ.rst:771
+msgid ""
+"If you find signing up to KDE’s bugzilla too much of a bother, or aren’t "
+"sure you found a real bug, don’t hesitate, and drop by on the `forum "
+"<https://forum.kde.org/viewforum.php?f=136>`_ or on `IRC "
+"<https://krita.org/irc/>`_."
+msgstr ""
+"Si vous trouvez que créer un compte sur le bugzilla de KDE trop ennuyeux, ou"
+" si vous n'êtes pas sûr d'avoir trouvé un vrai bug, n'hésitez pas à laisser"
+" une note sur le `forum <https://forum.kde.org/viewforum.php?f=136>`_  ou sur"
+" `IRC "
+"<https://krita.org/irc/>`_."
+
+#: ../../KritaFAQ.rst:776
+msgid ""
+"Starting with Krita 3.1, we will have the :ref:`Dr. Mingw debugger "
+"<dr_minw>` built into Krita. Check out the instructions for debbugging "
+"with it."
+msgstr ""
+"À partir de Krita 3.1, nous fournissons le :ref:`Débogueur Dr. Mingw <dr_minw"
+">` avec Krita. Lisez les instructions pour l'utiliser pour déboguer."
+
+#: ../../KritaFAQ.rst:780
+msgid "Can I join the fun?"
+msgstr "Puis-je m'amuser avec vous?"
+
+#: ../../KritaFAQ.rst:782
+msgid ""
+"Yes.The best thing you can do is use and enjoy Krita! Learn to use Krita "
+"and teach others. Create tutorials and sample files, create artwork to "
+"show off what Krita can do and spread the good word. And if you want to "
+"be more directly involved, well, I didn’t know any C++ when I started "
+"hacking on Krita and I managed. You can do it, too! Check the `Join Krita"
+" page <https://krita.org/get-involved/overview/>`_ for more information."
+msgstr ""
+"Oui. La meilleure chose que vous pouvez faire est d'utiliser et d'apprécier"
+" Krita! Apprenez à utiliser Krita et enseignez aux autres. Créez des"
+" tutoriels et des fichier d'exemples, créez des images pour promouvoir les"
+" possibilités offertes et parlez en autour de vous. Et si vous souhaitez être"
+" impliqué plus directement, et bien, en fait je ne connaissais rien en C++"
+" lorsque j'ai commencé à coder sur Krita et j'ai réussi. Vous le pouvez"
+" aussi! Lisez la page `Join Krita  <https://krita.org/get-involved/overview/"
+">`_ pour plus d'info."
+
+#: ../../KritaFAQ.rst:789
+msgid ""
+"And if you don’t feel like hacking C++ — well, there’s the manual that "
+"needs someone attending to it, a set of tutorials would be nice, we are "
+"everlastingly needing more artwork for interface elements, and finally, "
+"we really appreciate reports from people using it, telling me about their"
+" work flow and what hampers or helps them."
+msgstr ""
+"Et si vous ne souhaitez pas coder en C++ — et bien, le manuel a besoin de"
+" contributeurs et de traducteurs, un set de tutoriels est toujours utile,"
+" nous avons toujours besoin d'images pour l'interface, et enfin, nous"
+" apprécions beaucoup les retours d'utilisateurs, parlant de leur méthode de"
+" travail et ce qui les dérange ou les aide."
+
+#: ../../KritaFAQ.rst:796
+msgid "Reference"
+msgstr "Référence"
+
+#: ../../KritaFAQ.rst:798
+msgid "https://answers.launchpad.net/krita-ru/+faqs"
+msgstr "https://answers.launchpad.net/krita-ru/+faqs"
+
+#: ../../KritaFAQ.rst:801
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../KritaFAQ.rst:803
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../KritaFAQ.rst:805
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../KritaFAQ.rst:807
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../KritaFAQ.rst:809
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../KritaFAQ.rst:811
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../KritaFAQ.rst:813
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../KritaFAQ.rst:815
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../KritaFAQ.rst:817
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../KritaFAQ.rst:819
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../KritaFAQ.rst:821
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../KritaFAQ.rst:823
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../KritaFAQ.rst:825
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../KritaFAQ.rst:827
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../KritaFAQ.rst:829
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../KritaFAQ.rst:831
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../KritaFAQ.rst:833
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../KritaFAQ.rst:835
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../KritaFAQ.rst:837
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../KritaFAQ.rst:839
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../KritaFAQ.rst:841
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../KritaFAQ.rst:843
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../KritaFAQ.rst:845
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../KritaFAQ.rst:847
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../KritaFAQ.rst:849
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../KritaFAQ.rst:851
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../KritaFAQ.rst:853
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../KritaFAQ.rst:855
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../KritaFAQ.rst:857
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../KritaFAQ.rst:859
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../KritaFAQ.rst:861
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../KritaFAQ.rst:863
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../KritaFAQ.rst:865
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../KritaFAQ.rst:867
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../KritaFAQ.rst:869
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../KritaFAQ.rst:871
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../KritaFAQ.rst:873
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../KritaFAQ.rst:875
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../KritaFAQ.rst:877
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../KritaFAQ.rst:879
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../KritaFAQ.rst:881
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+
+

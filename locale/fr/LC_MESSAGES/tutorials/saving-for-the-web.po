@@ -1,0 +1,376 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../tutorials/saving-for-the-web.rst:13
+msgid "Saving For The Web"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:15
+msgid ""
+"Krita's default saving format is the :ref:`file_kra` format. This format "
+"saves everything Krita can manipulate about an image: Layers, Filters, "
+"Assistants, Masks, Color spaces, etc. However, that's a lot of data, so "
+"\\*.kra files are pretty big. This doesn't make them very good for "
+"uploading to the internet. Imagine how many people's data-plans hit the "
+"limit if they only could look at \\*.kra files! So instead, we optimise "
+"our images for the web."
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:17
+msgid "There's a few steps involved:"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:19
+msgid ""
+"Save as a .kra. This is your working file and serves as a backup if you "
+"make any mistakes."
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:21
+msgid ""
+"Flatten all layers. This turns all your layers into a single one. Just go"
+" to :menuselection:`Layer --> Flatten Image` or press :kbd:`Ctrl` + "
+":kbd:`Shift` + :kbd:`E`. Flattening can take a while, so if you have a "
+"big image, don't be scared if Krita freezes for a few seconds. It'll "
+"become responsive soon enough."
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:23
+msgid ""
+"Convert the color space to 8bit sRGB(if it isn't yet). This is important "
+"to lower the filesize, and PNG for example can't take higher than 16bit. "
+":menuselection:`Image --> Convert Image Color Space` and set the options "
+"to **RGB**, **8bit** and **sRGB-elle-v2-srgbtrc.icc** respectively. If "
+"you are coming from a linear space, uncheck **little CMS** optimisations"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:25
+msgid ""
+"Resize! Go to :menuselection:`image --> scale image to new size` or use "
+":kbd:`Ctrl` + :kbd:`Alt` + :kbd:`I`. This calls up the resize menu. A "
+"good rule of thumb for resizing is that you try to get both sizes to be "
+"less than 1200 pixels. (This being the size of HD formats). You can "
+"easily get there by setting the **Resolution** under **Print Pize** to "
+"**72** dots per inch. Then press **OK** to have everything resized."
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:27
+msgid ""
+"Save as a web-safe image format. There's three that are especially "
+"recommended:"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:30
+msgid "JPG"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:32
+msgid "Use this for images with a lot of different colors, like paintings."
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:35
+msgid "PNG"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:37
+msgid ""
+"Use this for images with few colours or which are black and white, like "
+"comics and pixel-art. Select 'save indexed if possible' to optimise even "
+"more."
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:40
+msgid "GIF"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:42
+msgid ""
+"Only use this for animation(will be supported this year) or images with a"
+" super low color count, because they will get indexed."
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:45
+msgid "Saving with Transparency"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:48
+msgid ".. image:: images/en/Save_with_transparency.png"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:49
+msgid ""
+"Saving with transparency is only possible with gif and png. First, make "
+"sure you see the transparency checkers(this can be done by simply hiding "
+"the bottom layers, changing the projection color in :menuselection:`Image"
+" --> Image Background Color and Transparency`, or by using "
+":menuselection:`Filters --> Color --> Color to Alpha`. Then, save as PNG "
+"and tick **Store Alpha Channel**"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:51
+msgid "Save your image, upload, and show it off!"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:54
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:56
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:58
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:60
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:62
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:64
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:66
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:68
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:70
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:72
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:74
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:76
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:78
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:80
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:82
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:84
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:86
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:88
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:90
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:92
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:94
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:96
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:98
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:100
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:102
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:104
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:106
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:108
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:110
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:112
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:114
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:116
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:118
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:120
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:122
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:124
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:126
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:128
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:130
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:132
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../tutorials/saving-for-the-web.rst:134
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

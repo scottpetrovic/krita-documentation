@@ -1,0 +1,522 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-20 10:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:17
+msgid "Bristle Brush Engine"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:20
+msgid ".. image:: images/icons/bristlebrush.svg"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:21
+msgid ""
+"A brush intended to mimic real-life brushes by drawing the trails of "
+"their lines or bristles."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:24
+msgid "Brush Tip"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:26
+msgid "Simply put:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:28
+msgid "The brush tip defines the areas with bristles in them."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:29
+msgid ""
+"Lower opacity areas have lower-opacity bristles. With this brush, this "
+"may give the illusion that lower-opacity areas have fewer bristles."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:30
+msgid ""
+"The :ref:`option_size` and :ref:`option_rotation` dynamics affect the "
+"brush tip, not the bristles."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:32
+msgid "You can:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:34
+msgid ""
+"Use different shapes for different effects.Be aware that complex brush "
+"shapes will draw more slowly though, while the effects aren't always "
+"visible (since in the end, you're passing over an area with a certain "
+"number of bristles)."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:35
+msgid ""
+"To decrease bristle density, you can also just use an autobrush and "
+"decrease the brush tip's density, or increase its randomness."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:38
+msgid ".. image:: images/en/Krita-tutorial7-B.I.1.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:40
+msgid "Bristle Options"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:42
+msgid "The core of this particular brush-engine."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:48
+msgid "Scale"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:45
+msgid ""
+"Think of it as pressing down on a brush to make the bristles further "
+"apart. * Larger values basically give you larger brushes and larger "
+"bristle spacing. For example, a value of 4 will multiply your base brush "
+"size by 4, but the bristles will be 4 times more spaced apart. * Use "
+"smaller values if you want a \"dense\" brush, i.e. you don't want to see "
+"so many bristles within the center. * Negative values have the same "
+"effect as corresponding positive values: -1.00 will look like 1.00, etc."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:53
+msgid "Random Offset"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:51
+msgid ""
+"Adds a jaggy look to the trailing lines. * At 0.00, all the bristles "
+"basically remain completely parallel. * At other values, the bristles are"
+" offset randomly. Large values will increase the brush size a bit because"
+" of the bristles spreading around, but not by much. * Negative values "
+"have the same effect as corresponding positive values."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:55
+msgid "Shear"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:56
+msgid ""
+"Shear introduces an angle to your brush, as though you're drawing with an"
+" oval brush (or the side of a round brush)."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:58
+msgid "Density"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:58
+msgid ""
+"This controls the density of bristles. Scale takes a number of bristles "
+"and expands or compresses them into a denser area, whereas density takes "
+"a fixed area and determines the number of bristles in it. See the "
+"difference?"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:61
+msgid ".. image:: images/en/Krita-tutorial7-B.I.2-1.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:64
+msgid "Mouse Pressure"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:63
+msgid ""
+"This one maps \"Scale\" to mouse speed, thus simulating pressure with a "
+"graphics tablet! * Rather, it uses the \"distance between two events\" to"
+" determine scale. Faster drawing, larger distances. * This doesn't "
+"influence the \"pressure\" input for anything else (size, opacity, "
+"rotation etc.) so you still have to map those independently to something "
+"else."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:66
+msgid "Threshold"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:67
+msgid ""
+"This is a tablet feature. When you turn this on, only bristles that are "
+"able to \"touch the canvas\" will be painted."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:68
+msgid "Connect Hairs"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:69
+msgid "The bristles get connected. See for yourself."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:70
+msgid "Anti-Aliasing"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:71
+msgid "This will decrease the jaggy-ness of the lines."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:73
+msgid "Composite Bristles"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:73
+msgid ""
+"This \"composes the bristle colors within one dab,\" but explains that "
+"the effect is \"probably subtle.\""
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:76
+msgid ".. image:: images/en/Krita-tutorial7-B.I.2-2.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:78
+msgid "Ink Depletion"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:80
+msgid ""
+"This simulated ink depletion over drawing time. The value dictates how "
+"long it will take. The curve dictates the speed."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:82
+msgid "Opacity"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:83
+msgid "The brush will go transparent to simulate ink-depletion."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:87
+msgid "Saturation"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:85
+msgid "The brush will be desaturated to simulate ink-depletion."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst
+msgid ".. image:: images/en/Krita-tutorial7-B.I.3-1.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:100
+msgid "Soak Ink"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:90
+msgid ""
+"The brush will pick up colors from other brushes. You don't need to have "
+"Ink depletion checked to activate this option, you just have to check "
+"Soak Ink. What this does is cause the bristles of the brush to take on "
+"the colors of the first area they touch. Since the Bristle brush is made "
+"up of independent bristles, you can basically take on several colors at "
+"the same time."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:94
+msgid ""
+"It will only take colors in the unscaled area of the brush, so if you're "
+"using a brush with 4.00 scale for example, it will only take the colors "
+"in the 1/4 area closest to the center."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:95
+msgid "When the source is transparent, the bristles take black color."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst
+msgid ".. image:: images/en/Krita-tutorial7-B.I.3-2.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:100
+msgid ""
+"Be aware that this feature is a bit buggy though. It's Supposed to take "
+"the color from the current layer, but some buggy behavior causes it to "
+"often use the last layer you've painted on (with a non-Bristle brush?) as"
+" source. To avoid these weird behaviors, stick to just one layer, or "
+"paint something on the current active layer first with another brush "
+"(such as a Pixel brush)."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:109
+msgid "Weighted saturation."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:103
+msgid ""
+"Works by modifying the saturation with the following: * Pressure weight *"
+" Bristle length weight * Bristle ink amount weight * Ink depletion curve "
+"weight"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:111
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:113
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:115
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:117
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:119
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:121
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:123
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:125
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:127
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:129
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:131
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:133
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:135
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:137
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:139
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:141
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:143
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:145
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:147
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:149
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:151
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:153
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:155
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:157
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:159
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:161
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:163
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:165
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:167
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:169
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:171
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:173
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:175
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:177
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:179
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:181
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:183
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:185
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:187
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:189
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:191
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+
