@@ -1,0 +1,402 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../general_concepts/projection/practical.rst:10
+msgid ""
+"This is a continuation of the :ref:`perspective projection tutorial "
+"<projection_perspective>`, be sure to check it out if you get confused!"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:15
+msgid "Practical:"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:17
+msgid ""
+"So, if computers can already automate a ton, and it is fairly "
+"complicated, is there still a use for a traditional 2d artist to learn "
+"this?"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:19
+msgid ""
+"Yes, actually. The benefit that 2d art still has over 3d is that it's "
+"plain faster for single images, especially with complicated subjects like"
+" faces and bodies."
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:21
+msgid ""
+"Perspective projection can help a lot getting down those annoying poses, "
+"like people lying down. It also helps when combining 2d and 3d, as when "
+"you know where the camera is in the 3d render, you can use that in a "
+"projection to get the character projected."
+msgstr ""
+
+msgid ".. image:: images/en/category_projection/projection_animation_04.gif"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:26
+msgid ""
+"The side view of a person lying down is often easy to draw, but the top "
+"view or the view from the feet isn’t. Hence why we use the side view to "
+"do perspective projection on."
+msgstr ""
+
+msgid ".. image:: images/en/category_projection/projection_image_38.png"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:31
+msgid "Another example with an equally epic task: sitting."
+msgstr ""
+
+msgid ".. image:: images/en/category_projection/projection_animation_05.gif"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:36
+msgid ""
+"Now, with this one we have a second vanishing point above the front-view."
+" It should be about the same distance above the front-view as it is above"
+" the head of the rotated side-view. The projection plane should also be "
+"the same distance from the vanishing point, but that doesn’t mean it has "
+"to be behind. This is something I avoided in the earlier examples, "
+"because it makes the working field really messy, but if you look up "
+"perspective projection you’ll see multiple examples of this method."
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:38
+msgid ""
+"Also of note is that you actually should be having the view "
+"plane/projection plane perfectly perpendicular to the angle of the focal "
+"point, otherwise you get odd distortion, this doesn’t happen here, which "
+"means this sitting person is a bit more stretched vertically than "
+"necessary."
+msgstr ""
+
+msgid ".. image:: images/en/category_projection/projection_image_39.png"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:43
+msgid "One more, for the road…"
+msgstr ""
+
+msgid ".. image:: images/en/category_projection/projection_animation_06.gif"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:48
+msgid ""
+"Here you can see that the the misalignment of the vanishing point to the "
+"projection plane causes skewing which was then fixed by Krita’s transform"
+" tools, technically it’s of course correct, but what is correct doesn’t "
+"always look good. (I also mess up the position of the shoulder for a good"
+" while if you look closely.)"
+msgstr ""
+
+msgid ".. image:: images/en/category_projection/projection_image_40.png"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:54
+msgid "Conclusion and afterthoughts:"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:56
+msgid ""
+"I probably didn’t make as nice result images as I could have, especially "
+"if you compare it to the 3d images. However, you can still see that the "
+"main landmarks are there. The real use of this technique lies in poses "
+"though, and it allows you to iterate on a pose quite quickly once you get"
+" the hang of it."
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:58
+msgid ""
+"Generally, It’s worth exploring, if only because it improves you spatial "
+"sense."
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:62
+msgid "https://en.wikipedia.org/wiki/Axonometric_projection"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:63
+msgid ""
+"http://blenderartists.org/forum/showthread.php?148878-Creating-an-"
+"Isometric-Camera"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:64
+msgid "http://flarerpg.org/tutorials/isometric_tiles/"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:65
+msgid "https://en.wikipedia.org/wiki/Isometric_graphics_in_video_games_and_pixel_art"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:66
+#, python-format
+msgid "https://en.wikipedia.org/wiki/Lens_%28optics%29"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:69
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:71
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:73
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:75
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:77
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:79
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:81
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:83
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:85
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:87
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:89
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:91
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:93
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:95
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:97
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:99
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:101
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:103
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:105
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:107
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:109
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:111
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:113
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:115
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:117
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:119
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:121
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:123
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:125
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:127
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:129
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:131
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:133
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:135
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:137
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:139
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:141
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:143
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:145
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:147
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../general_concepts/projection/practical.rst:149
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

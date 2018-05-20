@@ -1,0 +1,431 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/dr_minw_debugger.rst:18
+msgid "Dr. MinW Debugger"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:22
+msgid ""
+"The information on this page applies only to the Windows release of Krita"
+" 3.1 Beta 3 (3.0.92) and later."
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:26
+msgid "Getting a Backtrace"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:28
+msgid ""
+"There are some additions to Krita which makes getting a backtrace much "
+"easier on Windows."
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:32
+msgid ""
+"When there is a crash, Krita might appear to be unresponsive for a short "
+"time, ranging from a few seconds to a few minutes, before the crash "
+"dialog appears."
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst
+msgid ".. image:: images/en/Mingw-crash-screen.png"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:36
+msgid "An example of the crash dialog"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:38
+msgid ""
+"If Krita keeps on being unresponsive for more than a few minutes, it "
+"might actually be locked up, which may not give a backtrace. In that "
+"situation, you have to close Krita manually. Continue to follow the "
+"following instructions to check whether it was a crash or not.<div "
+"style=\"clear: both\"></div>"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:40
+#, python-format
+msgid ""
+"Open Windows Explorer and type ``%LocalAppData%`` (without quotes) on the"
+" address bar and press Enter."
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst
+msgid ".. image:: images/en/Mingw-explorer-path.png"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:44
+msgid ""
+"Find the file ``kritacrash.log`` (it might appear as simply "
+"``kritacrash`` depending on your settings.)"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:45
+msgid ""
+"Open the file with Notepad and scroll to the bottom, then scroll up to "
+"the first occurance of “Error occured on <time>” or the dashes."
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst
+msgid ".. image:: images/en/Mingw-crash-log-start.png"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:49
+msgid "Start of backtrace"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:51
+msgid "Check the time and make sure it matches the time of the crash."
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst
+msgid ".. image:: images/en/Mingw-crash-log-end.png"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:55
+msgid "End of backtrace"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:57
+msgid ""
+"The text starting from this line to the end of the file is the most "
+"recent backtrace."
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:59
+msgid ""
+"If ``kritacrash.log`` does not exist, or a backtrace with a matching time"
+" does not exist, then you don’t have a backtrace. This means Krita was "
+"very likely locked up, and a crash didn’t actually happen. In this case, "
+"make a bug report too."
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:60
+msgid ""
+"If the backtrace looks truncated, or there is nothing after the time, it "
+"means there was a crash and the crash handler was creating the stack "
+"trace before being closed manually. In this case, try to re-trigger the "
+"crash and wait longer until the crash dialog appears."
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:64
+msgid ""
+"Starting from Krita 3.1 Beta 3 (3.0.92), the external DrMingw JIT "
+"debugger is not needed for getting the backtrace.}}"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:67
+msgid "Using the Debug Package"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:69
+msgid ""
+"Starting from 3.1 Beta 3, the debug package contains only the debug "
+"symbols separated from the executables, so you have to download the "
+"portable package separately too (though usually you already have it in "
+"the first place.)"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:71
+msgid ""
+"Links to the debug packages should be available on the release "
+"announcement news item on https://krita.org/, along with the release "
+"packages. You can find debug packages for any release either in "
+"https://download.kde.org/stable/krita for stable releases or in "
+"https://download.kde.org/unstable/krita for unstable releases. Portable "
+"zip and debug zip are found next to each other."
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:72
+msgid ""
+"Make sure you’ve downloaded the same version of debug package for the "
+"portable package you intend to debug / get a better (sort of) backtrace."
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:73
+msgid ""
+"Extract the files inside the Krita install directory, where the sub-"
+"directories `bin`, `lib` and `share` is located, like in the figures "
+"below:"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst
+msgid ".. image:: images/en/Mingw-dbg7zip.png"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst
+msgid ".. image:: images/en/Mingw-dbg7zip-dir.png"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:79
+msgid ""
+"After extracting the files, check the ``bin`` dir and make sure you see "
+"the ``.debug`` dir inside. If you don't see it, you probably extracted to"
+" the wrong place."
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:82
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:84
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:86
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:88
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:90
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:92
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:94
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:96
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:98
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:100
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:102
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:104
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:106
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:108
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:110
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:112
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:114
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:116
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:118
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:120
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:122
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:124
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:126
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:128
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:130
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:132
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:134
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:136
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:138
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:140
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:142
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:144
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:146
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:148
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:150
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:152
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:154
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:156
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:158
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:160
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/dr_minw_debugger.rst:162
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

@@ -1,0 +1,612 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:17
+msgid "Brush Tips"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:21
+msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Popup.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:25
+msgid "Auto Brush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:27
+msgid ""
+"The generic circle or square. These brush-tips are generate by Krita "
+"through certain parameters."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:30
+msgid "Types"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:32
+msgid "First, there's three mask-types, with each the circle and square shape:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:38
+msgid "Default"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:36
+msgid ""
+"This is the ultimate generic type. The fade parameter produces the below "
+"results. Of the three auto brushes, this is the fastest."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst
+msgid ".. image:: images/en/Krita_29_brushengine_brushtips_default.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:42
+msgid "Soft"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:41
+msgid "This one's fade is controled by a curve!"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst
+msgid ".. image:: images/en/Krita_2_9_brushengine_brushtips_soft.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:47
+msgid "Gaussian"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:45
+msgid ""
+"This one uses the gaussian algorithm to determine the fade. Out of the "
+"three auto brushes, this is the slowest."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst
+msgid ".. image:: images/en/Krita_2_9_brushengine_brushtips_gaussian.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:50
+msgid "Parameters"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:52
+msgid "Diameter"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:53
+msgid "The pixel size of the brush."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:57
+msgid "Ratio"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:55
+msgid "Whether the brush is elongated or not."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst
+msgid ".. image:: images/en/Krita_2_9_brushengine_brushtips_ratio.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:66
+msgid "Fade"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:60
+msgid ""
+"this sets the softness of the brush. You can click the chain-symbol to "
+"lock and unlock these settings. Fade has a different effect per mask-"
+"type, so don't be alarmed if it looks strange, perhaps you have the wrong"
+" mask-type."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst
+msgid ".. image:: images/en/Krita_2_9_brushengine_brushtips_default2b.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:64
+msgid "(With fade locked)"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst
+msgid ".. image:: images/en/Krita_2_9_brushengine_brushtips_default_3.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:68
+msgid "(With fade seperately horizontal and vertical)"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:73
+msgid "Angle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:71
+msgid "This changes the angle a which the brush is at."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst
+msgid ".. image:: images/en/Krita_2_9_brushengine_brushtips_angle.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:78
+msgid "Spikes"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:76
+msgid "This gives the amount of tips related to the ratio."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst
+msgid ".. image:: images/en/Krita_2_9_brushengine_brushtips_spikes.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:83
+msgid "Density"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:81
+#, python-format
+msgid ""
+"This decreases how much area the brush-covers over it's size: It makes it"
+" noisy. In the example below, the brush is set with density 0%, 50% and "
+"100% respectively."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst
+msgid ".. image:: images/en/Krita_2_9_brushengine_brushtips_density.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:87
+msgid "Randomness"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:86
+#, python-format
+msgid ""
+"This changes the randomness of the density. In the example below, the "
+"brush is set with randomness 0%, 50% and 100% respectively."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst
+msgid ".. image:: images/en/Krita_2_9_brushengine_brushtips_randomness.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:89
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:140
+msgid "Spacing"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:90
+msgid ""
+"This affects how far brushes are spaced apart. In the below picture, the "
+"three examples on the left are with spacing 0, 1 and 5."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:94
+msgid "Auto (spacing)"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:92
+msgid ""
+"Ticking this will set the brush-spacing to a different(quadratic) "
+"algorithm. The result is fine control over the spacing. In the below "
+"picture, the three examples on right are with auto spacing, 0, 1 and 5 "
+"respectively."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst
+msgid ".. image:: images/en/Krita_2_9_brushengine_brushtips_spacing.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:99
+msgid "Smooth lines."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:97
+msgid ""
+"This toggles the super-smooth anti-aliasing. In the below example, both "
+"strokes are drawn with a default brush with fade set to 0. On the left "
+"without smooth lines, and the right with. Very useful for inking brushes."
+" This option is best used in combination with Auto Spacing."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst
+msgid ".. image:: images/en/Krita_2_9_brushengine_brushtips_default_2.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:102
+msgid "Precision"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:102
+msgid ""
+"This changes how smooth the brush is rendered. The lower, the faster the "
+"brush, but the worse the rendering looks. You'd want an inking brush to "
+"have a precision of 5 at all times, but a big filling brush for painting "
+"doesn't require such precision, and can be easily sped up by setting "
+"precision to 1."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:112
+msgid "Auto (precision)"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:105
+msgid ""
+"This allows you to set the precision linked to the size. The first value "
+"is the brush size at which precision is last 5, and the second is the "
+"size-difference at which the precision will decrease."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:107
+msgid ""
+"For example: A brush with ''starting brush size'' 10 and ''delta'' 4, "
+"will have... precision 5 at size 10 precision 4 at size 14 precision 3 at"
+" size 18 precision 2 at size 22 precision 1 at sizes above 26."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:117
+msgid "Predefined Brushes"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:120
+msgid ".. image:: images/en/Krita_Predefined_Brushes.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:121
+msgid ""
+"If you have used other applications like :program:`GIMP` or "
+":program:`Photoshop`, you will have used this kind of brush. "
+":program:`Krita` is (mostly) compatible with the brush tip definitions "
+"files of these applications:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:123
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:130
+msgid "abr"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:124
+msgid "GIMP autobrush tip definitions"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:125
+msgid ":ref:`file_gbr`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:126
+msgid "GIMP single bitmap brush tip. Can be black and white or colored."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:127
+msgid ":ref:`file_gih`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:128
+msgid ""
+"GIMP Image Hose brush tip: contains a series of brush tips that are "
+"painted randomly or in order after each other. Can be black and white or "
+"colored. :program:`Krita` does not yet support all the parameters yet."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:130
+msgid ""
+"Photoshop brush tip collections. We support many of the features of these"
+" brush files, though some advanced features are not supported yet."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:132
+msgid ""
+"Note that the definition of ABR brushes has been reverse engineered since"
+" Adobe does not make the specification public. We strongly recommend "
+"every :program:`Krita` user to share brush tips in GBR and GIH format and"
+" more complex brushes as :program:`Krita` presets."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:134
+msgid ""
+"All predefined brush tips are shown in one selector. There are four more "
+"options that influence the initial bitmap brush tip you start painting "
+"with:"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:136
+msgid "Scale"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:137
+msgid ""
+"scales the brush tip. 1.0 is the native size of the brush tip. This can "
+"be fairly large! When painting with variable size (for instance governed "
+"by pressure), this is the base for the calculations."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:138
+msgid "Rotation"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:139
+msgid "initial rotation of the brush tip."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:141
+msgid "distance between the brush tip impressions."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:144
+msgid "Use color as mask"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:143
+msgid ""
+"for colored brushes, don't paint the actual colors, but make a grayscale "
+"brush tip that will be colored by your selected foreground/background "
+"color."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:146
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:148
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:150
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:152
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:154
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:156
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:158
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:160
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:162
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:164
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:166
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:168
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:170
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:172
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:174
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:176
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:178
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:180
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:182
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:184
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:186
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:188
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:190
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:192
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:194
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:196
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:198
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:200
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:202
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:204
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:206
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:208
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:210
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:212
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:214
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:216
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:218
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:220
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:222
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:224
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:226
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

@@ -1,0 +1,651 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/tools/colorize_mask.rst:15
+msgid "Colorize Mask"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:17
+msgid "|toolcolorizemask|"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:234
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:19
+msgid ""
+"A tool for quickly coloring lineart, the Colorize Mask Editing tool can "
+"be found next to the gradient tool on your toolbox."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:21
+msgid ""
+"This feature is technically already in 3.1, but disabled by default "
+"because we had not optimised the filling algorithm for production use "
+"yet. To enable it, find your krita configuration file, open it in "
+"notepad, and add \"disableColorizeMaskFeature=false\" to the top. Then "
+"restart Krita. Its official incarnation is in 4.0."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:25
+msgid "Usage"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:27
+msgid ""
+"This tool works in conjunction with the colorize mask, and the usage is "
+"as follows:"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:29
+msgid ""
+"For this example, we'll be using the ghost lady also used to explain "
+"masks on the basic concepts page."
+msgstr ""
+
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_01.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:35
+msgid ""
+"This image has the line art for the lady seperated from the background, "
+"and what's more, the background is made up of two layers: one main and "
+"one for the details."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:37
+msgid ""
+"First, select the colorize mask editing tool while having the lineart "
+"layer selected. |mouseleft| the canvas will add a colorize mask to the "
+"layer. You can also |mouseright| the line art layer, and then "
+":guilabel:`Add --> Colorize Mask`. The line art will suddenly become "
+"really weird, this is the prefiltering which are filters through which we"
+" put the lineart to make the algorithm easier to use. The tool options "
+"overview below shows which options control that."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:176
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:178
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_02.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:44
+msgid ""
+"Now, You make strokes with brush colors, press :guilabel:`Update` in the "
+"tool options, or tick the last icon of the colorize mask properties. In "
+"the layer docker, you will be able to see a little progress bar appear on"
+" the colorize mask indicating how long it takes. The bigger your file, "
+"the longer it will take."
+msgstr ""
+
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_03.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:50
+msgid ""
+"We want to have the blue transparent. In the tool options of the colorize"
+" editing tool you will see a small palette. These are the colors already "
+"used. You can remove colors here, or mark a single color as standing for "
+"transparent, by selecting it and pressing \"transparent\". Updating the "
+"mask will still show the blue stroke, but the result will be transparent:"
+msgstr ""
+
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_04.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:56
+msgid ""
+"Because the colorize mask algorithm is slow, and we only need a part of "
+"our layer to be filled to fill the whole ghost lady figure, we can make "
+"use of :guilabel:`Limit to layer bounds`. This will limit Colorize Mask "
+"to use the combined size of the line art and the coloring key strokes. "
+"Therefore, make sure that the colorizing keystrokes only take up as much "
+"as they really need."
+msgstr ""
+
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_05.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:62
+msgid ""
+"Now the algorithm will be possibly a lot faster, allowing us to add "
+"strokes and press update in rapid succesion:"
+msgstr ""
+
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_06.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:68
+msgid ""
+"To see the final result, disable :guilabel:`Edit Key Strokes` or toggle "
+"the second to last icon on the colorize mask."
+msgstr ""
+
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_07.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:74
+msgid ""
+"If you want to edit the strokes again, re-enable :guilabel:`Edit Key "
+"Strokes`."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:76
+msgid ""
+"Now, the colorize mask, being a mask, can also be added to a group of "
+"line art layers. It will then use the composition of the whole group as "
+"the line art. This is perfect for our background which has two seperate "
+"line art layers. It also means that the colorize mask will be disabled "
+"when added to a group with pass-through enabled, because those have no "
+"final composition. You can recognise a disabled colorize mask because "
+"it's name is striked through."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:78
+msgid ""
+"To add a colorize mask to a group, select the group and "
+"{{MouseButton|left` the canvas with the Colorize Mask editing tool, or "
+"|mouseright| the layer to :menuselection:`Add --> Colorize Mask`."
+msgstr ""
+
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_08.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:84
+msgid ""
+"Now, we add strokes to the background quickly. We do not need to use the "
+":menuselection:`Limit to Layer Bounds` because the background covers the "
+"whole image."
+msgstr ""
+
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_09.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:90
+msgid ""
+"For the record, you can use other brushes and tools also work on the "
+"colorize mask as long as they can draw. The Colorize Mask Editing tool is"
+" just the most convenient because you can get to the algorithm options."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:92
+msgid "Out final result looks like this:"
+msgstr ""
+
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_10.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:98
+msgid ""
+"Now we are done, |mouseright| the colorize mask and "
+":menuselection:`Convert --> to Paint Layer`. Then, :menuselection:`Layer "
+"--> Split --> Split Layer`. This will give seperate color islands that "
+"you can easily edit:"
+msgstr ""
+
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_11.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:104
+msgid ""
+"This way we can very quickly paint the image. Due to the colorize mask "
+"going from the first image to the following took only 30 minutes, and "
+"would've taken quite a bit longer."
+msgstr ""
+
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_12.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:110
+msgid ""
+"The colorize masks are saved to the .kra file, so as long as you don't "
+"save and open to a different file format, nor convert the colorize mask "
+"to a paintlayer, you can keep working adjust the results."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:113
+msgid "Tool Options"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:115
+#: ../../reference_manual/tools/colorize_mask.rst:171
+msgid "Update"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:116
+msgid ""
+"Run the colorize mask algorithm. The progress bar for updates on a "
+"colorize mask shows only in the layer docker."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:117
+#: ../../reference_manual/tools/colorize_mask.rst:168
+msgid "Edit key strokes"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:118
+msgid ""
+"Put the mask into edit mode. In edit mode, it will also show the 'pre-"
+"filtering' on the line-art, which is for example a blur filter for gap "
+"closing."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:126
+#: ../../reference_manual/tools/colorize_mask.rst:164
+msgid "Show output"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:120
+msgid ""
+"Show the output of the colorize mask. If :guilabel:`Edit key strokes` is "
+"active, this will be shown semi-transparently, so it will be easy to "
+"recognise the difference between the strokes and the output."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:126
+msgid ""
+"On the **Left**: :guilabel:`Show Output` is on, :guilabel:`Edit Strokes` "
+"is off. In the **Middle**: :guilabel:`Show Output` and :guilabel:`Edit "
+"Strokes` are on. On the **Right**: :guilabel:`Show Output` is off and "
+":guilabel:`Edit Strokes` is on.]]"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:128
+msgid "Limit to layer bounds"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:129
+msgid ""
+"Limit the colorize mask to the combined layer bounds of the strokes and "
+"the line art it is filling. This can speed up the use of the mask on "
+"complicated compositions, such as comic pages."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:137
+msgid "Edge detection"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:131
+msgid ""
+"Activate this for line art with large solid areas, for example shadows on"
+" an object. For the best use, set the value to the thinnest lines on the "
+"image. In the imag ebelow, note how edge detection affects the big black "
+"areas:"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:137
+msgid ""
+"From left to right: an example with big black shadows on an object but no"
+" edge detection, the same example without the edit strokes enabled. Then "
+"the same example with edge detection enabled and set to 2px, and that "
+"same example with out edit strokes enabled."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:145
+msgid "Gap close hint"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:140
+msgid ""
+"While the algorithm is pretty good against gaps in contours, this will "
+"improve the gap recognition. The higher this value is, the bigger the "
+"gaps it will try to close, but a too high value can lead to other errors."
+" Note how the pre-filtered line art(that's the blurry haze) affects the "
+"color patches."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:146
+msgid ""
+"On the **Left**: :guilabel:`Gap close hint` is 0px. In the **Middle**: "
+":guilabel:`Gap close hint` is 15px(the lines are 10px). On the **Right**:"
+" :guilabel:`Gap close hint` is 275px."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:152
+msgid "Clean-up strokes"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:148
+msgid ""
+"This will attempt to handle messy strokes that overlap the line art where"
+" they shouldn't. At 0 no clean up is done, at 100% the clean-up is most "
+"aggressive."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:154
+msgid "Keystrokes"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:155
+msgid ""
+"This palette keeps track of the colors used by the strokes. This is "
+"useful so you can switch back to colors easily. You can increase the "
+"swatch size by hovering over it with the mouse, and doing :kbd:`ctrl +` "
+"|mousescroll|."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:182
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:157
+msgid "Transparent"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:157
+msgid ""
+"This button is under the keystrokes palette, you can mark the selected "
+"color to be interpreted a 'transparent' with this. In the clean-up "
+"screenshot above, cyan had been marked as transparent."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:160
+msgid "Layer properties"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:162
+msgid ""
+"The colorize mask layer has four properties. They are all the buttons on "
+"the right side of the layer:"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:165
+msgid ""
+"The first button, it allows you to toggle whether you'll see the output "
+"from the colorize algorithm."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:166
+msgid "Lock"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:167
+msgid "Stops the mask from being edited."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:169
+msgid ""
+"Whether the colorize mask is in edit mode. In edit mode it'll show the "
+"strokes, and the output will be semi-transparent."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:171
+msgid ""
+"The last button will force the colorize mask to update, even when you're "
+"in a different tool."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:173
+msgid "Colorize masks cannot be animated."
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:180
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:184
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:186
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:188
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:190
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:192
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:194
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:196
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:198
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:200
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:202
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:204
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:206
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:208
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:210
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:212
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:214
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:216
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:218
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:220
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:222
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:224
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:226
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:228
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:230
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:232
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:236
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:238
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:240
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:242
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:244
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:246
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:248
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:250
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:252
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:254
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:256
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

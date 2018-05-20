@@ -1,0 +1,425 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/preferences/color_management_settings.rst:16
+msgid "Color Management Settings"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:19
+msgid ".. image:: images/en/Krita_Preferences_Color_Management.png"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:20
+msgid ""
+"Krita offers extensive functionality for color management, utilising "
+"`Little CMS <http://www.littlecms.com/>`_ We describe Color Management in"
+" a more overal level here: :ref:`color_managed_workflow`."
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:24
+msgid "General"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:27
+msgid "Default Color Model For New Images"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:29
+msgid "Choose the default model you prefer for all your images."
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:32
+msgid "When Pasting Into Krita From Other Applications"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:34
+msgid ""
+"The user can define what kind of conversion, if any, Krita will do to an "
+"image that is copied from other applications i.e. Browser, GIMP, etc."
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:36
+msgid "Assume sRGB"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:37
+msgid ""
+"This option will show the pasted image in the default Krita ICC profile "
+"of sRGB."
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:38
+msgid "Assume monitor profile"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:39
+msgid ""
+"This option will show the pasted image in the monitor profile selected in"
+" system preferences."
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:41
+msgid "Ask each time"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:41
+msgid ""
+"Krita will ask the user each time an image is pasted, what to do with it."
+" This is the default."
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:45
+msgid "When copying and pasting in Krita color information is always preserved."
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:48
+msgid "Use Blackpoint Compensation"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:50
+msgid ""
+"This option will turn on Blackpoint Compensation for the conversion. BPC "
+"is explained by the maintainer of LCMS as following:"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:52
+msgid ""
+"BPC is a sort of \"poor man's\" gamut mapping. It basically adjust "
+"contrast of images in a way that darkest tone of source device gets "
+"mapped to darkest tone of destination device. If you have an image that "
+"is adjusted to be displayed on a monitor, and want to print it on a large"
+" format printer, you should realize printer can render black "
+"significantly darker that the screen. So BPC can do the adjustment for "
+"you. It only makes sense on Relative colorimetric intent. Perceptual and "
+"Saturation does have an implicit BPC."
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:55
+msgid "Allow LittleCMS optimizations"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:57
+msgid "Uncheck this option when using Linear Light RGB or XYZ."
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:60
+msgid "Display"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:62
+msgid "Use System Monitor Profile"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:63
+msgid ""
+"This option when selected will tell Krita to use the ICC profile selected"
+" in your system preferences."
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:64
+msgid "Screen Profiles"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:65
+msgid ""
+"There are as many of these as you have screens connected. The user can "
+"select an ICC profile which Krita will use independent of the monitor "
+"profile set in system preferences. The default is sRGB built-in. On Unix "
+"systems, profile stored in $/usr/share/color/icc (system location) or "
+"$~/.local/share/color/icc (local location) will be proposed. Profile "
+"stored in Krita preference folder, $~/.local/share/krita/profiles will be"
+" visible only in Krita."
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:67
+msgid "Rendering Intent"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:67
+msgid ""
+"Your choice of rendering intents is a way of telling Littlecms how you "
+"want colors mapped from one color space to another. There are four "
+"options available, all are explained on the :ref:`icc_profiles` manual "
+"page."
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:70
+msgid "Softproofing options"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:72
+msgid ""
+"These allow you to configure the *default* softproofing options. To "
+"configure the actual softproofing for the current image, go to "
+":menuselection:`Image --> Image Properties --> Softproofing` ."
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:74
+msgid ""
+"For indepth details about how to use softproofing, check out :ref:`the "
+"page on softproofing <soft_proofing>`."
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:77
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:79
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:81
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:83
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:85
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:87
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:89
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:91
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:93
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:95
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:97
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:99
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:101
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:103
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:105
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:107
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:109
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:111
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:113
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:115
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:117
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:119
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:121
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:123
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:125
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:127
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:129
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:131
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:133
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:135
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:137
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:139
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:141
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:143
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:145
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:147
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:149
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:151
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:153
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:155
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/preferences/color_management_settings.rst:157
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

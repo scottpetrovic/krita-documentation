@@ -1,0 +1,394 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/main_menu/image_menu.rst:15
+msgid "Image Menu"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:17
+msgid "Properties"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:18
+msgid "Gives you the image properties."
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:19
+msgid "Image Background Color and Transparency"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:20
+msgid "Change the background canvas color."
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:21
+msgid "Convert Current Image Color Space."
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:22
+msgid "Converts the current image to a new colorspace."
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:23
+msgid "Trim to image size"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:24
+msgid ""
+"Trims all layers to the image size. Useful for reducing filesize at the "
+"loss of information."
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:25
+msgid "Trim to Current Layer"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:26
+msgid ""
+"A lazy cropping function. Krita will use the size of the current layer to"
+" determine where to crop."
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:27
+msgid "Trim to Selection"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:28
+msgid "A lazy cropping function. Krita will crop the canvas to the selected area."
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:29
+msgid "Rotate Image"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:30
+msgid "Rotate the image"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:31
+msgid "Shear Image"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:32
+msgid "Shear the image"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:33
+msgid "Mirror Image Horizontally"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:34
+msgid "Mirror the image on the horizontal axis."
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:35
+msgid "Mirror Image Vertically"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:36
+msgid "Mirror the image on the vertical axis."
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:37
+msgid "Scale to New Size"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:38
+msgid "The resize function in any other program :kbd:`Ctrl + Alt + I`"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:39
+msgid "Offset Image"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:40
+msgid "Offset all layers."
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:41
+msgid "Size Canvas"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:42
+msgid "Change the canvas size. Don't confuse this with Scale to new size."
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:43
+msgid "Image Split"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:44
+msgid "Splits the image."
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:47
+msgid "Separate Image"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:46
+msgid "Seperates the image into channels"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:49
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:51
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:53
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:55
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:57
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:59
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:61
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:63
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:65
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:67
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:69
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:71
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:73
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:75
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:77
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:79
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:81
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:83
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:85
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:87
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:89
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:91
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:93
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:95
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:97
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:99
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:101
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:103
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:105
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:107
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:109
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:111
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:113
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:115
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:117
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:119
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:121
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:123
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:125
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:127
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:129
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

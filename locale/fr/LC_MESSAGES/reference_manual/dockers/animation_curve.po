@@ -1,0 +1,429 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/dockers/animation_curve.rst:14
+msgid "Animation Curves Docker"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:16
+msgid ""
+"The Animation Curve docker allows you to edit tweened sections by means "
+"of interpolation curves. As of this time of writing, it can only edit "
+"opacity."
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:18
+msgid ""
+"The idea is that sometimes what you want to animated can be expressed as "
+"a value. This allows the computer to do maths on the values, and automate"
+" tasks, like interpolation, also known as 'Tweening'. Because these are "
+"values, like percentage opacity, and animation happens over time, that "
+"means we can visualise the way the values are interpolated as a curve "
+"graph, and also edit the graph that way."
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:20
+msgid ""
+"But, when you first open this docker, there's no curves visible! You will"
+" first need to add opacity keyframes to the active animation layer. You "
+"can do this by using the animation docker and selection 'add new opacity "
+"frame'."
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:24
+msgid ".. image:: images/en/Animation_curves_1.png"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:25
+msgid ""
+"Opacity should create a bright red curve line in the docker. On the left,"
+" in the layer list, you will see that the active layer has an outline of "
+"it's properties: A red 'opacity' has appeared. Pressing the red dot will "
+"hide the current curve, which'll be more useful in the future when more "
+"properties can be animated."
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:28
+msgid ".. image:: images/en/Animation_curves_2.png"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:29
+msgid ""
+"If you select a dot of the curve, you can move it around to shift it's "
+"place in the time-line or it's value."
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:31
+msgid "On the top, you can select the method of smoothing:"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:33
+msgid "Hold Value"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:34
+msgid "This keeps the value the same until there's a new keyframe."
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:35
+msgid "Linear Interpolation (Default)"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:36
+msgid "This gives a straight interpolation between two values."
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:38
+msgid "Custom interpolation"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:38
+msgid ""
+"This allows you to set the section after the keyframe node as one that "
+"can be modified. |mouseleft| +dragging on the node allows you to drag out"
+" a handler node for adjusting the curving."
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:73
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:40
+#, python-format
+msgid ""
+"So, for example, making a 100% opacity keyframe on frame 0 and and a 0% "
+"opacity one on frame 24 gives the following result:"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:43
+msgid ".. image:: images/en/Ghost_linear.gif"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:44
+#, python-format
+msgid ""
+"If we select frame 12 and press :guilabel:`Add New Keyframe` A new "
+"opacity keyframe is added on that spot. We can set this frame to 100% and"
+" set frame 0 to 0% for this effect."
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:47
+msgid ".. image:: images/en/Ghost_linear_in-out.gif"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:48
+msgid ""
+"Now, if we want easing in, we select the node on frame 0 and press the "
+":guilabel:`Custom Interpolation` button at the top. This will enable "
+"custom interpolation on the curve between frames 0 and 12. Doing the same"
+" on frame 12 will enable custom interpolation between frames 12 and 24. "
+"Drag from the node to add a handle, which in turn you can use to get the "
+"following effects:"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:51
+msgid ".. image:: images/en/Ghost_ease_in-out.gif"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:53
+msgid ".. image:: images/en/Animation_curves_3.png"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:54
+msgid "The above shows an ease-in curve."
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:56
+msgid "And convex/concave examples:"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:59
+msgid ".. image:: images/en/Ghost_concave_in-out.gif"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:61
+msgid ".. image:: images/en/Animation_curves_4.png"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:63
+msgid ".. image:: images/en/Ghost_convex_int-out.gif"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:65
+msgid ".. image:: images/en/Animation_curves_5.png"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:66
+msgid ""
+"As you may be able to tell, there's quite a different 'texture', so to "
+"speak, to each of these animations, despite the difference being only in "
+"the curves. Indeed, a good animator can get quite some tricks out of "
+"interpolation curves, and as we develop Krita, we hope to add more "
+"properties for you to animate this way."
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:70
+msgid ""
+"Opacity has currently 255 as maximum in the curve editor, as that's how "
+"opacity is stored internally"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:75
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:77
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:79
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:81
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:83
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:85
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:87
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:89
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:91
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:93
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:95
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:97
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:99
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:101
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:103
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:105
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:107
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:109
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:111
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:113
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:115
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:117
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:119
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:121
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:123
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:125
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:127
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:129
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:131
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:133
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:135
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:137
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:139
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:141
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:143
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:145
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:147
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:149
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:151
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:153
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

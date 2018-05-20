@@ -1,0 +1,738 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/tools/shape_edit.rst:15
+msgid "Shape Edit Tool"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:17
+msgid "|toolshapeedit|"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:183
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:19
+msgid ""
+"The shape editing tool is for editing vector shapes. In Krita versions "
+"before 4.0 it would only show up in the docker when you had a vector "
+"shape selected. In Krita 4.0, this tool is always visible and has the "
+"Shape Properties docker as a part of it."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:22
+msgid ".. image:: images/en/Shape-editing-tool-example.png"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:23
+msgid ""
+"You can access the Edit Shapes tool by clicking on the icon in the "
+"toolbox, but you can also access it by pressing :kbd:`Enter` when in the "
+"Shape Selection tool and having a shape selected that can be most "
+"efficiently edited with the edit shapes tool(Right now, that's all shapes"
+" but text)."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:26
+msgid "On Canvas Editing of Shapes"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:28
+msgid ""
+"As detailed further in the Tool Options, there's a difference between "
+"path shapes and specialised vector shapes that make it easy to have "
+"perfect ellipses, rectangles and more."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:31
+#: ../../reference_manual/tools/shape_edit.rst:90
+msgid "Path Shapes"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:33
+msgid "Path shapes can be recognised by the different nodes they have."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:35
+msgid ""
+"Paths in Krita are mostly bezier curves, and are made up of nodes. For "
+"straight lines, the nodes are connected by a line-segment and that's it. "
+"For curved lines, each node has a side handle to allow curving of that "
+"segment using the `cubic bezier curve algorithm "
+"<https://en.wikipedia.org/wiki/B%C3%A9zier_curve#/media/File:B%C3%A9zier_3_big.gif>`_"
+" ."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:37
+msgid ""
+"**What that means, in short, is that moving the side handles into a given"
+" direction will make the segment curve in that direction, and the longer "
+"the line of the node to the side handle, the stronger the curving.**"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:40
+msgid "Selecting Nodes for Editing"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:42
+msgid ""
+"You can select a single node with |mouseleft|, they will turn bright "
+"green if selected."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:173
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:44
+msgid ""
+"|mouseleft| + :kbd:`Shift` on unselected nodes will add them to a "
+"selection."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:46
+msgid ""
+"|mouseleft| + drag will make a selection rectangle. All nodes whose "
+"handles are touched by the rectangle will be selected. This combines with"
+" |mouseleft| + :kbd:`Shift` above."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:49
+msgid "Selected Nodes"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:51
+msgid ""
+"You can add and remove side handles from a selected node with |mouseleft|"
+" + :kbd:`Shift`."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:53
+msgid ""
+"Krita has several node-types that allow you control the side handles more"
+" efficiently. These are the corner, smooth and symmetric modes."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:55
+msgid "Corner"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:56
+msgid ""
+"Represented by a circle, the corner type allows you to have handles that "
+"can point in different directions and have different lengths."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:57
+msgid "Smooth"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:58
+msgid ""
+"Represented by a square, the smooth type will ensure a smooth transition "
+"by always pointing the handles into opposite directions, but they can "
+"still have different lengths."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:60
+msgid "Symmetric"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:60
+msgid ""
+"Represented by a diamond, the symmetric node will force handles to always"
+" point in opposite directions and have the same length."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:62
+msgid ""
+"|mouseleft| + :kbd:`Ctrl` on a selected node will cycle between the node-"
+"types."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:64
+msgid ":kbd:`del` will remove the selected node."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:67
+msgid "Selected Segments"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:69
+msgid ""
+"Segments are the lines between nodes. Hovering over a segment will show a"
+" dotted line, indicating it can be selected."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:71
+msgid ""
+"You can |mouseleft| and drag on a segment to curve it to the mouse point."
+" Clicking on different parts of the segment and dragging will curve it "
+"differently."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:73
+msgid ""
+"Double |mouseleft| on a segment will add a node on the segment under the "
+"mouse cursor. The new node will be selected."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:76
+msgid "Other Shapes"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:78
+msgid ""
+"Shapes that aren't path shapes only have a single type of node: A small "
+"diamond like, that changes the specific parameters of that shape on-"
+"canvas. For example, you can change the corner radius on rectangles by "
+"dragging the nodes, or make the ellipse into a pie-segment."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:81
+msgid "Tool Options"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:84
+msgid ".. image:: images/en/Shape-editing-tool-tool-options.png"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:85
+msgid ""
+"Path shapes have options. The top left options are for converting to "
+"different anchor point types. The bottom left options are for adding or "
+"removing points. The top right options are for converting the line to "
+"different types. The bottom right options are for breaking and joining "
+"line segments."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:87
+msgid ""
+"The tool options of the Edit Shapes Tool change depending on the type of "
+"shape you have selected. With the exception of the path shape, all shapes"
+" have a :guilabel:`Convert to Path` action, which converts said shape to "
+"a path shape."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:92
+msgid ""
+"|toolbeziercurve|, |toolline|, |toolpolyline|, |toolpolygon|, "
+"|toolfreehandpath|"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:205
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:195
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:203
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:201
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:207
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:94
+msgid ""
+"Path shapes are the most common shape and can be made with the following "
+"tools"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:96
+msgid ":ref:`path_tool`"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:97
+msgid ":ref:`line_tool`"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:98
+msgid ":ref:`polygon_tool`"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:99
+msgid ":ref:`polyline_tool`"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:100
+msgid ":ref:`freehand_path_tool`"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:114
+msgid "Node Editing"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:103
+msgid "Edit the nodes."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:105
+msgid "Corner Point"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:106
+msgid ""
+"Make the selected node a corner or cusp. This means that the side handles"
+" can point in different directions and be different lengths."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:107
+msgid "Smooth Point"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:108
+msgid ""
+"Make the selected node smooth. The two side handles will always point in "
+"opposite directions, but their length can be different."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:109
+msgid "Symmetric Point"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:110
+msgid ""
+"Make the selected node smooth. The two side handles will always point in "
+"opposite directions, and their length will stay the same."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:111
+msgid "Insert Point"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:112
+msgid "Insert a new node into the middle of the selected segment."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:114
+msgid "Remove Point"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:114
+msgid "Remove the selected node."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:134
+msgid "Line Segment Editing"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:117
+msgid "Edit line segments between nodes."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:119
+msgid "Segment To Line"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:120
+msgid "Make the current segment a straight line."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:121
+msgid "Segment To Curve"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:122
+msgid ""
+"Make the current segment a curve: It'll add side nodes for this segment "
+"to the nodes attached to it."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:123
+msgid "Make Line Point"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:124
+msgid ""
+"Turn the selected node into a sharp corner: This will remove the side "
+"handles."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:125
+msgid "Make Curve Point"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:126
+msgid ""
+"Turn the selected node into one that can curve: This will add side "
+"handles to the node."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:127
+msgid "Break at Point"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:128
+msgid "Break the path at this point."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:129
+msgid "Break Segment"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:130
+msgid "Break the path at the selected segment."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:131
+msgid "Join with Segment"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:132
+msgid "Join two nodes that are only attached on one side with a segment."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:134
+msgid "Merge Points"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:134
+msgid ""
+"Merge two nodes into one, if the nodes are adjacent or if both nodes are "
+"only attached on one side with a segment."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:137
+msgid "Rectangle Shapes"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:139
+msgid "|toolrectangle|"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:197
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:141
+msgid ""
+"Rectangle shapes are the ones made with the :ref:`rectangle_tool`. It has"
+" extra options to make rounded corners easy."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:143
+msgid "Corner radius x"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:144
+#: ../../reference_manual/tools/shape_edit.rst:146
+msgid "The radius of the y-axis of the corner curve."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:146
+msgid "Corner radius y"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:149
+msgid "Ellipse Shapes"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:151
+msgid "|toolellipse|"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:199
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:153
+msgid "Ellipse shapes are the ones made with the :ref:`ellipse_tool`."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:163
+msgid "Type"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:156
+msgid "The type of ellipse shape it is."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:158
+msgid "Arc"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:159
+msgid "An arc shape will keep the path open when it isn't fully circular."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:160
+msgid "Pie"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:161
+msgid ""
+"A pie shape will add two extra lines to the center when the shape isn't "
+"fully circular, like how one cuts out a piece from a pie."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:163
+msgid "Cord"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:163
+msgid ""
+"A cord shape will add a straight line between the two ends if the path "
+"isn't fully circular, as if a cord is being strung between the two "
+"points."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:165
+msgid "Start Angle"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:166
+msgid "The angle at which the shape starts."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:167
+msgid "End Angle"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:168
+msgid "The angle at which the shape ends."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:171
+msgid "Close Ellipse"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:170
+msgid "An action to quickly make the ellipse fully circular."
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:175
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:177
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:179
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:181
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:185
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:187
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:189
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:191
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:193
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:209
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:211
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:213
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:215
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:217
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:219
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:221
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:223
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:225
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:227
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:229
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:231
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:233
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:235
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:237
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:239
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:241
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:243
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:245
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:247
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:249
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:251
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/tools/shape_edit.rst:253
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+
