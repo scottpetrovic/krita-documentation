@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         How a color managed workflow works.
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
              - Tokiedian
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Color, Color Management, ICC Profiles, OCIO
 .. _color_managed_workflow:
 
 ======================

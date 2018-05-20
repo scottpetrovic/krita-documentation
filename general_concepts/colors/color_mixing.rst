@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Color Mixing in a digital media.
 
 .. metadata-placeholder
@@ -8,7 +8,7 @@
              - Emmet O'Neil
    :license: GNU free documentation license 1.3 or later.
 
-   
+.. index:: Color, Color Mixing, Glossing, Scumbling, Hatching, Dithering, Halftone, Smudge
 .. _color_mixing:
 .. _mixing_colors:
 

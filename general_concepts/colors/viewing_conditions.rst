@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         What are viewing conditions.
 
 .. metadata-placeholder
@@ -7,6 +7,7 @@
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Viewing Conditions, Metamerism, Color
 .. _viewing_conditions:
    
 ==================

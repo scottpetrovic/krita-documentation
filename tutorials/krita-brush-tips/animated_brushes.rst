@@ -7,6 +7,7 @@
              - Hulmanen
    :license: GNU free documentation license 1.3 or later.
 
+.. _brush_tip_animated_brush:
 .. _animated_brush_tips:
 
 ===========================

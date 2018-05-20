@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of the edgedetection filters.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Raghavendra Kamath <raghavendr.raghu@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Edge Detection, Sobel, Prewitt
 .. _edge_detection_filters:
 
 ==============
@@ -61,6 +62,8 @@ Horizontal/Vertical radius
     The radius of the edge detection. Default is 1 and going higher will increase the thickness of the lines.
 Apply result to Alpha Channel.
     The edge detection will be used on a grayscale copy of the image, and the output will be onto the alpha channel of the image, meaning it will output lines only.
+
+.. index:: Height Map, Normal Map
 
 Height to Normal Map
 --------------------

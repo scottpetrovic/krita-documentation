@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         The Grid Brush Engine manual page.
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Brush Engine, Grid, Grid Brush Engine
 .. _grid_brush_engine:
 
 =================

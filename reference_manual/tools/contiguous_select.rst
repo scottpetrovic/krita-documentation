@@ -7,7 +7,8 @@
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Selection, ! Contiguous Selection, Magic Wand, Tools
 .. _contiguous_selection_tool:
 
 =========================

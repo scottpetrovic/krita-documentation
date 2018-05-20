@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         The Particle Brush Engine manual page.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Brush Engine, Particle Brush Engine
 .. _particle_brush_engine:
 
 =====================

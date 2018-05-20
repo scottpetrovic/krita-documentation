@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         How to use document templates in Krita.
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
              - AndreyGolovkin
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: ! Template
 .. _templates:
 
 =========

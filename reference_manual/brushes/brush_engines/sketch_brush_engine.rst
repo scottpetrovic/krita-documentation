@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         The Sketch Brush Engine manual page.
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
              - ValerieVK
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Brush Engine, Sketch Brush Engine, Harmony Brush Engine
 .. _sketch_brush_engine:
 
 ===================

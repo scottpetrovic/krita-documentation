@@ -12,6 +12,7 @@
              - JakeD
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Basic Concepts, Color, Tools, View, Window, Filters, Transform, Grid, Guides, Layers, Masks, Vector
 .. _basic_concepts:
 
 ==============

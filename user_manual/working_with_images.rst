@@ -1,6 +1,6 @@
 .. meta::
-   :description lang=en:
-        Detailed steps on how to install Krita
+   :description:
+        Detailed steps on how images work in Krita
 
 .. metadata-placeholder
 
@@ -9,6 +9,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Image, Document, Raster, Vector, Metadata
 .. _working_with_images:
 
 ===================

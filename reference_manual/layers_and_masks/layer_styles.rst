@@ -9,6 +9,7 @@
              - Raghavendra Kamath <raghavendr.raghu@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Layer Styles, Layer Effects, Layer FX, ASL
 .. _layer_style:
 
 ============

@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Krita's freehand brush tool reference, containing how to use the stablizer in krita.
 
 .. metadata-placeholder
@@ -8,7 +8,8 @@
              - Boudewijn Rempt <boud@valdyas.org>
              - Nmaghrufusman
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: !Freehand Brush, Freehand
 .. _freehand_brush_tool:
 
 ===================
@@ -37,6 +38,7 @@ The sticky-keys can be edited in :menuselection:`Settings --> Configure Krita --
 Tool Options
 ------------
 
+.. index:: Basic Smooth, No Smoothing, Weighted Smoothing, Stablizer
 .. _stroke_smoothing:
 
 Smoothing
@@ -75,6 +77,8 @@ Stabilizer
         Similar to :guilabel:`Smooth Pressure`, this allows the input(pressure, speed, tilt) to be smoother.
     Scalable Distance
         This makes it so that the numbers involved will be scaled along the zoom level.
+
+.. index:: Painting Assistants
 
 Assistants
 ~~~~~~~~~~

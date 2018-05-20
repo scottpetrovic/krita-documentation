@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of the Krita 4.0 preset bundle.
 
 .. metadata-placeholder
@@ -9,7 +9,7 @@
              - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
-
+.. index:: Resources
 .. _krita_4_preset_bundle:
 
 ==============================

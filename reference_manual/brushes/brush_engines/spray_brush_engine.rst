@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         The Spray Brush Engine manual page.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Brush Engine, Airbrush, Spray Brush Engine
 .. _spray_brush_engine:
 
 ==================

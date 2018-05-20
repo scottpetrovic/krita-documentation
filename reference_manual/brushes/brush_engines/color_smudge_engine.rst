@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         The Color Smudge Brush Engine manual page.
 
 .. metadata-placeholder
@@ -10,6 +10,7 @@
              - ValerieVK
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Brush Engine, Color Smudge Brush Engine, Color Mixing, Smudge
 .. _color_smudge_brush_engine:
 
 =========================

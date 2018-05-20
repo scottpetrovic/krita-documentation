@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Managing brush tips in Krita.
 
 .. metadata-placeholder
@@ -7,7 +7,8 @@
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Resources, Brushes, Brush Tip, Brush Mask
 .. _resource_brush_tips:
 
 =======

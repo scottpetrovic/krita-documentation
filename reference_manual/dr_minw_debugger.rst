@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         How to get a backtrace in Krita using the dr. MinW debugger.
 
 .. metadata-placeholder
@@ -10,7 +10,7 @@
              - Alvin Wong
    :license: GNU free documentation license 1.3 or later.
 
-
+.. index:: Backtrace, Debug
 .. _dr_minw:
 
 =================

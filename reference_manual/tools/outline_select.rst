@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Krita's outline selection tool reference.
 
 .. metadata-placeholder
@@ -9,7 +9,8 @@
              - Radianart
              - Raghavendra Kamath
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Tools, Selection, Freehand, Outline Select
 .. _outline_selection_tool:
 
 ======================

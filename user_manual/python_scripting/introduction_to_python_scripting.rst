@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Introduction to using Krita's python plugin API.
 
 .. metadata-placeholder
@@ -10,6 +10,7 @@
              - Micheal Abrahams
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Python, Python Scripting, Scripting, Plugin, Debug
 .. _introduction_to_python_scripting:
 
 ================================

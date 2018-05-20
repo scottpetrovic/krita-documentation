@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         The Chalk Brush Engine manual page.
 
 .. metadata-placeholder

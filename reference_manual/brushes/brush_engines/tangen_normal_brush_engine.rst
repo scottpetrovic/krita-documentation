@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         The Tangent Normal Brush Engine manual page.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Brush Engine, Normal Map, Tangent Normal Brush Engine
 .. _tangent_brush_engine:
 
 ===========================

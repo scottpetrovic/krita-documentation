@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         General Preferences in Krita.
 
 .. metadata-placeholder
@@ -8,7 +8,8 @@
              - Scott Petrovic
              - Greig
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Preferences, Settings, Cursor, Autosave, Tabbed Documents, Subwindow Documents, Pop up palette, File Dialog, Maximum Brush Size, Kinetic Scrolling
 .. _general_settings:
 
 ================

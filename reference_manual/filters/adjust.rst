@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description lang:
         Overview of the adjust filters.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Raghavendra Kamath <raghavendr.raghu@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Filters
 .. _adjust_filters:
 
 ======
@@ -15,6 +16,8 @@ Adjust
 ======
 
 The Adjustment filters are image-wide and are for manipulating colors and contrast.
+
+.. index:: Dodge
 
 Dodge
 -----
@@ -32,6 +35,8 @@ Highlights
 Exposure
     The strength at which this filter is applied.
 
+.. index:: Burn
+
 Burn
 ----
 
@@ -48,6 +53,8 @@ Highlights
 Exposure
     The strength at which this filter is applied.
 
+.. index:: Levels Filter
+
 Levels
 ------
 
@@ -60,6 +67,8 @@ This is very useful to do an initial cleanup of scanned lineart or greyscale ima
 
 Auto levels is a quick way to adjust tone of an image.
 If you want to change the settings later you can click on the create filter mask button to add the levels as a filter mask.
+
+.. index:: Color Adjustment Curves, RGB Curves, Curves Filter
 
 Color Adjustment Curves
 -----------------------
@@ -84,7 +93,7 @@ This filter allows you to control the color balance of the image by adjusting th
 The default shortcut for this filter is :kbd:`Ctrl + B` .
 
 .. image:: /images/en/Color-balance.png
-
+.. index:: Saturation, Desaturation, Gray
 Desaturate
 ----------
 
@@ -106,16 +115,22 @@ Min
 Max
     Adds all channels together to get a grey-value
 
+.. index:: Invert, Negative
+
 Invert
 ------
 
 This filter like the name suggests inverts the color values in the image.So white (1,1,1) becomes black(0,0,0), yellow(1,1,0) becomes blue(0,1,1), etc.
 The default shortcut for this filter is :kbd:`Ctrl + I` .
 
+.. index:: Contrast
+
 Auto Contrast
 -------------
 
 Tries to adjust the constrast the universally acceptable levels.
+
+.. index:: Hue, Saturation, Lightness, Value, Brightness, Chroma
 
 HSV/HSL Adjustment
 ------------------
@@ -124,10 +139,14 @@ With this filter, you can adjust the Hue, Saturation, Value or Lightness, throug
 
 .. image:: /images/en/Hue-saturation-filter.png
 
+.. index:: Threshold, Black and White
+
 Threshold
 ---------
 
 A simple black and white threshold filter that uses sRGB luminosity. It'll convert any image to a image with only black and white, with the input number indicating the threshold value at which black becomes white.
+
+.. index:: ASC CDL, Slope Offset Power Curves
 
 Slope, Offset, Power
 --------------------

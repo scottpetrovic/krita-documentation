@@ -15,6 +15,7 @@ Arithmetic
 
 These blending modes are based on simple maths.
 
+.. index:: Addition(Blending Mode)
 .. _bm_addition:
 
 Addition

@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Using the oncanvas brush editor in Krita.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Brush Settings, Pop-up Palette
 .. _oncanvas_brush_editor:
 
 ======================

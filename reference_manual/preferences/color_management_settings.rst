@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         The color management settings in Krita.
 
 .. metadata-placeholder
@@ -8,7 +8,8 @@
              - Scott Petrovic
              - David Revoy
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Preferences, Settings, Color Management, Color, Softproofing
 .. _color_management_settings:
 
 =========================

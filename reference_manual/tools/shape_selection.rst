@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Krita's shape selection tool reference.
 
 .. metadata-placeholder
@@ -8,7 +8,8 @@
              - Scott Petrovic
              - Raghavendra Kamath
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Tools, Vector, Shape Selection
 .. _shape_selection_tool:
 
 ====================

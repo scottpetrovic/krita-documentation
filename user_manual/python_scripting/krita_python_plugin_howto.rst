@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Guide on all the specifics of creating Krita python plugins.
 
 .. metadata-placeholder
@@ -11,6 +11,7 @@
              - TPaulssen
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Python, Python Scripting, Scripting, Plugin
 .. _krita_python_plugin_howto:
 
 =================================

@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of vector graphics in Krita.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Marcidy
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Vector
 .. _vector_graphics:
 
 ===============

@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         The brush preset resource in Krita.
 
 .. metadata-placeholder
@@ -7,7 +7,8 @@
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Resources, Brush Preset, Brushes, Paintop Preset
 .. _resource_brushes:
 
 ============

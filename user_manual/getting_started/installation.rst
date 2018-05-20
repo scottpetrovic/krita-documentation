@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Detailed steps on how to install Krita
 
 .. metadata-placeholder
@@ -11,6 +11,7 @@
              - Dmitry Kazakov <dimula73@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Installation
 .. _installation:
 
 Installation

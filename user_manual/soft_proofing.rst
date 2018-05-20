@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         How to use softproofing in Krita.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Color, Softproofing
 .. _soft_proofing:
 
 =============

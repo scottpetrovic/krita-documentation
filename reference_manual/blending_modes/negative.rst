@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Page about the negative blending modes in Krita: Additive Subtractive, Arcus Tangent, Difference, Equivalence and Exclusion.
 
 .. metadata-placeholder
@@ -8,7 +8,7 @@
              - Maria Luisac
    :license: GNU free documentation license 1.3 or later.
 
-
+.. index:: Negative
 .. _bm_cat_negative:
 
 Negative
@@ -16,6 +16,7 @@ Negative
 
 These are all blending modes which seem to make the image go negative.
 
+.. index:: ! Additive Subtractive
 .. _bm_additive_subtractive:
 
 Additive Subtractive
@@ -27,6 +28,7 @@ Subtract the square root of the lower layer from the upper layer.
 
    Left: **Normal**. Right: **Additive Subtractive**.
 
+.. index:: ! Arcus Tangent
 .. _bm_arcus_tangent:
 
 Arcus Tangent
@@ -40,6 +42,7 @@ Then uses that in an Arc tangent function, and multiplies it by two.
 
    Left: **Normal**. Right: **Arcus Tangent**.
 
+.. index:: ! Difference
 .. _bm_difference:
 
 Difference
@@ -47,23 +50,27 @@ Difference
 
 Checks per pixel of which layer the pixel-value is highest/lowest, and then subtracts the lower value from the higher-value.
 
+
 .. figure:: /images/blending_modes/Blending_modes_Difference_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Difference**.
 
+.. index:: ! Equivelance
 .. _bm_equivalence:
 
 Equivalence
 ~~~~~~~~~~~
 
-Subtracts the underlying layer from the upper-layer. Then inverts that. Seems to produce the same result as [[#Difference|Difference]].
+Subtracts the underlying layer from the upper-layer. Then inverts that. Seems to produce the same result as :ref:`bm_difference`.
+
 
 .. figure:: /images/blending_modes/Blending_modes_Equivalence_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Equivalence**.
 
+.. index:: ! Exclusion
 .. _bm_exclusion:
 
 Exclusion

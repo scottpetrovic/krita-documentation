@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Display settings in Krita.
 
 .. metadata-placeholder
@@ -8,7 +8,8 @@
              - Scott Petrovic
              - Alvin Wong
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Preferences, Settings, Canvas Border, Transparency Checkers, OpenGL, Canvas Graphics Acceleration, Display
 .. _display_settings:
 
 ================

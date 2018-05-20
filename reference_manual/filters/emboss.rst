@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of the emboss filters.
 
 .. metadata-placeholder
@@ -7,6 +7,7 @@
    :authors: - Raghavendra Kamath <raghavendr.raghu@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Filters, Emboss
 .. _emboss_filters:
 
 ======

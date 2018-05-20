@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Axonometric projection.
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
    
 This is a continuation of :ref:`the orthographic and oblique tutorial <projection_orthographic>`, be sure to check it out if you get confused!
 
+.. index:: Projection, Axonometric, Dimetric, Isometric
 .. _projection_axonometric:
 
 Axonometric

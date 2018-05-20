@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         A simple guide to the first basic steps of using Krita: creating and saving an image.
 
 .. metadata-placeholder
@@ -15,6 +15,7 @@
              - Yurchor
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Getting started, Save, Load, New
 .. _starting_with_krita:
 
 Starting Krita

@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Perspective projection.
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
    
 This is a continuation of the :ref:`axonometric tutorial <projection_axonometric>`, be sure to check it out if you get confused! 
 
+.. index:: Projection, Perspective, Perspective Projection
 .. _projection_perspective:
 
 Perspective Projection:

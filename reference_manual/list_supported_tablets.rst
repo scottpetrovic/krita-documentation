@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Reference list of tablets that work and don't work with Krita.
 
 .. metadata-placeholder
@@ -18,7 +18,8 @@
              - Boudewijn Rempt
              - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Tablets
 .. _list_supported_tablets:
 
 =============================

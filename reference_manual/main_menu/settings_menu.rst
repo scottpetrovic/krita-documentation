@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         The settings menu in Krita.
 
 .. metadata-placeholder
@@ -9,7 +9,7 @@
              - Micheal Abrahams
              - Raghavendra Kamath <raghavendr.raghu@gmail.com>
    :license: GNU free documentation license 1.3 or later.
-   
+
 .. _settings_menu:
 
 ============
@@ -17,6 +17,8 @@ Setting Menu
 ============
 
 The Settings Menu houses the configurable options in Krita and where you determine most of the "look and feel" of the application.
+
+.. index:: Dockers
 
 Show Dockers
 ------------
@@ -34,6 +36,8 @@ Dockers
 Krita subdivides the access of many of it's features into functional panels called Dockers. Dockers are small windows that can contain, for example, things like the Layer Stack, Color Palette or Brush Presets. Think of them as the painter's palette, or his water, or his brushkit.  
 
 Learning to use dockers effectively is a key concept to maximizing your time using Krita.  
+
+.. index:: Themes, Theme, Look and Feel
 
 Themes
 ------
@@ -70,11 +74,14 @@ Manage Resources
 
 Manage the resources.You can read more about it :ref:`here <resource_management>`.
 
+.. index:: Language
+
 Switch Application Language
 ---------------------------
 
 If you wish to use Krita in a different translation.
 
+.. index:: ! Toolbar
 .. _configure_toolbars:
 
 Configure Toolbars

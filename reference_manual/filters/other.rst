@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of the other filters.
 
 .. metadata-placeholder
@@ -20,6 +20,8 @@ Wave
 ----
 
 Adds a cute little wave-distortion effect to the input image.
+
+.. index:: !Random Noise
 
 Random Noise
 ------------

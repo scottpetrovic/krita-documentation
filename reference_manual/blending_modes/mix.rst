@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Page about the mix blending modes in Krita: Allanon, Alpha Darken, Behind, Erase, Geometric Mean, Grain Extract, Grain Merge, Greater, Hard Mix, Hard Overlay, Normal, Overlay and Parallel.
 
 .. metadata-placeholder
@@ -14,6 +14,7 @@
 Mix
 ---
 
+.. index:: ! Allanon
 .. _bm_allanon:
 
 Allanon
@@ -27,6 +28,7 @@ Blends the upper layer as half-transparent with the lower.
 
    Left: **Normal**. Right: **Allanon**.
 
+.. index:: ! Alpha Darken
 .. _bm_alpha_darken:
 
 Alpha Darken
@@ -39,6 +41,7 @@ As far as I can tell this seems to premultiply the alpha, as is common in some f
 
    Left: **Normal**. Right: **Alpha Darken**.
 
+.. index:: ! Behind
 .. _bm_behind:
 
 Behind
@@ -51,6 +54,7 @@ Does the opposite of normal, and tries to have the upper layer rendered below th
 
    Left: **Normal**. Right: **Behind**.
 
+.. index:: ! Erase (Blending Mode)
 .. _bm_erase:
 
 Erase
@@ -63,6 +67,7 @@ This subtracts the opaque pixels of the upper layer from the lower layer, effect
 
    Left: **Normal**. Right: **Erase**.
 
+.. index:: ! Geometric Mean
 .. _bm_geometric_mean:
 
 Geometric Mean
@@ -75,6 +80,7 @@ This blending mode multiplies the top layer with the bottom, and then outputs th
 
    Left: **Normal**. Right: **Geometric Mean**.
 
+.. index:: ! Grain Extract
 .. _bm_grain_extract:
 
 Grain Extract
@@ -87,6 +93,7 @@ Similar to subtract, the colors of the upper layer are subtracted from the color
 
    Left: **Normal**. Right: **Grain Extract**.
 
+.. index:: ! Grain Merge
 .. _bm_grain_merge:
 
 Grain Merge
@@ -99,7 +106,7 @@ Similar to addition, the colors of the upper layer are added to the colors, and 
 
    Left: **Normal**. Right: **Grain Merge**.
 
-
+.. index:: ! Greater (Blending Mode)
 .. _bm_greater:
 
 Greater
@@ -110,6 +117,7 @@ A blending mode which checks whether the painted color is painted with a higher 
 .. image:: /images/blending_modes/Greaterblendmode.gif
    :align: center
 
+.. index:: ! Hard Mix
 .. _bm_hard_mix:
    
 Hard Mix
@@ -140,6 +148,7 @@ This is the hard mix blending mode as it is implemented in photoshop.
    
 This add the two values, and then checks if the value is above the maximum. If so it will output the maximum, otherwise the minimum.
 
+.. index:: ! Hard OVerlay
 .. _bm_hard_overlay:
 
 Hard Overlay
@@ -154,6 +163,7 @@ Similar to Hard light but hard light use Screen when the value is above 50%. Div
 
    Left: **Normal**. Right: **Hard Overlay**.
 
+.. index:: ! Normal (Blending Mode), Source Over
 .. _bm_normal:
 
 Normal
@@ -168,6 +178,7 @@ In this mode, the computer checks on the upper layer how transparent a pixel is,
 
    Left: **Normal** 100% Opacity. Right: **Normal** 50% Opacity.
 
+.. index:: ! Overlay (Blending Mode)
 .. _bm_overlay:
 
 Overlay
@@ -184,6 +195,7 @@ This is useful for deepening shadows and highlights.
 
    Left: **Normal**. Right: **Overlay**.
 
+.. index:: ! Parallel
 .. _bm_parallel:
 
 Parallel

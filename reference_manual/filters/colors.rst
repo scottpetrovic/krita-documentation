@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of the color filters.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Raghavendra Kamath <raghavendr.raghu@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Filters
 .. _color_filters:
 
 =====
@@ -16,6 +17,7 @@ Color
 
 Similar to the Adjust filters, the color filter are image wide color operations.
 
+.. index:: ! Color to Alpha
 .. _filter_color_to_alpha:
 
 Color to Alpha

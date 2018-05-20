@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of the pattern docker.
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
              - Raghavendra Kamath <raghavendr.raghu@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Reference
 .. _reference_images_docker:
 
 =======================

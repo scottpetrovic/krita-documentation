@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Color Models in Krita
 
 .. metadata-placeholder
@@ -10,6 +10,7 @@
              - Troy Sobotka
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Color, Profiling, Callibration
 .. _profiling_and_callibration:
 
 ===========================

@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Managing workspaces in Krita.
 
 .. metadata-placeholder
@@ -7,7 +7,8 @@
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Resources, Workspace
 .. _resource_workspaces:
 
 ==========

@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         The Filter Brush Engine manual page.
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
              - Maria Luisac
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Brush Engine, Filters, Filter Brush Engine
 .. _filter_brush_engine:
 
 ===================

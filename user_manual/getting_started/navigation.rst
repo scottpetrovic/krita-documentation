@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of Krita navigation.
 
 .. metadata-placeholder
@@ -10,6 +10,7 @@
              - Boudewijn Rempt <boud@valdyas.org>
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Navigation, Zoom, Rotate, Pan, Workspace, Pop-up Palette
 .. _navigation:
 
 ==========

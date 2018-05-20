@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         How to use paint layers in Krita.
 
 .. metadata-placeholder
@@ -11,6 +11,8 @@
              - Boudewijn Rempt
              - Alan
    :license: GNU free documentation license 1.3 or later.
+
+.. index:: Layers, Paint Layer, Raster, Bitmap
 .. _paint_layers:
 
 ============

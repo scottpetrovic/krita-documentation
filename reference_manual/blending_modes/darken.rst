@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Page about the darken blending modes in Krita: Darken, Burn, Darker Color, Gamma Dark and Linear Burn.
 
 .. metadata-placeholder
@@ -14,6 +14,7 @@
 Darken
 ------
 
+.. index:: ! Color Burn, burn
 .. _bm_burn:
 .. _bm_color_burn:
 
@@ -44,6 +45,7 @@ This results in a darkened effect that takes the colors of the lower layer into 
 
    Left: **Normal**. Right: **Burn**.
 
+.. index:: ! Darken
 .. _bm_darken:
 
 Darken
@@ -70,6 +72,7 @@ Is Orange(1, 0.5961, 0.0706) darker than Light Blue(0.1608, 0.6274, 0.8274)? = (
 
    Left: **Normal**. Right: **Darken**.
 
+.. index:: ! Darker Color
 .. _bm_darker_color:
 
 Darker Color
@@ -80,6 +83,7 @@ Darker Color
 
    Left: **Normal**. Right: **Darker Color**.
 
+.. index:: ! Gamma Dark
 .. _bm_gamma_dark:
 
 Gamma Dark
@@ -106,6 +110,7 @@ Light Blue(0.1608, 0.6274, 0.8274)^[1 / Orange(1, 0.5961, 0.0706)] = Green(0.160
 
    Left: **Normal**. Right: **Gamma Dark**.
 
+.. index:: ! Linear Burn
 .. _bm_linear_burn:
 
 Linear Burn

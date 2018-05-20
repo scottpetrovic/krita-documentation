@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Krita's transform tool reference.
 
 .. metadata-placeholder
@@ -9,7 +9,8 @@
              - Micheal Abrahams
              - Raghavendra Kamath
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Tools, Transform
 .. _transform_tool:
 
 ==============

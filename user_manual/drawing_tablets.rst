@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Basic page describing drawing tablets, how to set them up for Krita and how to troubleshoot common tablet issues.
 
 .. metadata-placeholder
@@ -10,6 +10,7 @@
              - Micheal Abrahams
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Tablets
 .. _drawing_tablets:
 
 ===============

@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Krita's assistant tool reference.
 
 .. metadata-placeholder
@@ -8,7 +8,8 @@
              - Scott Petrovic
              - Nmaghrufusman
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Painting Assistants, Tools
 .. _assistant_tool:
 
 ==============

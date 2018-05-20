@@ -1,4 +1,15 @@
+.. meta::
+   :description lang=en:
+        Overview of Krita's blending modes.
+
+.. metadata-placeholder
+
+   :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+   :license: GNU free documentation license 1.3 or later.
+
+.. index:: Blending Modes!
 .. _blending_modes:
+
 
 ==============
 Blending Modes

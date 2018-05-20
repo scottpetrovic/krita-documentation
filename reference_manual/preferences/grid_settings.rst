@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Grid settings in Krita.
 
 .. metadata-placeholder
