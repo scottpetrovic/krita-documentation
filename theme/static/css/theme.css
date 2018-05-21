@@ -5380,7 +5380,7 @@ input[type="checkbox"][disabled] {
     font-size: 90%;
     margin: 0;
     overflow: visible;
-    padding: 8px 16px
+    padding: 28px 16px
 }
 
 .wy-table td:first-child,
@@ -5709,7 +5709,8 @@ article ul {
 .rst-content .toctree-wrapper ul li,
 article ul li {
     list-style: disc;
-    margin-left: 24px
+    margin-left: 24px;
+    margin-bottom: 0.25em;
 }
 
 .wy-plain-list-disc li p:last-child,
@@ -5761,7 +5762,7 @@ article ol {
 .rst-content ol.arabic li,
 article ol li {
     list-style: decimal;
-    margin-left: 24px
+    margin-left: 24px;
 }
 
 .wy-plain-list-decimal li p:last-child,
@@ -5946,7 +5947,7 @@ article ol li ul li {
 }
 
 .wy-menu-vertical li.current a {
-    color: gray;
+    color: #2d2d2d;
     border-right: solid 1px #c9c9c9;
     padding: .4045em 2.427em
 }
@@ -6060,7 +6061,6 @@ article ol li ul li {
 }
 
 .wy-menu-vertical li.toctree-l4 {
-    font-size: .9em
 }
 
 .wy-menu-vertical li.current ul {
@@ -7003,7 +7003,9 @@ footer span.commit .rst-content tt,
 .rst-content tt.literal,
 .rst-content tt.literal,
 .rst-content code.literal {
-    color: #E74C3C
+    color: #00b2b5;
+    padding: 0.25em 0.5em;
+    font-size: 0.9rem;
 }
 
 .rst-content tt.xref,
@@ -7160,13 +7162,8 @@ a .rst-content code {
 }
 
 .rst-content .guilabel {
-    border: 1px solid #7fbbe3;
-    background: #e7f2fa;
-    font-size: 80%;
-    font-weight: 700;
-    border-radius: 4px;
-    padding: 2.4px 6px;
-    margin: auto 2px
+    background: #d2ecff;
+    padding: 3px 12px;
 }
 
 .rst-content .versionmodified {
