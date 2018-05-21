@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         The window menu in Krita.
 
 .. metadata-placeholder
@@ -7,14 +7,15 @@
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Window, View
 .. _window_menu:
 
 ===========
 Window Menu
 ===========
 
-A menu completely dedicated to to window management in Krita. 
+A menu completely dedicated to to window management in Krita.
 
 New Window
     Creates a new window for Krita. Useful with multiple screens.

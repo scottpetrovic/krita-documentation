@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of the layers docker.
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
              - Raghavendra Kamath <raghavendr.raghu@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: ! Layers, Passthrough Mode, Alpha Inheritance, Blending Mode, Label, Onion Skin, Layer Style, Alpha Lock
 .. _layer_docker:
 
 ======

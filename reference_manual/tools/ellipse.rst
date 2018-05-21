@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Krita's ellipse tool reference.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - TPaulssen
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Tools, Ellipse, Circle
 .. _ellipse_tool:
    
 ============

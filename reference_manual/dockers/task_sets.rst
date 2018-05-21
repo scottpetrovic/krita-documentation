@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of the task sets docker.
 
 .. metadata-placeholder

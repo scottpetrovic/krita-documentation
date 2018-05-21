@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         How to use the canvas mirroring tools in Krita.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Nmagfurusman
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Mirror, Symmetry
 .. _mirror_tools:
 
 ============

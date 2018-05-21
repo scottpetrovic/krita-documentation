@@ -201,6 +201,8 @@ html_static_path = ['theme/static']
 #
 # html_sidebars = {}
 
+html_title = project + " version " + release
+
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
@@ -273,7 +275,6 @@ epub_title = project
 epub_author = author
 epub_publisher = author
 epub_copyright = copyright
-version = '1.0'
 
 # The unique identifier of the text. This can be a ISBN number
 # or the project homepage.

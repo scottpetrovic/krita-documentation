@@ -1,0 +1,532 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:15
+msgid "Gradients"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:18
+msgid "Accessing a Gradient"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:20
+msgid ""
+"The Gradients configuration panel is accessed by clicking the Gradients "
+"icon (usually the icon next to the disk)."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:23
+msgid ".. image:: images/en/Gradient_Toolbar_Panel.png"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:24
+msgid ""
+"Gradients are configurations of blending between colors.  Krita provides "
+"over a dozen preset dynamic gradients for you to choose from.  In "
+"addition, you can design and save your own."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:26
+msgid "Some typical uses of gradients are:"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:28
+msgid "Fill for vector shapes."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:29
+msgid "Gradient tool"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:30
+msgid "As a source of color for the pixel brush."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:32
+msgid ""
+"There is no gradients docker. They can only be accessed through the "
+"gradient \"quick-menu\" in the toolbar."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:35
+msgid "Editing a Gradient"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:37
+msgid "Krita has two gradient types:"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:39
+msgid ""
+"Segmented Gradients, which are compatible with GIMP, have many different "
+"features but are also a bit complicated to make."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:40
+msgid ""
+"Stop Gradients, which are saved as SVG files and similar to how most "
+"applications do their gradients, but has less features than the segmented"
+" gradient."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:42
+msgid ""
+"Initially we could only make segmented gradients in Krita, but in 3.0.2 "
+"we can also make stop gradients."
+msgstr ""
+
+msgid ".. image:: images/en/Krita_new_gradient.png"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:47
+msgid ""
+"You can make a new gradient by going into the drop-down and selecting the"
+" gradient type you wish to have. By default Krita will make a stop-"
+"gradient."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:50
+msgid "Stop Gradients"
+msgstr ""
+
+msgid ".. image:: images/en/Krita_stop_gradient.png"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:55
+msgid "Stop gradients are very straight forward:"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:57
+msgid "|mouseleft| on the gradient to add a stop."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:120
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:58
+msgid "|mouseleft| on the stops to select them, and drag to move them."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:59
+msgid ""
+"|mouseright| on the stops to remove them. A stop gradient will not allow "
+"you to remove stops if there's only two left."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:122
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+msgid ".. image:: images/en/Krita_move_stop.png"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:64
+msgid ""
+"A selected stop can have it's color and transparency changed using the "
+"color button and the opacity slider below."
+msgstr ""
+
+msgid ".. image:: images/en/Krita_stop_sudden_change.png"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:69
+msgid ""
+"As per SVG spec, you can make a sudden change between stops by moving "
+"them close together. The stops will overlap, but you can still drag them "
+"around."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:72
+msgid "Segmented Gradients"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:75
+msgid ".. image:: images/en/Krita_Editing_Custom_Gradient.png"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:76
+msgid ""
+"Segmented gradients are a bit more tricky. Instead of going from color to"
+" color, it allows you to define segments, which each can have a begin and"
+" end color."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:78
+msgid "|mouseright| the gradient to call up this menu:"
+msgstr ""
+
+msgid ".. image:: images/en/Krita_segment_gradient_options.png"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:83
+msgid "Split Segment"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:84
+msgid ""
+"This splits the current segment in two, using the white arrow, the "
+"segment middle as the place to split. It will also use the color at the "
+"white arrow to define the new colors in place in the new segments."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:85
+msgid "Duplicate segment"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:86
+msgid ""
+"Similar to split, but instead the two new segments are copies of the old "
+"one."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:87
+msgid "Mirror segment."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:88
+msgid "Mirrors the segment colors."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:90
+msgid "Remove segment"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:90
+msgid "Removes the segment."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:92
+msgid ""
+"|mouseleft| + dragging the black arrows will resize the segments "
+"attaching to those arrows. |mouseleft| + dragging the white arrows will "
+"change the mid point of that segment, changing the way how the mixture is"
+" made."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:94
+msgid ""
+"At the bottom, you can set the color and transparency of either part of "
+"the segment."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:96
+msgid "You can also set the blending. The first is the interpolation mode:"
+msgstr ""
+
+msgid ".. image:: images/en/Krita_gradient_segment_blending.png"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:101
+msgid "Linear - Does a linear blending between both segments."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:102
+msgid "Curved - This causes the mix to ease-in and out faster."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:103
+msgid ""
+"Sine - Uses a sine function. This causes the mix to ease in and out "
+"slower."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:104
+msgid "Sphere, increasing - This puts emphasis on the later color during the mix."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:105
+msgid ""
+"Sphere, descreasing - This puts emphasis on the first color during the "
+"mix."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:107
+msgid "Finally, there's the model:"
+msgstr ""
+
+msgid ".. image:: images/en/Krita_gradient_hsv_cw.png"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:112
+msgid "RGB"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:113
+msgid "Does the blending in RGB model."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:114
+msgid "HSV clockwise"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:115
+msgid ""
+"Blends the two colors using the HSV model, and follows the hue clockwise"
+"(red-yellow-green-cyan-blue-purple). The above screenshot is an example "
+"of this."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:118
+msgid "HSV counter-clock wise."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:117
+msgid "Blends the color as the previous options, but then counter-clockwise."
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:124
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:126
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:128
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:130
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:132
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:134
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:136
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:138
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:140
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:142
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:144
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:146
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:148
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:150
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:152
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:154
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:156
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:158
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:160
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:162
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:164
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:166
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:168
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:170
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:172
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:174
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:176
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:178
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:180
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:182
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:184
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:186
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:188
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:190
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:192
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:194
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:196
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:198
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/resource_management/resource_gradients.rst:200
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

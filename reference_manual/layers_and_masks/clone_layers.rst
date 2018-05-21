@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         How to use clone layers.
 
 .. metadata-placeholder
@@ -12,6 +12,7 @@
              - Raghavendra Kamath
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Layers, Linked Clone, Clone Layer
 .. _clone_layers:
 
 ============

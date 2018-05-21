@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of the grids and guides docker.
 
 .. metadata-placeholder
@@ -9,7 +9,7 @@
              - Nathan Lovato
    :license: GNU free documentation license 1.3 or later.
 
-
+.. index:: ! Grid, ! Guides, Isometric Grid, Orthogonal Grid
 .. _grids_and_guides_docker:
 
 =======================

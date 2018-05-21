@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         How selections work in Krita.
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
              - Hulmanen
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Selection
 .. _selections_basics:
 
 ==========

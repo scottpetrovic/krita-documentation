@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of the undo history docker.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Undo, Redo, History
 .. _undo_history:
 
 ============
@@ -17,6 +18,8 @@ Undo History
 .. image:: /images/en/Krita_Undo_History_Docker.png
 
 This docker allows you to quickly shift between undo states, and even go back in time far more quickly that rapidly reusing :kbd:`Ctrl + Z`
+
+..index:: Cumulate Undo
 
 Cumulative Undo
 ---------------

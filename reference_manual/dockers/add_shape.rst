@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         The add shape docker.
 
 .. metadata-placeholder

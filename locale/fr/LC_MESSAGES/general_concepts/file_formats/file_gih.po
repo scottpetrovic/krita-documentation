@@ -1,0 +1,367 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../general_concepts/file_formats/file_gih.rst:14
+msgid "\\*.gih"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:16
+msgid ""
+"The GIMP image hose format. Krita can open and save these, as well as "
+"import via the :ref:`predefined brush tab <predefined_brush_tip>`."
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:18
+msgid ""
+"Image Hose means that this fileformat allows you to store multiple images"
+" and then set some options to make it specify how to output the multiple "
+"images."
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:24
+msgid ".. image:: images/en/Gih-examples.png"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:24
+msgid "From top to bottom: Incremental, Pressure and Random"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:26
+msgid "Gimp image hose format options:"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:28
+msgid "Constant"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:29
+msgid "This'll use the first image, no matter what."
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:30
+msgid "Incremental"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:31
+msgid ""
+"This'll paint the image layers in sequence. This is good for images that "
+"can be strung together to create a pattern."
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:32
+msgid "Pressure"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:33
+msgid ""
+"This'll paint the images depending on pressure. This is good for brushes "
+"imitating the hairs of a natural brush."
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:34
+msgid "Random"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:35
+msgid ""
+"This'll draw the images randomly. This is good for image-collections used"
+" in speedpainting as well as images that generate texture. Or perhaps "
+"more graphical symbols."
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:37
+msgid "Angle"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:37
+msgid "This'll use the draging angle to determine with image to draw."
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:39
+msgid ""
+"When exporting a krita file as a .gih, you will also get the option to "
+"set the default spacing, the option to set the name(very important for "
+"looking it up in the UI) and the ability to choose whether or not to "
+"generate the mask from the colors."
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:42
+msgid "Use Color as Mask"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:42
+msgid ""
+"This'll turn the darkest values of the image as the ones that paint, and "
+"the whitest as transparent. Untick this if you are using colored images "
+"for the brush."
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:44
+msgid ""
+"We have a :ref:`Krita Brush tip page <brush_tip_animated_brush>` on how "
+"to create your own gih brush."
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:47
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:49
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:51
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:53
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:55
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:57
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:59
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:61
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:63
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:65
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:67
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:69
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:71
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:73
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:75
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:77
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:79
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:81
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:83
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:85
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:87
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:89
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:91
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:93
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:95
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:97
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:99
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:101
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:103
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:105
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:107
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:109
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:111
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:113
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:115
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:117
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:119
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:121
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:123
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:125
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:127
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

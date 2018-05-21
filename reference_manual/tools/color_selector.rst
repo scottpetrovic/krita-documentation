@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Krita's color selector tool reference.
 
 .. metadata-placeholder
@@ -8,7 +8,8 @@
              - Scott Petrovic
              - Emmet O'Neill
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Tools, Colors, Eyedropper, Color Selector
 .. _color_picker_tool:
 
 ===================

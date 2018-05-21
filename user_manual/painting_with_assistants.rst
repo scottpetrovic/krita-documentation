@@ -1,6 +1,6 @@
 
 .. meta::
-   :description lang=en:
+   :description:
         How to use the painting assistants in Krita to draw perspectives.
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: ! Painting Assistants
 .. _painting_with_assistants:
 
 ========================
@@ -144,6 +145,8 @@ Tutorials
 
 Check out this in depth discussion and tutorial on
 https://www.youtube.com/watch?v=OhEv2pw3EuI
+
+.. index:: Technical Drawing, Perspective
 
 Setting up Krita for technical drawing-like perspectives
 --------------------------------------------------------

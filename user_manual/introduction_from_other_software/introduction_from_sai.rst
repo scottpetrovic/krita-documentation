@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         This is a introduction to Krita for users coming from Painttool Sai. 
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
              - Boudewijn Rempt <boud@valdyas.org>
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Sai, Painttool Sai
 .. _introduction_from_sai:
 
 ===============================================

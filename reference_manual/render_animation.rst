@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         How to use the render animation command in Krita.
 
 .. metadata-placeholder
@@ -9,7 +9,7 @@
              - Beelzy
    :license: GNU free documentation license 1.3 or later.
 
-
+.. index:: Animation, Render Animation
 .. _render_animation:
 
 ================

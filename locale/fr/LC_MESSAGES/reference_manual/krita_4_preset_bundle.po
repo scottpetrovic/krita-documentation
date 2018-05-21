@@ -1,0 +1,666 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:17
+msgid "Krita 4 Preset Bundle Overview"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:20
+msgid ".. image:: images/en/Krita4_0_brushes.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:21
+msgid ""
+"Krita comes with a large collection of brush presets. This collection was"
+" designed with many considerations:"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:23
+msgid ""
+"Help the beginner and the advanced user with brushes that are ready-to-"
+"use."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:24
+msgid ""
+"Propose tools for the various ways Krita is used: Comic inking and "
+"coloring, Digital Painting, Mate Painting, Pixel Art, 3D texturing."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:25
+msgid "Show a sample of what the brush engines can do."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:27
+msgid ""
+"This page illustrates and describes the included default brush presets in"
+" Krita 4."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:30
+msgid "Erasers"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:32
+msgid ""
+"The large one is for removing large portions of a layer (eg. a full "
+"character)"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:33
+msgid ""
+"The small one is designed to use when drawing thin lines or inking. It "
+"has a very specific shape so you will notice with the square shape of "
+"your cursor you are in eraser-mode."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:34
+msgid ""
+"The soft one is used to erase or fade out the part of a drawing with "
+"various levels of opacity."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:37
+msgid ".. image:: images/en/Krita4_a-brush-family.png"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:39
+msgid "Basics"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:41
+msgid ""
+"The basic brush family all use a basic circle for the brush tip with "
+"variation on opacity, flow or size. They are named Basic because this "
+"type of brush are the fundamental stones of every digital painting "
+"program. These brushes will work fast since they use simple properties."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:44
+msgid ".. image:: images/en/Krita4_b-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:46
+msgid "Pencils"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:48
+msgid ""
+"These presets tends to emulate the effect of pencil on paper. They all "
+"have a thin brush that uses a paper-texture. Some focus on being "
+"realistic to help with correcting a pencil scan. Some focus more on "
+"showing the effects on your computer monitor. The two last (Tilted/Quick "
+"Shade) assist the artist to obtain specific effects; like quickly shading"
+" a large area of the drawing without having to manually crosshatch a lot "
+"of lines."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:51
+msgid ".. image:: images/en/Krita4_c-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:53
+msgid "Inking"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:55
+msgid ""
+"For the black & white illustrator or the comic artist. The Inking brushes"
+" help you produce line-art and high contrast illustrations."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:57
+msgid ""
+"Ink Precision: A thin line designed to take notes or draw tiny lines or "
+"details."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:58
+msgid ""
+"Ink Fineliner: A preset with a regular width to trace panels, technical "
+"details, or buildings."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:59
+msgid "Ink GPen: A preset with a dynamic on size to ink smoothly."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:60
+msgid ""
+"Ink Pen Rough: A preset for inking with a focus on having a realistic ink"
+" line with irregularities (texture of the paper, fiber of paper "
+"absorption)."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:61
+msgid ""
+"Ink Brush Rough: A brush for inking with also a focus on getting the "
+"delicate paper texture appearing at low pressure, as if the brush "
+"slightly touch paper."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:62
+msgid ""
+"Ink Sumi-e : A brush with abilities at revealing the thin texture of each"
+" bristles, making the line highly expressive."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:65
+msgid ".. image:: images/en/Krita4_d-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:67
+msgid "Markers"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:69
+msgid ""
+"A small category with presets simulating a marker with a slight digital "
+"feeling to them."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:72
+msgid ".. image:: images/en/Krita4_e-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:74
+msgid "Dry Painting"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:76
+msgid ""
+"The Dry Painting category is full set of brushes that appear like "
+"bristles. They do not interact with the color already on the canvas; "
+"that's why they are called \"dry\". They work as if you were painting on "
+"a dry artwork: the color replace, or overlay/glaze over the previous "
+"painting stroke. This brush emulate techniques that dry quickly as "
+"tempera or acrylics."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:79
+msgid ".. image:: images/en/Krita4_f-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:81
+msgid "Dry Painting Textured"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:83
+msgid ""
+"Almost the same family as the previous one, exept this brush presets lay "
+"down a textured effect. They simulate this painting effects you can "
+"obtain with very thick painting on a brush caressing a canvas with a "
+"fabric texture. They help to build painterly background or add life in "
+"the last bright touch of colors."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:86
+msgid ".. image:: images/en/Krita4_g-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:88
+msgid "Chalk, Pastel and Charcoal"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:90
+msgid ""
+"Still part of the dry family. These brushes focus on adding texture to "
+"the result. The type of texture you would obtain by using a dry tool such"
+" as chalk, charcoal or pastel and rubbing a textured paper."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:93
+msgid ".. image:: images/en/Krita4_h-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:95
+msgid "Wet painting"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:97
+msgid ""
+"This family of brushes are wet in a sense they all interact with the "
+"color on the canvas. It triggers the feeling of having a wet artwork and "
+"mixing color at the same time. The category has variations with bristle "
+"effects or simple rounded brushes."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:100
+msgid ".. image:: images/en/Krita4_i-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:102
+msgid "Watercolors"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:104
+msgid ""
+"Simulating real watercolors is highly complex. These brushes only "
+"partially simulate the watercolor texture. Don't expect crazy pigment "
+"diffusion because these brushes are not able to do that. These brushes "
+"are good at simulating a fringe caused by the pigments and various "
+"effects."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:107
+msgid ".. image:: images/en/Krita4_j-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:109
+msgid "Blender"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:111
+msgid ""
+"These brushes don't paint any colors. They interact with the color you "
+"already have on the canvas. Don't expect them to have any effect on a "
+"white page. All these presets give a different result with how they "
+"smudge or smear. It helps to blend colors, blur details, or add style on "
+"a painting. Smearing pixels can help with creating smoke and many other "
+"effects."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:114
+msgid ".. image:: images/en/Krita4_k-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:116
+msgid "Adjustments"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:118
+msgid ""
+"This family of airbrushes have variations on the blending modes. "
+"Different blending modes will give different results depending on the "
+"effect you are trying to achieve. * Color - Can help to re-color or "
+"desaturate a part of your artwork. It changes only the hue and "
+"saturation, not the value, of the pixels. * Dodge - Will assist you in "
+"creating effects such as neon or fire. * Lighten - Brightens only the "
+"area with the selected color: a good brush to paint depth of field "
+"(sfumato) and fog. * Multiply - Darkens all the time. A good brush to "
+"create a quick vignette effect around an artwork, or to manage big part "
+"in shadow. * Overlay - Burn helps to boost the contrast and overlay a "
+"color on some areas."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:126
+msgid ".. image:: images/en/Krita4_l-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:128
+msgid "Shapes"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:130
+msgid ""
+"Painting with ready-made shapes can help concept artists create happy-"
+"accidents and stimulate imagination. The Shape Fill tool is a bit "
+"specific: you can draw a silhouette of a shape and Krita fills it in real"
+" time. Painting shapes over an area  help fill it with random details. "
+"This is useful before painting over with more specific objects."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:133
+msgid ".. image:: images/en/Krita4_t-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:135
+msgid "Pixel"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:137
+msgid ""
+"You might believe this section is specific to pixel-artist, but in many "
+"situations dealing with specific pixels are needed to make corrections "
+"and adjustments even on normal paintings. A thin 1px brush can be used to"
+" trace guidelines. A brush with aliasing is also perfect to fix the color"
+" island created by the Coloring-mask feature."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:140
+msgid ".. image:: images/en/Krita4_u-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:142
+msgid "Experimental"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:144
+msgid ""
+"When categorizing brushes, there is always a special or miscellaneous "
+"category. In this family of brushes you'll find the clone brush along "
+"with brushes to move, grow, or shrink specific areas."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:147
+msgid ".. image:: images/en/Krita4_v-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:149
+msgid "Normal Map"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:151
+msgid ""
+"Useful for 3D programs and texture artists. If your tablet supports "
+"tilting and rotation this brush will allow you to paint on your normal "
+"map using your brush rotation and orientation. You can \"sculpt\" your "
+"details in the texture with the different colors. Each color will map to "
+"an angle that is used for 3D lighting. It works well on pen-tablet "
+"display (tablet with a screen) as you can better sync the rotation and "
+"tilting of your stylus with the part of the normal map you want to paint."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:154
+msgid ".. image:: images/en/Krita4_w-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:156
+msgid "Filters"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:158
+msgid ""
+"Krita can apply many of its filters on a brush thanks to the filter brush"
+" engine. The result is usually not efficient and slow, but a good demo of"
+" the ability of Krita."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:161
+msgid ".. image:: images/en/Krita4_x-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:163
+msgid "Textures"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:165
+msgid ""
+"Adding textures is not only useful for the 3D artist or video-game "
+"artist: in many artworks you'll save a lot of time by using brushes with "
+"random patterns."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:168
+msgid ".. image:: images/en/Krita4_y-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:170
+msgid "Stamps"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:172
+msgid ""
+"The stamps are bit similar to the texture category. Stamps often paint a "
+"pattern that is easier to recognize than if you tried to paint it "
+"manually. The results appear more as decorations than for normal painting"
+" methods. ."
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:176
+msgid ".. image:: images/en/Krita4_z-brush-family.jpg"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:177
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:179
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:181
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:183
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:185
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:187
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:189
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:191
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:193
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:195
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:197
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:199
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:201
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:203
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:205
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:207
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:209
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:211
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:213
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:215
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:217
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:219
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:221
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:223
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:225
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:227
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:229
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:231
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:233
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:235
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:237
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:239
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:241
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:243
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:245
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:247
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:249
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:251
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:253
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:255
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/krita_4_preset_bundle.rst:257
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

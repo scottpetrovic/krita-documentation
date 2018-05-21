@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of the vector library docker.
 
 .. metadata-placeholder
@@ -7,6 +7,7 @@
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Vector Library, SVG Symbols, Reusable Vector Shapes
 .. _vector_library_docker:
 
 ==============

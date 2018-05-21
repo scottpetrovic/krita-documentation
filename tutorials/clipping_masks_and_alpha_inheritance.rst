@@ -7,6 +7,7 @@
              - Vancemoss
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Alpha Inheritance, Clipping Masks
 .. _clipping_masks_and_alpha_inheritance:
 
 ====================================

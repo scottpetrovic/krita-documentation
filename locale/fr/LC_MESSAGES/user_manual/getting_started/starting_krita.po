@@ -1,0 +1,484 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../user_manual/getting_started/starting_krita.rst:21
+msgid "Starting Krita"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:23
+msgid ""
+"There will be no canvas or new document open by default. To create a new "
+"canvas you have to create a new document from the :guilabel:`File` menu. "
+"If you want to open an existing image, either use :menuselection:`File "
+"--> Open` or drag the image from your computer into Krita's window."
+msgstr ""
+
+msgid ".. image:: images/en/Starting-krita.png"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:29
+msgid "Creating a New Document"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:31
+msgid "A new document can be created as follows."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:33
+msgid ""
+"# Click on :guilabel:`File` from the application menu at the top. # Then "
+"click on :guilabel:`New`. Or you can do this by pressing :kbd:`Ctrl + N`."
+" # Now you will get a New Document dialog box as shown below:"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:38
+msgid ".. image:: images/en/Krita_newfile.png"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:39
+msgid ""
+"Krita is a pretty complex program that can handle a lot of different "
+"files, so let's go through this step by step:"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:42
+msgid "Custom Document"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:44
+msgid ""
+"From this section you can create a document according to your "
+"requirements: you can specify the dimensions, color model, depth, "
+"resolution, etc."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:46
+msgid ""
+"In the top-most field of the :guilabel:`Dimensions` tab, you can define a"
+" name for your new document. This name will appear in the metadata of the"
+" file, and Krita will use it for the auto-save functionality as well. If "
+"you leave it empty, the document will be referred to as 'Unnamed' by "
+"default."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:48
+msgid ""
+"From the Predefined drop-down you can select predefined pixel sizes and "
+"PPI (pixels per inch)."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:50
+msgid ""
+"You can set custom dimensions and the orientation of the document from "
+"the input fields below the predefined drop-down. This can also be saved "
+"as a new predefined preset for your future use by giving a name in the "
+"Save As field and clicking on the Save button."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:52
+msgid ""
+"Below we find the Color section of the new document dialog box, where you"
+" can select the color model and the bit-depth. Check "
+":ref:`color_management_settings` for more info."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:54
+msgid ""
+"On the :guilabel:`Content` tab, you can select the background color and "
+"the amount of layers you want in the new document. Krita remembers the "
+"amount of layers you picked last time, so be careful."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:56
+msgid ""
+"Finally, there's a description box, useful to note down what you are "
+"going to do."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:59
+msgid "Create From Clipboard"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:61
+msgid ""
+"This section allows you to create a document from an image that is in "
+"your clipboard, like a screenshot. It will have all the fields set to "
+"match the clipboard image."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:64
+msgid "Templates:"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:66
+msgid ""
+"These are separate categories where we deliver special defaults. "
+"Templates are just .kra files which are saved in a special location so "
+"they can be pulled up by Krita quickly."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:68
+msgid ""
+"You can make your own template file from any .kra file, by using "
+":menuselection:` File --> Create Template From Image` in the top menu. "
+"This will add your current document as a new template, including all its "
+"properties along with the layers and layer contents."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:70
+msgid ""
+"Once you have created a new document according to your preference, you "
+"should now have a white canvas in front of you (or whichever background "
+"color you chose in the dialog)."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:73
+msgid "How to use brushes"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:75
+msgid ""
+"Now, just press on the canvas part. If everything's correct, you should "
+"be able to draw on the canvas! The brush tool should be selected by "
+"default when you start Krita, but if for some reason it is not, you can "
+"click on this |toolfreehandbrush| icon from the toolbar and activate the "
+"brush tool."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:125
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:78
+msgid ""
+"Of course, you'd want to use different brushes. On your right, there's a "
+"docker named Brush Presets (or on top, press :kbd:`f6` to find this one) "
+"with all these cute squares with pens and crayons."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:80
+msgid ""
+"If you want to tweak the presets, check the Brush Editor in the toolbar. "
+"You can also access the Brush Editor with :kbd:`F5`."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:83
+msgid ".. image:: images/en/Krita_Brush_Preset_Docker.png"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:84
+msgid ""
+"Tick any of the squares to choose a brush, and then draw on the canvas. "
+"To change color, click the triangle in the Advanced Color Selector "
+"docker."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:87
+msgid "Erasing"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:89
+msgid ""
+"There are brush presets for erasing, but it is often faster to use the "
+"eraser toggle. By toggling the :kbd:`E` key, your current brush switches "
+"between erasing and painting."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:91
+msgid ""
+"This erasing method works with most of the tools. You can erase using the"
+" line tool, rectangle tool, and even the gradient tool."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:94
+msgid "Saving and opening files"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:96
+msgid ""
+"Now, once you have figured out how to draw something in Krita, you may "
+"want to save it. The save option is in the same place as it is in all "
+"other computer programs: the top-menu of :guilabel:`File`, and then "
+":guilabel:`Save`."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:98
+msgid ""
+"Select the folder you want to have your drawing, and select the file "
+"format you want to use ('.kra' is Krita's default format, and will save "
+"everything). And then hit :guilabel:`Save`. Some older versions of Krita "
+"have a bug and require you to manually type the extension."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:100
+msgid ""
+"If you want to show off your image on the internet, check out the "
+":ref:`saving_for_the_web` tutorial."
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:102
+msgid ""
+"Check out :ref:`navigation` for further basic information, "
+":ref:`basic_concepts` for an introduction as Krita as a medium, or just "
+"go out and explore Krita!"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:105
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:107
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:109
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:111
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:113
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:115
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:117
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:119
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:121
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:123
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:127
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:129
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:131
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:133
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:135
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:137
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:139
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:141
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:143
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:145
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:147
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:149
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:151
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:153
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:155
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:157
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:159
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:161
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:163
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:165
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:167
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:169
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:171
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:173
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:175
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:177
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:179
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:181
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:183
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../user_manual/getting_started/starting_krita.rst:185
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

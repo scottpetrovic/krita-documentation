@@ -1,6 +1,6 @@
 .. meta::
-   :description lang=en:
-        Color Models in Krita
+   :description:
+        The effect of gamma and linear.
 
 .. metadata-placeholder
 
@@ -8,6 +8,7 @@
              - MicahB
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Gamma, Linear Color Space, Linear, Tone Response curve, EOTF, Transfer Curve
 .. _gamma_and_linear:
 .. _linear_and_gamma:
 

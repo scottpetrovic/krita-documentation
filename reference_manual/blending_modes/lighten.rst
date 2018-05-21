@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Page about the lighten blending modes in Krita: Color Dodge, Gamma Light, Hard Light, Lighten, Lighter Color, Linear Dodge, Linear Light, Pin Light, Screen, Soft Light and Vivid Light.
 
 .. metadata-placeholder
@@ -16,6 +16,7 @@ Lighten
 
 Blending modes that lighten the image.
 
+.. index:: ! Color Dodge, Dodge
 .. _bm_color_dodge:
 
 Color Dodge
@@ -30,6 +31,7 @@ This results in a image with emphasized highlights, like Dodging would do in tra
 
    Left: **Normal**. Right: **Color Dodge**.
 
+.. index:: ! Gamma Light
 .. _bm_gamma_light:
 
 Gamma Light
@@ -42,6 +44,7 @@ Outputs the upper layer as power of the lower layer.
 
    Left: **Normal**. Right: **Gamma Light**.
 
+.. index:: ! Hard Light
 .. _bm_hard_light:
 
 Hard Light

@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Introduction to using Krita's python plugin API.
 
 .. metadata-placeholder
@@ -10,115 +10,133 @@
              - Micheal Abrahams
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Python, Python Scripting, Scripting, Plugin, Debug
 .. _introduction_to_python_scripting:
 
 ================================
 Introduction to Python Scripting
 ================================
 
+.. versionadded:: 4.0
+
 When we offered python scripting as one of Kickstarter Stretchgoals we could implement next to vectors and text, it won the backer vote by a landslide. Some people even only picked python and nothing else. So what exactly is python scripting?
 
-What is Python Scripting
-------------------------
+What is Python Scripting?
+-------------------------
 
 Python is a scripting language, that can be used to automate tasks. What python scripting in Krita means is that we added an API to krita, which is a bit of programming that allows python to access to parts of Krita. With this we can make dockers, perform menial tasks on a lot of different files and even write our own exporters. People who work with computer graphics, like VFX and video game artists use python a lot to make things like sprite sheets, automate parts of export and more.
 
-It is outside the scope of this manual to teach you python itself. However, as python is a programming language that is already over several decades old, there's tons of learning material around that can be quickly found with a simple 'learn python' internet search.
+It is outside the scope of this manual to teach you python itself. However, as python is an extremely popular programming language and great for beginners, there's tons of learning material around that can be quickly found with a simple 'learn python' internet search.
 
-This manual will instead focus on how to use and make python plugins and for that we'll first start with the basics: How to enable the scripter plugin.
+This manual will instead focus on how to use python to automate and extend Krita. For that we'll first start with the basics: How to run Python commands in the scripter.
 
-How to enable the scripter plugin
+
+How to Enable the Scripter Plugin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The scripter plugin is not necessary to use python, but it is very useful for testing and playing around with python. It is a python console, written in python, which can be used to write small scripts and execute them on the fly.
 
-To enable it, go to :menuselection:`Settings --> Configure Krita --> Python Plugin Manager` and toggle "Scripter" in the list.
+To open the scripter, navigate to :menuselection:`Tools --> Scripts --> Scripter`. If you don't see it listed, go to :menuselection:`Settings --> Configure Krita --> Python Plugin Manager` and toggle "Scripter" in the list to enable it. If you don't see the scripter plugin, make sure you are using an up-to-date version of Krita. 
 
-Then go to :menuselection:`Tools --> Scripts --> Scripter` to open the Scripter. Input the following in the top edit window:
+The scripter will pop up with a text editor window on top and an output window below. Input the following in the text area:
 
-::
+.. code:: python
 
-    import sys
-    
     print("hello world")
 
-and press the big play button at the top. Then, below, in the output area the following should show up:
 
-::
+Press the big play button or press Ctrl+R to run the script. Then, below, in the output area the following should show up::
 
     ==== Warning: Script not saved! ====
     hello world
 
-Okay, so we have a little console that we can use to print messages in, but then, how do we actually talk to Krita? For that let's go to the second basic thing: How to use the API docs.
+Now we have a console that can run functions like print() from the Python environment - but how do we use it to manage Krita? 
 
-How to use the API docs
-~~~~~~~~~~~~~~~~~~~~~~~
+Running basic Krita commands
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The above example was a simple print() function. If you want to see all the Krita functions you can do, check out our handy Krita API docs: `LibKis documentation <https://api.kde.org/extragear-api/graphics-apidocs/krita/libs/libkis/html/index.html>`_.
+To allow Python to communicate with Krita, we will use the Krita module. At the top of every script, we will write: ``from krita import *`` 
 
+This allows us to talk to Krita through ``Krita.instance()``. Let's try to double our coding abilities with Python.
 
-If you go to that page, there's a lot of jargon. To understand some of it, you will need to know how the API works. Our API is made up of two parts: LibKis, which is the actual API, and SIP, which makes it possible for python to talk to Krita.
+.. code:: python
 
-SIP turns LibKis into a python module named 'krita', so to use the krita python API, we'll need to import this module.
+    from krita import *
 
-``from krita import *``
+    Krita.instance().action('python_scripter').trigger()
 
-Then, you can talk to Krita by getting the Krita.instance(). In the API docs, the word Krita.instance() links to the documentation of that class.
+You should see a second scripter window open. Pretty neat! Here is a slightly more advanced example.
 
-If we go there, we can see all the functions available to the Krita instance. You may notice that the functions return things like QStringLists, which is because LibKis is a C++ library. However, SIP turns those QStringLists into regular python lists filled with strings.
+.. code:: python
 
-::
+    from krita import * 
+
+    d = Krita.instance().createDocument(512, 512, "Python test document", "RGBA", "U8", "", 120.0)
+    Krita.instance().activeWindow().addView(d)
+
+This will open up a new document. Clearly Python gives you quite a lot of control to automate Krita. Over time we expect the community to write all kinds of scripts that you can use simply by pasting them in the scripter.
+
+But what if you want to write new commands for yourself? The best place to start is very simple: search for examples written by other people! You can save a lot of time if someone else has written code that you can base your work on. It's also worth looking through the python plugins, which are located in /share/krita/pykrita. Ther's also a step by step guide for :ref:`krita_python_plugin_howto` here in the manual.
+
+But it's likely that you need more information. For that, we will need see what's hidden behind the asterisk when you ``import * from Krita``. To learn what Krita functions that are available and how to use them, you will want to go for Krita API reference documentation.
+
+Krita's API
+~~~~~~~~~~~
+
+- `LibKis API Overview <https://api.kde.org/extragear-api/graphics-apidocs/krita/libs/libkis/html/index.html>`_
+- `Krita class documentation <https://api.kde.org/extragear-api/graphics-apidocs/krita/libs/libkis/html/classKrita.html>`_
+
+Those pages may look like a lot of jargon at first. This is because Krita's API documentation comes from the underlying C++ language that Krita is written in. The magic happens because of a Python tool called SIP, which makes it possible for python speak in C++ and talk to Krita. The end result is that when we <tt>import krita</tt> and call functions, we're actually using the C++ methods listed in that documentation. 
+
+Let's see how this stuff works in more detail. Let's take a look at the second link, the `Krita class reference <https://api.kde.org/extragear-api/graphics-apidocs/krita/libs/libkis/html/classKrita.html#aa55507903d088013ced2df8c74f28a63>`_. There we can see all the functions available to the Krita instance. If you type dir(Krita.instance()) in Python, it should match this page very closely - you can view the documentation of the functions createDocument(), activeWindow(), and action() which we used above. 
+
+One of the more confusing things is seeing all the C++ classes that Krita uses, including the Qt classes that start with Q. But here is the beauty fo SIP: it tries to make the translation from these classes into Python as simple and straightforward as possible. For example, you can see that the function filters() returns a QStringList. However, SIP converts those QStringLists into regular python list of strings!
+
+.. code:: python
 
     import sys
     from krita import *
-    
+
     print(Krita.instance().filters())
 
-Outputs as
+Outputs as ::
 
-::
-
-    ==== Warning: Script not saved! ====
     ['asc-cdl', 'autocontrast', 'blur', 'burn', 'colorbalance', 'colortoalpha', 'colortransfer',
-     'desaturate', 'dodge', 'edge detection', 'emboss', 'emboss all directions', 'emboss horizontal and vertical',
-     'emboss horizontal only', 'emboss laplascian', 'emboss vertical only', 'gaussian blur', 'gaussiannoisereducer',
-     'gradientmap', 'halftone', 'height to normal', 'hsvadjustment', 'indexcolors', 'invert', 'lens blur', 'levels',
-     'maximize', 'mean removal', 'minimize', 'motion blur', 'noise', 'normalize', 'oilpaint', 'perchannel', 'phongbumpmap',
-     'pixelize', 'posterize', 'raindrops', 'randompick', 'roundcorners', 'sharpen', 'smalltiles', 'threshold', 'unsharp',
-     'wave', 'waveletnoisereducer']
+    'desaturate', 'dodge', 'edge detection', 'emboss', 'emboss all directions', 'emboss horizontal and vertical',
+    'emboss horizontal only', 'emboss laplascian', 'emboss vertical only', 'gaussian blur', 'gaussiannoisereducer',
+    'gradientmap', 'halftone', 'height to normal', 'hsvadjustment', 'indexcolors', 'invert', 'lens blur', 'levels',
+    'maximize', 'mean removal', 'minimize', 'motion blur', 'noise', 'normalize', 'oilpaint', 'perchannel', 'phongbumpmap',
+    'pixelize', 'posterize', 'raindrops', 'randompick', 'roundcorners', 'sharpen', 'smalltiles', 'threshold', 'unsharp',
+    'wave', 'waveletnoisereducer']
 
-Other lists are considerably less coherent when output into the print function:
 
-::
+However, sometimes the conversion doesn't go quite as smoothly.
+
+.. code:: python
 
     import sys
     from krita import *
 
     print(Krita.instance().documents())
 
-gives something like this:
+gives something like this::
 
-::
 
-    ==== Warning: Script not saved! ====
     [<PyKrita.krita.Document object at 0x7f7294630b88>,
-     <PyKrita.krita.Document object at 0x7f72946309d8>,
-     <PyKrita.krita.Document object at 0x7f7294630c18>]
+    <PyKrita.krita.Document object at 0x7f72946309d8>,
+    <PyKrita.krita.Document object at 0x7f7294630c18>]
 
-It is a list of something, sure, but how to use it? If we go back to the Krita apidocs page, and click on 'Document' to get to the document class page, we can find things we can print. So we could create the following script:
+It is a list of something, sure, but how to use it? If we go back to the Krita apidocs page and look at the function, documents() we'll see there's actually a clickable link on the 'Document' class. `If you follow that link <https://api.kde.org/extragear-api/graphics-apidocs/krita/libs/libkis/html/classDocument.html>`_, you'll see that the document has a function called name() which returns the name of the document, and functions width() and height() which return the dimensions. So if we wanted to generate an info report about the documents in Krita, we could write a script like this:
 
-::
+.. code:: python
 
-    import sys
     from krita import *
 
     for doc in Krita.instance().documents():
         print(doc.name())
         print(" "+str(doc.width())+"x"+str(doc.height()))
 
-we get an output like:
-
-::
+we get an output like::
 
     ==== Warning: Script not saved! ====
     Unnamed
@@ -130,17 +148,32 @@ we get an output like:
 
 Hopefully this will give you an idea of how to navigate the API docs now.
 
-Krita's API has many more classes, you can get to them by going to the top-left class list, or just clicking their names to get to their API docs. Try using the print function on as many things as possible to see what you can access.
+Krita's API has many more classes, you can get to them by going to the top-left class list, or just clicking their names to get to their API docs. The functions print() or dir() are your friends here as well. This line will print out a list of all the actions in Krita - you could swap in one of these commands instead of 'python_scripter' in the example above.
 
-How to install python scripts
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. code:: python
 
-You can install python scripts by putting them into the pykrita folder of the resources folder (:menuselection:`Settings --> Manage Resources --> Open Resource Folder`). Installing python scripts requires Krita to be able to find the ".desktop" file, so make sure that is directly in the pykrita folder, and not in the script folder itself.
+    [print([a.objectName(), a.text()]) for a in Krita.instance().actions()]
 
-.. warning::
-    Only install python scripts from a trusted source, and always make sure that the code is safe. Python by itself is nothing more and nothing less than a programming language, and can thus be used to, say, delete all the files on your computer. If you do not have the skill to verify whether a script is safe, do not install python scripts by yourself.
+The Python module ``inspect`` was designed for this sort of task. Here's a useful function to print info about a class to the console. 
+
+.. code:: python
+
+    import inspect
+    def getInfo(target):
+        [print(item) for item in inspect.getmembers(target) if not item[0].startswith('_')]
+
+    getInfo(Krita.instance())
+
+
+
+Finally, in addition to the LibKis documentation, the Qt documentation, since Krita uses PyQt to expose nearly all of the Qt API to Python. You can build entire windows with buttons and forms this way, using the very same tools that Krita is using! You can read the `Qt documentation <http://doc.qt.io/>`_ and the `PyQt documentation <http://pyqt.sourceforge.net/Docs/PyQt5/>`_ for more info about this, and also definitely study the included plugins as well to see how they work.
+
 
 Technical Details
 -----------------
 
+
+.. Which version of python do we use, how to trouble shoot, etc.
+
 To get Python scripting working on Windows 7/8/8.1, you will need to install the `Universal C Runtime from Microsoft's website <https://www.microsoft.com/en-us/download/details.aspx?id=48234>`_. (Windows 10 already comes with it.)
+

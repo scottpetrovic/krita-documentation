@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         How to use the masked brush functionality in Krita. This functionality is not unlike the dual brush option from photoshop.
 
 .. metadata-placeholder
@@ -10,6 +10,7 @@
              - Nmaghfurusman
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Dual Brush, Masked Brush, Stacked Brush
 .. _option_masked_brush:
 
 ============

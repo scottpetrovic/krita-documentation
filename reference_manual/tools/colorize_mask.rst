@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         How to use the colorize mask in Krita.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Tools, Lazybrush, Colorize Mask, Masks, Layers, Flat Color
 .. _colorize_mask:
 
 =============

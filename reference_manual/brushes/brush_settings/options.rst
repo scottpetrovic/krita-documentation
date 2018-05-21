@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Krita's Brush Engine options overview.
 
 .. metadata-placeholder
@@ -17,6 +17,7 @@
 Options
 =======
 
+.. index:: Airbrush
 .. _option_airbrush:
 
 Airbrush
@@ -26,6 +27,7 @@ Airbrush
 
 If you hold the brush still, but are still pressing down, this will keep adding colour onto the canvas. The lower the rate, the quicker the colour gets added.
 
+.. index:: Mirror
 .. _option_mirror:
 
 Mirror
@@ -159,6 +161,7 @@ Gradient
 
 Exactly the same as using Source:Gradient with Mix, but only available for the Color Smudge Brush.
 
+.. index:: Spacing
 .. _option_spacing:
 
 Spacing
@@ -175,6 +178,7 @@ This allows you to affect :ref:`option_brush_tip` with :ref:`sensors`.
 
 .. image:: /images/en/Krita_2_9_brushengine_spacing_01.png
 
+.. index:: Ratio
 .. _option_ratio:
 
 Ratio

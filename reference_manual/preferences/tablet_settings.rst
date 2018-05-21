@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Configuring the tablet in Krita.
 
 .. metadata-placeholder
@@ -8,7 +8,8 @@
              - Scott Petrovic
              - Alvin Wong
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Preferences, Settings, Tablet, Pressure Curve
 .. _tablet_settings:
 
 ===============

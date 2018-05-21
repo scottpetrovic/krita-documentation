@@ -1,0 +1,835 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../user_manual/animation.rst:17
+msgid "Animation with Krita"
+msgstr ""
+
+#: ../../user_manual/animation.rst:19
+msgid ""
+"Thanks to the 2015 kickstarter, :program:`Krita 3.0` now has animation. "
+"In specific, :program:`Krita` has frame-by-frame raster animation. "
+"There's still a lot of elements missing from it, like tweening, but the "
+"basic workflow is there."
+msgstr ""
+
+#: ../../user_manual/animation.rst:24
+msgid ""
+"To access the animation features, the easiest way is to change your "
+"workspace to Animation. This will make the animation dockers and workflow"
+" appear."
+msgstr ""
+
+#: ../../user_manual/animation.rst:29
+msgid "Animation curves"
+msgstr ""
+
+#: ../../user_manual/animation.rst:31
+msgid ""
+"To create an animation curve (currently only for opacity) expand the “New"
+" Frame” button in the “Animation” dock and click “Add Opacity Keyframe”. "
+"You can now edit the keyframed value for opacity directly in the “Layers”"
+" dock, adding more keyframes will by default fade from the last to the "
+"next upcoming keyframe in the timeline over the frames betweem them. See "
+":ref:`animation curves <animation_curves_docker>` for details"
+msgstr ""
+
+#: ../../user_manual/animation.rst:39
+msgid "Workflow:"
+msgstr ""
+
+#: ../../user_manual/animation.rst:41
+msgid ""
+"In traditional animation workflow, what you do is that you make *key "
+"frames*, which contain the important poses, and then draw frames in "
+"between(\\ *tweening* in highly sophisticated animator's jargon)."
+msgstr ""
+
+#: ../../user_manual/animation.rst:45
+msgid "For this workflow, there are three important dockers:"
+msgstr ""
+
+#: ../../user_manual/animation.rst:47
+msgid ""
+"The :ref:`timeline_docker`. View and control all of the frames in your "
+"animation. The timeline docker also contains functions to manage your "
+"layers. The layer that are created in the timeline docker also appear on "
+"the normal Layer docker."
+msgstr ""
+
+#: ../../user_manual/animation.rst:51
+msgid ""
+"The :ref:`animation_docker`. This docker contains the play buttons as the"
+" ability to change the frame-rate, playback speed and useful little "
+"options like :guilabel:`auto-key framing`."
+msgstr ""
+
+#: ../../user_manual/animation.rst:54
+msgid ""
+"The :ref:`onion_skin_docker`. This docker controls the look of the onion "
+"skin, which in turn is useful for seeing the previous frame."
+msgstr ""
+
+#: ../../user_manual/animation.rst:59
+msgid "Introduction to animation: How to make a walkcycle"
+msgstr ""
+
+#: ../../user_manual/animation.rst:61
+msgid ""
+"The best way to get to understand all these different parts is to "
+"actually use them. Walk cycles are considered the most basic form of a "
+"full animation, because of all the different parts involved with them. "
+"Therefore, going over how one makes a walkcycle should serve as a good "
+"introduction."
+msgstr ""
+
+#: ../../user_manual/animation.rst:68
+msgid "Setup"
+msgstr ""
+
+#: ../../user_manual/animation.rst:70
+msgid "First, we make a new file:"
+msgstr ""
+
+#: ../../user_manual/animation.rst:73
+msgid ".. image:: images/en/Introduction_to_animation_01.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:74
+msgid ""
+"On the first tab, we type in a nice ratio like 1280x1024, set the dpi to "
+"72(we're making this for screens after all) and title the document "
+"'walkcycle'."
+msgstr ""
+
+#: ../../user_manual/animation.rst:78
+msgid ""
+"In the second tab, we choose a nice background color, and set the "
+"background to canvas-color. This means that Krita will automatically fill"
+" in any transparent bits with the background color. This can be changed "
+"in :menuselection:`image --> image properties`. This seems to be most "
+"useful to people doing animation, as the layer you do animation on MUST "
+"be semi-transparent to get onion skinning working."
+msgstr ""
+
+#: ../../user_manual/animation.rst:86
+msgid ""
+"Krita has a bunch of functionality for meta-data, starting at the create "
+"document screen. The title will be automatically used as a suggestion for"
+" saving and the description can be used by databases, or for you to leave"
+" comments behind. Not many people use it individually, but it can be "
+"useful for working in larger groups."
+msgstr ""
+
+#: ../../user_manual/animation.rst:88
+msgid "Then hit create!"
+msgstr ""
+
+#: ../../user_manual/animation.rst:90
+msgid ""
+"Then, to get all the necessary tools for animation, select the workspace "
+"switcher:"
+msgstr ""
+
+#: ../../user_manual/animation.rst:95
+msgid ".. image:: images/en/Introduction_to_animation_02.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:95
+msgid "The red arrow points at the workspace switcher."
+msgstr ""
+
+#: ../../user_manual/animation.rst:97
+msgid "And select the animation workspace."
+msgstr ""
+
+#: ../../user_manual/animation.rst:99
+msgid "Which should result in this:"
+msgstr ""
+
+#: ../../user_manual/animation.rst:102
+msgid ".. image:: images/en/Introduction_to_animation_03.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:103
+msgid ""
+"The animation workspace adds the timeline, animation and onion skin "
+"dockers at the bottom."
+msgstr ""
+
+#: ../../user_manual/animation.rst:107
+msgid "Animating"
+msgstr ""
+
+#: ../../user_manual/animation.rst:109
+msgid ""
+"We have two transparent layers set up. Let's name the bottom one "
+"'environment' and the top 'walkcycle' by double clicking their names in "
+"the layer docker."
+msgstr ""
+
+#: ../../user_manual/animation.rst:114
+msgid ".. image:: images/en/Introduction_to_animation_04.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:115
+msgid ""
+"Use the straight line tool ( to draw a single horizontal line. This is "
+"the ground."
+msgstr ""
+
+#: ../../user_manual/animation.rst:119
+msgid ".. image:: images/en/Introduction_to_animation_05.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:120
+msgid ""
+"Then, select the 'walkcycle' layer and draw a head and torso (you can use"
+" any brush for this)."
+msgstr ""
+
+#: ../../user_manual/animation.rst:122
+msgid ""
+"Now, selecting a new frame will not make a new frame automatically. Krita"
+" doesn't actually see the 'walkcycle' layer as an animated layer at all!"
+msgstr ""
+
+#: ../../user_manual/animation.rst:127
+msgid ".. image:: images/en/Introduction_to_animation_06.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:128
+msgid ""
+"We can make it animatable by adding a frame to the timeline. a frame in "
+"the timeline to get a context menu. Choose New Frame"
+msgstr ""
+
+#: ../../user_manual/animation.rst:132
+msgid ".. image:: images/en/Introduction_to_animation_07.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:133
+msgid ""
+"You can see it has become an animated layer because of the onion skin "
+"icon showing up in the timeline docker."
+msgstr ""
+
+#: ../../user_manual/animation.rst:137
+msgid ".. image:: images/en/Introduction_to_animation_08.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:138
+msgid ""
+"Use the to copy frame to copy the first frame onto the second. Then, use "
+"the with shift+↑ to move the frame contents up."
+msgstr ""
+
+#: ../../user_manual/animation.rst:142
+msgid "We can see the difference by turning on the onionskinning:"
+msgstr ""
+
+#: ../../user_manual/animation.rst:145
+msgid ".. image:: images/en/Introduction_to_animation_09.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:146
+msgid "Now, you should see the previous frame as red."
+msgstr ""
+
+#: ../../user_manual/animation.rst:149
+msgid ""
+"Krita sees white as a color, not as transparent, so make sure the "
+"animation layer you are working on is transparent in the bits where "
+"there's no drawing. You can fix the situation by use the "
+":ref:`filter_color_to_alpha` filter, but prevention is best."
+msgstr ""
+
+#: ../../user_manual/animation.rst:152
+msgid ".. image:: images/en/Introduction_to_animation_10.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:153
+msgid ""
+"Future frames are drawn in green, and both colors can be configured in "
+"the onion skin docker."
+msgstr ""
+
+#: ../../user_manual/animation.rst:157
+msgid ".. image:: images/en/Introduction_to_animation_11.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:158
+msgid ""
+"Now, we're gonna draw the two extremes of the walkcycle. These are the "
+"pose where both legs are as far apart as possible, and the pose where one"
+" leg is full stretched and the other pulled in, read to take the next "
+"step."
+msgstr ""
+
+#: ../../user_manual/animation.rst:163
+msgid ""
+"Now, let's copy these two... We could do that with :kbd:`Ctrl+drag`, but "
+"here comes a tricky bit:"
+msgstr ""
+
+#: ../../user_manual/animation.rst:167
+msgid ".. image:: images/en/Introduction_to_animation_12.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:168
+msgid "Ctrl+ also selects and deselects frames, so to copy..."
+msgstr ""
+
+#: ../../user_manual/animation.rst:170
+msgid "drag select all the frames you want to select."
+msgstr ""
+
+#: ../../user_manual/animation.rst:171
+msgid ""
+"Ctrl+++drag. You need to make sure the first frame is 'orange', otherwise"
+" it won't be copied along."
+msgstr ""
+
+#: ../../user_manual/animation.rst:174
+msgid "Now then..."
+msgstr ""
+
+#: ../../user_manual/animation.rst:179
+msgid ".. image:: images/en/Introduction_to_animation_13.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:179
+msgid "squashed the timeline docker a bit to save space"
+msgstr ""
+
+#: ../../user_manual/animation.rst:181
+msgid "Copy frame 0 to frame 2"
+msgstr ""
+
+#: ../../user_manual/animation.rst:182
+msgid "Copy frame 1 to frame 3"
+msgstr ""
+
+#: ../../user_manual/animation.rst:183
+msgid "In the animation docker, set the frame-rate to 4"
+msgstr ""
+
+#: ../../user_manual/animation.rst:184
+msgid "select all frames in the timeline docker by dragging-selecting them."
+msgstr ""
+
+#: ../../user_manual/animation.rst:185
+msgid "press play in the animation docker."
+msgstr ""
+
+#: ../../user_manual/animation.rst:186
+msgid "Enjoy your first animation!"
+msgstr ""
+
+#: ../../user_manual/animation.rst:189
+msgid "Expanding upon your rough walkcycle"
+msgstr ""
+
+#: ../../user_manual/animation.rst:192
+msgid ".. image:: images/en/Introduction_to_animation_14.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:193
+msgid ""
+"You can quickly make some space by :kbd:`Alt+dragging` any frame. This'll"
+" move that frame and all others after it in one go."
+msgstr ""
+
+#: ../../user_manual/animation.rst:196
+msgid "Then draw inbetweens on each frame that you add"
+msgstr ""
+
+#: ../../user_manual/animation.rst:199
+msgid ".. image:: images/en/Introduction_to_animation_16.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:200
+msgid ""
+"You'll find that the more frames you add, the more difficult it becomes "
+"to keep track of the onion skins."
+msgstr ""
+
+#: ../../user_manual/animation.rst:202
+msgid ""
+"You can modify the onion skin by using the onion skin docker, where you "
+"can change how many frames are visible at once, by toggling them on the "
+"top row. The bottom row is for controlling transparency, while below "
+"there you can modify the colors and extremity of the coloring."
+msgstr ""
+
+#: ../../user_manual/animation.rst:208
+msgid ".. image:: images/en/Introduction_to_animation_15.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:210
+msgid "Animating with multiple layers"
+msgstr ""
+
+#: ../../user_manual/animation.rst:212
+msgid ""
+"Okay, our walkcycle is missing some hands, let's add them on a seperate "
+"layer. So we make a new layer, and name it hands and..."
+msgstr ""
+
+#: ../../user_manual/animation.rst:216
+msgid ".. image:: images/en/Introduction_to_animation_17.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:217
+msgid ""
+"Our walkcycle is gone from the time-line docker! This is a feature "
+"actually. A full animation can have so many little parts that an animator"
+" might want to remove the layers they're not working on from the timeline"
+" docker. So you manually have to add them."
+msgstr ""
+
+#: ../../user_manual/animation.rst:223
+msgid ".. image:: images/en/Introduction_to_animation_18.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:224
+msgid ""
+"You can show any given layer in the timeline by doing on the layer in the"
+" layer docker, and toggling :guilabel:`show in timeline`."
+msgstr ""
+
+#: ../../user_manual/animation.rst:228
+msgid ".. image:: images/en/Introduction_to_animation_19.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:230
+msgid "Exporting"
+msgstr ""
+
+#: ../../user_manual/animation.rst:232
+msgid "When you are done, select :menuselection:`File --> Export Animation`"
+msgstr ""
+
+#: ../../user_manual/animation.rst:235
+msgid ".. image:: images/en/Introduction_to_animation_20.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:236
+msgid ""
+"It's recommended to save out your file as a png, and preferably in it's "
+"own folder. Krita can currently only export png sequences."
+msgstr ""
+
+#: ../../user_manual/animation.rst:240
+msgid ".. image:: images/en/Introduction_to_animation_21.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:241
+msgid ""
+"When pressing done, you can see the status of the export in the status "
+"bar below."
+msgstr ""
+
+#: ../../user_manual/animation.rst:245
+msgid ".. image:: images/en/Introduction_to_animation_22.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:246
+msgid ""
+"The images should be saved out as filenameXXX.png, giving their frame "
+"number."
+msgstr ""
+
+#: ../../user_manual/animation.rst:249
+msgid ""
+"Then use something like Gimp(Linux, OSX, Windows), ImageMagick(Linux, "
+"OSX, Windows), or any other gif creator to make a gif out of your image "
+"sequence:"
+msgstr ""
+
+#: ../../user_manual/animation.rst:254
+msgid ".. image:: images/en/Introduction_to_animation_walkcycle_02.gif"
+msgstr ""
+
+#: ../../user_manual/animation.rst:255
+msgid ""
+"For example, you can use `VirtualDub <http://www.virtualdub.org/>`__\\ "
+"(Windows) and open all the frames and then go to File → Export → GIF"
+msgstr ""
+
+#: ../../user_manual/animation.rst:259
+msgid "Enjoy your walkcycle!"
+msgstr ""
+
+#: ../../user_manual/animation.rst:261
+msgid "mediawiki"
+msgstr ""
+
+#: ../../user_manual/animation.rst:263
+msgid ""
+"Krita 3.1 has a render animation feature. If you're using the 3.1 beta, "
+"check out the :ref:`render_animation` page for more information!"
+msgstr ""
+
+#: ../../user_manual/animation.rst:266
+msgid "Importing animation frames"
+msgstr ""
+
+#: ../../user_manual/animation.rst:268
+msgid "You can import animation frames in Krita 3.0."
+msgstr ""
+
+#: ../../user_manual/animation.rst:270
+msgid ""
+"First let us take a sprite sheet from Open Game Art.(This is the Libre "
+"Pixel Cup male walkcycle)"
+msgstr ""
+
+#: ../../user_manual/animation.rst:273
+msgid ""
+"And we'll use :menuselection:`Image --> Split Image to split up the "
+"sprite sheet`."
+msgstr ""
+
+#: ../../user_manual/animation.rst:276
+msgid ".. image:: images/en/Animation_split_spritesheet.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:277
+msgid ""
+"The slices are even, so for a sprite sheet of 9 sprites, use 8 vertical "
+"slices and 0 horizontal slices. Give it a proper name and save it as png."
+msgstr ""
+
+#: ../../user_manual/animation.rst:279
+msgid ""
+"Then, make a new canvas, and select File → Import Animation Frames. This "
+"will give you a little window. Select Add images. This should get you a "
+"file browser where you can select your images."
+msgstr ""
+
+#: ../../user_manual/animation.rst:284
+msgid ".. image:: images/en/Animation_import_sprites.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:285
+msgid "You can select multiple images at once."
+msgstr ""
+
+#: ../../user_manual/animation.rst:288
+msgid ".. image:: images/en/Animation_set_everything.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:289
+msgid ""
+"The frames are currently automatically ordered. You can set the ordering "
+"with the top-left two drop down boxes."
+msgstr ""
+
+#: ../../user_manual/animation.rst:292
+msgid "Start"
+msgstr ""
+
+#: ../../user_manual/animation.rst:293
+msgid "Indicates at which point the animation should be imported."
+msgstr ""
+
+#: ../../user_manual/animation.rst:299
+msgid "Step"
+msgstr ""
+
+#: ../../user_manual/animation.rst:295
+msgid ""
+"Indicates the difference between the imported animation and the document "
+"frame rate. This animation is 8 frames big, and the fps of the document "
+"is 24 frames, so there should be a step of 3 to keep it even. As you can "
+"see, the window gives feedback of how much fps the imported animation "
+"would be with the currently given step."
+msgstr ""
+
+#: ../../user_manual/animation.rst:301
+msgid "Press OK, and your animation should be imported as a new layer."
+msgstr ""
+
+#: ../../user_manual/animation.rst:304
+msgid ".. image:: images/en/Animation_import_done.png"
+msgstr ""
+
+#: ../../user_manual/animation.rst:306
+msgid "Reference"
+msgstr ""
+
+#: ../../user_manual/animation.rst:308
+msgid "https://community.kde.org/Krita/Docs/AnimationGuiFeaturesList"
+msgstr ""
+
+#: ../../user_manual/animation.rst:309
+msgid ""
+"`The source for the libre pixel cup male walk cycle "
+"<http://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-"
+"sprites-map-tiles>`__"
+msgstr ""
+
+#: ../../user_manual/animation.rst:313
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../user_manual/animation.rst:315
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../user_manual/animation.rst:317
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../user_manual/animation.rst:319
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../user_manual/animation.rst:321
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../user_manual/animation.rst:323
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../user_manual/animation.rst:325
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../user_manual/animation.rst:327
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../user_manual/animation.rst:329
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../user_manual/animation.rst:331
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../user_manual/animation.rst:333
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../user_manual/animation.rst:335
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../user_manual/animation.rst:337
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../user_manual/animation.rst:339
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../user_manual/animation.rst:341
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../user_manual/animation.rst:343
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../user_manual/animation.rst:345
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../user_manual/animation.rst:347
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../user_manual/animation.rst:349
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../user_manual/animation.rst:351
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../user_manual/animation.rst:353
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../user_manual/animation.rst:355
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../user_manual/animation.rst:357
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../user_manual/animation.rst:359
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../user_manual/animation.rst:361
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../user_manual/animation.rst:363
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../user_manual/animation.rst:365
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../user_manual/animation.rst:367
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../user_manual/animation.rst:369
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../user_manual/animation.rst:371
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../user_manual/animation.rst:373
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../user_manual/animation.rst:375
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../user_manual/animation.rst:377
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../user_manual/animation.rst:379
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../user_manual/animation.rst:381
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../user_manual/animation.rst:383
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../user_manual/animation.rst:385
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../user_manual/animation.rst:387
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../user_manual/animation.rst:389
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../user_manual/animation.rst:391
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../user_manual/animation.rst:393
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

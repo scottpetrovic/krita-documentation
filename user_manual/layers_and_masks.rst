@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         An introduction guide to how layers and masks work inside Krita.
 
 .. metadata-placeholder
@@ -12,7 +12,7 @@
              - Alan
              - Lundin
    :license: GNU free documentation license 1.3 or later.
-
+.. index:: Layers, Masks
 .. _layers_and_masks:
 
 ================================
@@ -122,6 +122,8 @@ layers in a group depends on the visibility of the group.
 
 The groups in a PSD file saved from Photoshop have pass-through mode on
 by default unless they are specifically set with other blending modes.
+
+.. index:: Alpha Inheritance, Clipping Masks
 
 Inherit Alpha or Clipping layers
 --------------------------------

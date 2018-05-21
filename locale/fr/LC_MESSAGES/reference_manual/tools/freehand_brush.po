@@ -1,0 +1,483 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/tools/freehand_brush.rst:16
+msgid "Freehand Brush Tool"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:18
+msgid "|toolfreehandbrush|"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:107
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:20
+msgid ""
+"The default tool you have selected on Krita start-up, and likely the tool"
+" that you will use the most."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:22
+msgid ""
+"The freehand brush tool allows you to paint on paint layers without "
+"constraints like the straight line tool. It makes optimal use of your "
+"tablet's input settings to control the brush-appearance. To switch the "
+"brush, make use of the brush-preset docker."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:26
+msgid "Hotkeys and Sticky keys"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:28
+msgid "The freehand brush tool's hotkey is :kbd:`B`."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:30
+msgid ""
+"The alternate invocation is the ''color picker'' (standardly invoked by "
+":kbd:`Ctrl`) Press :kbd:`Ctrl` to switch the tool to \"color picker\", "
+"use left or right click to pick fore and background color respectively. "
+"Release the :kbd:`Ctrl` to return to the freehand brush tool."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:31
+msgid ""
+"The Primary setting is \"size\". (standardly invoked by :kbd:`Shift`) "
+"Press :kbd:`Shift` and drag outward to increase brush size. Drag inward "
+"to decrease it."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:32
+msgid "You can also press :kbd:`V` as a stickykey for the straight-line tool."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:34
+msgid ""
+"The hotkey can be edited in :menuselection:`Settings --> Configure Krita "
+"--> Configure Shortcuts`. The sticky-keys can be edited in "
+":menuselection:`Settings --> Configure Krita --> Tablet Canvas Input`."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:38
+msgid "Tool Options"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:43
+msgid "Smoothing"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:45
+msgid ""
+"Smoothing, also known as stabilising in some programs, allows the program"
+" to correct the stroke. Useful for people with shaky hands, or "
+"particularly difficult long lines."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:47
+msgid "The following options can be selected:"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:49
+msgid "No Smoothing."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:50
+msgid ""
+"The input from the tablet translates directly to the screen. This is the "
+"fastest option, and good for fine details."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:51
+msgid "Basic Smoothing."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:52
+msgid ""
+"This option will smooth the input of older tablets like the Wacom "
+"Graphire 3. If you experience slightly jagged lines without any smoothing"
+" on, this option will apply a very little bit of smoothing to get rid of "
+"those lines."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:63
+msgid "Weighted smoothing:"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:54
+msgid ""
+"This option allows you to use the following parameters to make the "
+"smoothing stronger or weaker:"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:56
+#: ../../reference_manual/tools/freehand_brush.rst:68
+msgid "Distance"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:57
+msgid ""
+"The distance the brush needs to move before the first dab is drawn. "
+"(Literally the amount of events received by the tablet before the first "
+"dab is drawn.)"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:58
+msgid "Stroke Ending"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:59
+msgid ""
+"This controls how much the line will attempt to reach the last known "
+"position of the cursor after the left-mouse button/or stylus is lifted. "
+"Will currently always result in a straight line, so use with caution)"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:60
+msgid "Smooth Pressure"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:61
+msgid ""
+"This will apply the smoothing on the pressure input as well, resulting in"
+" more averaged size for example."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:63
+#: ../../reference_manual/tools/freehand_brush.rst:77
+msgid "Scalable Distance"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:63
+#: ../../reference_manual/tools/freehand_brush.rst:77
+msgid ""
+"This makes it so that the numbers involved will be scaled along the zoom "
+"level."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:77
+msgid "Stabilizer"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:66
+msgid ""
+"This option averages all inputs from the tablet. It is different from "
+"weighted smoothing in that it allows for always completing the line. It "
+"will draw a circle around your cursor and the line will be a bit behind "
+"your cursor while painting."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:69
+msgid "This is the strength of the smoothing."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:70
+msgid "Delay"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:71
+msgid ""
+"This toggles and determines the size of the dead zone around the cursor. "
+"This can be used to create sharp corners with more control."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:72
+msgid "Finish Line"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:73
+msgid "This ensures that the line will be finished."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:74
+msgid "Stabilize sensors"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:75
+msgid ""
+"Similar to :guilabel:`Smooth Pressure`, this allows the input(pressure, "
+"speed, tilt) to be smoother."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:80
+msgid "Assistants"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:82
+msgid ""
+"Ticking this will allow snapping to :ref:`assistant_tool`, and the hotkey"
+" to toggle it is :kbd:`Ctrl + Shift + L`. See "
+":ref:`painting_with_assistants` for more information."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:84
+msgid ""
+"The slider will determine the amount of snapping, with 1000 being perfect"
+" snapping, and 0 being no snapping at all. For situations where there is "
+"more than one assistant on the canvas, the defaultly ticked "
+":guilabel:`Snap single` means that Krita will only snap to a single "
+"assistant at a time, preventing noise. Unticking it allows you to chain "
+"assistants together and snap along them."
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:87
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:89
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:91
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:93
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:95
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:97
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:99
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:101
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:103
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:105
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:109
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:111
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:113
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:115
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:117
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:119
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:121
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:123
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:125
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:127
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:129
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:131
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:133
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:135
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:137
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:139
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:141
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:143
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:145
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:147
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:149
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:151
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:153
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:155
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:157
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:159
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:161
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:163
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:165
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:167
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

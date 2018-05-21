@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Detailed guide on the brush settings dialog in Krita as well as how to make your own brushes and how to share them.
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Brush Settings
 .. _loading_saving_brushes:
 
 ==========================

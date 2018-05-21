@@ -1,0 +1,568 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018
+# This file is distributed under the same license as the Krita Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-18 16:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:19
+msgid "Vector Layers"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:23
+msgid "This page is outdated. check :ref:`vector_graphics` for a better overview."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:26
+msgid "What is a Vector Layer?"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:28
+msgid ""
+"A Vector Layers, also known as a shape layer, is a type of layer that "
+"contains only vector elements."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:30
+msgid ""
+"This is how vector layers will appear in the :program:`Krita` Layers "
+"docker."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:33
+msgid ".. image:: images/en/Vectorlayer.png"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:34
+msgid ""
+"It shows the vector contents of the layer on the left side. The icon "
+"showing the page with the red bookmark denotes that it is a vector layer."
+" To the right of that is the layer name. Next are the layer visibility "
+"and accessibility icons. Clicking the \"eye\" will toggle visibility. "
+"Clicking the lock into a closed position will lock the content and "
+"editing will no longer be allowed until it is clicked again and the lock "
+"on the layer is released."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:37
+msgid "Creating a vector layer"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:39
+msgid ""
+"You can create a vector layer in two ways. Using the extra options from "
+"the \"Add Layer\" button you can click the \"Vector Layer\" item and it "
+"will create a new vector layer. You can also drag a rectangle or ellipse "
+"from the **Add shape** dock onto an active Paint Layer.  If the active "
+"layer is a Vector Layer then the shape will be added directly to it."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:42
+msgid "Editing Shapes on a Vector Layer"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:46
+msgid ""
+"There's currently a bug with the vector layers that they will always "
+"consider themselves to be at 72dpi, regardless of the actual pixel-size. "
+"This can make manipulating shapes a little difficult, as the precise "
+"input will not allow cm or inch, even though the vector layer coordinate "
+"system uses those as a basis."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:49
+msgid "Basic Shape Manipulation"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:51
+msgid ""
+"To edit the shape and colors of your vector element, you will need to use"
+" the basic shape manipulation tool."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:53
+msgid ""
+"Once you have selected this tool. Click on the element you want to "
+"manipulate and you will see guides appear around your shape."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:56
+msgid ".. image:: images/en/Vectorguides.png"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:57
+msgid ""
+"There are four ways to manipulate your image using this tool and the "
+"guides on  your shape."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:60
+msgid "Transform/Move"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:62
+msgid ":.. image:: /images/en/Transform.png"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:64
+msgid ""
+"This feature of the tool allows you to move your object by clicking and "
+"dragging your shape around the canvas. Holding :kbd:`Ctrl`  will lock "
+"your moves to one axis."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:67
+msgid "Size/Stretch"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:69
+msgid ":.. image:: /images/en/Resize.png"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:71
+msgid ""
+"This feature of the tool allows you to stretch your shape.  Selecting a "
+"midpoint will allow stretching along one axis. Selecting a corner point "
+"will allow stretching across both axis. Holding :kbd:`Shift`  will allow "
+"you to scale your object. Holding :kbd:`Ctrl`  will cause your "
+"manipulation to be mirrored across your object."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:74
+msgid "Rotate"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:76
+msgid ":.. image:: /images/en/Rotatevector.png"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:78
+msgid ""
+"This feature of the tool will allow you to rotate your object around its "
+"center. Holding :kbd:`Ctrl`  will cause your rotation to lock to 45 "
+"degree angles."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:81
+msgid "Skew"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:83
+msgid ":.. image:: /images/en/Skew.png"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:85
+msgid "This feature of the tool will allow you to skew your object."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:89
+msgid ""
+"At the moment there is no way to scale only one side of your vector "
+"object. The developers are aware that this could be useful and will work "
+"on it as manpower allows."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:92
+msgid "Point and Curve Shape Manipulation"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:94
+msgid ""
+"Double-click on a vector object to edit the specific points or curves "
+"which make up the shape. Click and drag a point to move it around the "
+"canvas. Click and drag along a line to curve it between two points. "
+"Holding :kbd:`Ctrl`  will lock your moves to one axis."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:97
+msgid ".. image:: images/en/Pointcurvemanip.png"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:99
+msgid "Stroke and Fill"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:101
+msgid ""
+"In addition to being defined by points and curves, a shape also has two "
+"defining properties: **Fill** and **Stroke**. **Fill** defines the color,"
+" gradient, or pattern that fills the space inside of the shape object. "
+"'**Stroke**' defines the color, gradient, pattern, and thickness of the "
+"border along the edge of the shape. These two can be edited using the "
+"**Stroke and Fill** dock. The dock has two modes. One for stroke and one "
+"for fill. You can change modes by clicking in the dock on the filled "
+"square or the black line. the active mode will be shown by which is on "
+"top of the other."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:103
+msgid ""
+"Here is the dock with the fill element active. Notice the red line across"
+" the solid white square. This tells us that there is no fill assigned "
+"therefore the inside of the shape will be transparent."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:106
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:128
+msgid ".. image:: images/en/Strokeandfill.png"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:107
+msgid "Here is the dock with the stroke element active."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:110
+msgid ".. image:: images/en/Strokeandfillstroke.png"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:112
+msgid "Editing Stroke Properties"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:114
+msgid ""
+"The stroke properties dock will allow you to edit a different aspect of "
+"how the outline of your vector shape looks."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:117
+msgid ".. image:: images/en/Strokeprops.png"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:118
+msgid ""
+"The style selector allows you to choose different patters and line "
+"styles. The width option changes the thickness of the outline on your "
+"vector shape. The cap option changes how line endings appear. The join "
+"option changes how corners appear."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:120
+msgid ""
+"The Miter limit controls how harsh the corners of your object will "
+"display. The higher the number the more the corners will be allowed to "
+"stretch out past the points. Lower numbers will restrict the stroke to "
+"shorter and less sharp corners."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:123
+msgid "Editing Fill Properties"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:125
+msgid "All of the fill properties are contained in the **Stroke and Fill** dock."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:129
+msgid ""
+"The large red **X** button will set the fill to none causing the area "
+"inside of the vector shape to be transparent."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:131
+msgid ""
+"To the right of that is the solid square. This sets the fill to be a "
+"solid color which is displayed in the long button and can be selected by "
+"pressing the arrow just to the right of the long button. To the right of "
+"the solid square is the gradient button. This will set the fill to "
+"display as a gradient. A gradient can be selected by pressing the down "
+"arrow next to the long button."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:133
+msgid ""
+"Under the **X** is a button that shows a pattern. This inside area will "
+"be filled with a pattern. A pattern can be chosen by pressing the arrows "
+"next to the long button. The two other buttons are for **fill rules**: "
+"the way a self-overlapping path is filled."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:135
+msgid ""
+"The button with the inner square blank toggles even-odd mode, where every"
+" filled region of the path is next to an unfilled one, like this :"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:138
+msgid ".. image:: images/en/400px-Fill_rule_even-odd.svg.png"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:139
+msgid ""
+"The button with the inner square filled toggles non zero mode, where most"
+" of the time a self overlapping path is entirely filled except when it "
+"overlaps with a sub-path of a different direction that 'decrease the "
+"level of overlapping' so that the region between the two is considered "
+"outside the path and remain unfilled, like this:"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:142
+msgid ".. image:: images/en/400px-Fill_rule_non-zero.svg.png"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:143
+msgid ""
+"For more (and better) information about fill rules check "
+"http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Attributes-Fill-Stroke.html"
+"#Attributes-Fill-Rule Inkscape manual."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:146
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:148
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:150
+msgid ""
+".. image:: images/icons/Krita_mouse_middle.png\n"
+"   :alt: mousemiddle"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:152
+msgid ""
+".. image:: images/icons/Krita_mouse_scroll.png\n"
+"   :alt: mousescroll"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:154
+msgid ""
+".. image:: images/icons/shape_select_tool.svg\n"
+"   :alt: toolshapeselection"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:156
+msgid ""
+".. image:: images/icons/shape_edit_tool.svg\n"
+"   :alt: toolshapeedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:158
+msgid ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: tooltext"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:160
+msgid ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: toolcalligraphy"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:162
+msgid ""
+".. image:: images/icons/gradient_edit_tool.svg\n"
+"   :alt: toolgradientedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:164
+msgid ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: toolpatternedit"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:166
+msgid ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: toolfreehandbrush"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:168
+msgid ""
+".. image:: images/icons/line_tool.svg\n"
+"   :alt: toolline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:170
+msgid ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:172
+msgid ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: toolellipse"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:174
+msgid ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: toolpolygon"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:176
+msgid ""
+".. image:: images/icons/polyline_tool.svg\n"
+"   :alt: toolpolyline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:178
+msgid ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: toolbeziercurve"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:180
+msgid ""
+".. image:: images/icons/freehand_path_tool.svg\n"
+"   :alt: toolfreehandpath"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:182
+msgid ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: tooldyna"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:184
+msgid ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: toolmultibrush"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:186
+msgid ""
+".. image:: images/icons/assistant_tool.svg\n"
+"   :alt: toolassistant"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:188
+msgid ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: toolmove"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:190
+msgid ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: tooltransform"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:192
+msgid ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: toolgrid"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:194
+msgid ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: toolperspectivegrid"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:196
+msgid ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: toolmeasure"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:198
+msgid ""
+".. image:: images/icons/color_picker_tool.svg\n"
+"   :alt: toolcolorpicker"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:200
+msgid ""
+".. image:: images/icons/fill_tool.svg\n"
+"   :alt: toolfill"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:202
+msgid ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toolgradient"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:204
+msgid ""
+".. image:: images/icons/colorizemask_tool.svg\n"
+"   :alt: toolcolorizemask"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:206
+msgid ""
+".. image:: images/icons/smart_patch_tool.svg\n"
+"   :alt: toolsmartpatch"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:208
+msgid ""
+".. image:: images/icons/crop_tool.svg\n"
+"   :alt: toolcrop"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:210
+msgid ""
+".. image:: images/icons/rectangular_select_tool.svg\n"
+"   :alt: toolselectrect"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:212
+msgid ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: toolselectellipse"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:214
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:216
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: toolselectpath"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:218
+msgid ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: toolselectoutline"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:220
+msgid ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: toolselectcontiguous"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:222
+msgid ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: toolselectsimilar"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:224
+msgid ""
+".. image:: images/icons/pan_tool.svg\n"
+"   :alt: toolpan"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:226
+msgid ""
+".. image:: images/icons/zoom_tool.svg\n"
+"   :alt: toolzoom"
+msgstr ""
+

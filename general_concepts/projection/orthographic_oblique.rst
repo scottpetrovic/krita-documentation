@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Orthographics and oblique projection.
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
 
 So let's start with the basics...
 
+.. index:: Projection, Orthographic
 .. _projection_orthographic:
 
 Orthographic

@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of the brush presets docker.
 
 .. metadata-placeholder
@@ -8,7 +8,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
-
+.. index:: Brush Preset, Brush, Presets, Paintop Presets
 .. _brush_preset_docker:
 
 =============

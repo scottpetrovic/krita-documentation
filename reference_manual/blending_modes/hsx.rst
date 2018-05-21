@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Page about the HSX blending modes in Krita, amongst which Hue, Color, Luminosity and Saturation.
 
 .. metadata-placeholder
@@ -8,7 +8,7 @@
              - Maria Luisac
    :license: GNU free documentation license 1.3 or later.
 
-
+.. index:: Hue, Saturation, Lightness, Luma, Luminosity, Intensity, Value, Brightness
 .. _bm_cat_hsx:
 
 HSX

@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of the color sliders docker.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Raghavendra Kamath <raghavendr.raghu@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Color, Color Selector, Color Sliders, Hue, Saturation, Value, Brightness, Lightness, Intensity, Luma, Luminosity
 .. _color_sliders_docker:
 
 =============

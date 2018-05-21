@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Page about the miscellaneous blending modes in Krita: Bumpmap, Combine Normal Map, Copy Red, Copy Green, Copy Blue, Copy and Dissolve.
 
 .. metadata-placeholder
@@ -14,6 +14,7 @@
 Misc
 ----
 
+.. index:: ! Bumpmap (Blending Mode)
 .. _bm_bumpmap:
 
 Bumpmap
@@ -21,13 +22,16 @@ Bumpmap
 
 This filter seems to both multiply and respect the alpha of the input.
 
+.. index:: ! Combine Normal Map, Normal Map
 .. _bm_combine_normal_map:
+
 
 Combine Normal Map
 ~~~~~~~~~~~~~~~~~~
 
 Mathematically robust blending mode for normal maps, using `Reoriented Normal Map Blending <http://blog.selfshadow.com/publications/blending-in-detail/>`_.
 
+.. index:: ! Copy (Blending Mode)
 .. _bm_copy:
 
 Copy
@@ -41,6 +45,7 @@ Useful for when using filters and filter-masks.
 
    Left: **Normal**. Right: **Copy**.
 
+.. index:: ! Copy Red, ! Copy Green, ! Copy Blue
 .. _bm_copy_red:
 .. _bm_copy_green:
 .. _bm_copy_blue:
@@ -78,6 +83,7 @@ This can also be done with filter layers. So if you quickly want to flip a layer
 
    Left: **Normal**. Right: **Copy Blue**.
 
+.. index:: ! Dissolve
 .. _bm_dissolve:
 
 Dissolve

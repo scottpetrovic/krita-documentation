@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         How to use vector layers in Krita.
 
 .. metadata-placeholder
@@ -11,7 +11,8 @@
              - JohnS
              - Leovilok
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Vector, Layers
 .. _vector_layers:
 
 =============

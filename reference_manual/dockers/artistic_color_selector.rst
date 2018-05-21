@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of the artistic color selector docker.
 
 .. metadata-placeholder
@@ -8,7 +8,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
-
+.. index:: Color, Color Selector, ! Artistic Color Selector
 .. _artistic_color_selector_docker:
 
 ============================

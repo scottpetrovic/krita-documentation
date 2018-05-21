@@ -8,6 +8,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Color, Color Selector, Small Color Selector
 .. _small_color_selector:
 
 ====================

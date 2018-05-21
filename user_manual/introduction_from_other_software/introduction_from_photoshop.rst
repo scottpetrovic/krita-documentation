@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         This is a introduction to Krita for users coming from Photoshop.
 
 .. metadata-placeholder
@@ -12,6 +12,7 @@
              - Raghavendra Kamath <raghavendr.raghu@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Photoshop
 .. _introduction_from_photoshop:
 
 ===========================================

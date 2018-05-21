@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         How to use fill layers in Krita.
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
              - Alan
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Layers, Fill, Generator
 .. _fill_layers:
 
 ===========

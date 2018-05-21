@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of Krita's command line options.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Command Line
 .. _linux_cmd:
 
 ==================
@@ -33,12 +34,14 @@ importfilename
     Replace this with the filename of the file you want to manipulate.
 
 .. option:: --export
-    This selects the export option.
+   
+   Export a file selects the export option.
 
-.. option:: --exportfilename exportfilename
-    This says that the following word is the filename it should be exported to.
+.. option:: --exportfilename
+   
+   Exportfilename says that the following word is the filename it should be exported to.
 
-    Replace this with the name of the output file. Use a different extension to change the fileformat.
+   Replace this with the name of the output file. Use a different extension to change the fileformat.
 
 Example:
 
@@ -53,7 +56,7 @@ Pdf export looks a bit different, using the ``--export-pdf`` option.
 
 ``krita final.png --export-pdf --export-filename final.pdf``
 
-This exports the file ``file.png`` as a pdf file.
+export-pdf exports the file ``file.png`` as a pdf file.
 
 .. warning::
     
@@ -67,11 +70,12 @@ Open Krita with specified Screen DPI.
 .. program:: krita
 
 .. option:: --dpi <dpiX,dpiY>
-    Open Krita with specified Screen DPI.
+   
+   Open Krita with specified Screen DPI.
 
-    For example:
+   For example:
 
-    ``krita --dpi <72,72>``
+   ``krita --dpi <72,72>``
 
 Open template
 -------------
@@ -83,17 +87,18 @@ Open krita and automatically open the given template(s). This allows you to, for
 .. program:: krita
 
 .. option:: --template templatename.desktop
-    Selects the template option
 
-    All templates are saved with the .desktop extension. You can find templates in the .kde/share/apps/krita/template or in the install folder of Krita.
+   Selects the template option
 
-    ``krita --template BD-EuroTemplate.desktop``
+   All templates are saved with the .desktop extension. You can find templates in the .kde/share/apps/krita/template or in the install folder of Krita.
 
-    This opens the European BD comic template with Krita.
+   ``krita --template BD-EuroTemplate.desktop``
 
-    ``krita --template BD-EuroTemplate.desktop BD-EuroTemplate.desktop``
+   This opens the European BD comic template with Krita.
 
-    This opens the European BD template twice, in seperate documents.
+   ``krita --template BD-EuroTemplate.desktop BD-EuroTemplate.desktop``
+
+   This opens the European BD template twice, in seperate documents.
 
 Start up
 --------
@@ -103,16 +108,20 @@ Start up
     .. program:: krita
     
     .. option:: --nosplash
-        Start krita without showing the splash screen.
+    
+       starts krita without showing the splash screen.
     
     .. option:: --canvasonly
-        Start krita in canvasonly mode.
+    
+       starts krita in canvasonly mode.
     
     .. option:: --fullscreen
-        Start krita in fullscreen mode.
+    
+       starts krita in fullscreen mode.
     
     .. option:: --workspace Workspace
-        Start krita with the given workspace. So for example...
+    
+       starts krita with the given workspace. So for example...
     
         `` krita --workspace Animation``
         

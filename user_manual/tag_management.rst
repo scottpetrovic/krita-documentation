@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Detailed steps on how to use the tags to organize resources in Krita.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Tags
 .. _tag_management:
 
 ==============

@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of the digital color mixer docker.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Color, Color Mixing, Digital Color Mixer, Color Selector
 .. _digital_color_mixer_docker:
 
 ===================

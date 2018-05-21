@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of maths operations that can be used in Krita spinboxes and number inputs.
 
 .. metadata-placeholder
@@ -9,7 +9,7 @@
              - Jospin
    :license: GNU free documentation license 1.3 or later.
 
-
+.. index:: Maths
 .. _maths_input:
 
 ===========

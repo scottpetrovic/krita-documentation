@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         How to use transparency masks in Krita.
 
 .. metadata-placeholder
@@ -11,7 +11,8 @@
              - Bugsbane
              - Boudewijn
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Layers, Masks, Transparency
 .. _transparency_masks:
 
 ==================

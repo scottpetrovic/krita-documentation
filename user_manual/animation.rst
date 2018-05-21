@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Detailed guide on the animation workflow in Krita.
 
 .. metadata-placeholder
@@ -10,6 +10,7 @@
              - Lundin
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Animation
 .. _animation:
 
 ====================

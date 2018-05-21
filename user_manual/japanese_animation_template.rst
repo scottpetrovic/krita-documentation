@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Detailed explaination on how to use the animation template.
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Animation, Template
 .. _japanese_animation_template:
 
 ===========================

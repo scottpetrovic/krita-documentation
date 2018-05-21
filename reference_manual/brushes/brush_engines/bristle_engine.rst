@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         The Bristle Brush Engine manual page.
 
 .. metadata-placeholder
@@ -9,7 +9,8 @@
              - Scott Petrovic
              - ValerieVK
    :license: GNU free documentation license 1.3 or later.
-   
+
+.. index:: Brush Engine, Hairy Brush Engine, Bristle Brush Engine, Sumi-e
 .. _bristle_brush_engine:
 
 ====================

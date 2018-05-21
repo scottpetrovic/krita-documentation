@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Opacity and flow in Krita.
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Opacity, Flow, Transparency
 .. _option_opacity_n_flow:
 
 ================

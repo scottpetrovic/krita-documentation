@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Overview of the map filters.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Raghavendra Kamath <raghavendr.raghu@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
+.. index:: Filters
 .. _map_filters:
 
 ===
@@ -16,10 +17,14 @@ Map
 
 Filters that are signified by them mapping the input image.
 
+.. index:: Small Tiles, Tiles
+
 Small Tiles
 -----------
 
 Tiles the input image, using it's own layer as output.
+
+.. index:: Height Map, Bumpmap, Normal Map
 
 Phong Bumpmap
 -------------
@@ -33,10 +38,14 @@ Round Corners
 
 Adds little corners to the input image.
 
+.. index:: Normalize
+
 Normalize
 ---------
 
 This filter takes the input pixels, puts them into a 3d vector, and then normalizes(makes the vector size exactly 1) the values. This is helpful for normal maps and some minor image-editing functions.
+
+.. index:: Gradient, Gradient Map
 
 Gradient Map
 ------------

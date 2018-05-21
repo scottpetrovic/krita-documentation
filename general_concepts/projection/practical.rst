@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description:
         Practical uses of perspective projection.
 
 .. metadata-placeholder
@@ -9,6 +9,7 @@
 
 This is a continuation of the :ref:`perspective projection tutorial <projection_perspective>`, be sure to check it out if you get confused! 
 
+.. index:: Projection, Perspective
 .. _projection_practical:
 
 Practical:
