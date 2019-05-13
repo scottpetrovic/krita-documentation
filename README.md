@@ -12,6 +12,8 @@ It should tell you the version and verify that Python is installed. Mine says 3.
 
 Next you will need to install Sphinx so you can use it in projects. Type this from the command line: `pip install -U sphinx`
 
+Windows 10: if "pip --version" isn't found, you will need to add the pip.exe to your environment variables. It is located in the scripts folder in your python install directory
+
 Note: On Kubuntu 17.10 you will need to install python3-pip, and then type `sudo pip3 install --prefix /usr/local sphinx` to get everything install to the proper location.
 
 After it is done you can make sure it is installed. Type this in the command line: `sphinx-build --version`
